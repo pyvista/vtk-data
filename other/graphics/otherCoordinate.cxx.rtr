@@ -5,9 +5,8 @@ Center: (50, 0)
 ********** A NULL Viewport **********
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
   Modified Time: 2
   Reference Count: 1
   Coordinate System: World
@@ -21,10 +20,9 @@ World(0, 0, 0) -> LocalDisplay(50, 49)
 World(0, 0, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 94
+  Modified Time: 146
   Reference Count: 1
   Coordinate System: Display
   Value: (50,50,0)
@@ -37,10 +35,9 @@ Display(50, 50, 0) -> LocalDisplay(50, 49)
 Display(50, 50, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 114
+  Modified Time: 174
   Reference Count: 1
   Coordinate System: Normalized Display
   Value: (0.5,0.5,0)
@@ -53,10 +50,9 @@ Normalized Display(0.5, 0.5, 0) -> LocalDisplay(50, 49)
 Normalized Display(0.5, 0.5, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 134
+  Modified Time: 202
   Reference Count: 1
   Coordinate System: Viewport
   Value: (50,50,0)
@@ -69,10 +65,9 @@ Viewport(50, 50, 0) -> LocalDisplay(50, 49)
 Viewport(50, 50, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 154
+  Modified Time: 230
   Reference Count: 1
   Coordinate System: Normalized Viewport
   Value: (0.5,0.5,0)
@@ -85,10 +80,9 @@ Normalized Viewport(0.5, 0.5, 0) -> LocalDisplay(50, 49)
 Normalized Viewport(0.5, 0.5, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 174
+  Modified Time: 258
   Reference Count: 1
   Coordinate System: View
   Value: (0,0,0)
@@ -103,15 +97,14 @@ View(0, 0, 0) -> Viewport(50, 50)
 ********** A specified Viewport **********
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 194
+  Modified Time: 286
   Reference Count: 1
   Coordinate System: World
   Value: (0,0,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 World(0, 0, 0) -> World(0, 0, 0)
 World(0, 0, 0) -> Display(50, 50)
@@ -119,15 +112,14 @@ World(0, 0, 0) -> LocalDisplay(50, 49)
 World(0, 0, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 247
+  Modified Time: 363
   Reference Count: 1
   Coordinate System: Display
   Value: (50,50,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 Display(50, 50, 0) -> World(0, 0, 0.99)
 Display(50, 50, 0) -> Display(50, 50)
@@ -135,15 +127,14 @@ Display(50, 50, 0) -> LocalDisplay(50, 49)
 Display(50, 50, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 267
+  Modified Time: 391
   Reference Count: 1
   Coordinate System: Normalized Display
   Value: (0.5,0.5,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 Normalized Display(0.5, 0.5, 0) -> World(0, 0, 0.99)
 Normalized Display(0.5, 0.5, 0) -> Display(50, 50)
@@ -151,15 +142,14 @@ Normalized Display(0.5, 0.5, 0) -> LocalDisplay(50, 49)
 Normalized Display(0.5, 0.5, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 287
+  Modified Time: 419
   Reference Count: 1
   Coordinate System: Viewport
   Value: (50,50,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 Viewport(50, 50, 0) -> World(2.70654e-05, 2.70654e-05, 0.99)
 Viewport(50, 50, 0) -> Display(50, 50)
@@ -167,15 +157,14 @@ Viewport(50, 50, 0) -> LocalDisplay(50, 49)
 Viewport(50, 50, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 307
+  Modified Time: 447
   Reference Count: 1
   Coordinate System: Normalized Viewport
   Value: (0.5,0.5,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 Normalized Viewport(0.5, 0.5, 0) -> World(0, 0, 0.99)
 Normalized Viewport(0.5, 0.5, 0) -> Display(50, 50)
@@ -183,15 +172,14 @@ Normalized Viewport(0.5, 0.5, 0) -> LocalDisplay(50, 49)
 Normalized Viewport(0.5, 0.5, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 327
+  Modified Time: 475
   Reference Count: 1
   Coordinate System: View
   Value: (0,0,0)
   ReferenceCoordinate: (none)
-  Viewport: 0x29988
+  Viewport: 0x10007a80
 
 View(0, 0, 0) -> World(0, 0, 0.99)
 View(0, 0, 0) -> Display(50, 50)
@@ -199,10 +187,9 @@ View(0, 0, 0) -> LocalDisplay(50, 49)
 View(0, 0, 0) -> Viewport(50, 50)
 
 ********** With a Reference Coordinate **********
-vtkCoordinate (0x28db0)
+vtkCoordinate (0x10007660)
   Debug: Off
-  No Delete Method
-  Modified Time: 347
+  Modified Time: 503
   Reference Count: 2
   Coordinate System: World
   Value: (0,0,0)
@@ -211,15 +198,14 @@ vtkCoordinate (0x28db0)
 
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 349
+  Modified Time: 505
   Reference Count: 1
   Coordinate System: World
   Value: (0,0,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 World(0, 0, 0) -> World(0, 0, 0)
 World(0, 0, 0) -> Display(50, 50)
@@ -227,15 +213,14 @@ World(0, 0, 0) -> LocalDisplay(50, 49)
 World(0, 0, 0) -> Viewport(50, 50)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 402
+  Modified Time: 582
   Reference Count: 1
   Coordinate System: Display
   Value: (50,50,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 Display(50, 50, 0) -> World(0.00270656, 0.00270656, 0.99)
 Display(50, 50, 0) -> Display(100, 100)
@@ -243,15 +228,14 @@ Display(50, 50, 0) -> LocalDisplay(100, -1)
 Display(50, 50, 0) -> Viewport(100, 100)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 490
+  Modified Time: 710
   Reference Count: 1
   Coordinate System: Normalized Display
   Value: (0.5,0.5,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 Normalized Display(0.5, 0.5, 0) -> World(0.00270656, 0.00270656, 0.99)
 Normalized Display(0.5, 0.5, 0) -> Display(100, 100)
@@ -259,15 +243,14 @@ Normalized Display(0.5, 0.5, 0) -> LocalDisplay(100, -1)
 Normalized Display(0.5, 0.5, 0) -> Viewport(100, 100)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 578
+  Modified Time: 838
   Reference Count: 1
   Coordinate System: Viewport
   Value: (50,50,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 Viewport(50, 50, 0) -> World(0.00270656, 0.00270656, 0.99)
 Viewport(50, 50, 0) -> Display(100, 100)
@@ -275,15 +258,14 @@ Viewport(50, 50, 0) -> LocalDisplay(100, -1)
 Viewport(50, 50, 0) -> Viewport(100, 100)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 666
+  Modified Time: 966
   Reference Count: 1
   Coordinate System: Normalized Viewport
   Value: (0.5,0.5,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 Normalized Viewport(0.5, 0.5, 0) -> World(0.00267949, 0.00267949, 0.99)
 Normalized Viewport(0.5, 0.5, 0) -> Display(99, 99)
@@ -291,15 +273,14 @@ Normalized Viewport(0.5, 0.5, 0) -> LocalDisplay(99, 0)
 Normalized Viewport(0.5, 0.5, 0) -> Viewport(99, 99)
 
 ========
-vtkCoordinate (0x28d48)
+vtkCoordinate (0x100075f8)
   Debug: Off
-  No Delete Method
-  Modified Time: 754
+  Modified Time: 1094
   Reference Count: 1
   Coordinate System: View
   Value: (0,0,0)
-  ReferenceCoordinate: 0x28db0
-  Viewport: 0x29988
+  ReferenceCoordinate: 0x10007660
+  Viewport: 0x10007a80
 
 View(0, 0, 0) -> World(0, 0, 0.99)
 View(0, 0, 0) -> Display(50, 50)

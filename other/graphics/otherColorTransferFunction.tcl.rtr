@@ -1,9 +1,8 @@
 ctf test started
 ctf1: 
-ctf1 vtkColorTransferFunction (0x174a28)
+ctf1 vtkColorTransferFunction (0x1006cec0)
   Debug: Off
-  Delete Method defined
-  Modified Time: 13
+  Modified Time: 4
   Reference Count: 1
   Size: 0
   Clamping: Off
@@ -46,7 +45,7 @@ ctf1 GetValue 2.0:           0 0 0
 ctf1 GetValue 20.0:          0.333333 0.333333 0.333333 
 ctf1 GetValue 25.0:          0.666667 0.666667 0.666667 
 ctf1 GetValue 30.0:          1 1 1 
-ctf1 GetValue 40.0:          0.269097 0.833333 0.138889 
+ctf1 GetValue 40.0:          0.833333 0.138889 0.275055 
 ctf1 GetValue 90.0:          0 0 0 
 ctf1 SetColorSpaceToRGB
 ctf2 SetClamping 1
