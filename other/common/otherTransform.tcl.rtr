@@ -1,10 +1,12 @@
 transform test started
 transform: 
-trans vtkTransform (0x15a078)
+trans vtkTransform (0x79b98)
   Debug: Off
   Delete Method defined
   Modified Time: 10
   Reference Count: 1
+  TransformType: 515
+  AutoUpdate: On
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
@@ -21,11 +23,13 @@ trans vtkTransform (0x15a078)
 
 
 RotateWXYZ 20 1 1 2
-trans vtkTransform (0x15a078)
+trans vtkTransform (0x79b98)
   Debug: Off
   Delete Method defined
   Modified Time: 12
   Reference Count: 1
+  TransformType: 515
+  AutoUpdate: On
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
@@ -42,11 +46,13 @@ trans vtkTransform (0x15a078)
 
 
 Translate 1 10 2
-trans vtkTransform (0x15a078)
+trans vtkTransform (0x79b98)
   Debug: Off
   Delete Method defined
   Modified Time: 14
   Reference Count: 1
+  TransformType: 515
+  AutoUpdate: On
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
@@ -63,11 +69,13 @@ trans vtkTransform (0x15a078)
 
 
 Identity
-trans vtkTransform (0x15a078)
+trans vtkTransform (0x79b98)
   Debug: Off
   Delete Method defined
   Modified Time: 16
   Reference Count: 1
+  TransformType: 515
+  AutoUpdate: On
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
