@@ -1,0 +1,86 @@
+transform test started
+transform: 
+trans vtkTransform (0x15a078)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 10
+  Reference Count: 1
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
+  Current Transformation:
+    Debug: Off
+    No Delete Method
+    Modified Time: 8
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+
+
+RotateWXYZ 20 1 1 2
+trans vtkTransform (0x15a078)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 12
+  Reference Count: 1
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
+  Current Transformation:
+    Debug: Off
+    No Delete Method
+    Modified Time: 11
+    Reference Count: 1
+    Elements:
+        0.949744 -0.269207 0.159732 0 
+        0.28931 0.949744 -0.119527 0 
+        -0.119527 0.159732 0.979898 0 
+        0 0 0 1 
+
+
+Translate 1 10 2
+trans vtkTransform (0x15a078)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 14
+  Reference Count: 1
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
+  Current Transformation:
+    Debug: Off
+    No Delete Method
+    Modified Time: 13
+    Reference Count: 1
+    Elements:
+        0.949744 -0.269207 0.159732 -1.42286 
+        0.28931 0.949744 -0.119527 9.54769 
+        -0.119527 0.159732 0.979898 3.43758 
+        0 0 0 1 
+
+
+Identity
+trans vtkTransform (0x15a078)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 16
+  Reference Count: 1
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
+  Current Transformation:
+    Debug: Off
+    No Delete Method
+    Modified Time: 15
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+
+
+transform test completed

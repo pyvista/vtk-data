@@ -1,0 +1,20 @@
+Jacobi - original matrix:
+       1 0.42 0.54 ;
+       0.42 1 0.32 ;
+       0.54 0.32 1 ;
+Jacobi - eigenvector matrix:
+       0.621766 0.187182 -0.760506 ;
+       0.521284 -0.823604 0.223473 ;
+       0.584526 0.535387 0.609664 ;
+Jacobi - eigenvalue vector:
+1.85978 0.696528 0.44369 ;
+JacobiN - original matrix:
+       1 0.42 0.54 ;
+       0.42 1 0.32 ;
+       0.54 0.32 1 ;
+JacobiN - eigenvector matrix:
+       0.621766 0.187182 -0.760506 ;
+       0.521284 -0.823604 0.223473 ;
+       0.584526 0.535387 0.609664 ;
+JacobiN - eigenvalue vector:
+1.85978 0.696528 0.44369 ;
