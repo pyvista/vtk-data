@@ -2,5 +2,7 @@
 
 *.bin           -crlf
 *.bmp           -crlf
+*.pgm           -crlf
 *.png           -crlf
+*.ppm           -crlf
 *.slc           -crlf
