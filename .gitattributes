@@ -1,3 +1,2 @@
 .git*            export-ignore
 
-*.tif           -crlf
