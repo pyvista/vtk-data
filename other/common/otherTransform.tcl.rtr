@@ -1,19 +1,27 @@
 transform test started
 transform: 
-trans vtkTransform (0x79b98)
+trans vtkTransform (0x10064038)
   Debug: Off
   Delete Method defined
-  Modified Time: 10
+  Modified Time: 8
   Reference Count: 1
-  TransformType: 515
-  AutoUpdate: On
+  Matrix: 0x100640e0
+    Debug: Off
+    No Delete Method
+    Modified Time: 7
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
   Current Transformation:
     Debug: Off
     No Delete Method
-    Modified Time: 8
+    Modified Time: 7
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -23,20 +31,28 @@ trans vtkTransform (0x79b98)
 
 
 RotateWXYZ 20 1 1 2
-trans vtkTransform (0x79b98)
+trans vtkTransform (0x10064038)
   Debug: Off
   Delete Method defined
-  Modified Time: 12
+  Modified Time: 10
   Reference Count: 1
-  TransformType: 515
-  AutoUpdate: On
+  Matrix: 0x100640e0
+    Debug: Off
+    No Delete Method
+    Modified Time: 9
+    Reference Count: 1
+    Elements:
+        0.949744 -0.269207 0.159732 0 
+        0.28931 0.949744 -0.119527 0 
+        -0.119527 0.159732 0.979898 0 
+        0 0 0 1 
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
   Current Transformation:
     Debug: Off
     No Delete Method
-    Modified Time: 11
+    Modified Time: 9
     Reference Count: 1
     Elements:
         0.949744 -0.269207 0.159732 0 
@@ -46,20 +62,28 @@ trans vtkTransform (0x79b98)
 
 
 Translate 1 10 2
-trans vtkTransform (0x79b98)
+trans vtkTransform (0x10064038)
   Debug: Off
   Delete Method defined
-  Modified Time: 14
+  Modified Time: 12
   Reference Count: 1
-  TransformType: 515
-  AutoUpdate: On
+  Matrix: 0x100640e0
+    Debug: Off
+    No Delete Method
+    Modified Time: 11
+    Reference Count: 1
+    Elements:
+        0.949744 -0.269207 0.159732 -1.42286 
+        0.28931 0.949744 -0.119527 9.54769 
+        -0.119527 0.159732 0.979898 3.43758 
+        0 0 0 1 
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
   Current Transformation:
     Debug: Off
     No Delete Method
-    Modified Time: 13
+    Modified Time: 11
     Reference Count: 1
     Elements:
         0.949744 -0.269207 0.159732 -1.42286 
@@ -69,20 +93,28 @@ trans vtkTransform (0x79b98)
 
 
 Identity
-trans vtkTransform (0x79b98)
+trans vtkTransform (0x10064038)
   Debug: Off
   Delete Method defined
-  Modified Time: 16
+  Modified Time: 14
   Reference Count: 1
-  TransformType: 515
-  AutoUpdate: On
+  Matrix: 0x100640e0
+    Debug: Off
+    No Delete Method
+    Modified Time: 13
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
   Current Transformation:
     Debug: Off
     No Delete Method
-    Modified Time: 15
+    Modified Time: 13
     Reference Count: 1
     Elements:
         1 0 0 0 
