@@ -6,5 +6,6 @@
 *.pgm           -crlf
 *.png           -crlf
 *.ppm           -crlf
+*.raw           -crlf
 *.slc           -crlf
 *.tif           -crlf
