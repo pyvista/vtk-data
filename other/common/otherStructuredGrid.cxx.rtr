@@ -1,7 +1,7 @@
 Testing vtkStructuredGrid
-vtkStructuredGrid (0x1000b378)
+vtkStructuredGrid (0x2fb50)
   Debug: Off
-  Modified Time: 399
+  Modified Time: 407
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -17,18 +17,19 @@ vtkStructuredGrid (0x1000b378)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 95
+    Modified Time: 97
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
+  ExtentTranslator: (0x2fca8)
   Number Of Points: 20
   Number Of Cells: 19
   Cell Data:
     Debug: Off
-    Modified Time: 98
+    Modified Time: 101
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -46,7 +47,7 @@ vtkStructuredGrid (0x1000b378)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 96
+    Modified Time: 99
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -66,10 +67,10 @@ vtkStructuredGrid (0x1000b378)
     Xmin,Xmax: (0, 0)
     Ymin,Ymax: (0, 19)
     Zmin,Zmax: (0, 0)
-  Compute Time: 401
+  Compute Time: 409
   Release Data: Off
   Number Of Points: 20
-  Point Coordinates: 0x1001d8c8
+  Point Coordinates: 0x411f0
   Locator: 0x0
   Dimensions: (1, 20, 1)
   Blanking: Off
@@ -77,9 +78,9 @@ vtkStructuredGrid (0x1000b378)
   Extent: 0, 0, 0, 19, 0, 0
 )
 
-sg3D:vtkStructuredGrid (0x1000f8e0)
+sg3D:vtkStructuredGrid (0x337c0)
   Debug: Off
-  Modified Time: 429
+  Modified Time: 437
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -95,18 +96,19 @@ sg3D:vtkStructuredGrid (0x1000f8e0)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 325
+    Modified Time: 332
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
+  ExtentTranslator: (0x33918)
   Number Of Points: 8000
   Number Of Cells: 6859
   Cell Data:
     Debug: Off
-    Modified Time: 328
+    Modified Time: 336
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -124,13 +126,13 @@ sg3D:vtkStructuredGrid (0x1000f8e0)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 429
+    Modified Time: 437
     Reference Count: 1
     Scalars:
       Debug: Off
-      Modified Time: 415
+      Modified Time: 423
       Reference Count: 2
-      Data: 0x1001ddc8
+      Data: 0x416b8
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -153,10 +155,10 @@ sg3D:vtkStructuredGrid (0x1000f8e0)
     Xmin,Xmax: (0, 19)
     Ymin,Ymax: (0, 19)
     Zmin,Zmax: (0, 19)
-  Compute Time: 439
+  Compute Time: 447
   Release Data: Off
   Number Of Points: 8000
-  Point Coordinates: 0x100104a0
+  Point Coordinates: 0x343d0
   Locator: 0x0
   Dimensions: (20, 20, 20)
   Blanking: Off
@@ -164,9 +166,9 @@ sg3D:vtkStructuredGrid (0x1000f8e0)
   Extent: 0, 19, 0, 19, 0, 19
 )
 
-ShallowCopy(sg3D):vtkStructuredGrid (0x1001e148)
+ShallowCopy(sg3D):vtkStructuredGrid (0x41ac0)
   Debug: Off
-  Modified Time: 488
+  Modified Time: 497
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -182,18 +184,19 @@ ShallowCopy(sg3D):vtkStructuredGrid (0x1001e148)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 325
+    Modified Time: 332
     Reference Count: 2
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
+  ExtentTranslator: (0x3ffd8)
   Number Of Points: 8000
   Number Of Cells: 6859
   Cell Data:
     Debug: Off
-    Modified Time: 444
+    Modified Time: 453
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -211,13 +214,13 @@ ShallowCopy(sg3D):vtkStructuredGrid (0x1001e148)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 487
+    Modified Time: 496
     Reference Count: 1
     Scalars:
       Debug: Off
-      Modified Time: 415
+      Modified Time: 423
       Reference Count: 3
-      Data: 0x1001ddc8
+      Data: 0x416b8
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -240,10 +243,10 @@ ShallowCopy(sg3D):vtkStructuredGrid (0x1001e148)
     Xmin,Xmax: (0, 19)
     Ymin,Ymax: (0, 19)
     Zmin,Zmax: (0, 19)
-  Compute Time: 489
+  Compute Time: 498
   Release Data: Off
   Number Of Points: 8000
-  Point Coordinates: 0x100104a0
+  Point Coordinates: 0x343d0
   Locator: 0x0
   Dimensions: (20, 20, 20)
   Blanking: Off
@@ -251,9 +254,9 @@ ShallowCopy(sg3D):vtkStructuredGrid (0x1001e148)
   Extent: 0, 19, 0, 19, 0, 19
 )
 
-DeepCopy(sg3D):vtkStructuredGrid (0x1001fe18)
+DeepCopy(sg3D):vtkStructuredGrid (0x43bb0)
   Debug: Off
-  Modified Time: 548
+  Modified Time: 558
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -269,18 +272,19 @@ DeepCopy(sg3D):vtkStructuredGrid (0x1001fe18)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 547
+    Modified Time: 557
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
+  ExtentTranslator: (0x43cd0)
   Number Of Points: 8000
   Number Of Cells: 6859
   Cell Data:
     Debug: Off
-    Modified Time: 494
+    Modified Time: 504
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -298,13 +302,13 @@ DeepCopy(sg3D):vtkStructuredGrid (0x1001fe18)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 546
+    Modified Time: 556
     Reference Count: 1
     Scalars:
       Debug: Off
-      Modified Time: 545
+      Modified Time: 555
       Reference Count: 1
-      Data: 0x1001ceb8
+      Data: 0x40cd0
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -327,10 +331,10 @@ DeepCopy(sg3D):vtkStructuredGrid (0x1001fe18)
     Xmin,Xmax: (0, 19)
     Ymin,Ymax: (0, 19)
     Zmin,Zmax: (0, 19)
-  Compute Time: 551
+  Compute Time: 561
   Release Data: Off
   Number Of Points: 8000
-  Point Coordinates: 0x1001cdc8
+  Point Coordinates: 0x40be0
   Locator: 0x0
   Dimensions: (20, 20, 20)
   Blanking: Off
@@ -338,9 +342,9 @@ DeepCopy(sg3D):vtkStructuredGrid (0x1001fe18)
   Extent: 0, 19, 0, 19, 0, 19
 )
 
-cell3D: vtkHexahedron (0x10010030)
+cell3D: vtkHexahedron (0x33f60)
   Debug: Off
-  Modified Time: 350
+  Modified Time: 358
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -349,9 +353,11 @@ cell3D: vtkHexahedron (0x10010030)
     Zmin,Zmax: (7, 8)
     Point ids are: 3110, 3111, 3131, 3130, 3510, 3511, 3531, 3530  
 
-cell2D: vtkQuad (0x1000d4f0)
+Ids for cell 2822 are 3110 3111 3131 3130 3510 3511 3531 3530 
+
+cell2D: vtkQuad (0x31908)
   Debug: Off
-  Modified Time: 202
+  Modified Time: 207
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -360,9 +366,11 @@ cell2D: vtkQuad (0x1000d4f0)
     Zmin,Zmax: (0, 0)
     Point ids are: 310, 311, 331, 330  
 
-cell2D: vtkQuad (0x1000e2a0)
+Ids for cell 295 are 310 311 331 330 
+
+cell2D: vtkQuad (0x32518)
   Debug: Off
-  Modified Time: 248
+  Modified Time: 254
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -371,9 +379,11 @@ cell2D: vtkQuad (0x1000e2a0)
     Zmin,Zmax: (15, 16)
     Point ids are: 310, 311, 331, 330  
 
-cell2D: vtkQuad (0x1000f250)
+Ids for cell 295 are 310 311 331 330 
+
+cell2D: vtkQuad (0x33130)
   Debug: Off
-  Modified Time: 294
+  Modified Time: 301
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -382,9 +392,11 @@ cell2D: vtkQuad (0x1000f250)
     Zmin,Zmax: (15, 16)
     Point ids are: 310, 311, 331, 330  
 
-cell1D: vtkLine (0x1000aaf0)
+Ids for cell 295 are 310 311 331 330 
+
+cell1D: vtkLine (0x2f3d0)
   Debug: Off
-  Modified Time: 59
+  Modified Time: 61
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -393,9 +405,11 @@ cell1D: vtkLine (0x1000aaf0)
     Zmin,Zmax: (0, 0)
     Point ids are: 10, 11  
 
-cell1D: vtkLine (0x1000b7a0)
+Ids for cell 10 are 10 11 
+
+cell1D: vtkLine (0x2ffe0)
   Debug: Off
-  Modified Time: 105
+  Modified Time: 108
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -404,9 +418,11 @@ cell1D: vtkLine (0x1000b7a0)
     Zmin,Zmax: (0, 0)
     Point ids are: 10, 11  
 
-cell1D: vtkLine (0x1000c858)
+Ids for cell 10 are 10 11 
+
+cell1D: vtkLine (0x30c08)
   Debug: Off
-  Modified Time: 151
+  Modified Time: 155
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -415,9 +431,11 @@ cell1D: vtkLine (0x1000c858)
     Zmin,Zmax: (10, 11)
     Point ids are: 10, 11  
 
-cell0D: vtkVertex (0x100099f8)
+Ids for cell 10 are 10 11 
+
+cell0D: vtkVertex (0x2d8c0)
   Debug: Off
-  Modified Time: 8
+  Modified Time: 9
   Reference Count: 1
   Number Of Points: 1
   Bounds: 
@@ -426,9 +444,11 @@ cell0D: vtkVertex (0x100099f8)
     Zmin,Zmax: (0, 0)
     Point ids are: 0  
 
-gcell3D: vtkGenericCell (0x1001cf30)
+Ids for cell 0 are 0 
+
+gcell3D: vtkGenericCell (0x40d48)
   Debug: Off
-  Modified Time: 552
+  Modified Time: 563
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -437,9 +457,9 @@ gcell3D: vtkGenericCell (0x1001cf30)
     Zmin,Zmax: (7, 8)
     Point ids are: 3110, 3111, 3131, 3130, 3510, 3511, 3531, 3530  
 
-gcell2D: vtkGenericCell (0x1001d0e0)
+gcell2D: vtkGenericCell (0x40f30)
   Debug: Off
-  Modified Time: 562
+  Modified Time: 573
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -448,9 +468,9 @@ gcell2D: vtkGenericCell (0x1001d0e0)
     Zmin,Zmax: (0, 0)
     Point ids are: 310, 311, 331, 330  
 
-gcell2D: vtkGenericCell (0x1001d0e0)
+gcell2D: vtkGenericCell (0x40f30)
   Debug: Off
-  Modified Time: 562
+  Modified Time: 573
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -459,9 +479,9 @@ gcell2D: vtkGenericCell (0x1001d0e0)
     Zmin,Zmax: (15, 16)
     Point ids are: 310, 311, 331, 330  
 
-gcell2D: vtkGenericCell (0x1001d0e0)
+gcell2D: vtkGenericCell (0x40f30)
   Debug: Off
-  Modified Time: 562
+  Modified Time: 573
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -470,9 +490,9 @@ gcell2D: vtkGenericCell (0x1001d0e0)
     Zmin,Zmax: (15, 16)
     Point ids are: 310, 311, 331, 330  
 
-gcell1D: vtkGenericCell (0x1001d2c8)
+gcell1D: vtkGenericCell (0x47d20)
   Debug: Off
-  Modified Time: 572
+  Modified Time: 583
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -481,9 +501,9 @@ gcell1D: vtkGenericCell (0x1001d2c8)
     Zmin,Zmax: (0, 0)
     Point ids are: 10, 11  
 
-gcell1D: vtkGenericCell (0x1001d2c8)
+gcell1D: vtkGenericCell (0x47d20)
   Debug: Off
-  Modified Time: 572
+  Modified Time: 583
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -492,9 +512,9 @@ gcell1D: vtkGenericCell (0x1001d2c8)
     Zmin,Zmax: (0, 0)
     Point ids are: 10, 11  
 
-gcell1D: vtkGenericCell (0x1001d2c8)
+gcell1D: vtkGenericCell (0x47d20)
   Debug: Off
-  Modified Time: 572
+  Modified Time: 583
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -503,9 +523,9 @@ gcell1D: vtkGenericCell (0x1001d2c8)
     Zmin,Zmax: (10, 11)
     Point ids are: 10, 11  
 
-gcell0D: vtkGenericCell (0x1001d4b0)
+gcell0D: vtkGenericCell (0x47f08)
   Debug: Off
-  Modified Time: 582
+  Modified Time: 593
   Reference Count: 1
   Number Of Points: 1
   Bounds: 
@@ -537,9 +557,9 @@ FindPoint(0, 12, 14) = 0, 12, 14
 FindPoint(10, 0, 0) = 10, 0, 0
 FindPoint(0, 12, 0) = 0, 12, 0
 FindPoint(0, 0, 14) = 0, 0, 14
-FindAndGetCell(sg3D): vtkHexahedron (0x10010030)
+FindAndGetCell(sg3D): vtkHexahedron (0x33f60)
   Debug: Off
-  Modified Time: 350
+  Modified Time: 358
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -550,9 +570,9 @@ FindAndGetCell(sg3D): vtkHexahedron (0x10010030)
 
 pcoords: 0.5, 0.1, 0.700001
 weights: 0.135, 0.135, 0.015, 0.015, 0.315, 0.315, 0.0350002, 0.0350002
-FindAndGetCell(sg2Dxy): vtkQuad (0x1000d4f0)
+FindAndGetCell(sg2Dxy): vtkQuad (0x31908)
   Debug: Off
-  Modified Time: 202
+  Modified Time: 207
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -563,9 +583,9 @@ FindAndGetCell(sg2Dxy): vtkQuad (0x1000d4f0)
 
 pcoords: 0.5, 0.1
 weights: 0.45, 0.45, 0.0500002, 0.0500002
-FindAndGetCell(sg2Dxz): vtkQuad (0x1000e2a0)
+FindAndGetCell(sg2Dxz): vtkQuad (0x32518)
   Debug: Off
-  Modified Time: 248
+  Modified Time: 254
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -576,9 +596,9 @@ FindAndGetCell(sg2Dxz): vtkQuad (0x1000e2a0)
 
 pcoords: 0.5, 0.700001
 weights: 0.15, 0.15, 0.35, 0.35
-FindAndGetCell(sg2Dyz): vtkQuad (0x1000f250)
+FindAndGetCell(sg2Dyz): vtkQuad (0x33130)
   Debug: Off
-  Modified Time: 294
+  Modified Time: 301
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -589,9 +609,9 @@ FindAndGetCell(sg2Dyz): vtkQuad (0x1000f250)
 
 pcoords: 0.1, 0.699999
 weights: 0.270001, 0.0300002, 0.0700001, 0.629999
-FindAndGetCell(sg1Dx): vtkLine (0x1000aaf0)
+FindAndGetCell(sg1Dx): vtkLine (0x2f3d0)
   Debug: Off
-  Modified Time: 59
+  Modified Time: 61
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -602,9 +622,9 @@ FindAndGetCell(sg1Dx): vtkLine (0x1000aaf0)
 
 pcoords: 0.5
 weights: 0.5, 0.5
-FindAndGetCell(sg1Dy): vtkLine (0x1000b7a0)
+FindAndGetCell(sg1Dy): vtkLine (0x2ffe0)
   Debug: Off
-  Modified Time: 105
+  Modified Time: 108
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -615,9 +635,9 @@ FindAndGetCell(sg1Dy): vtkLine (0x1000b7a0)
 
 pcoords: 0.1
 weights: 0.9, 0.1
-FindAndGetCell(sg1Dz): vtkLine (0x1000c858)
+FindAndGetCell(sg1Dz): vtkLine (0x30c08)
   Debug: Off
-  Modified Time: 151
+  Modified Time: 155
   Reference Count: 1
   Number Of Points: 2
   Bounds: 

@@ -1,5 +1,5 @@
 Testing vtkRectilinearGrid
-vtkRectilinearGrid (0x1000b4d8)
+vtkRectilinearGrid (0x1000f4d8)
   Debug: Off
   Modified Time: 414
   Reference Count: 1
@@ -69,13 +69,13 @@ vtkRectilinearGrid (0x1000b4d8)
   Compute Time: 0
   Release Data: Off
   Dimensions: (1, 20, 1)
-  X Coordinates: 0x1000c290
-  Y Coordinates: 0x10010ab0
-  Z Coordinates: 0x1000c290
+  X Coordinates: 0x10010290
+  Y Coordinates: 0x10014ab0
+  Z Coordinates: 0x10010290
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 0, 0, 19, 0, 0
 
-rg3D:vtkRectilinearGrid (0x1000fdb0)
+rg3D:vtkRectilinearGrid (0x10013db0)
   Debug: Off
   Modified Time: 435
   Reference Count: 1
@@ -128,7 +128,7 @@ rg3D:vtkRectilinearGrid (0x1000fdb0)
       Debug: Off
       Modified Time: 421
       Reference Count: 2
-      Data: 0x10010960
+      Data: 0x10014960
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -154,13 +154,13 @@ rg3D:vtkRectilinearGrid (0x1000fdb0)
   Compute Time: 0
   Release Data: Off
   Dimensions: (20, 20, 20)
-  X Coordinates: 0x10010a08
-  Y Coordinates: 0x10010ab0
-  Z Coordinates: 0x10010b58
+  X Coordinates: 0x10014a08
+  Y Coordinates: 0x10014ab0
+  Z Coordinates: 0x10014b58
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 19, 0, 19, 0, 19
 
-ShallowCopy(rg3D):vtkRectilinearGrid (0x1001daf0)
+ShallowCopy(rg3D):vtkRectilinearGrid (0x10021af0)
   Debug: Off
   Modified Time: 497
   Reference Count: 1
@@ -213,7 +213,7 @@ ShallowCopy(rg3D):vtkRectilinearGrid (0x1001daf0)
       Debug: Off
       Modified Time: 421
       Reference Count: 3
-      Data: 0x10010960
+      Data: 0x10014960
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -239,13 +239,13 @@ ShallowCopy(rg3D):vtkRectilinearGrid (0x1001daf0)
   Compute Time: 0
   Release Data: Off
   Dimensions: (20, 20, 20)
-  X Coordinates: 0x10010a08
-  Y Coordinates: 0x10010ab0
-  Z Coordinates: 0x10010b58
+  X Coordinates: 0x10014a08
+  Y Coordinates: 0x10014ab0
+  Z Coordinates: 0x10014b58
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 19, 0, 19, 0, 19
 
-DeepCopy(rg3D):vtkRectilinearGrid (0x1001e630)
+DeepCopy(rg3D):vtkRectilinearGrid (0x10022630)
   Debug: Off
   Modified Time: 567
   Reference Count: 1
@@ -298,7 +298,7 @@ DeepCopy(rg3D):vtkRectilinearGrid (0x1001e630)
       Debug: Off
       Modified Time: 564
       Reference Count: 1
-      Data: 0x1001f9e8
+      Data: 0x100239e8
       Number Of Scalars: 8000
       Range: (0, 19)
       LookupTable: (none)
@@ -324,11 +324,214 @@ DeepCopy(rg3D):vtkRectilinearGrid (0x1001e630)
   Compute Time: 0
   Release Data: Off
   Dimensions: (20, 20, 20)
-  X Coordinates: 0x1001f658
-  Y Coordinates: 0x1001f788
-  Z Coordinates: 0x1001f8b8
+  X Coordinates: 0x10023658
+  Y Coordinates: 0x10023788
+  Z Coordinates: 0x100238b8
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 19, 0, 19, 0, 19
+
+cell3D: vtkVoxel (0x100144f0)
+  Debug: Off
+  Modified Time: 364
+  Reference Count: 1
+  Number Of Points: 8
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (15, 16)
+    Zmin,Zmax: (7, 8)
+    Point ids are: 3110, 3111, 3130, 3131, 3510, 3511, 3530, 3531  
+
+Ids for cell 2822 are 3110 3111 3130 3131 3510 3511 3530 3531 
+
+cell2D: vtkPixel (0x100119c0)
+  Debug: Off
+  Modified Time: 210
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (15, 16)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 310, 311, 330, 331  
+
+Ids for cell 295 are 310 311 330 331 
+
+cell2D: vtkPixel (0x10012618)
+  Debug: Off
+  Modified Time: 258
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (15, 16)
+    Point ids are: 310, 311, 330, 331  
+
+Ids for cell 295 are 310 311 330 331 
+
+cell2D: vtkPixel (0x10013678)
+  Debug: Off
+  Modified Time: 306
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (10, 11)
+    Zmin,Zmax: (15, 16)
+    Point ids are: 310, 311, 330, 331  
+
+Ids for cell 295 are 310 311 330 331 
+
+cell1D: vtkLine (0x1000eba8)
+  Debug: Off
+  Modified Time: 61
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 10, 11  
+
+Ids for cell 10 are 10 11 
+
+cell1D: vtkLine (0x1000f908)
+  Debug: Off
+  Modified Time: 109
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (10, 11)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 10, 11  
+
+Ids for cell 10 are 10 11 
+
+cell1D: vtkLine (0x10010a70)
+  Debug: Off
+  Modified Time: 157
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (10, 11)
+    Point ids are: 10, 11  
+
+Ids for cell 10 are 10 11 
+
+cell0D: vtkVertex (0x1000da00)
+  Debug: Off
+  Modified Time: 8
+  Reference Count: 1
+  Number Of Points: 1
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 0  
+
+Ids for cell 0 are 0 
+
+gcell3D: vtkGenericCell (0x1002f5f8)
+  Debug: Off
+  Modified Time: 570
+  Reference Count: 1
+  Number Of Points: 8
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (15, 16)
+    Zmin,Zmax: (7, 8)
+    Point ids are: 3110, 3111, 3130, 3131, 3510, 3511, 3530, 3531  
+
+gcell2D: vtkGenericCell (0x1002f7e0)
+  Debug: Off
+  Modified Time: 580
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (15, 16)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 310, 311, 330, 331  
+
+gcell2D: vtkGenericCell (0x1002f7e0)
+  Debug: Off
+  Modified Time: 580
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (15, 16)
+    Point ids are: 310, 311, 330, 331  
+
+gcell2D: vtkGenericCell (0x1002f7e0)
+  Debug: Off
+  Modified Time: 580
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (15, 16)
+    Point ids are: 310, 311, 330, 331  
+
+gcell2D: vtkGenericCell (0x1002f7e0)
+  Debug: Off
+  Modified Time: 580
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (10, 11)
+    Zmin,Zmax: (15, 16)
+    Point ids are: 310, 311, 330, 331  
+
+gcell1D: vtkGenericCell (0x1002f9c8)
+  Debug: Off
+  Modified Time: 590
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 10, 11  
+
+gcell1D: vtkGenericCell (0x1002f9c8)
+  Debug: Off
+  Modified Time: 590
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (10, 11)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 10, 11  
+
+gcell1D: vtkGenericCell (0x1002f9c8)
+  Debug: Off
+  Modified Time: 590
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (10, 11)
+    Point ids are: 10, 11  
+
+gcell0D: vtkGenericCell (0x1002fbb0)
+  Debug: Off
+  Modified Time: 600
+  Reference Count: 1
+  Number Of Points: 1
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 0  
 
 GetCellBounds(rg3D): 10, 11, 15, 16, 7, 8
 GetCellBounds(rg2Dxy): 10, 11, 15, 16, 0, 0
@@ -353,7 +556,7 @@ FindPoint(0, 12, 14) = 0, 12, 14
 FindPoint(10, 0, 0) = 10, 0, 0
 FindPoint(0, 12, 0) = 0, 12, 0
 FindPoint(0, 0, 14) = 0, 0, 14
-FindAndGetCell(rg3D): vtkVoxel (0x100104f0)
+FindAndGetCell(rg3D): vtkVoxel (0x100144f0)
   Debug: Off
   Modified Time: 364
   Reference Count: 1
@@ -366,7 +569,7 @@ FindAndGetCell(rg3D): vtkVoxel (0x100104f0)
 
 pcoords: 0.5, 0.1, 0.7
 weights: 0.135, 0.135, 0.0150001, 0.0150001, 0.315, 0.315, 0.0350001, 0.0350001
-FindAndGetCell(rg2Dxy): vtkPixel (0x1000d9c0)
+FindAndGetCell(rg2Dxy): vtkPixel (0x100119c0)
   Debug: Off
   Modified Time: 210
   Reference Count: 1
@@ -377,15 +580,73 @@ FindAndGetCell(rg2Dxy): vtkPixel (0x1000d9c0)
     Zmin,Zmax: (0, 0)
     Point ids are: 250, 251, 270, 271  
 
-pcoords: 0.5, 0.1, 0
+pcoords: 0.5, 0.1
 weights: 0.45, 0.45, 0.0500002, 0.0500002
-FindPoint(10.5, 12.1, 0) = 0, 0, 14
-FindPoint(10.5, 12.1, 0) = 11, 12, 0
-FindPoint(10, 0, 14) = 10, 0, 14
-FindPoint(0, 12, 14) = 0, 12, 14
-FindPoint(10, 0, 0) = 10, 0, 0
-FindPoint(0, 12, 0) = 0, 12, 0
-FindPoint(0, 0, 14) = 0, 0, 14
+FindAndGetCell(rg2Dxz): vtkPixel (0x10012618)
+  Debug: Off
+  Modified Time: 258
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 1)
+    Point ids are: 10, 11, 30, 31  
+
+pcoords: 0.5, 0
+weights: 0.15, 0.15, 0, 0
+FindAndGetCell(rg2Dyz): vtkPixel (0x10013678)
+  Debug: Off
+  Modified Time: 306
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 1)
+    Zmin,Zmax: (0, 1)
+    Point ids are: 0, 1, 20, 21  
+
+pcoords: 0, 0.1
+weights: 0.27, 0, 0.0300001, 0
+FindAndGetCell(rg1Dx): vtkLine (0x1000eba8)
+  Debug: Off
+  Modified Time: 61
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 10, 11  
+
+pcoords: 0.5
+weights: 0.5, 0.5
+FindAndGetCell(rg1Dy): vtkLine (0x1000f908)
+  Debug: Off
+  Modified Time: 109
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 1)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 0, 1  
+
+pcoords: 0
+weights: 0.9, 0
+FindAndGetCell(rg1Dz): vtkLine (0x10010a70)
+  Debug: Off
+  Modified Time: 157
+  Reference Count: 1
+  Number Of Points: 2
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 0)
+    Zmin,Zmax: (0, 1)
+    Point ids are: 0, 1  
+
+pcoords: 0
+weights: 0.3, 0
 GetCellType(rg3D): 11
 GetCellType(rg2Dxy): 8
 GetCellType(rg2Dxz): 8
