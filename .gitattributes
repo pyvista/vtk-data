@@ -6,3 +6,4 @@
 *.png           -crlf
 *.ppm           -crlf
 *.slc           -crlf
+*.tif           -crlf
