@@ -1,14 +1,15 @@
 transform test started
 vtkTransform: 
-trans vtkTransform (0x00843610)
+trans vtkTransform (0x80a2718)
   Debug: Off
   Delete Method defined
-  Modified Time: 8
+  Modified Time: 4
   Reference Count: 1
-  Matrix: 0x008436B0
+  Inverse: ((nil))
+  Matrix: 0x80a70d0
     Debug: Off
     No Delete Method
-    Modified Time: 7
+    Modified Time: 3
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -21,15 +22,16 @@ trans vtkTransform (0x00843610)
 
 
 RotateWXYZ 20 1 1 2
-trans vtkTransform (0x00843610)
+trans vtkTransform (0x80a2718)
   Debug: Off
   Delete Method defined
-  Modified Time: 10
+  Modified Time: 6
   Reference Count: 1
-  Matrix: 0x008436B0
+  Inverse: ((nil))
+  Matrix: 0x80a70d0
     Debug: Off
     No Delete Method
-    Modified Time: 9
+    Modified Time: 5
     Reference Count: 1
     Elements:
         0.949744 -0.269207 0.159732 0 
@@ -42,15 +44,16 @@ trans vtkTransform (0x00843610)
 
 
 Translate 1 10 2
-trans vtkTransform (0x00843610)
+trans vtkTransform (0x80a2718)
   Debug: Off
   Delete Method defined
-  Modified Time: 12
+  Modified Time: 8
   Reference Count: 1
-  Matrix: 0x008436B0
+  Inverse: ((nil))
+  Matrix: 0x80a70d0
     Debug: Off
     No Delete Method
-    Modified Time: 11
+    Modified Time: 7
     Reference Count: 1
     Elements:
         0.949744 -0.269207 0.159732 -1.42286 
@@ -63,72 +66,60 @@ trans vtkTransform (0x00843610)
 
 
 GetInverse
-trans GetInverse vtkLinearTransformInverse (0x00843EF0)
+trans GetInverse vtkTransform (0x80a71b0)
   Debug: Off
   Delete Method defined
-  Modified Time: 19
+  Modified Time: 16
   Reference Count: 1
-  Matrix: 0x00843F50
+  Inverse: (0x80a2718)
+  Matrix: 0x80a5b80
     Debug: Off
     No Delete Method
-    Modified Time: 23
+    Modified Time: 15
     Reference Count: 1
     Elements:
         0.949744 0.28931 -0.119527 -1 
         -0.269207 0.949744 0.159732 -10 
         0.159732 -0.119527 0.979898 -2 
-        0 0 0 1 
-  Transform: 0x008437B0
-    Debug: Off
-    No Delete Method
-    Modified Time: 22
-    Reference Count: 1
-    Matrix: 0x00843850
-      Debug: Off
-      No Delete Method
-      Modified Time: 20
-      Reference Count: 1
-      Elements:
-            0.949744 0.28931 -0.119527 -1 
-            -0.269207 0.949744 0.159732 -10 
-            0.159732 -0.119527 0.979898 -2 
-            0 0 0 1 
-    PreMultiply
-    DoublePoint: ( 0, 0, 0, 0)
-    Point: ( 0, 0, 0, 0)
+        -0 0 -0 1 
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
 
 
 Inverse
-trans vtkTransform (0x00843610)
+trans vtkTransform (0x80a2718)
   Debug: Off
   Delete Method defined
-  Modified Time: 24
+  Modified Time: 19
   Reference Count: 2
-  Matrix: 0x008436B0
+  Inverse: (0x80a71b0)
+  Matrix: 0x80a70d0
     Debug: Off
     No Delete Method
-    Modified Time: 11
+    Modified Time: 18
     Reference Count: 1
     Elements:
         0.949744 0.28931 -0.119527 -1 
         -0.269207 0.949744 0.159732 -10 
         0.159732 -0.119527 0.979898 -2 
-        0 0 0 1 
+        -0 0 -0 1 
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
 
 
 Identity
-trans vtkTransform (0x00843610)
+trans vtkTransform (0x80a2718)
   Debug: Off
   Delete Method defined
-  Modified Time: 26
+  Modified Time: 21
   Reference Count: 2
-  Matrix: 0x008436B0
+  Inverse: (0x80a71b0)
+  Matrix: 0x80a70d0
     Debug: Off
     No Delete Method
-    Modified Time: 25
+    Modified Time: 20
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -150,15 +141,16 @@ trans TransformNormal 1 2 3  0.238003 0.489146 0.839101
 trans TransformVector 1 2 3  0.890525 1.83022 3.13963 
 
 vtkProjectionTransform: 
-ptrans vtkProjectionTransform (0x008447F0)
+ptrans vtkProjectionTransform (0x80a7c78)
   Debug: Off
   Delete Method defined
-  Modified Time: 33
+  Modified Time: 31
   Reference Count: 1
-  Matrix: 0x00844850
+  Inverse: ((nil))
+  Matrix: 0x80a7d00
     Debug: Off
     No Delete Method
-    Modified Time: 32
+    Modified Time: 30
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -171,15 +163,16 @@ ptrans vtkProjectionTransform (0x008447F0)
 SetElement 3 0 0.1
 SetElement 3 1 0.05
 SetElement 3 2 0.3
-ptrans vtkProjectionTransform (0x008447F0)
+ptrans vtkProjectionTransform (0x80a7c78)
   Debug: Off
   Delete Method defined
-  Modified Time: 40
+  Modified Time: 38
   Reference Count: 1
-  Matrix: 0x00844850
+  Inverse: ((nil))
+  Matrix: 0x80a7d00
     Debug: Off
     No Delete Method
-    Modified Time: 39
+    Modified Time: 37
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -190,68 +183,56 @@ ptrans vtkProjectionTransform (0x008447F0)
 
 
 GetInverse
-ptrans GetInverse vtkPerspectiveTransformInverse (0x008444D0)
+ptrans GetInverse vtkProjectionTransform (0x80a7ea0)
   Debug: Off
   Delete Method defined
-  Modified Time: 47
+  Modified Time: 46
   Reference Count: 1
-  Matrix: 0x00844530
+  Inverse: (0x80a7c78)
+  Matrix: 0x80a7f28
     Debug: Off
     No Delete Method
-    Modified Time: 51
+    Modified Time: 45
     Reference Count: 1
     Elements:
-        1 0 0 0 
-        0 1 0 0 
-        0 0 1 0 
+        1 -0 0 -0 
+        -0 1 -0 0 
+        0 -0 1 -0 
         -0.1 -0.05 -0.3 1 
-  Transform: 0x008445F0
-    Debug: Off
-    No Delete Method
-    Modified Time: 50
-    Reference Count: 1
-    Matrix: 0x00844650
-      Debug: Off
-      No Delete Method
-      Modified Time: 48
-      Reference Count: 1
-      Elements:
-            1 0 0 0 
-            0 1 0 0 
-            0 0 1 0 
-            -0.1 -0.05 -0.3 1 
-    PreMultiply
+  PreMultiply
 
 
 Inverse
-ptrans vtkProjectionTransform (0x008447F0)
+ptrans vtkProjectionTransform (0x80a7c78)
   Debug: Off
   Delete Method defined
-  Modified Time: 52
+  Modified Time: 49
   Reference Count: 2
-  Matrix: 0x00844850
+  Inverse: (0x80a7ea0)
+  Matrix: 0x80a7d00
     Debug: Off
     No Delete Method
-    Modified Time: 39
+    Modified Time: 48
     Reference Count: 1
     Elements:
-        1 0 0 0 
-        0 1 0 0 
-        0 0 1 0 
+        1 -0 0 -0 
+        -0 1 -0 0 
+        0 -0 1 -0 
         -0.1 -0.05 -0.3 1 
   PreMultiply
 
 
 Identity
-ptrans vtkProjectionTransform (0x008447F0)
+ptrans vtkProjectionTransform (0x80a7c78)
   Debug: Off
   Delete Method defined
-  Modified Time: 54
+  Modified Time: 51
   Reference Count: 2
-  Matrix: 0x00844850
+  Inverse: (0x80a7ea0)
+  Matrix: 0x80a7d00
     Debug: Off
     No Delete Method
-    Modified Time: 53
+    Modified Time: 50
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -264,18 +245,19 @@ ptrans vtkProjectionTransform (0x008447F0)
 SetElement 3 0 0.1
 SetElement 3 1 0.05
 SetElement 3 2 0.3
-ptrans TransformPoint  1 2 3  0.476191 0.952381 1.42857 
+ptrans TransformPoint  1 2 3  0.47619 0.952381 1.42857 
 
 vtkIdentityTransform: 
-itrans vtkIdentityTransform (0x00844A40)
+itrans vtkIdentityTransform (0x80a7ff8)
   Debug: Off
   Delete Method defined
-  Modified Time: 59
+  Modified Time: 57
   Reference Count: 1
-  Matrix: 0x00844A90
+  Inverse: ((nil))
+  Matrix: 0x80a8070
     Debug: Off
     No Delete Method
-    Modified Time: 58
+    Modified Time: 56
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -291,25 +273,25 @@ itrans TransformNormal 1 2 3  0.267261 0.534522 0.801784
 itrans TransformVector 1 2 3  1 2 3 
 
 vtkPerspectiveTransformConcatenation: 
-pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
+pctrans vtkPerspectiveTransformConcatenation (0x80a8140)
   Debug: Off
   Delete Method defined
   Modified Time: 63
   Reference Count: 1
-  Matrix: 0x00844CC0
+  Inverse: ((nil))
+  Matrix: 0x80a81b8
     Debug: Off
     No Delete Method
-    Modified Time: 61
+    Modified Time: 62
     Reference Count: 1
     Elements:
         1 0 0 0 
         0 1 0 0 
         0 0 1 0 
         0 0 0 1 
-  InverseFlag: 0
-  PreMultiplyFlag: 1
+  PreMultiply
   NumberOfTransforms: 0
-  TransformList:
+  Concatenation:
 
 
 Concatenate itrans
@@ -317,33 +299,34 @@ Concatenate ptrans
 PostMultiply
 Concatenate trans
 Update
-pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
+pctrans vtkPerspectiveTransformConcatenation (0x80a8140)
   Debug: Off
   Delete Method defined
-  Modified Time: 73
+  Modified Time: 67
   Reference Count: 1
-  Matrix: 0x00844CC0
+  Inverse: ((nil))
+  Matrix: 0x80a81b8
     Debug: Off
     No Delete Method
-    Modified Time: 77
+    Modified Time: 68
     Reference Count: 1
     Elements:
         0.807458 -0.34035 -0.267127 -1.42286 
         1.24408 1.42713 2.74478 9.54769 
         0.224232 0.331611 2.01117 3.43758 
         0.1 0.05 0.3 1 
-  InverseFlag: 0
-  PreMultiplyFlag: 0
+  PostMultiply
   NumberOfTransforms: 3
-  TransformList:
+  Concatenation:
     Debug: Off
     Delete Method defined
-    Modified Time: 56
+    Modified Time: 53
     Reference Count: 3
-    Matrix: 0x00844850
+    Inverse: (0x80a7ea0)
+    Matrix: 0x80a7d00
       Debug: Off
       No Delete Method
-      Modified Time: 55
+      Modified Time: 52
       Reference Count: 1
       Elements:
             1 0 0 0 
@@ -353,12 +336,13 @@ pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
     PreMultiply
     Debug: Off
     Delete Method defined
-    Modified Time: 59
-    Reference Count: 3
-    Matrix: 0x00844A90
+    Modified Time: 57
+    Reference Count: 2
+    Inverse: ((nil))
+    Matrix: 0x80a8070
       Debug: Off
       No Delete Method
-      Modified Time: 58
+      Modified Time: 56
       Reference Count: 1
       Elements:
             1 0 0 0 
@@ -367,12 +351,13 @@ pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
             0 0 0 1 
     Debug: Off
     Delete Method defined
-    Modified Time: 30
+    Modified Time: 25
     Reference Count: 3
-    Matrix: 0x008436B0
+    Inverse: (0x80a71b0)
+    Matrix: 0x80a70d0
       Debug: Off
       No Delete Method
-      Modified Time: 29
+      Modified Time: 24
       Reference Count: 1
       Elements:
             0.949744 -0.269207 0.159732 -1.42286 
@@ -385,15 +370,15 @@ pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
 
 
 vtkGeneralTransformConcatenation: 
-gctrans vtkGeneralTransformConcatenation (0x008456A0)
+gctrans vtkGeneralTransformConcatenation (0x80a8288)
   Debug: Off
   Delete Method defined
-  Modified Time: 79
+  Modified Time: 74
   Reference Count: 1
-  InverseFlag: 0
-  PreMultiplyFlag: 1
+  Inverse: ((nil))
+  PreMultiply
   NumberOfTransforms: 0
-  TransformList:
+  Concatenation:
 
 
 Concatenate itrans
@@ -401,23 +386,24 @@ Concatenate ptrans
 PostMultiply
 Concatenate trans
 Update
-gctrans vtkGeneralTransformConcatenation (0x008456A0)
+gctrans vtkGeneralTransformConcatenation (0x80a8288)
   Debug: Off
   Delete Method defined
-  Modified Time: 83
+  Modified Time: 78
   Reference Count: 1
-  InverseFlag: 0
-  PreMultiplyFlag: 0
+  Inverse: ((nil))
+  PostMultiply
   NumberOfTransforms: 3
-  TransformList:
+  Concatenation:
     Debug: Off
     Delete Method defined
-    Modified Time: 56
+    Modified Time: 53
     Reference Count: 4
-    Matrix: 0x00844850
+    Inverse: (0x80a7ea0)
+    Matrix: 0x80a7d00
       Debug: Off
       No Delete Method
-      Modified Time: 55
+      Modified Time: 52
       Reference Count: 1
       Elements:
             1 0 0 0 
@@ -427,12 +413,13 @@ gctrans vtkGeneralTransformConcatenation (0x008456A0)
     PreMultiply
     Debug: Off
     Delete Method defined
-    Modified Time: 59
-    Reference Count: 4
-    Matrix: 0x00844A90
+    Modified Time: 57
+    Reference Count: 3
+    Inverse: ((nil))
+    Matrix: 0x80a8070
       Debug: Off
       No Delete Method
-      Modified Time: 58
+      Modified Time: 56
       Reference Count: 1
       Elements:
             1 0 0 0 
@@ -441,12 +428,13 @@ gctrans vtkGeneralTransformConcatenation (0x008456A0)
             0 0 0 1 
     Debug: Off
     Delete Method defined
-    Modified Time: 30
+    Modified Time: 25
     Reference Count: 4
-    Matrix: 0x008436B0
+    Inverse: (0x80a71b0)
+    Matrix: 0x80a70d0
       Debug: Off
       No Delete Method
-      Modified Time: 29
+      Modified Time: 24
       Reference Count: 1
       Elements:
             0.949744 -0.269207 0.159732 -1.42286 
