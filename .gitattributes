@@ -1,2 +1,8 @@
 .git*            export-ignore
 
+*.bin           -crlf
+*.bmp           -crlf
+*.pgm           -crlf
+*.ppm           -crlf
+*.slc           -crlf
+*.tif           -crlf
