@@ -24,11 +24,12 @@ vtkOpenGLActor (0x77888)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Bounds: (not defined)
   Mapper: (none)
   Property: (none)
@@ -36,7 +37,7 @@ vtkOpenGLActor (0x77888)
 
 
 vtkActor2D --------------
-vtkActor2D (0x6e120)
+vtkActor2D (0x6e170)
   Debug: Off
   Delete Method defined
   Modified Time: 18
@@ -49,7 +50,7 @@ vtkActor2D (0x6e120)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x6e178
+  PositionCoordinate: 0x77888
     Debug: Off
     No Delete Method
     Modified Time: 17
@@ -114,7 +115,7 @@ vtkAppendPolyData (0x6e120)
 
 
 vtkAssembly --------------
-vtkAssembly (0x6e120)
+vtkAssembly (0x77888)
   Debug: Off
   Delete Method defined
   Modified Time: 381
@@ -126,11 +127,12 @@ vtkAssembly (0x6e120)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Bounds: (not defined)
   Mapper: (none)
   Property: (none)
@@ -386,7 +388,7 @@ vtkBooleanTexture (0x77888)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77930)
+  Output 0: (0x72dd0)
   X Size: 12
   Y Size: 12
   Thickness: 0
@@ -437,7 +439,7 @@ vtkButterflySubdivisionFilter (0x6e120)
 
 
 vtkByteSwap --------------
-vtkByteSwap (0x7abe8)
+vtkByteSwap (0x7b5d0)
   Debug: Off
   Delete Method defined
   Modified Time: 1099
@@ -504,6 +506,7 @@ vtkCardinalSpline (0x6e120)
       Number Of Arrays: 0
       Number Of Components: 0
       Number Of Tuples: 0
+    LastUpdateExtentWasOutsideOfTheExtent: 0
     Clamping: 1
     Function Points: 0
   Closed: Off
@@ -763,12 +766,12 @@ vtkColorTransferFunction (0x6e190)
   Color Transfer Function Total Points: 0
   Red Transfer Function: 0x77888
   Green Transfer Function: 0x77948
-  Blue Transfer Function: 0x83660
+  Blue Transfer Function: 0x72fd8
 
 
 vtkCommand --------------
 vtkCone --------------
-vtkCone (0x7b9e0)
+vtkCone (0x7ae08)
   Debug: Off
   Delete Method defined
   Modified Time: 2331
@@ -843,7 +846,7 @@ vtkContourFilter (0x72080)
 
 
 vtkContourValues --------------
-vtkContourValues (0x7b918)
+vtkContourValues (0x7ad40)
   Contour Values: 
     Value 0: 0
 
@@ -1020,7 +1023,7 @@ vtkCylinderSource (0x720c0)
 
 
 vtkDEMReader --------------
-vtkDEMReader (0x83458)
+vtkDEMReader (0x72dd0)
   Debug: Off
   Delete Method defined
   Modified Time: 4186
@@ -1032,7 +1035,7 @@ vtkDEMReader (0x83458)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x83640)
+  Output 0: (0x72080)
   File Name: (none)
 
 
@@ -1088,6 +1091,7 @@ vtkDataObject (0x72080)
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
 
 
 vtkDataObjectReader --------------
@@ -1138,7 +1142,7 @@ vtkDataObjectToDataSetFilter (0x77888)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x83458)
+  Output 0: (0x72dd0)
   Data Set Type: vtkPolyData
   Dimensions: (0, 0, 0)
   Spacing: (0, 0, 0)
@@ -1385,7 +1389,7 @@ vtkDecimatePro (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x83458)
+  Output 0: (0x72dd0)
   Target Reduction: 0.9
   Feature Angle: 15
   Splitting: On
@@ -1485,7 +1489,7 @@ vtkDoubleArray (0x6e1a0)
 
 
 vtkDynamicLoader --------------
-vtkDynamicLoader (0x838e0)
+vtkDynamicLoader (0x83ae0)
   Debug: Off
   Delete Method defined
   Modified Time: 5063
@@ -1632,7 +1636,7 @@ vtkExtractGrid (0x72080)
 
 
 vtkExtractPolyDataGeometry --------------
-vtkExtractPolyDataGeometry (0x72080)
+vtkExtractPolyDataGeometry (0x83458)
   Debug: Off
   Delete Method defined
   Modified Time: 5818
@@ -1644,7 +1648,7 @@ vtkExtractPolyDataGeometry (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b388)
+  Output 0: (0x72080)
   Implicit Function: (null)
   Extract Inside: On
 
@@ -1752,7 +1756,7 @@ vtkExtractVectorComponents (0x6e1a0)
 
 
 vtkFeatureEdges --------------
-vtkFeatureEdges (0x720c0)
+vtkFeatureEdges (0x72080)
   Debug: Off
   Delete Method defined
   Modified Time: 6227
@@ -1786,7 +1790,7 @@ vtkFieldData (0x6e1a0)
 
 
 vtkFieldDataToAttributeDataFilter --------------
-vtkFieldDataToAttributeDataFilter (0x83458)
+vtkFieldDataToAttributeDataFilter (0x72dd0)
   Debug: Off
   Delete Method defined
   Modified Time: 6234
@@ -1841,7 +1845,7 @@ vtkFloatArray (0x6e1a0)
 
 
 vtkFloatNormals --------------
-vtkNormals (0x7b9e0)
+vtkNormals (0x7ae08)
   Debug: Off
   Delete Method defined
   Modified Time: 6247
@@ -1878,7 +1882,7 @@ vtkScalars (0x6e1a0)
 
 
 vtkFloatTCoords --------------
-vtkTCoords (0x7b9e0)
+vtkTCoords (0x7ae08)
   Debug: Off
   Delete Method defined
   Modified Time: 6263
@@ -1889,7 +1893,7 @@ vtkTCoords (0x7b9e0)
 
 
 vtkFloatTensors --------------
-vtkTensors (0x7b9e0)
+vtkTensors (0x7ae08)
   Debug: Off
   Delete Method defined
   Modified Time: 6269
@@ -1922,11 +1926,12 @@ vtkFollower (0x720c0)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Bounds: (not defined)
   Mapper: (none)
   Property: (none)
@@ -1990,7 +1995,7 @@ vtkGeneralTransformInverse --------------
 vtkGeneralTransformInverse (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6347
+  Modified Time: 6348
   Reference Count: 1
   Transform: 0
 
@@ -1999,16 +2004,16 @@ vtkGenericCell --------------
 vtkGenericCell (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6359
+  Modified Time: 6360
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkGeometryFilter --------------
-vtkGeometryFilter (0x72080)
+vtkGeometryFilter (0x77930)
   Debug: Off
   Delete Method defined
-  Modified Time: 6470
+  Modified Time: 6471
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2017,7 +2022,7 @@ vtkGeometryFilter (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x72080)
   Point Minimum : 0
   Point Maximum : 2147483647
   Cell Minimum : 0
@@ -2037,7 +2042,7 @@ vtkGlyph3D --------------
 vtkGlyph3D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 6582
+  Modified Time: 6583
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2063,7 +2068,7 @@ vtkHedgeHog --------------
 vtkHedgeHog (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 6694
+  Modified Time: 6695
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2080,7 +2085,7 @@ vtkHexahedron --------------
 vtkHexahedron (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6717
+  Modified Time: 6718
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -2091,10 +2096,10 @@ vtkHexahedron (0x6e1a0)
 
 
 vtkHull --------------
-vtkHull (0x83458)
+vtkHull (0x72dd0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6828
+  Modified Time: 6829
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2111,7 +2116,7 @@ vtkHyperStreamline --------------
 vtkHyperStreamline (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 6940
+  Modified Time: 6941
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2134,10 +2139,10 @@ vtkHyperStreamline (0x72080)
 
 
 vtkIVExporter --------------
-vtkIVExporter (0x6e1a0)
+vtkIVExporter (0x75b18)
   Debug: Off
   Delete Method defined
-  Modified Time: 6944
+  Modified Time: 6945
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -2146,10 +2151,10 @@ vtkIVExporter (0x6e1a0)
 
 
 vtkIVWriter --------------
-vtkIVWriter (0x720c0)
+vtkIVWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 6947
+  Modified Time: 6948
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -2174,10 +2179,10 @@ vtkIVWriter (0x720c0)
 
 
 vtkIdFilter --------------
-vtkIdFilter (0x72080)
+vtkIdFilter (0x779d8)
   Debug: Off
   Delete Method defined
-  Modified Time: 6950
+  Modified Time: 6951
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -2193,24 +2198,24 @@ vtkIdFilter (0x72080)
 
 
 vtkIdList --------------
-vtkIdList (0x6e1a0)
+vtkIdList (0x6e1e0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6953
+  Modified Time: 6954
   Reference Count: 1
   Number of Ids: 0
 
 
 vtkIdentityTransform --------------
-vtkIdentityTransform (0x72080)
+vtkIdentityTransform (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 6957
+  Modified Time: 6958
   Reference Count: 1
-  Matrix: 0x720d8
+  Matrix: 0x720c0
     Debug: Off
     No Delete Method
-    Modified Time: 6956
+    Modified Time: 6957
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -2225,7 +2230,7 @@ vtkImageAccumulate (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7009
+  Modified Time: 7010
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2245,7 +2250,7 @@ vtkImageAnisotropicDiffusion2D (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7067
+  Modified Time: 7068
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2267,12 +2272,12 @@ vtkImageAnisotropicDiffusion2D (0x72080)
 
 
 vtkImageAnisotropicDiffusion3D --------------
-vtkImageAnisotropicDiffusion3D (0x73060)
+vtkImageAnisotropicDiffusion3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7125
+  Modified Time: 7126
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2281,7 +2286,7 @@ vtkImageAnisotropicDiffusion3D (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   KernelSize: (9, 9, 9).
   KernelMiddle: (4, 4, 4).
   NumberOfIterations: 4
@@ -2294,12 +2299,12 @@ vtkImageAnisotropicDiffusion3D (0x73060)
 
 
 vtkImageAppend --------------
-vtkImageAppend (0x7b6b8)
+vtkImageAppend (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7178
+  Modified Time: 7179
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2308,17 +2313,17 @@ vtkImageAppend (0x7b6b8)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   AppendAxis: 0
 
 
 vtkImageAppendComponents --------------
-vtkImageAppendComponents (0x73098)
+vtkImageAppendComponents (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7231
+  Modified Time: 7232
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2327,16 +2332,16 @@ vtkImageAppendComponents (0x73098)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageBlend --------------
-vtkImageBlend (0x7b650)
+vtkImageBlend (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7284
+  Modified Time: 7285
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2345,16 +2350,16 @@ vtkImageBlend (0x7b650)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
 
 
 vtkImageButterworthHighPass --------------
-vtkImageButterworthHighPass (0x730b8)
+vtkImageButterworthHighPass (0x7bd90)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7337
+  Modified Time: 7338
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2369,12 +2374,12 @@ vtkImageButterworthHighPass (0x730b8)
 
 
 vtkImageButterworthLowPass --------------
-vtkImageButterworthLowPass (0x7b688)
+vtkImageButterworthLowPass (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7390
+  Modified Time: 7391
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2383,18 +2388,18 @@ vtkImageButterworthLowPass (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Order: 1
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageCacheFilter --------------
-vtkImageCacheFilter (0x73060)
+vtkImageCacheFilter (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7444
+  Modified Time: 7445
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2403,7 +2408,7 @@ vtkImageCacheFilter (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   CacheSize: 10
   Caches: 
 
@@ -2412,7 +2417,7 @@ vtkImageCanvasSource2D --------------
 vtkImageCanvasSource2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 7495
+  Modified Time: 7496
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -2428,17 +2433,18 @@ vtkImageCanvasSource2D (0x72080)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 7449
+    Modified Time: 7450
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 7452
+    Modified Time: 7453
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -2455,7 +2461,7 @@ vtkImageCanvasSource2D (0x72080)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 7450
+    Modified Time: 7451
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -2489,52 +2495,12 @@ vtkImageCanvasSource2D (0x72080)
 
 
 vtkImageCast --------------
-vtkImageCast (0x72dd0)
+vtkImageCast (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7547
-  Reference Count: 2
-  Number Of Required Inputs: 1
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x72080)
-  OutputScalarType: 10
-  ClampOverflow: Off
-
-
-vtkImageCityBlockDistance --------------
-vtkImageCityBlockDistance (0x7b688)
-  NumberOfThreads: 1
-  Bypass: Off
-  Debug: Off
-  Delete Method defined
-  Modified Time: 7696
-  Reference Count: 2
-  Number Of Required Inputs: 1
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x72080)
-  NumberOfIterations: 3
-  Dimensionality: 3
-
-
-vtkImageClip --------------
-vtkImageClip (0x72080)
-  NumberOfThreads: 1
-  Bypass: Off
-  Debug: Off
-  Delete Method defined
-  Modified Time: 7749
+  Modified Time: 7548
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2544,6 +2510,46 @@ vtkImageClip (0x72080)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x77888)
+  OutputScalarType: 10
+  ClampOverflow: Off
+
+
+vtkImageCityBlockDistance --------------
+vtkImageCityBlockDistance (0x72080)
+  NumberOfThreads: 1
+  Bypass: Off
+  Debug: Off
+  Delete Method defined
+  Modified Time: 7697
+  Reference Count: 2
+  Number Of Required Inputs: 1
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x77888)
+  NumberOfIterations: 3
+  Dimensionality: 3
+
+
+vtkImageClip --------------
+vtkImageClip (0x841c0)
+  NumberOfThreads: 1
+  Bypass: Off
+  Debug: Off
+  Delete Method defined
+  Modified Time: 7750
+  Reference Count: 2
+  Number Of Required Inputs: 1
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x72080)
   OutputWholeExtent: (-2147483647,2147483647  , -2147483647,2147483647  , -2147483647,2147483647)
   ClipDataOff
 
@@ -2552,7 +2558,7 @@ vtkImageComposite --------------
 vtkImageComposite (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 7802
+  Modified Time: 7803
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2568,7 +2574,7 @@ vtkImageConnector --------------
 vtkImageConnector (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 7806
+  Modified Time: 7807
   Reference Count: 1
   ConnectedValue: ÿ
   UnconnectedValue: €
@@ -2580,7 +2586,7 @@ vtkImageConstantPad (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7858
+  Modified Time: 7859
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2595,12 +2601,12 @@ vtkImageConstantPad (0x72080)
 
 
 vtkImageContinuousDilate3D --------------
-vtkImageContinuousDilate3D (0x7b680)
+vtkImageContinuousDilate3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 7974
+  Modified Time: 7975
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2609,7 +2615,7 @@ vtkImageContinuousDilate3D (0x7b680)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
@@ -2620,7 +2626,7 @@ vtkImageContinuousErode3D (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8077
+  Modified Time: 8078
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2635,12 +2641,12 @@ vtkImageContinuousErode3D (0x72080)
 
 
 vtkImageCorrelation --------------
-vtkImageCorrelation (0x75ad8)
+vtkImageCorrelation (0x75a90)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8132
+  Modified Time: 8133
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -2655,7 +2661,7 @@ vtkImageCorrelation (0x75ad8)
 
 
 vtkImageCursor3D --------------
-vtkImageCursor3D (0x72080)
+vtkImageCursor3D (0x75578)
   Cursor Radius: 5
   Cursor Value: 255
   Cursor Position: (0, 0, 0)
@@ -2663,7 +2669,7 @@ vtkImageCursor3D (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8185
+  Modified Time: 8186
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2672,14 +2678,14 @@ vtkImageCursor3D (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b388)
+  Output 0: (0x72080)
 
 
 vtkImageData --------------
-vtkImageData (0x73018)
+vtkImageData (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 8234
+  Modified Time: 8235
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -2695,17 +2701,18 @@ vtkImageData (0x73018)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 8189
+    Modified Time: 8190
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 8192
+    Modified Time: 8193
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -2722,7 +2729,7 @@ vtkImageData (0x73018)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 8190
+    Modified Time: 8191
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -2753,12 +2760,12 @@ vtkImageData (0x73018)
 
 
 vtkImageDataStreamer --------------
-vtkImageDataStreamer (0x72080)
+vtkImageDataStreamer (0x75ac8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8286
+  Modified Time: 8287
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2767,18 +2774,18 @@ vtkImageDataStreamer (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b388)
+  Output 0: (0x72080)
   MemoryLimit (in kb): 1000000
   SplitMode: Z Slab
 
 
 vtkImageDifference --------------
-vtkImageDifference (0x73020)
+vtkImageDifference (0x75578)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8340
+  Modified Time: 8341
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -2797,12 +2804,12 @@ vtkImageDifference (0x73020)
 
 
 vtkImageDilateErode3D --------------
-vtkImageDilateErode3D (0x7b688)
+vtkImageDilateErode3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8442
+  Modified Time: 8443
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2811,7 +2818,7 @@ vtkImageDilateErode3D (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
   DilateValue: 0
@@ -2824,7 +2831,7 @@ vtkImageDivergence (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8496
+  Modified Time: 8497
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2837,12 +2844,12 @@ vtkImageDivergence (0x72080)
 
 
 vtkImageDotProduct --------------
-vtkImageDotProduct (0x7b608)
+vtkImageDotProduct (0x7c058)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8550
+  Modified Time: 8551
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -2856,7 +2863,7 @@ vtkImageDotProduct (0x7b608)
 
 
 vtkImageEllipsoidSource --------------
-vtkImageEllipsoidSource (0x73060)
+vtkImageEllipsoidSource (0x72080)
   Center: (128, 128, 0)
   Radius: (70, 70, 70)
   InValue: 255
@@ -2864,7 +2871,7 @@ vtkImageEllipsoidSource (0x73060)
   OutputScalarType: 3
   Debug: Off
   Delete Method defined
-  Modified Time: 8602
+  Modified Time: 8603
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -2873,16 +2880,16 @@ vtkImageEllipsoidSource (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageEuclideanToPolar --------------
-vtkImageEuclideanToPolar (0x7b620)
+vtkImageEuclideanToPolar (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8655
+  Modified Time: 8656
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2891,7 +2898,7 @@ vtkImageEuclideanToPolar (0x7b620)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Maximum Angle: 255
 
 
@@ -2899,7 +2906,7 @@ vtkImageExport --------------
 vtkImageExport (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 8659
+  Modified Time: 8660
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -2912,12 +2919,12 @@ vtkImageExport (0x6e1a0)
 
 
 vtkImageExtractComponents --------------
-vtkImageExtractComponents (0x730a0)
+vtkImageExtractComponents (0x720c0)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8711
+  Modified Time: 8712
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2926,18 +2933,18 @@ vtkImageExtractComponents (0x730a0)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   NumberOfComponents: 1
   Components: ( 0, 1, 2 )
 
 
 vtkImageFFT --------------
-vtkImageFFT (0x7b6b8)
+vtkImageFFT (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8860
+  Modified Time: 8861
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2946,38 +2953,18 @@ vtkImageFFT (0x7b6b8)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageFlip --------------
-vtkImageFlip (0x72080)
+vtkImageFlip (0x841c0)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 8913
-  Reference Count: 2
-  Number Of Required Inputs: 1
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x77888)
-  FilteredAxis: 0
-  PreserveImageExtent: On
-
-
-vtkImageFourierCenter --------------
-vtkImageFourierCenter (0x73098)
-  NumberOfThreads: 1
-  Bypass: Off
-  Debug: Off
-  Delete Method defined
-  Modified Time: 9062
+  Modified Time: 8914
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -2987,17 +2974,17 @@ vtkImageFourierCenter (0x73098)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x72080)
-  NumberOfIterations: 3
-  Dimensionality: 3
+  FilteredAxis: 0
+  PreserveImageExtent: On
 
 
-vtkImageGaussianSmooth --------------
-vtkImageGaussianSmooth (0x72080)
+vtkImageFourierCenter --------------
+vtkImageFourierCenter (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9115
+  Modified Time: 9063
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3007,16 +2994,36 @@ vtkImageGaussianSmooth (0x72080)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x77888)
+  NumberOfIterations: 3
+  Dimensionality: 3
+
+
+vtkImageGaussianSmooth --------------
+vtkImageGaussianSmooth (0x841c0)
+  NumberOfThreads: 1
+  Bypass: Off
+  Debug: Off
+  Delete Method defined
+  Modified Time: 9116
+  Reference Count: 2
+  Number Of Required Inputs: 1
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x72080)
   Dimensionality: 3
   RadiusFactors: ( 1.5, 1.5, 1.5 )
   StandardDeviations: ( 2, 2, 2 )
 
 
 vtkImageGaussianSource --------------
-vtkImageGaussianSource (0x73098)
+vtkImageGaussianSource (0x83458)
   Debug: Off
   Delete Method defined
-  Modified Time: 9167
+  Modified Time: 9168
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3032,12 +3039,12 @@ vtkImageGaussianSource (0x73098)
 
 
 vtkImageGradient --------------
-vtkImageGradient (0x7b650)
+vtkImageGradient (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9221
+  Modified Time: 9222
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3046,18 +3053,18 @@ vtkImageGradient (0x7b650)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   HandleBoundaries: 1
   Dimensionality: 2
 
 
 vtkImageGradientMagnitude --------------
-vtkImageGradientMagnitude (0x73060)
+vtkImageGradientMagnitude (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9274
+  Modified Time: 9275
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3066,18 +3073,18 @@ vtkImageGradientMagnitude (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   HandleBoundaries: 1
   Dimensionality: 2
 
 
 vtkImageHSVToRGB --------------
-vtkImageHSVToRGB (0x7b688)
+vtkImageHSVToRGB (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9327
+  Modified Time: 9328
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3086,17 +3093,17 @@ vtkImageHSVToRGB (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   Maximum: 255
 
 
 vtkImageHybridMedian2D --------------
-vtkImageHybridMedian2D (0x73060)
+vtkImageHybridMedian2D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9380
+  Modified Time: 9381
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3105,18 +3112,18 @@ vtkImageHybridMedian2D (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   KernelSize: (5, 5, 1).
   KernelMiddle: (2, 2, 0).
 
 
 vtkImageIdealHighPass --------------
-vtkImageIdealHighPass (0x7b688)
+vtkImageIdealHighPass (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9433
+  Modified Time: 9434
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3125,17 +3132,17 @@ vtkImageIdealHighPass (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageIdealLowPass --------------
-vtkImageIdealLowPass (0x73060)
+vtkImageIdealLowPass (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9486
+  Modified Time: 9487
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3144,15 +3151,15 @@ vtkImageIdealLowPass (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageImport --------------
-vtkImageImport (0x7b688)
+vtkImageImport (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 9538
+  Modified Time: 9539
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3161,7 +3168,7 @@ vtkImageImport (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   ImportVoidPointer: 0
   DataScalarType: short
   NumberOfScalarComponents: 1
@@ -3171,12 +3178,12 @@ vtkImageImport (0x7b688)
 
 
 vtkImageIslandRemoval2D --------------
-vtkImageIslandRemoval2D (0x73030)
+vtkImageIslandRemoval2D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9595
+  Modified Time: 9596
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3185,16 +3192,16 @@ vtkImageIslandRemoval2D (0x73030)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   AreaThreshold: 4  Neighborhood: Cross  IslandValue: 0  ReplaceValue: 255
 
 vtkImageLaplacian --------------
-vtkImageLaplacian (0x7b688)
+vtkImageLaplacian (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9648
+  Modified Time: 9649
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3203,16 +3210,16 @@ vtkImageLaplacian (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   Dimensionality: 2
 
 vtkImageLogarithmicScale --------------
-vtkImageLogarithmicScale (0x73060)
+vtkImageLogarithmicScale (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9701
+  Modified Time: 9702
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3221,17 +3228,17 @@ vtkImageLogarithmicScale (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Constant: 10
 
 
 vtkImageLogic --------------
-vtkImageLogic (0x7b688)
+vtkImageLogic (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9755
+  Modified Time: 9756
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -3241,18 +3248,18 @@ vtkImageLogic (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   Operation: 0
   OutputTrueValue: 255
 
 
 vtkImageLuminance --------------
-vtkImageLuminance (0x73060)
+vtkImageLuminance (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9808
+  Modified Time: 9809
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3261,16 +3268,16 @@ vtkImageLuminance (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageMagnify --------------
-vtkImageMagnify (0x7b688)
+vtkImageMagnify (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9861
+  Modified Time: 9862
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3279,18 +3286,18 @@ vtkImageMagnify (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   MagnificationFactors: ( 1, 1, 1 )
   Interpolate: Off
 
 
 vtkImageMagnitude --------------
-vtkImageMagnitude (0x73060)
+vtkImageMagnitude (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 9914
+  Modified Time: 9915
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3299,14 +3306,14 @@ vtkImageMagnitude (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageMandelbrotSource --------------
-vtkImageMandelbrotSource (0x7b688)
+vtkImageMandelbrotSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 9966
+  Modified Time: 9967
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3315,7 +3322,7 @@ vtkImageMandelbrotSource (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   OriginC: (-3.2, -2.5)
   OriginX: (0, 0)
   Spacing: 0.005
@@ -3325,12 +3332,12 @@ MaximumNumberOfIterations: 100
 
 
 vtkImageMapToColors --------------
-vtkImageMapToColors (0x73068)
+vtkImageMapToColors (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10019
+  Modified Time: 10020
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3339,18 +3346,18 @@ vtkImageMapToColors (0x73068)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   OutputFormat: RGBA
   LookupTable: 0
 
 
 vtkImageMapToRGBA --------------
-vtkImageMapToRGBA (0x7b688)
+vtkImageMapToRGBA (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10072
+  Modified Time: 10073
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3359,16 +3366,16 @@ vtkImageMapToRGBA (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   OutputFormat: RGBA
   LookupTable: 0
 
 
 vtkImageMapper --------------
-vtkOpenGLImageMapper (0x73060)
+vtkOpenGLImageMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 10076
+  Modified Time: 10077
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -3390,7 +3397,7 @@ vtkImageMask (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10129
+  Modified Time: 10130
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -3406,12 +3413,12 @@ vtkImageMask (0x72080)
 
 
 vtkImageMaskBits --------------
-vtkImageMaskBits (0x7b650)
+vtkImageMaskBits (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10182
+  Modified Time: 10183
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3420,18 +3427,18 @@ vtkImageMaskBits (0x7b650)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   Operation: 0
   Masks: (4294967295, 4294967295, 4294967295, 4294967295)
 
 
 vtkImageMathematics --------------
-vtkImageMathematics (0x73060)
+vtkImageMathematics (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10236
+  Modified Time: 10237
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -3441,19 +3448,19 @@ vtkImageMathematics (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Operation: 0
   ConstantK: 1
   ConstantC: 0
 
 
 vtkImageMedian3D --------------
-vtkImageMedian3D (0x7b688)
+vtkImageMedian3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10289
+  Modified Time: 10290
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3462,19 +3469,19 @@ vtkImageMedian3D (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
   NumberOfElements: 1
 
 
 vtkImageMirrorPad --------------
-vtkImageMirrorPad (0x73098)
+vtkImageMirrorPad (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10342
+  Modified Time: 10343
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3483,15 +3490,15 @@ vtkImageMirrorPad (0x73098)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   OutputNumberOfScalarComponents: -1
 
 
 vtkImageNoiseSource --------------
-vtkImageNoiseSource (0x7b6b8)
+vtkImageNoiseSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 10394
+  Modified Time: 10395
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3500,18 +3507,18 @@ vtkImageNoiseSource (0x7b6b8)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   Minimum: 0
   Maximum: 10
 
 
 vtkImageNonMaximumSuppression --------------
-vtkImageNonMaximumSuppression (0x73030)
+vtkImageNonMaximumSuppression (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10448
+  Modified Time: 10449
   Reference Count: 2
   Number Of Required Inputs: 2
   Input 0: (0)
@@ -3521,18 +3528,18 @@ vtkImageNonMaximumSuppression (0x73030)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Dimensionality: 2
   HandleBoundaries: On
 
 
 vtkImageNormalize --------------
-vtkImageNormalize (0x7b650)
+vtkImageNormalize (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10501
+  Modified Time: 10502
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3541,16 +3548,16 @@ vtkImageNormalize (0x7b650)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
 
 
 vtkImageOpenClose3D --------------
-vtkImageOpenClose3D (0x73060)
+vtkImageOpenClose3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10758
+  Modified Time: 10759
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3559,27 +3566,8 @@ vtkImageOpenClose3D (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Filter0: 
-    NumberOfThreads: 1
-    Bypass: Off
-    Debug: Off
-    No Delete Method
-    Modified Time: 10757
-    Reference Count: 2
-    Number Of Required Inputs: 1
-    No Inputs
-    No Start Method
-    Progress Method defined
-    No End Method
-    AbortExecute: Off
-    Progress: 0
-    Output 0: (0x75578)
-    KernelSize: (1, 1, 1).
-    KernelMiddle: (0, 0, 0).
-    DilateValue: 255
-    ErodeValue: 0
-  Filter1: 
     NumberOfThreads: 1
     Bypass: Off
     Debug: Off
@@ -3593,7 +3581,26 @@ vtkImageOpenClose3D (0x73060)
     No End Method
     AbortExecute: Off
     Progress: 0
-    Output 0: (0x84590)
+    Output 0: (0x836e8)
+    KernelSize: (1, 1, 1).
+    KernelMiddle: (0, 0, 0).
+    DilateValue: 255
+    ErodeValue: 0
+  Filter1: 
+    NumberOfThreads: 1
+    Bypass: Off
+    Debug: Off
+    No Delete Method
+    Modified Time: 10759
+    Reference Count: 2
+    Number Of Required Inputs: 1
+    No Inputs
+    No Start Method
+    Progress Method defined
+    No End Method
+    AbortExecute: Off
+    Progress: 0
+    Output 0: (0x84560)
     KernelSize: (1, 1, 1).
     KernelMiddle: (0, 0, 0).
     DilateValue: 0
@@ -3606,7 +3613,7 @@ vtkImagePermute (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10817
+  Modified Time: 10818
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3620,12 +3627,12 @@ vtkImagePermute (0x72080)
 
 
 vtkImageQuantizeRGBToIndex --------------
-vtkImageQuantizeRGBToIndex (0x7b608)
+vtkImageQuantizeRGBToIndex (0x83458)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 10873
+  Modified Time: 10874
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3637,10 +3644,10 @@ vtkImageQuantizeRGBToIndex (0x7b608)
   Output 0: (0x72080)
   Number Of Colors: 256
   Lookup Table: 
-vtkLookupTable (0x73058)
+vtkLookupTable (0x7be28)
   Debug: Off
   No Delete Method
-  Modified Time: 10870
+  Modified Time: 10871
   Reference Count: 1
   Build Time: 0
   Table Range: (0, 1)
@@ -3662,7 +3669,7 @@ vtkImageRFFT (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11022
+  Modified Time: 11023
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3671,18 +3678,18 @@ vtkImageRFFT (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x759c0)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageRGBToHSV --------------
-vtkImageRGBToHSV (0x72080)
+vtkImageRGBToHSV (0x865d8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11075
+  Modified Time: 11076
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3691,7 +3698,7 @@ vtkImageRGBToHSV (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x72080)
   Maximum: 255
 
 
@@ -3701,7 +3708,7 @@ vtkImageRange3D (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11177
+  Modified Time: 11178
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3719,7 +3726,7 @@ vtkImageReader --------------
 vtkImageReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 11230
+  Modified Time: 11231
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3749,12 +3756,12 @@ vtkImageReader (0x72080)
 
 
 vtkImageResample --------------
-vtkImageResample (0x7b650)
+vtkImageResample (0x7c0a0)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11283
+  Modified Time: 11284
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3774,7 +3781,7 @@ vtkImageReslice (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11336
+  Modified Time: 11337
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3797,12 +3804,12 @@ vtkImageReslice (0x72080)
 
 
 vtkImageSeedConnectivity --------------
-vtkImageSeedConnectivity (0x7b688)
+vtkImageSeedConnectivity (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11390
+  Modified Time: 11391
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3811,19 +3818,19 @@ vtkImageSeedConnectivity (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
-  Connector: 0x73020
+  Output 0: (0x77888)
+  Connector: 0x83618
   Dimensionality: 3
   InputConnectValue: ÿ
   OutputConnectedValue: ÿ
   OutputUnconnectedValue: 
 vtkImageShiftScale --------------
-vtkImageShiftScale (0x73090)
+vtkImageShiftScale (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11443
+  Modified Time: 11444
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3832,7 +3839,7 @@ vtkImageShiftScale (0x73090)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Shift: 0
   Scale: 1
   Output Scalar Type: -1
@@ -3840,12 +3847,12 @@ vtkImageShiftScale (0x73090)
 
 
 vtkImageShrink3D --------------
-vtkImageShrink3D (0x7b688)
+vtkImageShrink3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11496
+  Modified Time: 11497
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3854,7 +3861,7 @@ vtkImageShrink3D (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   ShrinkFactors: (1, 1, 1)
   Shift: (0, 0, 0)
   Averaging: On
@@ -3865,10 +3872,10 @@ vtkImageShrink3D (0x7b688)
 
 
 vtkImageSinusoidSource --------------
-vtkImageSinusoidSource (0x73098)
+vtkImageSinusoidSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 11548
+  Modified Time: 11549
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3877,7 +3884,7 @@ vtkImageSinusoidSource (0x73098)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Period: 20
   Phase: 0
   Amplitude: 255
@@ -3885,12 +3892,12 @@ vtkImageSinusoidSource (0x73098)
 
 
 vtkImageSkeleton2D --------------
-vtkImageSkeleton2D (0x7b650)
+vtkImageSkeleton2D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11602
+  Modified Time: 11603
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3899,18 +3906,18 @@ vtkImageSkeleton2D (0x7b650)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   NumberOfIterations: 1
   Prune: Off
 
 
 vtkImageSobel2D --------------
-vtkImageSobel2D (0x73060)
+vtkImageSobel2D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11655
+  Modified Time: 11656
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3919,18 +3926,18 @@ vtkImageSobel2D (0x73060)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   KernelSize: (3, 3, 1).
   KernelMiddle: (1, 1, 0).
 
 
 vtkImageSobel3D --------------
-vtkImageSobel3D (0x7b688)
+vtkImageSobel3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11708
+  Modified Time: 11709
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3939,14 +3946,14 @@ vtkImageSobel3D (0x7b688)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageSource --------------
-vtkImageSource (0x73098)
+vtkImageSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 11760
+  Modified Time: 11761
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -3955,7 +3962,7 @@ vtkImageSource (0x73098)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
 
 
 vtkImageThreshold --------------
@@ -3964,7 +3971,7 @@ vtkImageThreshold (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11813
+  Modified Time: 11814
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3973,7 +3980,7 @@ vtkImageThreshold (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b5e8)
+  Output 0: (0x77888)
   OutputScalarType: -1
   InValue: 0
   OutValue: 0
@@ -3984,10 +3991,10 @@ vtkImageThreshold (0x72080)
 
 
 vtkImageToStructuredPoints --------------
-vtkImageToStructuredPoints (0x73050)
+vtkImageToStructuredPoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 11866
+  Modified Time: 11867
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -3996,7 +4003,7 @@ vtkImageToStructuredPoints (0x73050)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
 
 
 vtkImageTranslateExtent --------------
@@ -4005,7 +4012,7 @@ vtkImageTranslateExtent (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 11919
+  Modified Time: 11920
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4014,17 +4021,17 @@ vtkImageTranslateExtent (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b5e8)
+  Output 0: (0x77888)
   Translation: (0,0,0
 
 
 vtkImageVariance3D --------------
-vtkImageVariance3D (0x73020)
+vtkImageVariance3D (0x72080)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 12021
+  Modified Time: 12022
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4033,7 +4040,7 @@ vtkImageVariance3D (0x73020)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
@@ -4042,12 +4049,12 @@ vtkImageViewer --------------
 vtkImageViewer (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12038
+  Modified Time: 12039
   Reference Count: 1
-  vtkOpenGLImageWindow (0x865f8)
+  vtkOpenGLImageWindow (0x865d8)
   Debug: Off
   No Delete Method
-  Modified Time: 12037
+  Modified Time: 12038
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -4066,7 +4073,7 @@ vtkImageViewer (0x6e1a0)
   vtkOpenGLImager (0x72080)
   Debug: Off
   No Delete Method
-  Modified Time: 12036
+  Modified Time: 12037
   Reference Count: 2
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -4081,7 +4088,7 @@ vtkImageViewer (0x6e1a0)
   Props:
     Debug: Off
     No Delete Method
-    Modified Time: 12029
+    Modified Time: 12030
     Reference Count: 1
     Number Of Items: 1
 
@@ -4089,7 +4096,7 @@ vtkImageViewer (0x6e1a0)
   vtkOpenGLImageMapper (0x77888)
   Debug: Off
   No Delete Method
-  Modified Time: 12031
+  Modified Time: 12032
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -4111,7 +4118,7 @@ vtkImageWindow --------------
 vtkOpenGLImageWindow (0x7d900)
   Debug: Off
   Delete Method defined
-  Modified Time: 12042
+  Modified Time: 12043
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -4133,7 +4140,7 @@ vtkImageWrapPad (0x72080)
   Bypass: Off
   Debug: Off
   Delete Method defined
-  Modified Time: 12094
+  Modified Time: 12095
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4147,10 +4154,10 @@ vtkImageWrapPad (0x72080)
 
 
 vtkImageWriter --------------
-vtkImageWriter (0x7b680)
+vtkImageWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12100
+  Modified Time: 12101
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -4170,7 +4177,7 @@ vtkImager --------------
 vtkOpenGLImager (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12105
+  Modified Time: 12106
   Reference Count: 1
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -4185,7 +4192,7 @@ vtkOpenGLImager (0x72080)
   Props:
     Debug: Off
     No Delete Method
-    Modified Time: 12103
+    Modified Time: 12104
     Reference Count: 1
     Number Of Items: 0
 
@@ -4194,7 +4201,7 @@ vtkImagerCollection --------------
 vtkImagerCollection (0x721b0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12108
+  Modified Time: 12109
   Reference Count: 1
   Number Of Items: 0
 
@@ -4203,13 +4210,13 @@ vtkImplicitBoolean --------------
 vtkImplicitBoolean (0x6e1e0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12112
+  Modified Time: 12113
   Reference Count: 1
   Transform: (None)
   Function List:
     Debug: Off
     No Delete Method
-    Modified Time: 12111
+    Modified Time: 12112
     Reference Count: 1
     Number Of Items: 0
   Operator Type: VTK_UNION
@@ -4219,7 +4226,7 @@ vtkImplicitDataSet --------------
 vtkImplicitDataSet (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12115
+  Modified Time: 12116
   Reference Count: 1
   Transform: (None)
   Out Value: -1e+38
@@ -4231,7 +4238,7 @@ vtkImplicitFunctionCollection --------------
 vtkImplicitFunctionCollection (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12118
+  Modified Time: 12119
   Reference Count: 1
   Number Of Items: 0
 
@@ -4240,7 +4247,7 @@ vtkImplicitModeller --------------
 vtkImplicitModeller (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12171
+  Modified Time: 12172
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4267,10 +4274,10 @@ vtkImplicitModeller (0x72080)
 
 
 vtkImplicitSelectionLoop --------------
-vtkImplicitSelectionLoop (0x7b6b8)
+vtkImplicitSelectionLoop (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12198
+  Modified Time: 12199
   Reference Count: 1
   Transform: (None)
   Loop not defined
@@ -4279,10 +4286,10 @@ vtkImplicitSelectionLoop (0x7b6b8)
 
 
 vtkImplicitTextureCoords --------------
-vtkImplicitTextureCoords (0x7b388)
+vtkImplicitTextureCoords (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12201
+  Modified Time: 12202
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -4300,7 +4307,7 @@ vtkImplicitVolume --------------
 vtkImplicitVolume (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12205
+  Modified Time: 12206
   Reference Count: 1
   Transform: (None)
   Out Value: -1e+38
@@ -4312,7 +4319,7 @@ vtkImplicitWindowFunction --------------
 vtkImplicitWindowFunction (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12208
+  Modified Time: 12209
   Reference Count: 1
   Transform: (None)
   No implicit function defined.
@@ -4325,7 +4332,7 @@ vtkIntArray --------------
 vtkIntArray (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12211
+  Modified Time: 12212
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -4339,7 +4346,7 @@ vtkInteractorStyle --------------
 vtkInteractorStyle (0x72100)
   Debug: Off
   Delete Method defined
-  Modified Time: 12326
+  Modified Time: 12327
   Reference Count: 1
   CurrentCamera:   0
   CurrentLight:    0
@@ -4355,7 +4362,7 @@ vtkInteractorStyleTrackball --------------
 vtkInteractorStyleTrackball (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 12451
+  Modified Time: 12452
   Reference Count: 1
   CurrentCamera:   0
   CurrentLight:    0
@@ -4365,7 +4372,7 @@ vtkInteractorStyleTrackball (0x77888)
   Current Actor: (none)
   Interactor: 0
   Actor Picked: No
-  Interaction Picker: 0x867e8  Actor Picked: No
+  Interaction Picker: 0x865d8  Actor Picked: No
   Interacting Actor: (none)
   Mode: Camera
   Mode: Joystick
@@ -4374,10 +4381,10 @@ vtkInteractorStyleTrackball (0x77888)
 
 
 vtkInteractorStyleUser --------------
-vtkInteractorStyleUser (0x83458)
+vtkInteractorStyleUser (0x865d8)
   Debug: Off
   Delete Method defined
-  Modified Time: 12576
+  Modified Time: 12577
   Reference Count: 1
   CurrentCamera:   0
   CurrentLight:    0
@@ -4387,7 +4394,7 @@ vtkInteractorStyleUser (0x83458)
   Current Actor: (none)
   Interactor: 0
   Actor Picked: No
-  Interaction Picker: 0x75808  Actor Picked: No
+  Interaction Picker: 0x75840  Actor Picked: No
   Interacting Actor: (none)
   Mode: Camera
   Mode: Joystick
@@ -4406,7 +4413,7 @@ vtkInterpolateDataSetAttributes --------------
 vtkInterpolateDataSetAttributes (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12581
+  Modified Time: 12582
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -4423,7 +4430,7 @@ vtkKochanekSpline --------------
 vtkKochanekSpline (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12586
+  Modified Time: 12587
   Reference Count: 1
   Clamp Value: Off
   Left Constraint: 1
@@ -4434,7 +4441,7 @@ vtkKochanekSpline (0x72080)
   Piecewise Function:
     Debug: Off
     No Delete Method
-    Modified Time: 12584
+    Modified Time: 12585
     Reference Count: 1
     Source: (none)
     Release Data: Off
@@ -4450,11 +4457,12 @@ vtkKochanekSpline (0x72080)
     Field Data:
       Debug: Off
       No Delete Method
-      Modified Time: 12585
+      Modified Time: 12586
       Reference Count: 1
       Number Of Arrays: 0
       Number Of Components: 0
       Number Of Tuples: 0
+    LastUpdateExtentWasOutsideOfTheExtent: 0
     Clamping: 1
     Function Points: 0
   Closed: Off
@@ -4464,10 +4472,10 @@ vtkKochanekSpline (0x72080)
 
 
 vtkLODActor --------------
-vtkLODActor (0x72080)
+vtkLODActor (0x73018)
   Debug: Off
   Delete Method defined
-  Modified Time: 12600
+  Modified Time: 12601
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -4476,11 +4484,12 @@ vtkLODActor (0x72080)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Bounds: (not defined)
   Mapper: (none)
   Property: (none)
@@ -4493,7 +4502,7 @@ vtkLODProp3D --------------
 vtkLODProp3D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12607
+  Modified Time: 12608
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -4502,11 +4511,12 @@ vtkLODProp3D (0x72080)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Number Of LODs: 0
   Selected LOD ID: 1000
   AutomaticLODSelection: On
@@ -4515,10 +4525,10 @@ vtkLODProp3D (0x72080)
 
 
 vtkLabeledDataMapper --------------
-vtkLabeledDataMapper (0x72080)
+vtkLabeledDataMapper (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 12660
+  Modified Time: 12661
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -4544,12 +4554,12 @@ vtkLandmarkTransform --------------
 vtkLandmarkTransform (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12665
+  Modified Time: 12666
   Reference Count: 1
   Matrix: 0x720f8
     Debug: Off
     No Delete Method
-    Modified Time: 12663
+    Modified Time: 12664
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -4565,7 +4575,7 @@ vtkLight --------------
 vtkOpenGLLight (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12668
+  Modified Time: 12669
   Reference Count: 1
   AttenuationValues: (1, 0, 0)
   Color: (1, 1, 1)
@@ -4582,7 +4592,7 @@ vtkLightCollection --------------
 vtkLightCollection (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 12671
+  Modified Time: 12672
   Reference Count: 1
   Number Of Items: 0
 
@@ -4591,7 +4601,7 @@ vtkLine --------------
 vtkLine (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12678
+  Modified Time: 12679
   Reference Count: 1
   Number Of Points: 2
   Bounds: 
@@ -4605,7 +4615,7 @@ vtkLineSource --------------
 vtkLineSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12789
+  Modified Time: 12790
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -4621,10 +4631,10 @@ vtkLineSource (0x72080)
 
 
 vtkLinearExtrusionFilter --------------
-vtkLinearExtrusionFilter (0x75a78)
+vtkLinearExtrusionFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 12901
+  Modified Time: 12902
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4633,7 +4643,7 @@ vtkLinearExtrusionFilter (0x75a78)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Extrusion Type: Extrude along vertex normals
   Capping: On
   Scale Factor: 1
@@ -4643,7 +4653,7 @@ vtkLinearSubdivisionFilter --------------
 vtkLinearSubdivisionFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13013
+  Modified Time: 13014
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4657,15 +4667,15 @@ vtkLinearSubdivisionFilter (0x72080)
 
 
 vtkLinearTransformConcatenation --------------
-vtkLinearTransformConcatenation (0x75ae8)
+vtkLinearTransformConcatenation (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13019
+  Modified Time: 13020
   Reference Count: 1
-  Matrix: 0x72080
+  Matrix: 0x720f8
     Debug: Off
     No Delete Method
-    Modified Time: 13017
+    Modified Time: 13018
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -4679,15 +4689,15 @@ vtkLinearTransformConcatenation (0x75ae8)
 
 
 vtkLinearTransformInverse --------------
-vtkLinearTransformInverse (0x72080)
+vtkLinearTransformInverse (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13023
+  Modified Time: 13025
   Reference Count: 1
-  Matrix: 0x720e0
+  Matrix: 0x72080
     Debug: Off
     No Delete Method
-    Modified Time: 13022
+    Modified Time: 13023
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -4701,7 +4711,7 @@ vtkLinkEdgels --------------
 vtkLinkEdgels (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13134
+  Modified Time: 13136
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4717,10 +4727,10 @@ vtkLinkEdgels (0x72080)
 
 
 vtkLogLookupTable --------------
-vtkLogLookupTable (0x75ac0)
+vtkLogLookupTable (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13140
+  Modified Time: 13142
   Reference Count: 1
   Build Time: 0
   Table Range: (0, 1)
@@ -4738,7 +4748,7 @@ vtkLongArray --------------
 vtkLongArray (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13143
+  Modified Time: 13145
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -4752,7 +4762,7 @@ vtkLookupTable --------------
 vtkLookupTable (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13148
+  Modified Time: 13150
   Reference Count: 1
   Build Time: 0
   Table Range: (0, 1)
@@ -4768,7 +4778,7 @@ vtkLoopSubdivisionFilter --------------
 vtkLoopSubdivisionFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13259
+  Modified Time: 13261
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4782,10 +4792,10 @@ vtkLoopSubdivisionFilter (0x72080)
 
 
 vtkMCubesReader --------------
-vtkMCubesReader (0x75a78)
+vtkMCubesReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13371
+  Modified Time: 13373
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -4794,7 +4804,7 @@ vtkMCubesReader (0x75a78)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   File Name: (none)
   Limits File Name: (none)
   Normals: On
@@ -4806,7 +4816,7 @@ vtkMCubesWriter --------------
 vtkMCubesWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13375
+  Modified Time: 13377
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -4835,7 +4845,7 @@ vtkMapper2D --------------
 vtkMapper2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13378
+  Modified Time: 13380
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -4851,7 +4861,7 @@ vtkMapperCollection --------------
 vtkMapperCollection (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13381
+  Modified Time: 13383
   Reference Count: 1
   Number Of Items: 0
 
@@ -4860,7 +4870,7 @@ vtkMaskPoints --------------
 vtkMaskPoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13492
+  Modified Time: 13494
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4877,10 +4887,10 @@ vtkMaskPoints (0x72080)
 
 
 vtkMaskPolyData --------------
-vtkMaskPolyData (0x75a78)
+vtkMaskPolyData (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13604
+  Modified Time: 13606
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -4889,7 +4899,7 @@ vtkMaskPolyData (0x75a78)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   On Ratio: 11
   Offset: 0
 
@@ -4898,7 +4908,7 @@ vtkMassProperties --------------
 vtkMassProperties (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13608
+  Modified Time: 13610
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -4910,10 +4920,10 @@ vtkMassProperties (0x72080)
 
 
 vtkMath --------------
-vtkMath (0x86298)
+vtkMath (0x86258)
   Debug: Off
   Delete Method defined
-  Modified Time: 13611
+  Modified Time: 13613
   Reference Count: 1
 
 
@@ -4921,7 +4931,7 @@ vtkMatrix4x4 --------------
 vtkMatrix4x4 (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13614
+  Modified Time: 13616
   Reference Count: 1
   Elements:
     1 0 0 0 
@@ -4934,7 +4944,7 @@ vtkMergeDataObjectFilter --------------
 vtkMergeDataObjectFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13617
+  Modified Time: 13619
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -4951,7 +4961,7 @@ vtkMergeFilter --------------
 vtkMergeFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13620
+  Modified Time: 13622
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -4967,7 +4977,7 @@ vtkMergePoints --------------
 vtkMergePoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13624
+  Modified Time: 13626
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -4984,7 +4994,7 @@ vtkMergePoints2D --------------
 vtkMergePoints2D (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 13628
+  Modified Time: 13630
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -5002,25 +5012,25 @@ vtkMultiThreader --------------
 vtkMultiThreader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13631
+  Modified Time: 13633
   Reference Count: 1
   Thread Count: 1
   Global Maximum Number Of Threads: 0
 
 
 vtkMutexLock --------------
-vtkMutexLock (0x7b9e0)
+vtkMutexLock (0x7ae08)
   Debug: Off
   Delete Method defined
-  Modified Time: 13634
+  Modified Time: 13636
   Reference Count: 1
 
 
 vtkNormals --------------
-vtkNormals (0x7b9e0)
+vtkNormals (0x7ae08)
   Debug: Off
   Delete Method defined
-  Modified Time: 13639
+  Modified Time: 13641
   Reference Count: 1
   Data: 0x6e1a0
   Number Of Normals: 0
@@ -5030,7 +5040,7 @@ vtkOBBDicer --------------
 vtkOBBDicer (0x72128)
   Debug: Off
   Delete Method defined
-  Modified Time: 13642
+  Modified Time: 13644
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -5052,7 +5062,7 @@ vtkOBBTree --------------
 vtkOBBTree (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13646
+  Modified Time: 13648
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -5069,7 +5079,7 @@ vtkOBJExporter --------------
 vtkOBJExporter (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13649
+  Modified Time: 13651
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -5081,7 +5091,7 @@ vtkOBJReader --------------
 vtkOBJReader (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13760
+  Modified Time: 13762
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5095,10 +5105,10 @@ vtkOBJReader (0x720c0)
 
 
 vtkObject --------------
-vtkObject (0x86660)
+vtkObject (0x86620)
   Debug: Off
   Delete Method defined
-  Modified Time: 13764
+  Modified Time: 13766
   Reference Count: 1
 
 
@@ -5106,7 +5116,7 @@ vtkObjectFactoryCollection --------------
 vtkObjectFactoryCollection (0x6e1e0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13767
+  Modified Time: 13769
   Reference Count: 1
   Number Of Items: 0
 
@@ -5115,7 +5125,7 @@ vtkOpenGLActor --------------
 vtkOpenGLActor (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13773
+  Modified Time: 13775
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -5124,11 +5134,12 @@ vtkOpenGLActor (0x720c0)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Bounds: (not defined)
   Mapper: (none)
   Property: (none)
@@ -5139,7 +5150,7 @@ vtkOpenGLCamera --------------
 vtkOpenGLCamera (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13780
+  Modified Time: 13782
   Reference Count: 1
   Clipping Range: (0.01, 1000.01)
   Distance: 1
@@ -5163,7 +5174,7 @@ vtkOpenGLImageMapper --------------
 vtkOpenGLImageMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13791
+  Modified Time: 13793
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5183,7 +5194,7 @@ vtkOpenGLImageWindow --------------
 vtkOpenGLImageWindow (0x7d900)
   Debug: Off
   Delete Method defined
-  Modified Time: 13795
+  Modified Time: 13797
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -5203,7 +5214,7 @@ vtkOpenGLImager --------------
 vtkOpenGLImager (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13800
+  Modified Time: 13802
   Reference Count: 1
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -5218,7 +5229,7 @@ vtkOpenGLImager (0x72080)
   Props:
     Debug: Off
     No Delete Method
-    Modified Time: 13798
+    Modified Time: 13800
     Reference Count: 1
     Number Of Items: 0
 
@@ -5227,7 +5238,7 @@ vtkOpenGLLight --------------
 vtkOpenGLLight (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13803
+  Modified Time: 13805
   Reference Count: 1
   AttenuationValues: (1, 0, 0)
   Color: (1, 1, 1)
@@ -5244,7 +5255,7 @@ vtkOpenGLPolyDataMapper --------------
 vtkOpenGLPolyDataMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13806
+  Modified Time: 13808
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5269,7 +5280,7 @@ vtkOpenGLPolyDataMapper2D --------------
 vtkOpenGLPolyDataMapper2D (0x72180)
   Debug: Off
   Delete Method defined
-  Modified Time: 13809
+  Modified Time: 13811
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5291,7 +5302,7 @@ vtkOpenGLProjectedPolyDataRayBounder --------------
 vtkOpenGLProjectedPolyDataRayBounder (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13812
+  Modified Time: 13814
   Reference Count: 1
   PolyData: (none)
   Build Time: 0
@@ -5301,7 +5312,7 @@ vtkOpenGLProperty --------------
 vtkOpenGLProperty (0x72100)
   Debug: Off
   Delete Method defined
-  Modified Time: 13815
+  Modified Time: 13817
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -5325,7 +5336,7 @@ vtkOpenGLRenderWindow --------------
 vtkOpenGLRenderWindow (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 13820
+  Modified Time: 13822
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -5341,7 +5352,7 @@ vtkOpenGLRenderWindow (0x720c0)
   Renderers:
     Debug: Off
     No Delete Method
-    Modified Time: 13818
+    Modified Time: 13820
     Reference Count: 1
     Number Of Items: 0
   Stereo Capable Window Requested: No
@@ -5362,7 +5373,7 @@ vtkOpenGLRenderWindow (0x720c0)
   File Name: (none)
   No AbortCheck method.
   Color Map: 0
-  Display Id: 0x86e00
+  Display Id: 0x75578
   Next Window Id: 0
   Window Id: 0
   ContextId: 0
@@ -5373,7 +5384,7 @@ vtkOpenGLRenderer --------------
 vtkOpenGLRenderer (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13840
+  Modified Time: 13842
   Reference Count: 2
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -5388,7 +5399,7 @@ vtkOpenGLRenderer (0x72080)
   Props:
     Debug: Off
     No Delete Method
-    Modified Time: 13823
+    Modified Time: 13825
     Reference Count: 1
     Number Of Items: 0
   Ambient: (1, 1, 1)
@@ -5397,7 +5408,7 @@ vtkOpenGLRenderer (0x72080)
   Lights:
     Debug: Off
     No Delete Method
-    Modified Time: 13835
+    Modified Time: 13837
     Reference Count: 1
     Number Of Items: 0
   ViewPoint: (0, 0, 0)
@@ -5412,10 +5423,10 @@ vtkOpenGLRenderer (0x72080)
 
 
 vtkOpenGLTexture --------------
-vtkOpenGLTexture (0x6e1a0)
+vtkOpenGLTexture (0x7bd90)
   Debug: Off
   Delete Method defined
-  Modified Time: 13844
+  Modified Time: 13846
   Reference Count: 1
   Interpolate: Off
   Repeat:      On
@@ -5430,7 +5441,7 @@ vtkOpenGLVolumeTextureMapper2D --------------
 vtkOpenGLVolumeTextureMapper2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 13851
+  Modified Time: 13853
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5457,7 +5468,7 @@ vtkOutlineFilter --------------
 vtkOutlineFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14070
+  Modified Time: 14072
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -5473,7 +5484,7 @@ vtkOutlineSource --------------
 vtkOutlineSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14183
+  Modified Time: 14185
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5487,20 +5498,20 @@ vtkOutlineSource (0x72080)
 
 
 vtkOutputWindow --------------
-vtkOutputWindow (0x7b990)
+vtkOutputWindow (0x7adb8)
   Debug: Off
   Delete Method defined
-  Modified Time: 14187
+  Modified Time: 14189
   Reference Count: 2
-  vtkOutputWindow Single instance = 0x7b990
-  PromptUser Flag: 0
+  vtkOutputWindow Single instance = 0x7adb8
+  Prompt User: Off
 
 
 vtkPLOT3DReader --------------
 vtkPLOT3DReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14238
+  Modified Time: 14240
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5531,10 +5542,10 @@ vtkPLOT3DReader (0x72080)
 
 
 vtkPNMReader --------------
-vtkPNMReader (0x7b618)
+vtkPNMReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14290
+  Modified Time: 14292
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5543,7 +5554,7 @@ vtkPNMReader (0x7b618)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x83458)
   FileName: (none)
   FilePrefix: (none)
   FilePattern: %s.%d
@@ -5564,10 +5575,10 @@ vtkPNMReader (0x7b618)
 
 
 vtkPNMWriter --------------
-vtkPNMWriter (0x73068)
+vtkPNMWriter (0x7bd90)
   Debug: Off
   Delete Method defined
-  Modified Time: 14296
+  Modified Time: 14298
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5587,12 +5598,12 @@ vtkPerspectiveTransformConcatenation --------------
 vtkPerspectiveTransformConcatenation (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14301
+  Modified Time: 14303
   Reference Count: 1
 Matrix: 0x720f8
     Debug: Off
     No Delete Method
-    Modified Time: 14299
+    Modified Time: 14301
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -5609,12 +5620,12 @@ vtkPerspectiveTransformInverse --------------
 vtkPerspectiveTransformInverse (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14305
+  Modified Time: 14308
   Reference Count: 1
 Matrix: 0x72080
     Debug: Off
     No Delete Method
-    Modified Time: 14304
+    Modified Time: 14306
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -5628,7 +5639,7 @@ vtkPicker --------------
 vtkPicker (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14315
+  Modified Time: 14318
   Reference Count: 1
   Picking from renderer's actor list
   No Start PickMethod
@@ -5648,7 +5659,7 @@ vtkPiecewiseFunction --------------
 vtkPiecewiseFunction (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 14319
+  Modified Time: 14322
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -5664,11 +5675,12 @@ vtkPiecewiseFunction (0x77888)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 14318
+    Modified Time: 14321
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Clamping: 1
   Function Points: 0
 
@@ -5677,7 +5689,7 @@ vtkPixel --------------
 vtkPixel (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14331
+  Modified Time: 14334
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -5691,7 +5703,7 @@ vtkPlane --------------
 vtkPlane (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 14334
+  Modified Time: 14337
   Reference Count: 1
   Transform: (None)
   Normal: (0, 0, 1)
@@ -5702,7 +5714,7 @@ vtkPlaneCollection --------------
 vtkPlaneCollection (0x6e1e0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14337
+  Modified Time: 14340
   Reference Count: 1
   Number Of Items: 0
 
@@ -5711,7 +5723,7 @@ vtkPlaneSource --------------
 vtkPlaneSource (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14448
+  Modified Time: 14451
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5734,7 +5746,7 @@ vtkPlanes --------------
 vtkPlanes (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14453
+  Modified Time: 14456
   Reference Count: 1
   Transform: (None)
   No Planes Defined.
@@ -5742,10 +5754,10 @@ vtkPlanes (0x72080)
 
 
 vtkPointData --------------
-vtkPointData (0x72080)
+vtkPointData (0x72150)
   Debug: Off
   Delete Method defined
-  Modified Time: 14457
+  Modified Time: 14460
   Reference Count: 1
   Scalars: (none)
   Vectors: (none)
@@ -5765,7 +5777,7 @@ vtkPointDataToCellData --------------
 vtkPointDataToCellData (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14460
+  Modified Time: 14463
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -5779,10 +5791,10 @@ vtkPointDataToCellData (0x6e1a0)
 
 
 vtkPointLoad --------------
-vtkPointLoad (0x72080)
+vtkPointLoad (0x72100)
   Debug: Off
   Delete Method defined
-  Modified Time: 14512
+  Modified Time: 14515
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5803,10 +5815,10 @@ vtkPointLoad (0x72080)
 
 
 vtkPointLocator --------------
-vtkPointLocator (0x7b650)
+vtkPointLocator (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14517
+  Modified Time: 14520
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -5820,10 +5832,10 @@ vtkPointLocator (0x7b650)
 
 
 vtkPointLocator2D --------------
-vtkPointLocator2D (0x72080)
+vtkPointLocator2D (0x83458)
   Debug: Off
   Delete Method defined
-  Modified Time: 14521
+  Modified Time: 14524
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -5838,10 +5850,10 @@ vtkPointLocator2D (0x72080)
 
 
 vtkPointPicker --------------
-vtkPointPicker (0x72138)
+vtkPointPicker (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14531
+  Modified Time: 14534
   Reference Count: 1
   Picking from renderer's actor list
   No Start PickMethod
@@ -5862,7 +5874,7 @@ vtkPointSetSource --------------
 vtkPointSetSource (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14534
+  Modified Time: 14537
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5878,7 +5890,7 @@ vtkPointSource --------------
 vtkPointSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14645
+  Modified Time: 14648
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -5897,7 +5909,7 @@ vtkPoints --------------
 vtkPoints (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14651
+  Modified Time: 14654
   Reference Count: 1
   Number Of Points: 0
   Bounds: 
@@ -5907,10 +5919,10 @@ vtkPoints (0x6e1a0)
 
 
 vtkPolyData --------------
-vtkPolyData (0x720c0)
+vtkPolyData (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 14760
+  Modified Time: 14763
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -5926,17 +5938,18 @@ vtkPolyData (0x720c0)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 14655
+    Modified Time: 14658
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 0
   Number Of Cells: 0
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 14658
+    Modified Time: 14661
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -5953,7 +5966,7 @@ vtkPolyData (0x720c0)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 14656
+    Modified Time: 14659
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -5990,7 +6003,7 @@ vtkPolyDataCollection --------------
 vtkPolyDataCollection (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14763
+  Modified Time: 14766
   Reference Count: 1
   Number Of Items: 0
 
@@ -5999,7 +6012,7 @@ vtkPolyDataConnectivityFilter --------------
 vtkPolyDataConnectivityFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14880
+  Modified Time: 14883
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -6021,7 +6034,7 @@ vtkPolyDataMapper --------------
 vtkOpenGLPolyDataMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14884
+  Modified Time: 14887
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6046,7 +6059,7 @@ vtkPolyDataMapper2D --------------
 vtkOpenGLPolyDataMapper2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 14887
+  Modified Time: 14890
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6068,7 +6081,7 @@ vtkPolyDataNormals --------------
 vtkPolyDataNormals (0x72148)
   Debug: Off
   Delete Method defined
-  Modified Time: 14998
+  Modified Time: 15001
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -6092,7 +6105,7 @@ vtkPolyDataReader --------------
 vtkPolyDataReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15112
+  Modified Time: 15115
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6101,11 +6114,11 @@ vtkPolyDataReader (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x759e0)
   Reader:
     Debug: Off
     No Delete Method
-    Modified Time: 15111
+    Modified Time: 15114
     Reference Count: 1
     File Name: (none)
     File Type: ASCII
@@ -6124,10 +6137,10 @@ vtkPolyDataReader (0x72080)
 
 
 vtkPolyDataSource --------------
-vtkPolyDataSource (0x72080)
+vtkPolyDataSource (0x83840)
   Debug: Off
   Delete Method defined
-  Modified Time: 15224
+  Modified Time: 15227
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6136,14 +6149,14 @@ vtkPolyDataSource (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x72080)
 
 
 vtkPolyDataWriter --------------
 vtkPolyDataWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15228
+  Modified Time: 15231
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6171,7 +6184,7 @@ vtkPolyLine --------------
 vtkPolyLine (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15240
+  Modified Time: 15243
   Reference Count: 1
   Number Of Points: 0
 
@@ -6180,7 +6193,7 @@ vtkPolyVertex --------------
 vtkPolyVertex (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15252
+  Modified Time: 15255
   Reference Count: 1
   Number Of Points: 0
 
@@ -6189,16 +6202,16 @@ vtkPolygon --------------
 vtkPolygon (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15277
+  Modified Time: 15280
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkPostScriptWriter --------------
-vtkPostScriptWriter (0x83630)
+vtkPostScriptWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15282
+  Modified Time: 15285
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6218,7 +6231,7 @@ vtkPriorityQueue --------------
 vtkPriorityQueue (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15285
+  Modified Time: 15288
   Reference Count: 1
   Number Of Entries: 0
   Size: 0
@@ -6229,7 +6242,7 @@ vtkProbeFilter --------------
 vtkProbeFilter (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15288
+  Modified Time: 15291
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6246,7 +6259,7 @@ vtkProcessObject --------------
 vtkProcessObject (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15291
+  Modified Time: 15294
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6261,7 +6274,7 @@ vtkProgrammableAttributeDataFilter --------------
 vtkProgrammableAttributeDataFilter (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15295
+  Modified Time: 15298
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6274,7 +6287,7 @@ vtkProgrammableAttributeDataFilter (0x720c0)
   Input DataSets:
     Debug: Off
     No Delete Method
-    Modified Time: 15294
+    Modified Time: 15297
     Reference Count: 1
     Number Of Items: 0
   An ExecuteMethod has NOT been defined
@@ -6284,7 +6297,7 @@ vtkProgrammableDataObjectSource --------------
 vtkProgrammableDataObjectSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15302
+  Modified Time: 15305
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6301,7 +6314,7 @@ vtkProgrammableFilter --------------
 vtkProgrammableFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15306
+  Modified Time: 15309
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6317,7 +6330,7 @@ vtkProgrammableGlyphFilter --------------
 vtkProgrammableGlyphFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15417
+  Modified Time: 15420
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -6338,7 +6351,7 @@ vtkProgrammableSource --------------
 vtkProgrammableSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15910
+  Modified Time: 15913
   Reference Count: 6
   Number Of Required Inputs: 0
   No Inputs
@@ -6348,27 +6361,27 @@ vtkProgrammableSource (0x72080)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x77888)
-  Output 1: (0x756d8)
-  Output 2: (0x84698)
-  Output 3: (0x85210)
-  Output 4: (0x82108)
+  Output 1: (0x7e448)
+  Output 2: (0x84660)
+  Output 3: (0x851e0)
+  Output 4: (0x820d8)
 
 
 vtkProjectedPolyDataRayBounder --------------
 vtkOpenGLProjectedPolyDataRayBounder (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15918
+  Modified Time: 15921
   Reference Count: 1
   PolyData: (none)
   Build Time: 0
 
 
 vtkProjectedTexture --------------
-vtkProjectedTexture (0x72080)
+vtkProjectedTexture (0x82d88)
   Debug: Off
   Delete Method defined
-  Modified Time: 15922
+  Modified Time: 15925
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6391,12 +6404,12 @@ vtkProjectionTransform --------------
 vtkProjectionTransform (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15926
+  Modified Time: 15929
   Reference Count: 1
 Matrix: 0x720e0
     Debug: Off
     No Delete Method
-    Modified Time: 15925
+    Modified Time: 15928
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -6410,7 +6423,7 @@ vtkProp --------------
 vtkProp (0x721c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15929
+  Modified Time: 15932
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -6425,7 +6438,7 @@ vtkPropAssembly --------------
 vtkPropAssembly (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15933
+  Modified Time: 15936
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -6441,7 +6454,7 @@ vtkPropCollection --------------
 vtkPropCollection (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15936
+  Modified Time: 15939
   Reference Count: 1
   Number Of Items: 0
 
@@ -6450,7 +6463,7 @@ vtkPropPicker --------------
 vtkPropPicker (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 15946
+  Modified Time: 15949
   Reference Count: 1
   Picking from renderer's actor list
   No Start PickMethod
@@ -6473,7 +6486,7 @@ vtkProperty --------------
 vtkOpenGLProperty (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 15949
+  Modified Time: 15952
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -6497,19 +6510,20 @@ vtkProperty2D --------------
 vtkProperty2D (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15952
+  Modified Time: 15955
   Reference Count: 1
   Opacity: 1
   Color: (1, 1, 1)
   Point size: 1
   Line width: 1
+  Display location: foreground
 
 
 vtkPyramid --------------
 vtkPyramid (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15984
+  Modified Time: 15987
   Reference Count: 1
   Number Of Points: 5
   Bounds: 
@@ -6520,10 +6534,10 @@ vtkPyramid (0x6e1a0)
 
 
 vtkQuad --------------
-vtkQuad (0x6e1a0)
+vtkQuad (0x73120)
   Debug: Off
   Delete Method defined
-  Modified Time: 15996
+  Modified Time: 15999
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -6534,10 +6548,10 @@ vtkQuad (0x6e1a0)
 
 
 vtkQuadric --------------
-vtkQuadric (0x77888)
+vtkQuadric (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 15999
+  Modified Time: 16002
   Reference Count: 1
   Transform: (None)
   Coefficients: 
@@ -6553,33 +6567,35 @@ vtkQuadric (0x77888)
 	a9: 1
 
 
-vtkQuaternionTransform --------------
-vtkQuaternionTransform (0x72080)
+vtkQuantizePolyDataPoints --------------
+vtkQuantizePolyDataPoints (0x77938)
   Debug: Off
   Delete Method defined
-  Modified Time: 16003
-  Reference Count: 1
-  Matrix: 0x72168
-    Debug: Off
-    No Delete Method
-    Modified Time: 16002
-    Reference Count: 1
-    Elements:
-        1 0 0 0 
-        0 1 0 0 
-        0 0 1 0 
-        0 0 0 1 
-  Quaternion: ( 1, 0, 0, 0)
-  Magnification: 1
-  Position: ( 0, 0, 0)
-  PreMultiply
+  Modified Time: 16113
+  Reference Count: 2
+  Number Of Required Inputs: 1
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x72080)
+  ToleranceIsAbsolute: 0
+  Tolerance: 0
+  AbsoluteTolerance: 1
+  ConvertPolysToLines: 1
+  ConvertLinesToPoints: 1
+  ConvertStripsToPolys: 1
+  Locator: (none)
+  QFactor: 0.25
 
 
 vtkRIBExporter --------------
 vtkRIBExporter (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 16006
+  Modified Time: 16117
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -6595,7 +6611,7 @@ vtkRIBLight --------------
 vtkRIBLight (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 16010
+  Modified Time: 16121
   Reference Count: 1
   AttenuationValues: (1, 0, 0)
   Color: (1, 1, 1)
@@ -6610,10 +6626,10 @@ vtkRIBLight (0x6e1a0)
 
 
 vtkRIBProperty --------------
-vtkRIBProperty (0x72168)
+vtkRIBProperty (0x72128)
   Debug: Off
   Delete Method defined
-  Modified Time: 16014
+  Modified Time: 16125
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -6638,10 +6654,10 @@ vtkRIBProperty (0x72168)
 
 
 vtkRayCaster --------------
-vtkRayCaster (0x72080)
+vtkRayCaster (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 16025
+  Modified Time: 16136
   Reference Count: 1
   Renderer: 0
   Selected Image Scale Index: 0
@@ -6654,10 +6670,10 @@ vtkRayCaster (0x72080)
 
 
 vtkRectilinearGrid --------------
-vtkRectilinearGrid (0x83630)
+vtkRectilinearGrid (0x72dd0)
   Debug: Off
   Delete Method defined
-  Modified Time: 16075
+  Modified Time: 16186
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -6673,17 +6689,18 @@ vtkRectilinearGrid (0x83630)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 16028
+    Modified Time: 16139
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 16031
+    Modified Time: 16142
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6700,7 +6717,7 @@ vtkRectilinearGrid (0x83630)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 16029
+    Modified Time: 16140
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6721,18 +6738,18 @@ vtkRectilinearGrid (0x83630)
   Compute Time: 0
   Release Data: Off
   Dimensions: (1, 1, 1)
-  X Coordinates: 0x7b518
-  Y Coordinates: 0x7b518
-  Z Coordinates: 0x7b518
+  X Coordinates: 0x7e1b8
+  Y Coordinates: 0x7e1b8
+  Z Coordinates: 0x7e1b8
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 0, 0, 0, 0, 0
 
 
 vtkRectilinearGridGeometryFilter --------------
-vtkRectilinearGridGeometryFilter (0x7b600)
+vtkRectilinearGridGeometryFilter (0x7e108)
   Debug: Off
   Delete Method defined
-  Modified Time: 16186
+  Modified Time: 16297
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -6749,10 +6766,10 @@ vtkRectilinearGridGeometryFilter (0x7b600)
 
 
 vtkRectilinearGridReader --------------
-vtkRectilinearGridReader (0x72080)
+vtkRectilinearGridReader (0x83900)
   Debug: Off
   Delete Method defined
-  Modified Time: 16242
+  Modified Time: 16353
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6761,11 +6778,11 @@ vtkRectilinearGridReader (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x75578)
+  Output 0: (0x72080)
   Reader:
     Debug: Off
     No Delete Method
-    Modified Time: 16241
+    Modified Time: 16352
     Reference Count: 1
     File Name: (none)
     File Type: ASCII
@@ -6784,10 +6801,10 @@ vtkRectilinearGridReader (0x72080)
 
 
 vtkRectilinearGridSource --------------
-vtkRectilinearGridSource (0x7b388)
+vtkRectilinearGridSource (0x83458)
   Debug: Off
   Delete Method defined
-  Modified Time: 16296
+  Modified Time: 16407
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6803,7 +6820,7 @@ vtkRectilinearGridWriter --------------
 vtkRectilinearGridWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16300
+  Modified Time: 16411
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6831,7 +6848,7 @@ vtkRecursiveDividingCubes --------------
 vtkRecursiveDividingCubes (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16431
+  Modified Time: 16542
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -6850,17 +6867,17 @@ vtkRecursiveSphereDirectionEncoder --------------
 vtkRecursiveSphereDirectionEncoder (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 16435
+  Modified Time: 16546
   Reference Count: 1
   Number of encoded directions: 16643
   Recursion depth: 6
 
 
 vtkReferenceCount --------------
-vtkReferenceCount (0x7d9a8)
+vtkReferenceCount (0x7d988)
   Debug: Off
   Delete Method defined
-  Modified Time: 16438
+  Modified Time: 16549
   Reference Count: 1
 
 
@@ -6868,7 +6885,7 @@ vtkRenderLargeImage --------------
 vtkRenderLargeImage (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16489
+  Modified Time: 16600
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -6886,7 +6903,7 @@ vtkRenderWindow --------------
 vtkOpenGLRenderWindow (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16495
+  Modified Time: 16606
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -6902,7 +6919,7 @@ vtkOpenGLRenderWindow (0x72080)
   Renderers:
     Debug: Off
     No Delete Method
-    Modified Time: 16493
+    Modified Time: 16604
     Reference Count: 1
     Number Of Items: 0
   Stereo Capable Window Requested: No
@@ -6923,7 +6940,7 @@ vtkOpenGLRenderWindow (0x72080)
   File Name: (none)
   No AbortCheck method.
   Color Map: 0
-  Display Id: 0x75578
+  Display Id: 0x83458
   Next Window Id: 0
   Window Id: 0
   ContextId: 0
@@ -6934,7 +6951,7 @@ vtkRenderWindowCollection --------------
 vtkRenderWindowCollection (0x721c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 16498
+  Modified Time: 16609
   Reference Count: 1
   Number Of Items: 0
 
@@ -6943,11 +6960,11 @@ vtkRenderWindowInteractor --------------
 vtkXRenderWindowTclInteractor (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16631
+  Modified Time: 16742
   Reference Count: 1
   InteractorStyle:    0x77888
   RenderWindow:    0
-  Picker: 0x84118
+  Picker: 0x75ac8
   LightFollowCamera: On
   DesiredUpdateRate: 15
   StillUpdateRate: 0.0001
@@ -6962,7 +6979,7 @@ vtkRenderer --------------
 vtkOpenGLRenderer (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16652
+  Modified Time: 16763
   Reference Count: 2
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -6977,7 +6994,7 @@ vtkOpenGLRenderer (0x72080)
   Props:
     Debug: Off
     No Delete Method
-    Modified Time: 16635
+    Modified Time: 16746
     Reference Count: 1
     Number Of Items: 0
   Ambient: (1, 1, 1)
@@ -6986,7 +7003,7 @@ vtkOpenGLRenderer (0x72080)
   Lights:
     Debug: Off
     No Delete Method
-    Modified Time: 16647
+    Modified Time: 16758
     Reference Count: 1
     Number Of Items: 0
   ViewPoint: (0, 0, 0)
@@ -7004,7 +7021,7 @@ vtkRendererCollection --------------
 vtkRendererCollection (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 16656
+  Modified Time: 16767
   Reference Count: 1
   Number Of Items: 0
 
@@ -7013,7 +7030,7 @@ vtkRendererSource --------------
 vtkRendererSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16708
+  Modified Time: 16819
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7033,7 +7050,7 @@ vtkReverseSense --------------
 vtkReverseSense (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 16820
+  Modified Time: 16931
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7042,16 +7059,16 @@ vtkReverseSense (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b5e8)
+  Output 0: (0x7e108)
   Reverse Cells: On
   Reverse Normals: Off
 
 
 vtkRibbonFilter --------------
-vtkRibbonFilter (0x72080)
+vtkRibbonFilter (0x83900)
   Debug: Off
   Delete Method defined
-  Modified Time: 16932
+  Modified Time: 17043
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7060,7 +7077,7 @@ vtkRibbonFilter (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x75578)
+  Output 0: (0x72080)
   Width: 0.5
   Angle: 0
   VaryWidth: Off
@@ -7073,7 +7090,7 @@ vtkRotationalExtrusionFilter --------------
 vtkRotationalExtrusionFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 17044
+  Modified Time: 17155
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7091,27 +7108,10 @@ vtkRotationalExtrusionFilter (0x72080)
 
 
 vtkSLCReader --------------
-vtkSLCReader (0x72080)
+vtkSLCReader (0x83900)
   Debug: Off
   Delete Method defined
-  Modified Time: 17097
-  Reference Count: 2
-  Number Of Required Inputs: 0
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x75578)
-  File Name: (none)
-
-
-vtkSTLReader --------------
-vtkSTLReader (0x7b388)
-  Debug: Off
-  Delete Method defined
-  Modified Time: 17209
+  Modified Time: 17208
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7122,15 +7122,32 @@ vtkSTLReader (0x7b388)
   Progress: 0
   Output 0: (0x72080)
   File Name: (none)
+
+
+vtkSTLReader --------------
+vtkSTLReader (0x72080)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 17320
+  Reference Count: 2
+  Number Of Required Inputs: 0
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x77888)
+  File Name: (none)
   Merging: On
   Locator: (none)
 
 
 vtkSTLWriter --------------
-vtkSTLWriter (0x72080)
+vtkSTLWriter (0x7e528)
   Debug: Off
   Delete Method defined
-  Modified Time: 17213
+  Modified Time: 17324
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7158,7 +7175,7 @@ vtkSampleFunction --------------
 vtkSampleFunction (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 17265
+  Modified Time: 17376
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7181,10 +7198,10 @@ vtkSampleFunction (0x72080)
 
 
 vtkScalarBarActor --------------
-vtkScalarBarActor (0x7b618)
+vtkScalarBarActor (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 17397
+  Modified Time: 17508
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -7197,7 +7214,7 @@ vtkScalarBarActor (0x7b618)
   PositionCoordinate: 0x6e1a0
     Debug: Off
     No Delete Method
-    Modified Time: 17276
+    Modified Time: 17387
     Reference Count: 4
     Coordinate System: Normalized Viewport
     Value: (0.82,0.1,0)
@@ -7222,7 +7239,7 @@ vtkScalarTree --------------
 vtkScalarTree (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 17404
+  Modified Time: 17515
   Reference Count: 1
   DataSet: (none)
   Level: 0
@@ -7235,9 +7252,9 @@ vtkScalars --------------
 vtkScalars (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 17408
+  Modified Time: 17519
   Reference Count: 1
-  Data: 0x75ad8
+  Data: 0x720c0
   Number Of Scalars: 0
   Range: (1e+38, -1e+38)
   LookupTable: (none)
@@ -7246,10 +7263,10 @@ vtkScalars (0x6e1a0)
 
 
 vtkScaledTextActor --------------
-vtkScaledTextActor (0x72080)
+vtkScaledTextActor (0x72138)
   Debug: Off
   Delete Method defined
-  Modified Time: 17423
+  Modified Time: 17534
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -7262,7 +7279,7 @@ vtkScaledTextActor (0x72080)
   PositionCoordinate: 0x6e1a0
     Debug: Off
     No Delete Method
-    Modified Time: 17419
+    Modified Time: 17530
     Reference Count: 2
     Coordinate System: Normalized Viewport
     Value: (0.2,0.85,0)
@@ -7278,7 +7295,7 @@ vtkSelectPolyData --------------
 vtkSelectPolyData (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 17745
+  Modified Time: 17856
   Reference Count: 4
   Number Of Required Inputs: 1
   No Inputs
@@ -7287,7 +7304,7 @@ vtkSelectPolyData (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x778c8)
+  Output 0: (0x77888)
   Generate Unselected Output: Off
   Inside Mode: InsideSmallestRegion
   Closest Point: (0, 0, 0)
@@ -7300,7 +7317,7 @@ vtkSelectVisiblePoints --------------
 vtkSelectVisiblePoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 17859
+  Modified Time: 17970
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7320,10 +7337,10 @@ vtkSelectVisiblePoints (0x72080)
 
 
 vtkShepardMethod --------------
-vtkShepardMethod (0x75578)
+vtkShepardMethod (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 17912
+  Modified Time: 18023
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7346,7 +7363,7 @@ vtkShortArray --------------
 vtkShortArray (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 17916
+  Modified Time: 18027
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -7360,7 +7377,7 @@ vtkShrinkFilter --------------
 vtkShrinkFilter (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 18153
+  Modified Time: 18264
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7377,7 +7394,7 @@ vtkShrinkPolyData --------------
 vtkShrinkPolyData (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18265
+  Modified Time: 18376
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7391,10 +7408,10 @@ vtkShrinkPolyData (0x72080)
 
 
 vtkSimpleElevationFilter --------------
-vtkSimpleElevationFilter (0x72080)
+vtkSimpleElevationFilter (0x838c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 18269
+  Modified Time: 18380
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -7411,7 +7428,7 @@ vtkSmoothPolyDataFilter --------------
 vtkSmoothPolyDataFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18380
+  Modified Time: 18491
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7437,7 +7454,7 @@ vtkSource --------------
 vtkSource (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 18384
+  Modified Time: 18495
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7450,10 +7467,10 @@ vtkSource (0x6e1a0)
 
 
 vtkSpatialRepresentationFilter --------------
-vtkSpatialRepresentationFilter (0x72080)
+vtkSpatialRepresentationFilter (0x83908)
   Debug: Off
   Delete Method defined
-  Modified Time: 18495
+  Modified Time: 18606
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7462,7 +7479,7 @@ vtkSpatialRepresentationFilter (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x72080)
   Level: 0
   Spatial Representation: (none)
 
@@ -7471,7 +7488,7 @@ vtkSphere --------------
 vtkSphere (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 18499
+  Modified Time: 18610
   Reference Count: 1
   Transform: (None)
   Radius: 0.5
@@ -7482,7 +7499,7 @@ vtkSphereSource --------------
 vtkSphereSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18610
+  Modified Time: 18721
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7506,7 +7523,7 @@ vtkStack --------------
 vtkStack (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 18614
+  Modified Time: 18725
   Reference Count: 1
   Number Of Items: 0
 
@@ -7515,7 +7532,7 @@ vtkStreamLine --------------
 vtkStreamLine (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18726
+  Modified Time: 18837
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7541,7 +7558,7 @@ vtkStreamPoints --------------
 vtkStreamPoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18840
+  Modified Time: 18951
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7567,7 +7584,7 @@ vtkStreamer --------------
 vtkStreamer (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 18954
+  Modified Time: 19065
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7589,10 +7606,10 @@ vtkStreamer (0x72080)
 
 
 vtkStripper --------------
-vtkStripper (0x72080)
+vtkStripper (0x83930)
   Debug: Off
   Delete Method defined
-  Modified Time: 19067
+  Modified Time: 19178
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7601,15 +7618,15 @@ vtkStripper (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77888)
+  Output 0: (0x72080)
   Maximum Length: 1000
 
 
 vtkStructuredData --------------
-vtkStructuredData (0x80d70)
+vtkStructuredData (0x7f1f8)
   Debug: Off
   Delete Method defined
-  Modified Time: 19071
+  Modified Time: 19182
   Reference Count: 1
 
 
@@ -7617,7 +7634,7 @@ vtkStructuredGrid --------------
 vtkStructuredGrid (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19119
+  Modified Time: 19230
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -7633,17 +7650,18 @@ vtkStructuredGrid (0x72080)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19074
+    Modified Time: 19185
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 0
   Number Of Cells: 1
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19077
+    Modified Time: 19188
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7660,7 +7678,7 @@ vtkStructuredGrid (0x72080)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19075
+    Modified Time: 19186
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7691,10 +7709,30 @@ vtkStructuredGrid (0x72080)
 
 
 vtkStructuredGridGeometryFilter --------------
-vtkStructuredGridGeometryFilter (0x7b388)
+vtkStructuredGridGeometryFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19230
+  Modified Time: 19341
+  Reference Count: 2
+  Number Of Required Inputs: 1
+  No Inputs
+  No Start Method
+  No Progress Method
+  No End Method
+  AbortExecute: Off
+  Progress: 0
+  Output 0: (0x77888)
+  Extent: 
+    Imin,Imax: (0, 2147483647)
+    Jmin,Jmax: (0, 2147483647)
+    Kmin,Kmax: (0, 2147483647)
+
+
+vtkStructuredGridOutlineFilter --------------
+vtkStructuredGridOutlineFilter (0x838c8)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 19453
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7704,33 +7742,13 @@ vtkStructuredGridGeometryFilter (0x7b388)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x72080)
-  Extent: 
-    Imin,Imax: (0, 2147483647)
-    Jmin,Jmax: (0, 2147483647)
-    Kmin,Kmax: (0, 2147483647)
-
-
-vtkStructuredGridOutlineFilter --------------
-vtkStructuredGridOutlineFilter (0x72080)
-  Debug: Off
-  Delete Method defined
-  Modified Time: 19342
-  Reference Count: 2
-  Number Of Required Inputs: 1
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x75578)
 
 
 vtkStructuredGridReader --------------
 vtkStructuredGridReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19396
+  Modified Time: 19507
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7743,7 +7761,7 @@ vtkStructuredGridReader (0x72080)
   Reader:
     Debug: Off
     No Delete Method
-    Modified Time: 19395
+    Modified Time: 19506
     Reference Count: 1
     File Name: (none)
     File Type: ASCII
@@ -7762,10 +7780,10 @@ vtkStructuredGridReader (0x72080)
 
 
 vtkStructuredGridSource --------------
-vtkStructuredGridSource (0x72080)
+vtkStructuredGridSource (0x7e108)
   Debug: Off
   Delete Method defined
-  Modified Time: 19448
+  Modified Time: 19559
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7774,14 +7792,14 @@ vtkStructuredGridSource (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b5c0)
+  Output 0: (0x72080)
 
 
 vtkStructuredGridWriter --------------
-vtkStructuredGridWriter (0x72080)
+vtkStructuredGridWriter (0x7bd90)
   Debug: Off
   Delete Method defined
-  Modified Time: 19452
+  Modified Time: 19563
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7809,7 +7827,7 @@ vtkStructuredPoints --------------
 vtkStructuredPoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19501
+  Modified Time: 19612
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -7825,17 +7843,18 @@ vtkStructuredPoints (0x72080)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19455
+    Modified Time: 19566
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19458
+    Modified Time: 19569
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7852,7 +7871,7 @@ vtkStructuredPoints (0x72080)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 19456
+    Modified Time: 19567
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7886,7 +7905,7 @@ vtkStructuredPointsCollection --------------
 vtkStructuredPointsCollection (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 19504
+  Modified Time: 19615
   Reference Count: 1
   Number Of Items: 0
 
@@ -7895,7 +7914,7 @@ vtkStructuredPointsGeometryFilter --------------
 vtkStructuredPointsGeometryFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19615
+  Modified Time: 19726
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -7912,10 +7931,10 @@ vtkStructuredPointsGeometryFilter (0x72080)
 
 
 vtkStructuredPointsReader --------------
-vtkStructuredPointsReader (0x75578)
+vtkStructuredPointsReader (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 19670
+  Modified Time: 19781
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7928,7 +7947,7 @@ vtkStructuredPointsReader (0x75578)
   Reader:
     Debug: Off
     No Delete Method
-    Modified Time: 19669
+    Modified Time: 19780
     Reference Count: 1
     File Name: (none)
     File Type: ASCII
@@ -7947,10 +7966,10 @@ vtkStructuredPointsReader (0x75578)
 
 
 vtkStructuredPointsSource --------------
-vtkStructuredPointsSource (0x7b388)
+vtkStructuredPointsSource (0x83458)
   Debug: Off
   Delete Method defined
-  Modified Time: 19723
+  Modified Time: 19834
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -7963,10 +7982,10 @@ vtkStructuredPointsSource (0x7b388)
 
 
 vtkStructuredPointsWriter --------------
-vtkStructuredPointsWriter (0x72ff8)
+vtkStructuredPointsWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19727
+  Modified Time: 19838
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7994,7 +8013,7 @@ vtkSubPixelPositionEdgels --------------
 vtkSubPixelPositionEdgels (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 19838
+  Modified Time: 19949
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8013,7 +8032,7 @@ vtkSubdivideTetra --------------
 vtkSubdivideTetra (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20076
+  Modified Time: 20187
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8029,7 +8048,7 @@ vtkSuperquadric --------------
 vtkSuperquadric (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20082
+  Modified Time: 20193
   Reference Count: 1
   Transform: (None)
   Toroidal: Off
@@ -8045,7 +8064,7 @@ vtkSuperquadricSource --------------
 vtkSuperquadricSource (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20197
+  Modified Time: 20308
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8067,10 +8086,10 @@ vtkSuperquadricSource (0x720c0)
 
 
 vtkSurfaceReconstructionFilter --------------
-vtkSurfaceReconstructionFilter (0x75578)
+vtkSurfaceReconstructionFilter (0x83900)
   Debug: Off
   Delete Method defined
-  Modified Time: 20250
+  Modified Time: 20361
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8085,10 +8104,10 @@ vtkSurfaceReconstructionFilter (0x75578)
 
 
 vtkTCoords --------------
-vtkTCoords (0x7b918)
+vtkTCoords (0x7ad40)
   Debug: Off
   Delete Method defined
-  Modified Time: 20256
+  Modified Time: 20367
   Reference Count: 1
   Data: 0x6e1a0
   Number Of Texture Coordinates: 0
@@ -8099,7 +8118,7 @@ vtkTIFFReader --------------
 vtkTIFFReader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20307
+  Modified Time: 20418
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8129,10 +8148,10 @@ vtkTIFFReader (0x72080)
 
 
 vtkTIFFWriter --------------
-vtkTIFFWriter (0x7b690)
+vtkTIFFWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20313
+  Modified Time: 20424
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8152,7 +8171,7 @@ vtkTensor --------------
 vtkTensor (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20316
+  Modified Time: 20427
   Reference Count: 1
 
 
@@ -8160,7 +8179,7 @@ vtkTensorGlyph --------------
 vtkTensorGlyph (0x72108)
   Debug: Off
   Delete Method defined
-  Modified Time: 20427
+  Modified Time: 20538
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8180,20 +8199,20 @@ vtkTensorGlyph (0x72108)
 
 
 vtkTensors --------------
-vtkTensors (0x7b918)
+vtkTensors (0x7ad40)
   Debug: Off
   Delete Method defined
-  Modified Time: 20435
+  Modified Time: 20546
   Reference Count: 1
   Data: 0x6e1a0
   Number Of Tensors: 0
 
 
 vtkTetra --------------
-vtkTetra (0x72080)
+vtkTetra (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20457
+  Modified Time: 20568
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -8204,10 +8223,10 @@ vtkTetra (0x72080)
 
 
 vtkTextMapper --------------
-vtkXOpenGLTextMapper (0x83458)
+vtkXOpenGLTextMapper (0x72dd0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20460
+  Modified Time: 20571
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8229,10 +8248,10 @@ vtkXOpenGLTextMapper (0x83458)
 
 
 vtkTextSource --------------
-vtkTextSource (0x83458)
+vtkTextSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20571
+  Modified Time: 20682
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8241,7 +8260,7 @@ vtkTextSource (0x83458)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Text: (none)
   Background Drawn: On
   ForegroundColor: (1, 1, 1)
@@ -8252,7 +8271,7 @@ vtkTexture --------------
 vtkOpenGLTexture (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 20575
+  Modified Time: 20686
   Reference Count: 1
   Interpolate: Off
   Repeat:      On
@@ -8264,10 +8283,10 @@ vtkOpenGLTexture (0x6e1a0)
 
 
 vtkTextureMapToCylinder --------------
-vtkTextureMapToCylinder (0x720c0)
+vtkTextureMapToCylinder (0x83908)
   Debug: Off
   Delete Method defined
-  Modified Time: 20578
+  Modified Time: 20689
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8287,7 +8306,7 @@ vtkTextureMapToPlane --------------
 vtkTextureMapToPlane (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20581
+  Modified Time: 20692
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8310,7 +8329,7 @@ vtkTextureMapToSphere --------------
 vtkTextureMapToSphere (0x72170)
   Debug: Off
   Delete Method defined
-  Modified Time: 20584
+  Modified Time: 20695
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8329,7 +8348,7 @@ vtkTexturedSphereSource --------------
 vtkTexturedSphereSource (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20695
+  Modified Time: 20806
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8347,10 +8366,10 @@ vtkTexturedSphereSource (0x72080)
 
 
 vtkThinPlateSplineTransform --------------
-vtkThinPlateSplineTransform (0x75578)
+vtkThinPlateSplineTransform (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 20701
+  Modified Time: 20812
   Reference Count: 1
   InverseFlag: 0
   InverseTolerance: 0.001
@@ -8364,7 +8383,7 @@ vtkThreshold --------------
 vtkThreshold (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 20938
+  Modified Time: 21049
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8385,7 +8404,7 @@ vtkThresholdPoints --------------
 vtkThresholdPoints (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 21050
+  Modified Time: 21161
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8400,10 +8419,10 @@ vtkThresholdPoints (0x72080)
 
 
 vtkThresholdTextureCoords --------------
-vtkThresholdTextureCoords (0x72080)
+vtkThresholdTextureCoords (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 21054
+  Modified Time: 21165
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8423,10 +8442,10 @@ vtkThresholdTextureCoords (0x72080)
 
 vtkTimeStamp --------------
 vtkTimerLog --------------
-vtkTimerLog (0x6e1e0)
+vtkTimerLog (0x6e1a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 21057
+  Modified Time: 21168
   Reference Count: 1
   MaxEntries: 100
   NextEntry: 0
@@ -8436,7 +8455,7 @@ vtkTimerLog (0x6e1e0)
   Entry 	Wall Time	CpuTicks	Event
   ----------------------------------------------
 
-  StartTime: 1.4822e-323
+  StartTime: 9.96505e-315
   WrapFlag: 0
 
 
@@ -8444,15 +8463,15 @@ vtkTkImageViewerWidget --------------
 vtkTkImageWindowWidget --------------
 vtkTkRenderWidget --------------
 vtkTransform --------------
-vtkTransform (0x720c0)
+vtkTransform (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 21061
+  Modified Time: 21172
   Reference Count: 1
-  Matrix: 0x72168
+  Matrix: 0x72128
     Debug: Off
     No Delete Method
-    Modified Time: 21060
+    Modified Time: 21171
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -8462,23 +8481,13 @@ vtkTransform (0x720c0)
   PreMultiply
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
-  Current Transformation:
-    Debug: Off
-    No Delete Method
-    Modified Time: 21060
-    Reference Count: 1
-    Elements:
-        1 0 0 0 
-        0 1 0 0 
-        0 0 1 0 
-        0 0 0 1 
 
 
 vtkTransformCollection --------------
-vtkTransformCollection (0x6e190)
+vtkTransformCollection (0x6e1d0)
   Debug: Off
   Delete Method defined
-  Modified Time: 21064
+  Modified Time: 21175
   Reference Count: 1
   Number Of Items: 0
 
@@ -8487,7 +8496,7 @@ vtkTransformFilter --------------
 vtkTransformFilter (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21067
+  Modified Time: 21178
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8504,7 +8513,7 @@ vtkTransformPolyDataFilter --------------
 vtkTransformPolyDataFilter (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21178
+  Modified Time: 21289
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8518,10 +8527,10 @@ vtkTransformPolyDataFilter (0x6e190)
 
 
 vtkTransformTextureCoords --------------
-vtkTransformTextureCoords (0x75578)
+vtkTransformTextureCoords (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 21182
+  Modified Time: 21293
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8540,10 +8549,10 @@ vtkTransformTextureCoords (0x75578)
 
 
 vtkTriangle --------------
-vtkTriangle (0x72080)
+vtkTriangle (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21194
+  Modified Time: 21305
   Reference Count: 1
   Number Of Points: 3
   Bounds: 
@@ -8557,7 +8566,7 @@ vtkTriangleFilter --------------
 vtkTriangleFilter (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21305
+  Modified Time: 21416
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8566,7 +8575,7 @@ vtkTriangleFilter (0x6e190)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x77930)
+  Output 0: (0x778f8)
   Pass Verts: On
   Pass Lines: On
 
@@ -8575,7 +8584,7 @@ vtkTriangleStrip --------------
 vtkTriangleStrip (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21328
+  Modified Time: 21439
   Reference Count: 1
   Number Of Points: 0
 
@@ -8584,7 +8593,7 @@ vtkTriangularTCoords --------------
 vtkTriangularTCoords (0x779e8)
   Debug: Off
   Delete Method defined
-  Modified Time: 21439
+  Modified Time: 21550
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8597,10 +8606,10 @@ vtkTriangularTCoords (0x779e8)
 
 
 vtkTriangularTexture --------------
-vtkTriangularTexture (0x75578)
+vtkTriangularTexture (0x838c8)
   Debug: Off
   Delete Method defined
-  Modified Time: 21492
+  Modified Time: 21603
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8617,10 +8626,10 @@ vtkTriangularTexture (0x75578)
 
 
 vtkTubeFilter --------------
-vtkTubeFilter (0x7b388)
+vtkTubeFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 21604
+  Modified Time: 21715
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -8629,7 +8638,7 @@ vtkTubeFilter (0x7b388)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x77888)
   Radius: 0.5
   Vary Radius: Off
   Radius Factor: 10
@@ -8640,10 +8649,10 @@ vtkTubeFilter (0x7b388)
 
 
 vtkUGFacetReader --------------
-vtkUGFacetReader (0x72080)
+vtkUGFacetReader (0x83930)
   Debug: Off
   Delete Method defined
-  Modified Time: 21716
+  Modified Time: 21827
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8652,7 +8661,7 @@ vtkUGFacetReader (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x75578)
+  Output 0: (0x72080)
   File Name: (none)
   Part Number: -1
   Merging: On
@@ -8660,10 +8669,10 @@ vtkUGFacetReader (0x72080)
 
 
 vtkUnsignedCharArray --------------
-vtkUnsignedCharArray (0x7e108)
+vtkUnsignedCharArray (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21720
+  Modified Time: 21831
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8674,10 +8683,10 @@ vtkUnsignedCharArray (0x7e108)
 
 
 vtkUnsignedIntArray --------------
-vtkUnsignedIntArray (0x6e1d0)
+vtkUnsignedIntArray (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21723
+  Modified Time: 21834
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8691,7 +8700,7 @@ vtkUnsignedLongArray --------------
 vtkUnsignedLongArray (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21726
+  Modified Time: 21837
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8705,7 +8714,7 @@ vtkUnsignedShortArray --------------
 vtkUnsignedShortArray (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 21729
+  Modified Time: 21840
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8719,7 +8728,7 @@ vtkUnstructuredGrid --------------
 vtkUnstructuredGrid (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 21963
+  Modified Time: 22074
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -8735,17 +8744,18 @@ vtkUnstructuredGrid (0x720c0)
   Field Data:
     Debug: Off
     No Delete Method
-    Modified Time: 21732
+    Modified Time: 21843
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
   Number Of Points: 0
   Number Of Cells: 0
   Cell Data:
     Debug: Off
     No Delete Method
-    Modified Time: 21735
+    Modified Time: 21846
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -8762,7 +8772,7 @@ vtkUnstructuredGrid (0x720c0)
   Point Data:
     Debug: Off
     No Delete Method
-    Modified Time: 21733
+    Modified Time: 21844
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -8795,7 +8805,7 @@ vtkUnstructuredGridReader --------------
 vtkUnstructuredGridReader (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22202
+  Modified Time: 22313
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8808,7 +8818,7 @@ vtkUnstructuredGridReader (0x6e190)
   Reader:
     Debug: Off
     No Delete Method
-    Modified Time: 22201
+    Modified Time: 22312
     Reference Count: 1
     File Name: (none)
     File Type: ASCII
@@ -8830,7 +8840,7 @@ vtkUnstructuredGridSource --------------
 vtkUnstructuredGridSource (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22440
+  Modified Time: 22551
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8846,7 +8856,7 @@ vtkUnstructuredGridWriter --------------
 vtkUnstructuredGridWriter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22444
+  Modified Time: 22555
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8874,7 +8884,7 @@ vtkVRMLExporter --------------
 vtkVRMLExporter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22447
+  Modified Time: 22558
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -8887,7 +8897,7 @@ vtkVectorDot --------------
 vtkVectorDot (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22450
+  Modified Time: 22561
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8904,7 +8914,7 @@ vtkVectorNorm --------------
 vtkVectorNorm (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22453
+  Modified Time: 22564
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8919,10 +8929,10 @@ vtkVectorNorm (0x72080)
 
 
 vtkVectorText --------------
-vtkVectorText (0x83458)
+vtkVectorText (0x85b50)
   Debug: Off
   Delete Method defined
-  Modified Time: 22564
+  Modified Time: 22675
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8939,7 +8949,7 @@ vtkVectors --------------
 vtkVectors (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22570
+  Modified Time: 22681
   Reference Count: 1
   Data: 0x6e1c0
   Number Of Vectors: 0
@@ -8947,10 +8957,10 @@ vtkVectors (0x6e190)
 
 
 vtkVersion --------------
-vtkVersion (0x81470)
+vtkVersion (0x7f8f8)
   Debug: Off
   Delete Method defined
-  Modified Time: 22574
+  Modified Time: 22685
   Reference Count: 1
 
 
@@ -8958,7 +8968,7 @@ vtkVertex --------------
 vtkVertex (0x6e1d0)
   Debug: Off
   Delete Method defined
-  Modified Time: 22581
+  Modified Time: 22692
   Reference Count: 1
   Number Of Points: 1
   Bounds: 
@@ -8972,7 +8982,7 @@ vtkVideoSource --------------
 vtkVideoSource (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 22637
+  Modified Time: 22748
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -8981,7 +8991,7 @@ vtkVideoSource (0x77888)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x83458)
+  Output 0: (0x85b50)
   FrameSize: (320, 240, 1)
   ClipRegion: (0, 2147483647, 0, 2147483647, 0, 2147483647)
   DataSpacing: (1, 1, 1)
@@ -9002,7 +9012,7 @@ vtkViewRays --------------
 vtkViewRays (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22642
+  Modified Time: 22753
   Reference Count: 1
 Renderer: 0
 Size: 0, 0
@@ -9017,7 +9027,7 @@ vtkVoidArray --------------
 vtkVoidArray (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22645
+  Modified Time: 22756
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -9028,10 +9038,10 @@ vtkVoidArray (0x6e190)
 
 
 vtkVolume --------------
-vtkVolume (0x75578)
+vtkVolume (0x83458)
   Debug: Off
   Delete Method defined
-  Modified Time: 22651
+  Modified Time: 22762
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -9040,11 +9050,12 @@ vtkVolume (0x75578)
   EstimatedRenderTime: 0
   RenderTimeMultiplier: 1
   Visibility: On
-  User Matrix: (none)
   Position: (0, 0, 0)
   Orientation: (0, 0, 0)
   Origin: (0, 0, 0)
   Scale: (1, 1, 1)
+  UserTransform: (none)
+  UserMatrix: (none)
   Property: (not defined)
   Mapper: (not defined)
   Bounds: (not defined)
@@ -9054,7 +9065,7 @@ vtkVolume16Reader --------------
 vtkVolume16Reader (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22703
+  Modified Time: 22814
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -9080,7 +9091,7 @@ vtkVolumeCollection --------------
 vtkVolumeCollection (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22707
+  Modified Time: 22818
   Reference Count: 1
   Number Of Items: 0
 
@@ -9089,7 +9100,7 @@ vtkVolumeProMapper --------------
 vtkVolumeProMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22710
+  Modified Time: 22821
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9133,7 +9144,7 @@ vtkVolumeProperty --------------
 vtkVolumeProperty (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22713
+  Modified Time: 22824
   Reference Count: 1
   Interpolation Type: Nearest Neighbor
   Color Channels: 1
@@ -9149,10 +9160,10 @@ vtkVolumeProperty (0x6e190)
 
 
 vtkVolumeRayCastCompositeFunction --------------
-vtkVolumeRayCastCompositeFunction (0x7b940)
+vtkVolumeRayCastCompositeFunction (0x7ad68)
   Debug: Off
   Delete Method defined
-  Modified Time: 22716
+  Modified Time: 22827
   Reference Count: 1
   Composite Method: Interpolate First
 
@@ -9161,16 +9172,16 @@ vtkVolumeRayCastIsosurfaceFunction --------------
 vtkVolumeRayCastIsosurfaceFunction (0x6e1d0)
   Debug: Off
   Delete Method defined
-  Modified Time: 22719
+  Modified Time: 22830
   Reference Count: 1
   Isosurface Value: 0
 
 
 vtkVolumeRayCastMIPFunction --------------
-vtkVolumeRayCastMIPFunction (0x7b940)
+vtkVolumeRayCastMIPFunction (0x7ad68)
   Debug: Off
   Delete Method defined
-  Modified Time: 22722
+  Modified Time: 22833
   Reference Count: 1
   Maximize Method: Maximize Scalar Value
 
@@ -9179,7 +9190,7 @@ vtkVolumeRayCastMapper --------------
 vtkVolumeRayCastMapper (0x77888)
   Debug: Off
   Delete Method defined
-  Modified Time: 22729
+  Modified Time: 22840
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9202,14 +9213,14 @@ vtkVolumeRayCastMapper (0x77888)
   Ray Bounder: (none)
   Ray Cast Function: (none)
   Gradient Estimator: 0x72080
-  Gradient Shader: 0x7f9f8
+  Gradient Shader: 0x841c0
 
 
 vtkVolumeTextureMapper2D --------------
 vtkOpenGLVolumeTextureMapper2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22736
+  Modified Time: 22847
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9229,14 +9240,14 @@ vtkOpenGLVolumeTextureMapper2D (0x72080)
   Cropping Region Flags: 8192
   Build Time: 0
   Gradient Estimator: 0x77888
-  Gradient Shader: 0x7f9f8
+  Gradient Shader: 0x841c0
 
 
 vtkVoxel --------------
 vtkVoxel (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22759
+  Modified Time: 22870
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -9247,10 +9258,10 @@ vtkVoxel (0x6e190)
 
 
 vtkVoxelContoursToSurfaceFilter --------------
-vtkVoxelContoursToSurfaceFilter (0x83458)
+vtkVoxelContoursToSurfaceFilter (0x85b50)
   Debug: Off
   Delete Method defined
-  Modified Time: 22870
+  Modified Time: 22981
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -9259,7 +9270,7 @@ vtkVoxelContoursToSurfaceFilter (0x83458)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x72080)
+  Output 0: (0x85c80)
   Memory Limit (in bytes): 10000000
   Spacing: 1 1 1
 
@@ -9268,7 +9279,7 @@ vtkVoxelModeller --------------
 vtkVoxelModeller (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22923
+  Modified Time: 23034
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -9277,7 +9288,7 @@ vtkVoxelModeller (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x75578)
+  Output 0: (0x77888)
   Maximum Distance: 1
   Sample Dimensions: (50, 50, 50)
   Model Bounds: 
@@ -9290,7 +9301,7 @@ vtkWarpLens --------------
 vtkWarpLens (0x6e190)
   Debug: Off
   Delete Method defined
-  Modified Time: 22927
+  Modified Time: 23038
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9308,7 +9319,7 @@ vtkWarpScalar --------------
 vtkWarpScalar (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22930
+  Modified Time: 23041
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9328,7 +9339,7 @@ vtkWarpTo --------------
 vtkWarpTo (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22933
+  Modified Time: 23044
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9347,7 +9358,7 @@ vtkWarpVector --------------
 vtkWarpVector (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22937
+  Modified Time: 23048
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9365,7 +9376,7 @@ vtkWedge --------------
 vtkWedge (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22969
+  Modified Time: 23080
   Reference Count: 1
   Number Of Points: 6
   Bounds: 
@@ -9379,7 +9390,7 @@ vtkWindowLevelLookupTable --------------
 vtkWindowLevelLookupTable (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 22974
+  Modified Time: 23085
   Reference Count: 1
   Build Time: 0
   Table Range: (0, 1)
@@ -9400,7 +9411,7 @@ vtkWindowToImageFilter --------------
 vtkWindowToImageFilter (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23025
+  Modified Time: 23136
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
@@ -9414,10 +9425,10 @@ vtkWindowToImageFilter (0x72080)
 
 
 vtkWindowedSincPolyDataFilter --------------
-vtkWindowedSincPolyDataFilter (0x72080)
+vtkWindowedSincPolyDataFilter (0x7c0a0)
   Debug: Off
   Delete Method defined
-  Modified Time: 23137
+  Modified Time: 23248
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
@@ -9426,7 +9437,7 @@ vtkWindowedSincPolyDataFilter (0x72080)
   No End Method
   AbortExecute: Off
   Progress: 0
-  Output 0: (0x7b5e8)
+  Output 0: (0x72080)
   Number of Iterations: 20
   Passband: 0.1
   Feature Edge Smoothing: Off
@@ -9438,10 +9449,10 @@ vtkWindowedSincPolyDataFilter (0x72080)
 
 
 vtkWorldPointPicker --------------
-vtkWorldPointPicker (0x75578)
+vtkWorldPointPicker (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23148
+  Modified Time: 23259
   Reference Count: 1
   Picking from renderer's actor list
   No Start PickMethod
@@ -9459,10 +9470,10 @@ vtkWorldPointPicker (0x75578)
 
 
 vtkXImageMapper --------------
-vtkXImageMapper (0x75578)
+vtkXImageMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23151
+  Modified Time: 23262
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9480,10 +9491,10 @@ vtkXImageMapper (0x75578)
 
 
 vtkXImageWindow --------------
-vtkXImageWindow (0x7f9f8)
+vtkXImageWindow (0x841c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 23155
+  Modified Time: 23266
   Reference Count: 1
   Erase: Off
   Window Name: Visualization Toolkit
@@ -9505,16 +9516,16 @@ vtkXImageWindow (0x7f9f8)
   ColorMap: 0
   GC: 0
   Offset: 0
-  Colors: 0x7fa70
+  Colors: 0x84238
   Number Of Colors: 150
   Drawable: 0
 
 
 vtkXOpenGLTextMapper --------------
-vtkXOpenGLTextMapper (0x72080)
+vtkXOpenGLTextMapper (0x720c0)
   Debug: Off
   Delete Method defined
-  Modified Time: 23158
+  Modified Time: 23269
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9539,7 +9550,7 @@ vtkXPolyDataMapper2D --------------
 vtkXPolyDataMapper2D (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23161
+  Modified Time: 23272
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9561,7 +9572,7 @@ vtkXTextMapper --------------
 vtkXTextMapper (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23164
+  Modified Time: 23275
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9586,7 +9597,7 @@ vtkXYPlotActor --------------
 vtkXYPlotActor (0x72080)
   Debug: Off
   Delete Method defined
-  Modified Time: 23797
+  Modified Time: 23908
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -9599,26 +9610,27 @@ vtkXYPlotActor (0x72080)
   PositionCoordinate: 0x72158
     Debug: Off
     No Delete Method
-    Modified Time: 23170
+    Modified Time: 23281
     Reference Count: 2
     Coordinate System: Normalized Viewport
     Value: (0.25,0.25,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Property: 0x825f0
+  Property: 0x807d0
     Debug: Off
     No Delete Method
-    Modified Time: 23433
+    Modified Time: 23544
     Reference Count: 3
     Opacity: 1
     Color: (1, 1, 1)
     Point size: 1
     Line width: 1
+    Display location: foreground
   Mapper: 0
   Position2 Coordinate: 0x721b0
     Debug: Off
     No Delete Method
-    Modified Time: 23174
+    Modified Time: 23285
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.5,0.5,0)
@@ -9627,7 +9639,7 @@ vtkXYPlotActor (0x72080)
   Input DataSets:
     Debug: Off
     No Delete Method
-    Modified Time: 23175
+    Modified Time: 23286
     Reference Count: 1
     Number Of Items: 0
   Title: (none)
