@@ -8449,26 +8449,6 @@ vtkTexturedSphereSource (0x81e0ff0)
   Radius: 0.5
 
 
-vtkThinPlateSplineMeshWarp --------------
-vtkThinPlateSplineMeshWarp (0x81e4f68)
-  Debug: Off
-  Delete Method defined
-  Modified Time: 22042
-  Reference Count: 2
-  Number Of Required Inputs: 1
-  No Inputs
-  No Start Method
-  No Progress Method
-  No End Method
-  AbortExecute: Off
-  Progress: 0
-  Output 0: (0x81e3ae8)
-  Sigma:1
-  Generate Displacement Vectors: Off
-  Source Landmarks: (nil)
-  Target Landmarks: (nil)
-
-
 vtkThinPlateSplineTransform --------------
 vtkThinPlateSplineTransform (0x81e53e8)
   Debug: Off
