@@ -1,6 +1,6 @@
 vtkTclUtil test started
 a ListInstances: a
-a ListInstances: a
+vtkTriangle ListInstances: a
 vtkCommand ListMethods
 Methods for vtkCommand:
   DebugOn
@@ -13,9 +13,15 @@ a
 timer
 rtExMath
 b
+rtOtherLog
 
 Some error handling...
 vtkWedge
+tcl return code: 1 : vtk object creation requires one argument, a name.
 vtkWedge 1a
+tcl return code: 1 : 1a: vtk object cannot start with a numeric.
 vtkTransform t; vtkTransform t
-vtkTclUtil test started
+tcl return code: 1 : t: a vtk object with that name already exists.
+vtkTransform image;
+tcl return code: 1 : image: a tcl/tk command with that name already exists.
+vtkTclUtil test ended
