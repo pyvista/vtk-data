@@ -1,0 +1,62 @@
+ctf test started
+ctf1: 
+ctf1 vtkColorTransferFunction (0x00843640)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 19
+  Reference Count: 1
+  Color Transfer Function Total Points: 0
+  Red Transfer Function: 0x00843680
+  Green Transfer Function: 0x00843760
+  Blue Transfer Function: 0x00843840
+
+
+ctf1 GetTotalSize:           0
+ctf1 GetRange:               0 0 
+ctf1(AddRedPoint):           Total Size is: 1
+ctf1 GetRange:               0 1 
+ctf1(AddGreenPoint):         Total Size is: 2
+ctf1 GetRange:               0 1 
+ctf1(AddBluePoint):          Total Size is: 3
+ctf1 GetRange:               0 1 
+ctf1(AddRGBPoint):           Total Size is: 6
+ctf1 GetRange:               0 2 
+ctf1(RemoveRedPoint):        Total Size is: 5
+ctf1 GetRange:               0 2 
+ctf1(RemoveGreenPoint):      Total Size is: 4
+ctf1 GetRange:               0 2 
+ctf1(RemoveBluePoint):       Total Size is: 3
+ctf1 GetRange:               0 2 
+ctf1(RemoveBluePoint again): Total Size is: 3
+ctf1 GetRange:               0 2 
+ctf1(RemoveRGBPoint):        Total Size is: 0
+ctf1 GetRange:               0 2 
+ctf1(AddRGBPoint):           Total Size is: 3
+ctf1 GetRange:               0 2 
+ctf1(RemoveAllPoints):       Total Size is: 0
+ctf1 GetRange:               0 2 
+ctf1(AddRedSegment):         Total Size is: 2
+ctf1 GetRange:               0 10 
+ctf1(AddRedSegment):         Total Size is: 3
+ctf1 GetRange:               0 20 
+ctf1(AddRGBSegment):         Total Size is: 8
+ctf1 GetRange:               0 30 
+ctf1 GetValue 0.0:           0 0 0 
+ctf1 GetValue 2.0:           0 0 0 
+ctf1 GetValue 20.0:          0.333333 0.333333 0.333333 
+ctf1 GetValue 25.0:          0.666667 0.666667 0.666667 
+ctf1 GetValue 30.0:          1 1 1 
+ctf1 GetRedValue 20.0:       0.333333
+ctf1 GetGreenValue 25.0:     0.666667
+ctf1 GetBlueValue 30.0:      1
+ctf1 GetBlueValue 50.0:      1
+ctf2 SetClamping 0
+ctf2 GetValue 0.0:           0 0 0 
+ctf2 GetValue 2.0:           0 0 0 
+ctf2 GetValue 20.0:          0.333333 0.333333 0.333333 
+ctf2 GetValue 25.0:          0.666667 0.666667 0.666667 
+ctf2 GetValue 30.0:          1 1 1 
+ctf2 GetRedValue 20.0:       0.333333
+ctf2 GetGreenValue 25.0:     0.666667
+ctf2 GetBlueValue 30.0:      1
+ctf2 GetBlueValue 50.0:      0
