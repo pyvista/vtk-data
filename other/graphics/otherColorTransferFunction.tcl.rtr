@@ -1,12 +1,14 @@
 ctf test started
 ctf1: 
-ctf1 vtkColorTransferFunction (0x01FEAFA0)
+ctf1 vtkColorTransferFunction (0x174a28)
   Debug: Off
   Delete Method defined
-  Modified Time: 9
+  Modified Time: 13
   Reference Count: 1
-  Size: 0  Clamping: Off
+  Size: 0
+  Clamping: Off
   Color Space: RGB
+  Range: 0 to 0
 
 
 ctf1 GetSize:                0
