@@ -1,0 +1,21 @@
+vtkTclUtil test started
+a ListInstances: a
+a ListInstances: a
+vtkCommand ListMethods
+Methods for vtkCommand:
+  DebugOn
+  DebugOff
+  DeleteAllObjects
+  ListAllInstances
+
+vtkCommand ListAllInstances
+a
+timer
+rtExMath
+b
+
+Some error handling...
+vtkWedge
+vtkWedge 1a
+vtkTransform t; vtkTransform t
+vtkTclUtil test started
