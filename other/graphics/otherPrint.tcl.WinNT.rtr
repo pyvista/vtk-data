@@ -2513,6 +2513,7 @@ vtkImageCanvasSource2D (0x0084A5C0)
   Extent: (0, 0, 0, 0, 0, 0)
   WholeExtent: (0, -1, 0, -1, 0, -1)
   ImageData: (0x0084A5C0)
+  DefaultZ: 0
   DrawColor: (0, 0, 0, 0)
 
 
