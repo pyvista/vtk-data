@@ -1,6 +1,6 @@
 Printf test started
 vtk3DSImporter --------------
-vtk3DSImporter (0x405fd7c8)
+vtk3DSImporter (0x405ff870)
   Debug: Off
   Modified Time: 8
   Reference Count: 1
@@ -11,7 +11,7 @@ vtk3DSImporter (0x405fd7c8)
 
 
 vtkActor --------------
-vtkOpenGLActor (0x405fd960)
+vtkOpenGLActor (0x405ffa28)
   Debug: Off
   Modified Time: 9
   Reference Count: 1
@@ -37,7 +37,7 @@ vtkOpenGLActor (0x405fd960)
 
 
 vtkActor2D --------------
-vtkActor2D (0x405fd808)
+vtkActor2D (0x405ff8b0)
   Debug: Off
   Modified Time: 19
   Reference Count: 1
@@ -48,7 +48,7 @@ vtkActor2D (0x405fd808)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x405fd860
+  PositionCoordinate: 0x405ff908
     Debug: Off
     Modified Time: 15
     Reference Count: 2
@@ -56,20 +56,20 @@ vtkActor2D (0x405fd808)
     Value: (0,0,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x405fd8d8
+  Position2 Coordinate: 0x405ff980
     Debug: Off
     Modified Time: 19
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.5,0.5,0)
-    ReferenceCoordinate: 0x405fd860
+    ReferenceCoordinate: 0x405ff908
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
 
 
 vtkActor2DCollection --------------
-vtkActor2DCollection (0x405fd828)
+vtkActor2DCollection (0x405ff8d0)
   Debug: Off
   Modified Time: 21
   Reference Count: 1
@@ -77,7 +77,7 @@ vtkActor2DCollection (0x405fd828)
 
 
 vtkActorCollection --------------
-vtkActorCollection (0x405fd848)
+vtkActorCollection (0x405ff8f0)
   Debug: Off
   Modified Time: 22
   Reference Count: 1
@@ -85,7 +85,7 @@ vtkActorCollection (0x405fd848)
 
 
 vtkAppendFilter --------------
-vtkAppendFilter (0x405fd868)
+vtkAppendFilter (0x405ff910)
   Debug: Off
   Modified Time: 269
   Reference Count: 2
@@ -94,11 +94,11 @@ vtkAppendFilter (0x405fd868)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fda28)
+  Output 0: (0x405ffae8)
 
 
 vtkAppendPolyData --------------
-vtkAppendPolyData (0x405fd888)
+vtkAppendPolyData (0x405ff930)
   Debug: Off
   Modified Time: 284
   Reference Count: 2
@@ -107,13 +107,13 @@ vtkAppendPolyData (0x405fd888)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fd900)
+  Output 0: (0x405ff9a8)
   ParallelStreamingOff
   UserManagedInputs: 0
 
 
 vtkArcPlotter --------------
-vtkArcPlotter (0x405fd8a8)
+vtkArcPlotter (0x405ff950)
   Debug: Off
   Modified Time: 299
   Reference Count: 2
@@ -122,7 +122,7 @@ vtkArcPlotter (0x405fd8a8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fd960)
+  Output 0: (0x405ffa08)
   Camera: (none)
   Plot Mode: Plot Scalars
   Plot Component: (All Components)
@@ -135,7 +135,7 @@ vtkArcPlotter (0x405fd8a8)
 
 
 vtkAssembly --------------
-vtkAssembly (0x405fd8c8)
+vtkAssembly (0x405ff970)
   Debug: Off
   Modified Time: 302
   Reference Count: 1
@@ -159,7 +159,7 @@ vtkAssembly (0x405fd8c8)
 
 
 vtkAssemblyNode --------------
-vtkAssemblyNode (0x405fd8e8)
+vtkAssemblyNode (0x405ff990)
   Debug: Off
   Modified Time: 0
   Reference Count: 1
@@ -168,7 +168,7 @@ vtkAssemblyNode (0x405fd8e8)
 
 
 vtkAssemblyPath --------------
-vtkAssemblyPath (0x405fd908)
+vtkAssemblyPath (0x405ff9b0)
   Debug: Off
   Modified Time: 339
   Reference Count: 1
@@ -176,7 +176,7 @@ vtkAssemblyPath (0x405fd908)
 
 
 vtkAssemblyPaths --------------
-vtkAssemblyPaths (0x405fd928)
+vtkAssemblyPaths (0x405ff9d0)
   Debug: Off
   Modified Time: 342
   Reference Count: 1
@@ -184,7 +184,7 @@ vtkAssemblyPaths (0x405fd928)
 
 
 vtkAttributeDataToFieldDataFilter --------------
-vtkAttributeDataToFieldDataFilter (0x405fd948)
+vtkAttributeDataToFieldDataFilter (0x405ff9f0)
   Debug: Off
   Modified Time: 343
   Reference Count: 1
@@ -198,7 +198,7 @@ vtkAttributeDataToFieldDataFilter (0x405fd948)
 
 
 vtkAxes --------------
-vtkAxes (0x405fd968)
+vtkAxes (0x405ffa10)
   Debug: Off
   Modified Time: 356
   Reference Count: 2
@@ -207,14 +207,14 @@ vtkAxes (0x405fd968)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdb68)
+  Output 0: (0x405ffc28)
   Origin: (0, 0, 0)
   Scale Factor: 1
   Symmetric: 0
 
 
 vtkAxisActor2D --------------
-vtkAxisActor2D (0x405fd988)
+vtkAxisActor2D (0x405ffa30)
   Debug: Off
   Modified Time: 365
   Reference Count: 1
@@ -225,7 +225,7 @@ vtkAxisActor2D (0x405fd988)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x405fda78
+  PositionCoordinate: 0x405ffb20
     Debug: Off
     Modified Time: 361
     Reference Count: 2
@@ -233,13 +233,13 @@ vtkAxisActor2D (0x405fd988)
     Value: (0,0,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x405fdaf0
+  Position2 Coordinate: 0x405ffb98
     Debug: Off
     Modified Time: 365
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.5,0.5,0)
-    ReferenceCoordinate: 0x405fda78
+    ReferenceCoordinate: 0x405ffb20
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
@@ -261,7 +261,7 @@ vtkAxisActor2D (0x405fd988)
   Tick Visibility: On
   Label Visibility: On
   Title Visibility: On
-  Point1 Coordinate: 0x405fdb68
+  Point1 Coordinate: 0x405ffc10
     Debug: Off
     Modified Time: 367
     Reference Count: 1
@@ -269,7 +269,7 @@ vtkAxisActor2D (0x405fd988)
     Value: (0,0,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Point2 Coordinate: 0x405fdbe0
+  Point2 Coordinate: 0x405ffc88
     Debug: Off
     Modified Time: 370
     Reference Count: 1
@@ -280,7 +280,7 @@ vtkAxisActor2D (0x405fd988)
 
 
 vtkBMPReader --------------
-vtkBMPReader (0x405fd9a8)
+vtkBMPReader (0x405ffa50)
   Debug: Off
   Modified Time: 706
   Reference Count: 2
@@ -289,7 +289,7 @@ vtkBMPReader (0x405fd9a8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdad0)
+  Output 0: (0x405ffb78)
   FileName: (none)
   FilePrefix: (none)
   FilePattern: %s.%d
@@ -311,7 +311,7 @@ vtkBMPReader (0x405fd9a8)
 
 
 vtkBMPWriter --------------
-vtkBMPWriter (0x405fd9c8)
+vtkBMPWriter (0x405ffa70)
   Debug: Off
   Modified Time: 710
   Reference Count: 1
@@ -328,7 +328,7 @@ vtkBMPWriter (0x405fd9c8)
 
 
 vtkBYUReader --------------
-vtkBYUReader (0x405fd9e8)
+vtkBYUReader (0x405ffa90)
   Debug: Off
   Modified Time: 723
   Reference Count: 2
@@ -337,7 +337,7 @@ vtkBYUReader (0x405fd9e8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdb80)
+  Output 0: (0x405ffc58)
   Geometry File Name: (none)
   Read Displacement: On
   Displacement File Name: (none)
@@ -349,7 +349,7 @@ vtkBYUReader (0x405fd9e8)
 
 
 vtkBYUWriter --------------
-vtkBYUWriter (0x405fda08)
+vtkBYUWriter (0x405ffab0)
   Debug: Off
   Modified Time: 726
   Reference Count: 1
@@ -382,7 +382,7 @@ vtkBYUWriter (0x405fda08)
 
 
 vtkBitArray --------------
-vtkBitArray (0x405fda28)
+vtkBitArray (0x405ffad0)
   Debug: Off
   Modified Time: 727
   Reference Count: 1
@@ -395,7 +395,7 @@ vtkBitArray (0x405fda28)
 
 
 vtkBooleanTexture --------------
-vtkBooleanTexture (0x405fda48)
+vtkBooleanTexture (0x405ffaf0)
   Debug: Off
   Modified Time: 779
   Reference Count: 2
@@ -404,7 +404,7 @@ vtkBooleanTexture (0x405fda48)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdbc8)
+  Output 0: (0x405ffc90)
   X Size: 12
   Y Size: 12
   Thickness: 0
@@ -420,7 +420,7 @@ vtkBooleanTexture (0x405fda48)
 
 
 vtkBranchExtentTranslator --------------
-vtkBranchExtentTranslator (0x405fda68)
+vtkBranchExtentTranslator (0x405ffb10)
   Debug: Off
   Modified Time: 782
   Reference Count: 1
@@ -436,7 +436,7 @@ vtkBranchExtentTranslator (0x405fda68)
 
 
 vtkBrownianPoints --------------
-vtkBrownianPoints (0x405fda88)
+vtkBrownianPoints (0x405ffb30)
   Debug: Off
   Modified Time: 783
   Reference Count: 1
@@ -451,7 +451,7 @@ vtkBrownianPoints (0x405fda88)
 
 
 vtkButterflySubdivisionFilter --------------
-vtkButterflySubdivisionFilter (0x405fdaa8)
+vtkButterflySubdivisionFilter (0x405ffb50)
   Debug: Off
   Modified Time: 796
   Reference Count: 2
@@ -460,19 +460,19 @@ vtkButterflySubdivisionFilter (0x405fdaa8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdcb0)
+  Output 0: (0x405ffd60)
   Number of subdivisions: 1
 
 
 vtkByteSwap --------------
-vtkByteSwap (0x405fdac8)
+vtkByteSwap (0x405ffb70)
   Debug: Off
   Modified Time: 799
   Reference Count: 1
 
 
 vtkCamera --------------
-vtkOpenGLCamera (0x405fdc30)
+vtkOpenGLCamera (0x405ffcf8)
   Debug: Off
   Modified Time: 800
   Reference Count: 1
@@ -495,7 +495,7 @@ vtkOpenGLCamera (0x405fdc30)
 
 
 vtkCardinalSpline --------------
-vtkCardinalSpline (0x405fdb08)
+vtkCardinalSpline (0x405ffbb0)
   Debug: Off
   Modified Time: 843
   Reference Count: 1
@@ -529,14 +529,14 @@ vtkCardinalSpline (0x405fdb08)
       Number Of Tuples: 0
     LastUpdateExtentWasOutsideOfTheExtent: 0
     Locality: 0
-    ExtentTranslator: (0x405fdc50)
+    ExtentTranslator: (0x405ffcf8)
     Clamping: 1
     Function Points: 0
   Closed: Off
 
 
 vtkCastToConcrete --------------
-vtkCastToConcrete (0x405fdb28)
+vtkCastToConcrete (0x405ffbd0)
   Debug: Off
   Modified Time: 847
   Reference Count: 1
@@ -549,14 +549,14 @@ vtkCastToConcrete (0x405fdb28)
 
 
 vtkCellArray --------------
-vtkCellArray (0x405fdb48)
+vtkCellArray (0x405ffbf0)
   Debug: Off
   Modified Time: 848
   Reference Count: 1
 
 
 vtkCellCenters --------------
-vtkCellCenters (0x405fdb68)
+vtkCellCenters (0x405ffc10)
   Debug: Off
   Modified Time: 862
   Reference Count: 2
@@ -565,12 +565,12 @@ vtkCellCenters (0x405fdb68)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdd78)
+  Output 0: (0x405ffe40)
   Vertex Cells: Off
 
 
 vtkCellData --------------
-vtkCellData (0x405fdb88)
+vtkCellData (0x405ffc30)
   Debug: Off
   Modified Time: 865
   Reference Count: 1
@@ -591,7 +591,7 @@ vtkCellData (0x405fdb88)
 
 
 vtkCellDataToPointData --------------
-vtkCellDataToPointData (0x405fdba8)
+vtkCellDataToPointData (0x405ffc50)
   Debug: Off
   Modified Time: 867
   Reference Count: 1
@@ -605,7 +605,7 @@ vtkCellDataToPointData (0x405fdba8)
 
 
 vtkCellDerivatives --------------
-vtkCellDerivatives (0x405fdbc8)
+vtkCellDerivatives (0x405ffc70)
   Debug: Off
   Modified Time: 868
   Reference Count: 1
@@ -620,14 +620,14 @@ vtkCellDerivatives (0x405fdbc8)
 
 
 vtkCellLinks --------------
-vtkCellLinks (0x405fdbe8)
+vtkCellLinks (0x405ffc90)
   Debug: Off
   Modified Time: 869
   Reference Count: 1
 
 
 vtkCellLocator --------------
-vtkCellLocator (0x405fdc08)
+vtkCellLocator (0x405ffcb0)
   Debug: Off
   Modified Time: 870
   Reference Count: 1
@@ -643,7 +643,7 @@ vtkCellLocator (0x405fdc08)
 
 
 vtkCellPicker --------------
-vtkCellPicker (0x405fdc28)
+vtkCellPicker (0x405ffcd0)
   Debug: Off
   Modified Time: 872
   Reference Count: 1
@@ -664,14 +664,14 @@ vtkCellPicker (0x405fdc28)
 
 
 vtkCellTypes --------------
-vtkCellTypes (0x405fdc48)
+vtkCellTypes (0x405ffcf0)
   Debug: Off
   Modified Time: 891
   Reference Count: 1
 
 
 vtkCharArray --------------
-vtkCharArray (0x405fdc68)
+vtkCharArray (0x405ffd10)
   Debug: Off
   Modified Time: 892
   Reference Count: 1
@@ -684,7 +684,7 @@ vtkCharArray (0x405fdc68)
 
 
 vtkCleanPolyData --------------
-vtkCleanPolyData (0x405fdc88)
+vtkCleanPolyData (0x405ffd30)
   Debug: Off
   Modified Time: 905
   Reference Count: 2
@@ -693,7 +693,7 @@ vtkCleanPolyData (0x405fdc88)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fde68)
+  Output 0: (0x405fff30)
   ToleranceIsAbsolute: 0
   Tolerance: 0
   AbsoluteTolerance: 1
@@ -704,7 +704,7 @@ vtkCleanPolyData (0x405fdc88)
 
 
 vtkClipPolyData --------------
-vtkClipPolyData (0x405fdca8)
+vtkClipPolyData (0x405ffd50)
   Debug: Off
   Modified Time: 930
   Reference Count: 3
@@ -713,8 +713,8 @@ vtkClipPolyData (0x405fdca8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdd30)
-  Output 1: (0x40600370)
+  Output 0: (0x405ffdd8)
+  Output 1: (0x40602448)
   Clip Function: (none)
   InsideOut: Off
   Value: 0
@@ -724,7 +724,7 @@ vtkClipPolyData (0x405fdca8)
 
 
 vtkClipVolume --------------
-vtkClipVolume (0x405fdcc8)
+vtkClipVolume (0x405ffd70)
   Debug: Off
   Modified Time: 1681
   Reference Count: 3
@@ -733,8 +733,8 @@ vtkClipVolume (0x405fdcc8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdd58)
-  Output 1: (0x40609340)
+  Output 0: (0x405ffe00)
+  Output 1: (0x4060b448)
   Clip Function: (none)
   InsideOut: Off
   Value: 0
@@ -745,7 +745,7 @@ vtkClipVolume (0x405fdcc8)
 
 
 vtkCollection --------------
-vtkCollection (0x405fdce8)
+vtkCollection (0x405ffd90)
   Debug: Off
   Modified Time: 1688
   Reference Count: 1
@@ -753,7 +753,7 @@ vtkCollection (0x405fdce8)
 
 
 vtkColorTransferFunction --------------
-vtkColorTransferFunction (0x405fdd08)
+vtkColorTransferFunction (0x405ffdb0)
   Debug: Off
   Modified Time: 1689
   Reference Count: 1
@@ -765,7 +765,7 @@ vtkColorTransferFunction (0x405fdd08)
 
 vtkCommand --------------
 vtkCone --------------
-vtkCone (0x405f3cc8)
+vtkCone (0x405f5cd0)
   Debug: Off
   Modified Time: 1702
   Reference Count: 1
@@ -774,7 +774,7 @@ vtkCone (0x405f3cc8)
 
 
 vtkConeSource --------------
-vtkConeSource (0x405fdde0)
+vtkConeSource (0x405ffea0)
   Debug: Off
   Modified Time: 1715
   Reference Count: 2
@@ -783,7 +783,7 @@ vtkConeSource (0x405fdde0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fde60)
+  Output 0: (0x405fff20)
   Resolution: 6
   Height: 1
   Radius: 0.5
@@ -791,7 +791,7 @@ vtkConeSource (0x405fdde0)
 
 
 vtkConnectivityFilter --------------
-vtkConnectivityFilter (0x405fdd28)
+vtkConnectivityFilter (0x405ffdd0)
   Debug: Off
   Modified Time: 1964
   Reference Count: 2
@@ -800,7 +800,7 @@ vtkConnectivityFilter (0x405fdd28)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdde8)
+  Output 0: (0x405ffe90)
   Extraction Mode: ExtractLargestRegion
   Closest Point: (0, 0, 0)
   Color Regions: Off
@@ -809,7 +809,7 @@ vtkConnectivityFilter (0x405fdd28)
 
 
 vtkContourFilter --------------
-vtkContourFilter (0x405fdd28)
+vtkContourFilter (0x405ffdd0)
   Debug: Off
   Modified Time: 1986
   Reference Count: 2
@@ -818,7 +818,7 @@ vtkContourFilter (0x405fdd28)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fddb0)
+  Output 0: (0x405ffe58)
   Compute Gradients: Off
   Compute Normals: On
   Compute Scalars: On
@@ -829,7 +829,7 @@ vtkContourFilter (0x405fdd28)
 
 
 vtkContourGrid --------------
-vtkContourGrid (0x405fdd28)
+vtkContourGrid (0x405ffdd0)
   Debug: Off
   Modified Time: 2003
   Reference Count: 2
@@ -838,7 +838,7 @@ vtkContourGrid (0x405fdd28)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fddb8)
+  Output 0: (0x405ffe60)
   Compute Gradients: Off
   Compute Normals: On
   Compute Scalars: On
@@ -849,13 +849,13 @@ vtkContourGrid (0x405fdd28)
 
 
 vtkContourValues --------------
-vtkContourValues (0x405fdd48)
+vtkContourValues (0x405ffdd0)
   Contour Values: 
     Value 0: 0
 
 
 vtkCoordinate --------------
-vtkCoordinate (0x405fdd68)
+vtkCoordinate (0x405ffdf0)
   Debug: Off
   Modified Time: 2009
   Reference Count: 1
@@ -866,14 +866,14 @@ vtkCoordinate (0x405fdd68)
 
 
 vtkCriticalSection --------------
-vtkCriticalSection (0x405fdd88)
+vtkCriticalSection (0x405ffe10)
   Debug: Off
   Modified Time: 2010
   Reference Count: 1
 
 
 vtkCubeAxesActor2D --------------
-vtkCubeAxesActor2D (0x405fdf20)
+vtkCubeAxesActor2D (0x40600000)
   Debug: Off
   Modified Time: 2017
   Reference Count: 1
@@ -884,7 +884,7 @@ vtkCubeAxesActor2D (0x405fdf20)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x405fdda8
+  PositionCoordinate: 0x405ffe30
     Debug: Off
     Modified Time: 2013
     Reference Count: 2
@@ -892,13 +892,13 @@ vtkCubeAxesActor2D (0x405fdf20)
     Value: (0,0,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x405fde20
+  Position2 Coordinate: 0x405ffea8
     Debug: Off
     Modified Time: 2017
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.5,0.5,0)
-    ReferenceCoordinate: 0x405fdda8
+    ReferenceCoordinate: 0x405ffe30
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
@@ -929,7 +929,7 @@ vtkCubeAxesActor2D (0x405fdf20)
 
 
 vtkCubeSource --------------
-vtkCubeSource (0x405fddc8)
+vtkCubeSource (0x405ffe50)
   Debug: Off
   Modified Time: 2921
   Reference Count: 2
@@ -938,7 +938,7 @@ vtkCubeSource (0x405fddc8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fde50)
+  Output 0: (0x405ffed8)
   X Length: 1
   Y Length: 1
   Z Length: 1
@@ -946,7 +946,7 @@ vtkCubeSource (0x405fddc8)
 
 
 vtkCullerCollection --------------
-vtkCullerCollection (0x405fdde8)
+vtkCullerCollection (0x405ffe70)
   Debug: Off
   Modified Time: 2924
   Reference Count: 1
@@ -954,7 +954,7 @@ vtkCullerCollection (0x405fdde8)
 
 
 vtkCursor3D --------------
-vtkCursor3D (0x405fdf18)
+vtkCursor3D (0x405fffe8)
   Debug: Off
   Modified Time: 2937
   Reference Count: 2
@@ -963,7 +963,7 @@ vtkCursor3D (0x405fdf18)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdfc8)
+  Output 0: (0x40600098)
   ModelBounds: 
     Xmin,Xmax: (-1, 1)
     Ymin,Ymax: (-1, 1)
@@ -978,7 +978,7 @@ vtkCursor3D (0x405fdf18)
 
 
 vtkCutter --------------
-vtkCutter (0x405fde28)
+vtkCutter (0x405ffeb0)
   Debug: Off
   Modified Time: 2965
   Reference Count: 2
@@ -987,7 +987,7 @@ vtkCutter (0x405fde28)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdea8)
+  Output 0: (0x405fff30)
   Cut Function: 0x0
   Sort By: SortByValue
   Locator: (none)
@@ -997,7 +997,7 @@ vtkCutter (0x405fde28)
 
 
 vtkCylinder --------------
-vtkCylinder (0x405fde48)
+vtkCylinder (0x405ffed0)
   Debug: Off
   Modified Time: 2969
   Reference Count: 1
@@ -1006,7 +1006,7 @@ vtkCylinder (0x405fde48)
 
 
 vtkCylinderSource --------------
-vtkCylinderSource (0x405fde68)
+vtkCylinderSource (0x405ffef0)
   Debug: Off
   Modified Time: 2982
   Reference Count: 2
@@ -1015,7 +1015,7 @@ vtkCylinderSource (0x405fde68)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdf88)
+  Output 0: (0x40600058)
   Resolution: 6
   Height: 1
   Radius: 0.5
@@ -1024,7 +1024,7 @@ vtkCylinderSource (0x405fde68)
 
 
 vtkDEMReader --------------
-vtkDEMReader (0x405fde88)
+vtkDEMReader (0x405fff10)
   Debug: Off
   Modified Time: 3036
   Reference Count: 2
@@ -1033,12 +1033,12 @@ vtkDEMReader (0x405fde88)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe068)
+  Output 0: (0x406000f0)
   File Name: (none)
 
 
 vtkDashedStreamLine --------------
-vtkDashedStreamLine (0x405fdea8)
+vtkDashedStreamLine (0x405fff30)
   Debug: Off
   Modified Time: 3051
   Reference Count: 2
@@ -1047,7 +1047,7 @@ vtkDashedStreamLine (0x405fdea8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdf70)
+  Output 0: (0x405ffff8)
   Starting Position: (0,0, 0)
   Maximum Propagation Time: 100
   Integration Direction: FORWARD
@@ -1056,7 +1056,7 @@ vtkDashedStreamLine (0x405fdea8)
   Terminal Speed: 0
   Speed Scalars: Off
   Interval with which points are stored:1e-05
-  Integrator: 0x40600ba0
+  Integrator: 0x40602cb8
   Number Of Streamers: 0
   Number Of Threads: 1
   Step Length: 1
@@ -1064,7 +1064,7 @@ vtkDashedStreamLine (0x405fdea8)
 
 
 vtkDataObject --------------
-vtkDataObject (0x405fdec8)
+vtkDataObject (0x405fff50)
   Debug: Off
   Modified Time: 3059
   Reference Count: 1
@@ -1088,11 +1088,11 @@ vtkDataObject (0x405fdec8)
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x405fdfb0)
+  ExtentTranslator: (0x40600038)
 
 
 vtkDataObjectCollection --------------
-vtkDataObjectCollection (0x405fdee8)
+vtkDataObjectCollection (0x405fff70)
   Debug: Off
   Modified Time: 3062
   Reference Count: 1
@@ -1100,7 +1100,7 @@ vtkDataObjectCollection (0x405fdee8)
 
 
 vtkDataObjectReader --------------
-vtkDataObjectReader (0x405fe018)
+vtkDataObjectReader (0x406000e8)
   Debug: Off
   Modified Time: 3069
   Reference Count: 2
@@ -1109,7 +1109,7 @@ vtkDataObjectReader (0x405fe018)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe118)
+  Output 0: (0x406001e8)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -1128,7 +1128,7 @@ vtkDataObjectReader (0x405fe018)
 
 
 vtkDataObjectSource --------------
-vtkDataObjectSource (0x405fdf28)
+vtkDataObjectSource (0x405fffb0)
   Debug: Off
   Modified Time: 3078
   Reference Count: 2
@@ -1137,11 +1137,11 @@ vtkDataObjectSource (0x405fdf28)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fdf88)
+  Output 0: (0x40600010)
 
 
 vtkDataObjectToDataSetFilter --------------
-vtkDataObjectToDataSetFilter (0x405fdf48)
+vtkDataObjectToDataSetFilter (0x405fffd0)
   Debug: Off
   Modified Time: 3093
   Reference Count: 2
@@ -1150,7 +1150,7 @@ vtkDataObjectToDataSetFilter (0x405fdf48)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe1f0)
+  Output 0: (0x406002a8)
   Data Set Type: vtkPolyData
   Dimensions: (0, 0, 0)
   Spacing: (0, 0, 0)
@@ -1159,7 +1159,7 @@ vtkDataObjectToDataSetFilter (0x405fdf48)
 
 
 vtkDataObjectWriter --------------
-vtkDataObjectWriter (0x405fdf68)
+vtkDataObjectWriter (0x405ffff0)
   Debug: Off
   Modified Time: 3096
   Reference Count: 1
@@ -1175,7 +1175,7 @@ vtkDataObjectWriter (0x405fdf68)
 
 
 vtkDataReader --------------
-vtkDataReader (0x405fdf88)
+vtkDataReader (0x40600010)
   Debug: Off
   Modified Time: 3098
   Reference Count: 1
@@ -1203,7 +1203,7 @@ vtkDataReader (0x405fdf88)
 
 
 vtkDataSetAttributes --------------
-vtkDataSetAttributes (0x405fdfa8)
+vtkDataSetAttributes (0x40600030)
   Debug: Off
   Modified Time: 3099
   Reference Count: 1
@@ -1224,7 +1224,7 @@ vtkDataSetAttributes (0x405fdfa8)
 
 
 vtkDataSetCollection --------------
-vtkDataSetCollection (0x405fdfc8)
+vtkDataSetCollection (0x40600050)
   Debug: Off
   Modified Time: 3101
   Reference Count: 1
@@ -1232,7 +1232,7 @@ vtkDataSetCollection (0x405fdfc8)
 
 
 vtkDataSetMapper --------------
-vtkDataSetMapper (0x405fe0f8)
+vtkDataSetMapper (0x406001c8)
   Debug: Off
   Modified Time: 3102
   Reference Count: 1
@@ -1257,7 +1257,7 @@ vtkDataSetMapper (0x405fe0f8)
 
 
 vtkDataSetReader --------------
-vtkDataSetReader (0x405fe008)
+vtkDataSetReader (0x40600180)
   Debug: Off
   Modified Time: 3103
   Reference Count: 1
@@ -1285,7 +1285,7 @@ vtkDataSetReader (0x405fe008)
 
 
 vtkDataSetSource --------------
-vtkDataSetSource (0x405fe028)
+vtkDataSetSource (0x406000b0)
   Debug: Off
   Modified Time: 3104
   Reference Count: 1
@@ -1298,7 +1298,7 @@ vtkDataSetSource (0x405fe028)
 
 
 vtkDataSetToDataObjectFilter --------------
-vtkDataSetToDataObjectFilter (0x405fe048)
+vtkDataSetToDataObjectFilter (0x406000d0)
   Debug: Off
   Modified Time: 3111
   Reference Count: 2
@@ -1307,7 +1307,7 @@ vtkDataSetToDataObjectFilter (0x405fe048)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe188)
+  Output 0: (0x40600258)
   Geometry: On
   Topology: On
   Field Data: On
@@ -1316,7 +1316,7 @@ vtkDataSetToDataObjectFilter (0x405fe048)
 
 
 vtkDataSetTriangleFilter --------------
-vtkDataSetTriangleFilter (0x405fe068)
+vtkDataSetTriangleFilter (0x406000f0)
   Debug: Off
   Modified Time: 3360
   Reference Count: 2
@@ -1325,11 +1325,11 @@ vtkDataSetTriangleFilter (0x405fe068)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe0c8)
+  Output 0: (0x40600150)
 
 
 vtkDataSetWriter --------------
-vtkDataSetWriter (0x405fe088)
+vtkDataSetWriter (0x40600110)
   Debug: Off
   Modified Time: 3363
   Reference Count: 1
@@ -1355,7 +1355,7 @@ vtkDataSetWriter (0x405fe088)
 
 
 vtkDataWriter --------------
-vtkDataWriter (0x405fe0a8)
+vtkDataWriter (0x40600130)
   Debug: Off
   Modified Time: 3364
   Reference Count: 1
@@ -1381,14 +1381,14 @@ vtkDataWriter (0x405fe0a8)
 
 
 vtkDebugLeaks --------------
-vtkDebugLeaks (0x405fe0c8)
+vtkDebugLeaks (0x40600150)
   Debug: Off
   Modified Time: 3365
   Reference Count: 1
 
 
 vtkDecimate --------------
-vtkDecimate (0x405fe1e8)
+vtkDecimate (0x406002b8)
   Debug: Off
   Modified Time: 3378
   Reference Count: 2
@@ -1397,7 +1397,7 @@ vtkDecimate (0x405fe1e8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600370)
+  Output 0: (0x40602448)
   Target Reduction: 0.9
   Initial Error: 0
   Error Increment: 0.005
@@ -1417,7 +1417,7 @@ vtkDecimate (0x405fe1e8)
 
 
 vtkDecimatePro --------------
-vtkDecimatePro (0x405fe108)
+vtkDecimatePro (0x40600190)
   Debug: Off
   Modified Time: 3394
   Reference Count: 2
@@ -1426,7 +1426,7 @@ vtkDecimatePro (0x405fe108)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe220)
+  Output 0: (0x406002a8)
   Target Reduction: 0.9
   Feature Angle: 15
   Splitting: On
@@ -1444,7 +1444,7 @@ vtkDecimatePro (0x405fe108)
 
 
 vtkDelaunay2D --------------
-vtkDelaunay2D (0x405fe128)
+vtkDelaunay2D (0x406001b0)
   Debug: Off
   Modified Time: 3415
   Reference Count: 2
@@ -1453,7 +1453,7 @@ vtkDelaunay2D (0x405fe128)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe1c8)
+  Output 0: (0x40600250)
   Alpha: 0
   Tolerance: 1e-05
   Offset: 1
@@ -1461,7 +1461,7 @@ vtkDelaunay2D (0x405fe128)
 
 
 vtkDelaunay3D --------------
-vtkDelaunay3D (0x405fe148)
+vtkDelaunay3D (0x406001d0)
   Debug: Off
   Modified Time: 3664
   Reference Count: 2
@@ -1470,7 +1470,7 @@ vtkDelaunay3D (0x405fe148)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe1e0)
+  Output 0: (0x40600268)
   Alpha: 0
   Tolerance: 0.001
   Offset: 2.5
@@ -1479,7 +1479,7 @@ vtkDelaunay3D (0x405fe148)
 
 
 vtkDepthSortPolyData --------------
-vtkDepthSortPolyData (0x405fe168)
+vtkDepthSortPolyData (0x406001f0)
   Debug: Off
   Modified Time: 3682
   Reference Count: 2
@@ -1488,7 +1488,7 @@ vtkDepthSortPolyData (0x405fe168)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe220)
+  Output 0: (0x406002a8)
   Camera: (none)
   Prop3D: (none)
   Direction: Back To Front
@@ -1496,7 +1496,7 @@ vtkDepthSortPolyData (0x405fe168)
 
 
 vtkDirectory --------------
-vtkDirectory (0x405fe188)
+vtkDirectory (0x40600210)
   Debug: Off
   Modified Time: 3687
   Reference Count: 1
@@ -1504,7 +1504,7 @@ vtkDirectory (0x405fe188)
 
 
 vtkDiskSource --------------
-vtkDiskSource (0x405fe2b8)
+vtkDiskSource (0x40600230)
   Debug: Off
   Modified Time: 3700
   Reference Count: 2
@@ -1513,7 +1513,7 @@ vtkDiskSource (0x405fe2b8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600370)
+  Output 0: (0x40602448)
   InnerRadius: 0.25
   OuterRadius: 0.5
   RadialResolution: 1
@@ -1521,7 +1521,7 @@ vtkDiskSource (0x405fe2b8)
 
 
 vtkDividingCubes --------------
-vtkDividingCubes (0x405fe1c8)
+vtkDividingCubes (0x40600250)
   Debug: Off
   Modified Time: 3715
   Reference Count: 2
@@ -1530,14 +1530,14 @@ vtkDividingCubes (0x405fe1c8)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x405fe258)
+  Output 0: (0x406002e0)
   Value: 0
   Distance: 0.1
   Increment: 1
 
 
 vtkDoubleArray --------------
-vtkDoubleArray (0x405fe1e8)
+vtkDoubleArray (0x40600270)
   Debug: Off
   Modified Time: 3744
   Reference Count: 1
@@ -1550,14 +1550,14 @@ vtkDoubleArray (0x405fe1e8)
 
 
 vtkDynamicLoader --------------
-vtkDynamicLoader (0x405fe208)
+vtkDynamicLoader (0x40600290)
   Debug: Off
   Modified Time: 3745
   Reference Count: 1
 
 
 vtkEarthSource --------------
-vtkEarthSource (0x405fe228)
+vtkEarthSource (0x406002b0)
   Debug: Off
   Modified Time: 3758
   Reference Count: 2
@@ -1566,14 +1566,14 @@ vtkEarthSource (0x405fe228)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600370)
+  Output 0: (0x40602448)
   Radius: 1
   OnRatio: 10
   Outline: On
 
 
 vtkEdgePoints --------------
-vtkEdgePoints (0x405fe248)
+vtkEdgePoints (0x406002d0)
   Debug: Off
   Modified Time: 3773
   Reference Count: 2
@@ -1582,12 +1582,12 @@ vtkEdgePoints (0x405fe248)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600370)
+  Output 0: (0x40602448)
   Contour Value: 0
 
 
 vtkEdgeTable --------------
-vtkEdgeTable (0x405fe268)
+vtkEdgeTable (0x406002f0)
   Debug: Off
   Modified Time: 3777
   Reference Count: 1
@@ -1595,7 +1595,7 @@ vtkEdgeTable (0x405fe268)
 
 
 vtkElevationFilter --------------
-vtkElevationFilter (0x405fe288)
+vtkElevationFilter (0x40600310)
   Debug: Off
   Modified Time: 3778
   Reference Count: 1
@@ -1611,7 +1611,7 @@ vtkElevationFilter (0x405fe288)
 
 
 vtkEmptyCell --------------
-vtkEmptyCell (0x405fe2a8)
+vtkEmptyCell (0x40600330)
   Debug: Off
   Modified Time: 3779
   Reference Count: 1
@@ -1619,7 +1619,7 @@ vtkEmptyCell (0x405fe2a8)
 
 
 vtkEnSight6Reader --------------
-vtkEnSight6Reader (0x405fe2c8)
+vtkEnSight6Reader (0x40600350)
   Debug: Off
   Modified Time: 3784
   Reference Count: 1
@@ -1646,7 +1646,7 @@ vtkEnSight6Reader (0x405fe2c8)
 
 
 vtkEnSightGoldReader --------------
-vtkEnSightGoldReader (0x405fe2e8)
+vtkEnSightGoldReader (0x40600370)
   Debug: Off
   Modified Time: 3789
   Reference Count: 1
@@ -1673,7 +1673,7 @@ vtkEnSightGoldReader (0x405fe2e8)
 
 
 vtkEncodedGradientShader --------------
-vtkEncodedGradientShader (0x406004a0)
+vtkEncodedGradientShader (0x406025a0)
   Debug: Off
   Modified Time: 3791
   Reference Count: 1
@@ -1682,7 +1682,7 @@ vtkEncodedGradientShader (0x406004a0)
 
 
 vtkExtentTranslator --------------
-vtkExtentTranslator (0x406003b0)
+vtkExtentTranslator (0x406024b0)
   Debug: Off
   Modified Time: 3792
   Reference Count: 1
@@ -1695,7 +1695,7 @@ vtkExtentTranslator (0x406003b0)
 
 
 vtkExtractEdges --------------
-vtkExtractEdges (0x405fe348)
+vtkExtractEdges (0x406003d0)
   Debug: Off
   Modified Time: 3805
   Reference Count: 2
@@ -1704,12 +1704,12 @@ vtkExtractEdges (0x405fe348)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600498)
+  Output 0: (0x406025a0)
   Locator: (none)
 
 
 vtkExtractGeometry --------------
-vtkExtractGeometry (0x40600370)
+vtkExtractGeometry (0x406003f0)
   Debug: Off
   Modified Time: 4054
   Reference Count: 2
@@ -1718,13 +1718,13 @@ vtkExtractGeometry (0x40600370)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406003d8)
+  Output 0: (0x40602448)
   Implicit Function: 0x0
   Extract Inside: On
 
 
 vtkExtractGrid --------------
-vtkExtractGrid (0x40600370)
+vtkExtractGrid (0x40602448)
   Debug: Off
   Modified Time: 4107
   Reference Count: 2
@@ -1733,7 +1733,7 @@ vtkExtractGrid (0x40600370)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600410)
+  Output 0: (0x406024e8)
   VOI: 
     Imin,Imax: (0, 2147483647)
     Jmin,Jmax: (0, 2147483647)
@@ -1743,7 +1743,7 @@ vtkExtractGrid (0x40600370)
 
 
 vtkExtractPolyDataGeometry --------------
-vtkExtractPolyDataGeometry (0x40600370)
+vtkExtractPolyDataGeometry (0x40602448)
   Debug: Off
   Modified Time: 4122
   Reference Count: 2
@@ -1752,13 +1752,13 @@ vtkExtractPolyDataGeometry (0x40600370)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406003e8)
+  Output 0: (0x406024c0)
   Implicit Function: (null)
   Extract Inside: On
 
 
 vtkExtractPolyDataPiece --------------
-vtkExtractPolyDataPiece (0x40600370)
+vtkExtractPolyDataPiece (0x40602448)
   Debug: Off
   Modified Time: 4137
   Reference Count: 2
@@ -1767,12 +1767,12 @@ vtkExtractPolyDataPiece (0x40600370)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406003e0)
+  Output 0: (0x406024b8)
   Create Ghost Cells: On
 
 
 vtkExtractTensorComponents --------------
-vtkExtractTensorComponents (0x40600390)
+vtkExtractTensorComponents (0x40602448)
   Debug: Off
   Modified Time: 4140
   Reference Count: 1
@@ -1807,7 +1807,7 @@ vtkExtractTensorComponents (0x40600390)
 
 
 vtkExtractUnstructuredGrid --------------
-vtkExtractUnstructuredGrid (0x406003b0)
+vtkExtractUnstructuredGrid (0x40602468)
   Debug: Off
   Modified Time: 4387
   Reference Count: 2
@@ -1816,7 +1816,7 @@ vtkExtractUnstructuredGrid (0x406003b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600560)
+  Output 0: (0x40602660)
   Point Minimum : 0
   Point Maximum : 2147483647
   Cell Minimum : 0
@@ -1831,7 +1831,7 @@ vtkExtractUnstructuredGrid (0x406003b0)
 
 
 vtkExtractVOI --------------
-vtkExtractVOI (0x406003d0)
+vtkExtractVOI (0x40602488)
   Debug: Off
   Modified Time: 4441
   Reference Count: 2
@@ -1840,7 +1840,7 @@ vtkExtractVOI (0x406003d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600470)
+  Output 0: (0x40602528)
   VOI: 
     Imin,Imax: (0, 2147483647)
     Jmin,Jmax: (0, 2147483647)
@@ -1849,7 +1849,7 @@ vtkExtractVOI (0x406003d0)
 
 
 vtkExtractVectorComponents --------------
-vtkExtractVectorComponents (0x406003f0)
+vtkExtractVectorComponents (0x406024a8)
   Debug: Off
   Modified Time: 4444
   Reference Count: 1
@@ -1862,7 +1862,7 @@ vtkExtractVectorComponents (0x406003f0)
 
 
 vtkFeatureEdges --------------
-vtkFeatureEdges (0x40600410)
+vtkFeatureEdges (0x406024c8)
   Debug: Off
   Modified Time: 4457
   Reference Count: 2
@@ -1871,7 +1871,7 @@ vtkFeatureEdges (0x40600410)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600550)
+  Output 0: (0x40602650)
   Feature Angle: 30
   Boundary Edges: On
   Feature Edges: On
@@ -1882,7 +1882,7 @@ vtkFeatureEdges (0x40600410)
 
 
 vtkFieldData --------------
-vtkFieldData (0x40600430)
+vtkFieldData (0x406024e8)
   Debug: Off
   Modified Time: 4460
   Reference Count: 1
@@ -1892,7 +1892,7 @@ vtkFieldData (0x40600430)
 
 
 vtkFieldDataToAttributeDataFilter --------------
-vtkFieldDataToAttributeDataFilter (0x40600568)
+vtkFieldDataToAttributeDataFilter (0x40602668)
   Debug: Off
   Modified Time: 4461
   Reference Count: 1
@@ -1909,12 +1909,12 @@ vtkFieldDataToAttributeDataFilter (0x40600568)
 
 vtkFileOutputWindow --------------
 vtkFiniteDifferenceGradientEstimator --------------
-vtkFiniteDifferenceGradientEstimator (0x40600470)
+vtkFiniteDifferenceGradientEstimator (0x40602528)
   Debug: Off
   Modified Time: 4462
   Reference Count: 1
   Input: (none)
-  DirectionEncoder: (0x40600520)
+  DirectionEncoder: (0x40602620)
   Build Time: 0
   Gradient Magnitude Scale: 1
   Gradient Magnitude Bias: 0
@@ -1931,7 +1931,7 @@ vtkFiniteDifferenceGradientEstimator (0x40600470)
 
 
 vtkFloatArray --------------
-vtkFloatArray (0x40600490)
+vtkFloatArray (0x40602548)
   Debug: Off
   Modified Time: 4465
   Reference Count: 1
@@ -1950,7 +1950,7 @@ vtkFloatTCoords --------------
 vtkFloatTensors --------------
 vtkFloatVectors --------------
 vtkFollower --------------
-vtkFollower (0x406005c8)
+vtkFollower (0x406026c8)
   Debug: Off
   Modified Time: 4466
   Reference Count: 1
@@ -1977,7 +1977,7 @@ vtkFollower (0x406005c8)
 
 
 vtkFrustumCoverageCuller --------------
-vtkFrustumCoverageCuller (0x406004d0)
+vtkFrustumCoverageCuller (0x40602588)
   Debug: Off
   Modified Time: 4474
   Reference Count: 1
@@ -1987,7 +1987,7 @@ vtkFrustumCoverageCuller (0x406004d0)
 
 
 vtkGaussianSplatter --------------
-vtkGaussianSplatter (0x40600600)
+vtkGaussianSplatter (0x40602700)
   Debug: Off
   Modified Time: 4526
   Reference Count: 2
@@ -1996,7 +1996,7 @@ vtkGaussianSplatter (0x40600600)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600710)
+  Output 0: (0x40602810)
   Sample Dimensions: (50, 50, 50)
   Radius: 0.1
   Exponent Factor: -5
@@ -2014,7 +2014,7 @@ vtkGaussianSplatter (0x40600600)
 
 
 vtkGeneralTransform --------------
-vtkGeneralTransform (0x40600510)
+vtkGeneralTransform (0x406025c8)
   Debug: Off
   Modified Time: 4529
   Reference Count: 1
@@ -2027,7 +2027,7 @@ vtkGeneralTransform (0x40600510)
 
 
 vtkGenericCell --------------
-vtkGenericCell (0x40600530)
+vtkGenericCell (0x406025e8)
   Debug: Off
   Modified Time: 4530
   Reference Count: 1
@@ -2035,7 +2035,7 @@ vtkGenericCell (0x40600530)
 
 
 vtkGeometryFilter --------------
-vtkGeometryFilter (0x40600550)
+vtkGeometryFilter (0x40602608)
   Debug: Off
   Modified Time: 4552
   Reference Count: 2
@@ -2044,7 +2044,7 @@ vtkGeometryFilter (0x40600550)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406005f8)
+  Output 0: (0x406026b0)
   Point Minimum : 0
   Point Maximum : 2147483647
   Cell Minimum : 0
@@ -2061,7 +2061,7 @@ vtkGeometryFilter (0x40600550)
 
 
 vtkGetRemoteGhostCells --------------
-vtkGetRemoteGhostCells (0x40600570)
+vtkGetRemoteGhostCells (0x40602628)
   Debug: Off
   Modified Time: 4567
   Reference Count: 2
@@ -2070,12 +2070,12 @@ vtkGetRemoteGhostCells (0x40600570)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406005e8)
+  Output 0: (0x406026a0)
   Controller (0x0)
-  Locator (0x40600a38)/n
+  Locator (0x40602b38)/n
 
 vtkGhostLevelToScalarFilter --------------
-vtkGhostLevelToScalarFilter (0x40600590)
+vtkGhostLevelToScalarFilter (0x40602648)
   Debug: Off
   Modified Time: 4571
   Reference Count: 1
@@ -2088,15 +2088,15 @@ vtkGhostLevelToScalarFilter (0x40600590)
 
 
 vtkGhostLevels --------------
-vtkGhostLevels (0x406005b0)
+vtkGhostLevels (0x40602668)
   Debug: Off
   Modified Time: 4574
   Reference Count: 1
-  Data: 0x406005d8
+  Data: 0x40602690
 
 
 vtkGlyph2D --------------
-vtkGlyph2D (0x406005d0)
+vtkGlyph2D (0x40602688)
   Debug: Off
   Modified Time: 4588
   Reference Count: 2
@@ -2105,7 +2105,7 @@ vtkGlyph2D (0x406005d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406007a0)
+  Output 0: (0x40602898)
   Color Mode: ColorByScale
   Source: (none)
   Scaling: On
@@ -2119,7 +2119,7 @@ vtkGlyph2D (0x406005d0)
 
 
 vtkGlyph3D --------------
-vtkGlyph3D (0x406005f0)
+vtkGlyph3D (0x406026a8)
   Debug: Off
   Modified Time: 4603
   Reference Count: 2
@@ -2128,7 +2128,7 @@ vtkGlyph3D (0x406005f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600690)
+  Output 0: (0x40602748)
   Color Mode: ColorByScale
   Source: (none)
   Scaling: On
@@ -2142,7 +2142,7 @@ vtkGlyph3D (0x406005f0)
 
 
 vtkGlyphSource2D --------------
-vtkGlyphSource2D (0x40600610)
+vtkGlyphSource2D (0x406026c8)
   Debug: Off
   Modified Time: 4618
   Reference Count: 2
@@ -2151,7 +2151,7 @@ vtkGlyphSource2D (0x40600610)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406006b8)
+  Output 0: (0x40602770)
   Center: (0, 0, 0)
   Scale: 1
   Scale2: 1.5
@@ -2164,7 +2164,7 @@ vtkGlyphSource2D (0x40600610)
 
 
 vtkGridSynchronizedTemplates3D --------------
-vtkGridSynchronizedTemplates3D (0x40600630)
+vtkGridSynchronizedTemplates3D (0x406026e8)
   Debug: Off
   Modified Time: 4634
   Reference Count: 2
@@ -2173,7 +2173,7 @@ vtkGridSynchronizedTemplates3D (0x40600630)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600758)
+  Output 0: (0x40602810)
   Contour Values: 
     Value 0: 0
   Compute Normals: On
@@ -2183,7 +2183,7 @@ vtkGridSynchronizedTemplates3D (0x40600630)
 
 
 vtkGridTransform --------------
-vtkGridTransform (0x40600650)
+vtkGridTransform (0x40602708)
   Debug: Off
   Modified Time: 4639
   Reference Count: 1
@@ -2198,7 +2198,7 @@ vtkGridTransform (0x40600650)
 
 
 vtkHedgeHog --------------
-vtkHedgeHog (0x40600670)
+vtkHedgeHog (0x40602728)
   Debug: Off
   Modified Time: 4652
   Reference Count: 2
@@ -2207,13 +2207,13 @@ vtkHedgeHog (0x40600670)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600810)
+  Output 0: (0x40602910)
   Scale Factor: 1
   Orient Mode: Orient by vector
 
 
 vtkHexahedron --------------
-vtkHexahedron (0x40600690)
+vtkHexahedron (0x40602748)
   Debug: Off
   Modified Time: 4655
   Reference Count: 1
@@ -2226,7 +2226,7 @@ vtkHexahedron (0x40600690)
 
 
 vtkHull --------------
-vtkHull (0x406006b0)
+vtkHull (0x40602768)
   Debug: Off
   Modified Time: 4687
   Reference Count: 2
@@ -2235,12 +2235,12 @@ vtkHull (0x406006b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600728)
+  Output 0: (0x406027e0)
   Number Of Planes: 0
 
 
 vtkHyperStreamline --------------
-vtkHyperStreamline (0x406006d0)
+vtkHyperStreamline (0x40602788)
   Debug: Off
   Modified Time: 4702
   Reference Count: 2
@@ -2249,7 +2249,7 @@ vtkHyperStreamline (0x406006d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600790)
+  Output 0: (0x40602848)
   Starting Position: (0,0, 0)
   Maximum Propagation Distance: 100
   Integration Direction: FORWARD
@@ -2263,7 +2263,7 @@ vtkHyperStreamline (0x406006d0)
 
 
 vtkIVExporter --------------
-vtkIVExporter (0x406006f0)
+vtkIVExporter (0x406027a8)
   Debug: Off
   Modified Time: 4705
   Reference Count: 1
@@ -2274,7 +2274,7 @@ vtkIVExporter (0x406006f0)
 
 
 vtkIVWriter --------------
-vtkIVWriter (0x40600830)
+vtkIVWriter (0x406027c8)
   Debug: Off
   Modified Time: 4706
   Reference Count: 1
@@ -2300,7 +2300,7 @@ vtkIVWriter (0x40600830)
 
 
 vtkIdFilter --------------
-vtkIdFilter (0x40600730)
+vtkIdFilter (0x406027e8)
   Debug: Off
   Modified Time: 4707
   Reference Count: 1
@@ -2316,7 +2316,7 @@ vtkIdFilter (0x40600730)
 
 
 vtkIdList --------------
-vtkIdList (0x40600750)
+vtkIdList (0x40602808)
   Debug: Off
   Modified Time: 4708
   Reference Count: 1
@@ -2324,12 +2324,12 @@ vtkIdList (0x40600750)
 
 
 vtkIdentityTransform --------------
-vtkIdentityTransform (0x40600770)
+vtkIdentityTransform (0x40602828)
   Debug: Off
   Modified Time: 4709
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x406008e0)
+  Matrix: (0x406029f0)
     Debug: Off
     Modified Time: 4710
     Reference Count: 1
@@ -2341,7 +2341,7 @@ vtkIdentityTransform (0x40600770)
 
 
 vtkImageAccumulate --------------
-vtkImageAccumulate (0x40600790)
+vtkImageAccumulate (0x40602848)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2352,13 +2352,13 @@ vtkImageAccumulate (0x40600790)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600850)
+  Output 0: (0x406029d0)
   ComponentOrigin: ( 0, 0, 0 )
   ComponentSpacing: ( 1, 1, 1 )
 
 
 vtkImageActor --------------
-vtkOpenGLImageActor (0x406007b0)
+vtkOpenGLImageActor (0x40602868)
   Debug: Off
   Modified Time: 4766
   Reference Count: 1
@@ -2374,7 +2374,7 @@ vtkOpenGLImageActor (0x406007b0)
 
 
 vtkImageAnisotropicDiffusion2D --------------
-vtkImageAnisotropicDiffusion2D (0x406007d0)
+vtkImageAnisotropicDiffusion2D (0x40602888)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2385,7 +2385,7 @@ vtkImageAnisotropicDiffusion2D (0x406007d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600990)
+  Output 0: (0x40602a90)
   KernelSize: (9, 9, 1).
   KernelMiddle: (4, 4, 0).
   NumberOfIterations: 4
@@ -2398,7 +2398,7 @@ vtkImageAnisotropicDiffusion2D (0x406007d0)
 
 
 vtkImageAnisotropicDiffusion3D --------------
-vtkImageAnisotropicDiffusion3D (0x406007f0)
+vtkImageAnisotropicDiffusion3D (0x406028a8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2409,7 +2409,7 @@ vtkImageAnisotropicDiffusion3D (0x406007f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406008c8)
+  Output 0: (0x40602980)
   KernelSize: (9, 9, 9).
   KernelMiddle: (4, 4, 4).
   NumberOfIterations: 4
@@ -2422,7 +2422,7 @@ vtkImageAnisotropicDiffusion3D (0x406007f0)
 
 
 vtkImageAppend --------------
-vtkImageAppend (0x40600810)
+vtkImageAppend (0x406028c8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2433,13 +2433,13 @@ vtkImageAppend (0x40600810)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406008a8)
+  Output 0: (0x40602960)
   AppendAxis: 0
   PreserveExtents: 0
 
 
 vtkImageAppendComponents --------------
-vtkImageAppendComponents (0x40600830)
+vtkImageAppendComponents (0x406028e8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2450,11 +2450,11 @@ vtkImageAppendComponents (0x40600830)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406008c0)
+  Output 0: (0x40602978)
 
 
 vtkImageBlend --------------
-vtkImageBlend (0x40600850)
+vtkImageBlend (0x40602908)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2465,13 +2465,13 @@ vtkImageBlend (0x40600850)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406008f0)
+  Output 0: (0x406029a8)
   Blend Mode: Normal
   Compound threshold: 0
 
 
 vtkImageButterworthHighPass --------------
-vtkImageButterworthHighPass (0x40600870)
+vtkImageButterworthHighPass (0x40602928)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2482,13 +2482,13 @@ vtkImageButterworthHighPass (0x40600870)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600910)
+  Output 0: (0x406029c8)
   Order: 1
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageButterworthLowPass --------------
-vtkImageButterworthLowPass (0x40600890)
+vtkImageButterworthLowPass (0x40602948)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2499,13 +2499,13 @@ vtkImageButterworthLowPass (0x40600890)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600930)
+  Output 0: (0x406029e8)
   Order: 1
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageCacheFilter --------------
-vtkImageCacheFilter (0x406008b0)
+vtkImageCacheFilter (0x40602968)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2516,13 +2516,13 @@ vtkImageCacheFilter (0x406008b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600950)
+  Output 0: (0x40602a08)
   CacheSize: 10
   Caches: 
 
 
 vtkImageCanvasSource2D --------------
-vtkImageCanvasSource2D (0x406008d0)
+vtkImageCanvasSource2D (0x40602988)
   Debug: Off
   Modified Time: 5266
   Reference Count: 1
@@ -2546,7 +2546,7 @@ vtkImageCanvasSource2D (0x406008d0)
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40600a60)
+  ExtentTranslator: (0x40602b18)
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
@@ -2599,13 +2599,13 @@ vtkImageCanvasSource2D (0x406008d0)
   Increments: (1, 1, 1)
   Extent: (0, 0, 0, 0, 0, 0)
   WholeExtent: (0, -1, 0, -1, 0, -1)
-  ImageData: (0x406008d0)
+  ImageData: (0x40602988)
   DefaultZ: 0
   DrawColor: (0, 0, 0, 0)
 
 
 vtkImageCast --------------
-vtkImageCast (0x406008f0)
+vtkImageCast (0x406029a8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2616,13 +2616,13 @@ vtkImageCast (0x406008f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600988)
+  Output 0: (0x40602a40)
   OutputScalarType: 10
   ClampOverflow: Off
 
 
 vtkImageCityBlockDistance --------------
-vtkImageCityBlockDistance (0x40600910)
+vtkImageCityBlockDistance (0x406029c8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2633,13 +2633,13 @@ vtkImageCityBlockDistance (0x40600910)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406009b0)
+  Output 0: (0x40602a68)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageClip --------------
-vtkImageClip (0x40600930)
+vtkImageClip (0x406029e8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2650,13 +2650,13 @@ vtkImageClip (0x40600930)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406009e8)
+  Output 0: (0x40602aa0)
   OutputWholeExtent: (-2147483647,2147483647  , -2147483647,2147483647  , -2147483647,2147483647)
   ClipDataOff
 
 
 vtkImageComposite --------------
-vtkImageComposite (0x40600950)
+vtkImageComposite (0x40602a08)
   Debug: Off
   Modified Time: 5586
   Reference Count: 2
@@ -2665,11 +2665,11 @@ vtkImageComposite (0x40600950)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406009b0)
+  Output 0: (0x40602a68)
 
 
 vtkImageConnector --------------
-vtkImageConnector (0x40600970)
+vtkImageConnector (0x40602a28)
   Debug: Off
   Modified Time: 5589
   Reference Count: 1
@@ -2678,7 +2678,7 @@ vtkImageConnector (0x40600970)
 
 
 vtkImageConstantPad --------------
-vtkImageConstantPad (0x40600aa0)
+vtkImageConstantPad (0x40602ba0)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2689,13 +2689,13 @@ vtkImageConstantPad (0x40600aa0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600b50)
+  Output 0: (0x40602c50)
   OutputNumberOfScalarComponents: -1
   Constant: 0
 
 
 vtkImageContinuousDilate3D --------------
-vtkImageContinuousDilate3D (0x406009b0)
+vtkImageContinuousDilate3D (0x40602a68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2706,13 +2706,13 @@ vtkImageContinuousDilate3D (0x406009b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600a70)
+  Output 0: (0x40602b28)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
 
 vtkImageContinuousErode3D --------------
-vtkImageContinuousErode3D (0x406009d0)
+vtkImageContinuousErode3D (0x40602a88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2723,13 +2723,13 @@ vtkImageContinuousErode3D (0x406009d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600a90)
+  Output 0: (0x40602b48)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
 
 vtkImageCorrelation --------------
-vtkImageCorrelation (0x406009f0)
+vtkImageCorrelation (0x40602aa8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2741,12 +2741,12 @@ vtkImageCorrelation (0x406009f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600a80)
+  Output 0: (0x40602b38)
   Dimensionality: 2
 
 
 vtkImageCursor3D --------------
-vtkImageCursor3D (0x40600a10)
+vtkImageCursor3D (0x40602ac8)
   Cursor Radius: 5
   Cursor Value: 255
   Cursor Position: (0, 0, 0)
@@ -2760,11 +2760,11 @@ vtkImageCursor3D (0x40600a10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ab8)
+  Output 0: (0x40602b70)
 
 
 vtkImageData --------------
-vtkImageData (0x40600a30)
+vtkImageData (0x40602ae8)
   Debug: Off
   Modified Time: 6036
   Reference Count: 1
@@ -2788,7 +2788,7 @@ vtkImageData (0x40600a30)
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40600ba8)
+  ExtentTranslator: (0x40602c60)
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
@@ -2844,7 +2844,7 @@ vtkImageData (0x40600a30)
 
 
 vtkImageDataStreamer --------------
-vtkImageDataStreamer (0x40600a50)
+vtkImageDataStreamer (0x40602b08)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2855,14 +2855,14 @@ vtkImageDataStreamer (0x40600a50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600b18)
+  Output 0: (0x40602bd0)
   MemoryLimit (in kb): 1000000
   IncrementalUpdate: 0
   SplitMode: Z Slab
 
 
 vtkImageDifference --------------
-vtkImageDifference (0x40600a70)
+vtkImageDifference (0x40602b28)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2874,7 +2874,7 @@ vtkImageDifference (0x40600a70)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c08)
+  Output 0: (0x40602cc0)
   Error for thread 0: 0
   ThresholdedError for thread 0: 0
   Threshold: 16
@@ -2883,7 +2883,7 @@ vtkImageDifference (0x40600a70)
 
 
 vtkImageDilateErode3D --------------
-vtkImageDilateErode3D (0x40600a90)
+vtkImageDilateErode3D (0x40602b48)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2894,7 +2894,7 @@ vtkImageDilateErode3D (0x40600a90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600b58)
+  Output 0: (0x40602c10)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
   DilateValue: 0
@@ -2902,7 +2902,7 @@ vtkImageDilateErode3D (0x40600a90)
 
 
 vtkImageDivergence --------------
-vtkImageDivergence (0x40600ab0)
+vtkImageDivergence (0x40602b68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2913,11 +2913,11 @@ vtkImageDivergence (0x40600ab0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600b40)
+  Output 0: (0x40602bf8)
 
 
 vtkImageDotProduct --------------
-vtkImageDotProduct (0x40600ad0)
+vtkImageDotProduct (0x40602b88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2929,11 +2929,11 @@ vtkImageDotProduct (0x40600ad0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600b60)
+  Output 0: (0x40602c18)
 
 
 vtkImageEllipsoidSource --------------
-vtkImageEllipsoidSource (0x40600af0)
+vtkImageEllipsoidSource (0x40602ba8)
   Center: (128, 128, 0)
   Radius: (70, 70, 70)
   InValue: 255
@@ -2947,11 +2947,11 @@ vtkImageEllipsoidSource (0x40600af0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ba8)
+  Output 0: (0x40602c60)
 
 
 vtkImageEuclideanToPolar --------------
-vtkImageEuclideanToPolar (0x40600b10)
+vtkImageEuclideanToPolar (0x40602bc8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2962,12 +2962,12 @@ vtkImageEuclideanToPolar (0x40600b10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ba8)
+  Output 0: (0x40602c60)
   Maximum Angle: 255
 
 
 vtkImageExport --------------
-vtkImageExport (0x40600b30)
+vtkImageExport (0x40602be8)
   Debug: Off
   Modified Time: 6478
   Reference Count: 1
@@ -2980,7 +2980,7 @@ vtkImageExport (0x40600b30)
 
 
 vtkImageExtractComponents --------------
-vtkImageExtractComponents (0x40600b50)
+vtkImageExtractComponents (0x40602c08)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -2991,13 +2991,13 @@ vtkImageExtractComponents (0x40600b50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c90)
+  Output 0: (0x40602d90)
   NumberOfComponents: 1
   Components: ( 0, 1, 2 )
 
 
 vtkImageFFT --------------
-vtkImageFFT (0x40600b70)
+vtkImageFFT (0x40602c28)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3008,13 +3008,13 @@ vtkImageFFT (0x40600b70)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c10)
+  Output 0: (0x40602cc8)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageFlip --------------
-vtkImageFlip (0x40600b90)
+vtkImageFlip (0x40602c48)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3025,13 +3025,13 @@ vtkImageFlip (0x40600b90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c28)
+  Output 0: (0x40602ce0)
   FilteredAxis: 0
   PreserveImageExtent: On
 
 
 vtkImageFourierCenter --------------
-vtkImageFourierCenter (0x40600bb0)
+vtkImageFourierCenter (0x40602c68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3042,13 +3042,13 @@ vtkImageFourierCenter (0x40600bb0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c50)
+  Output 0: (0x40602d08)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageGaussianSmooth --------------
-vtkImageGaussianSmooth (0x40600bd0)
+vtkImageGaussianSmooth (0x40602c88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3059,14 +3059,14 @@ vtkImageGaussianSmooth (0x40600bd0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c80)
+  Output 0: (0x40602d38)
   Dimensionality: 3
   RadiusFactors: ( 1.5, 1.5, 1.5 )
   StandardDeviations: ( 2, 2, 2 )
 
 
 vtkImageGaussianSource --------------
-vtkImageGaussianSource (0x40600bf0)
+vtkImageGaussianSource (0x40602ca8)
   Debug: Off
   Modified Time: 7009
   Reference Count: 2
@@ -3075,14 +3075,14 @@ vtkImageGaussianSource (0x40600bf0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600c98)
+  Output 0: (0x40602d50)
   Maximum: 10
   StandardDeviation: 100
   Center: ( 0, 0, 0 )
 
 
 vtkImageGradient --------------
-vtkImageGradient (0x40600c10)
+vtkImageGradient (0x40602cc8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3093,13 +3093,13 @@ vtkImageGradient (0x40600c10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ca8)
+  Output 0: (0x40602d60)
   HandleBoundaries: 1
   Dimensionality: 2
 
 
 vtkImageGradientMagnitude --------------
-vtkImageGradientMagnitude (0x40600c30)
+vtkImageGradientMagnitude (0x40602ce8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3110,13 +3110,13 @@ vtkImageGradientMagnitude (0x40600c30)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600cc8)
+  Output 0: (0x40602d80)
   HandleBoundaries: 1
   Dimensionality: 2
 
 
 vtkImageGridSource --------------
-vtkImageGridSource (0x40600c50)
+vtkImageGridSource (0x40602d08)
   Debug: Off
   Modified Time: 7174
   Reference Count: 2
@@ -3125,7 +3125,7 @@ vtkImageGridSource (0x40600c50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600d20)
+  Output 0: (0x40602dd8)
   GridSpacing: (10, 10, 0)
   GridOrigin: (0, 0, 0)
   LineValue: 1
@@ -3137,7 +3137,7 @@ vtkImageGridSource (0x40600c50)
 
 
 vtkImageHSVToRGB --------------
-vtkImageHSVToRGB (0x40600c70)
+vtkImageHSVToRGB (0x40602d28)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3148,12 +3148,12 @@ vtkImageHSVToRGB (0x40600c70)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600d08)
+  Output 0: (0x40602dc0)
   Maximum: 255
 
 
 vtkImageHybridMedian2D --------------
-vtkImageHybridMedian2D (0x40600c90)
+vtkImageHybridMedian2D (0x40602d48)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3164,13 +3164,13 @@ vtkImageHybridMedian2D (0x40600c90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600d48)
+  Output 0: (0x40602e00)
   KernelSize: (5, 5, 1).
   KernelMiddle: (2, 2, 0).
 
 
 vtkImageIdealHighPass --------------
-vtkImageIdealHighPass (0x40600cb0)
+vtkImageIdealHighPass (0x40602d68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3181,12 +3181,12 @@ vtkImageIdealHighPass (0x40600cb0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600d50)
+  Output 0: (0x40602e08)
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageIdealLowPass --------------
-vtkImageIdealLowPass (0x40600cd0)
+vtkImageIdealLowPass (0x40602d88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3197,12 +3197,12 @@ vtkImageIdealLowPass (0x40600cd0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600d70)
+  Output 0: (0x40602e28)
   CutOff: ( 1e+38, 1e+38, 1e+38 )
 
 
 vtkImageImport --------------
-vtkImageImport (0x40600cf0)
+vtkImageImport (0x40602da8)
   Debug: Off
   Modified Time: 7448
   Reference Count: 2
@@ -3211,7 +3211,7 @@ vtkImageImport (0x40600cf0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600db0)
+  Output 0: (0x40602e68)
   ImportVoidPointer: 0x0
   DataScalarType: short
   NumberOfScalarComponents: 1
@@ -3221,7 +3221,7 @@ vtkImageImport (0x40600cf0)
 
 
 vtkImageIslandRemoval2D --------------
-vtkImageIslandRemoval2D (0x40600d10)
+vtkImageIslandRemoval2D (0x40602dc8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3232,11 +3232,11 @@ vtkImageIslandRemoval2D (0x40600d10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600db0)
+  Output 0: (0x40602e68)
   AreaThreshold: 4  Neighborhood: Cross  IslandValue: 0  ReplaceValue: 255
 
 vtkImageLaplacian --------------
-vtkImageLaplacian (0x40600d30)
+vtkImageLaplacian (0x40602de8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3247,11 +3247,11 @@ vtkImageLaplacian (0x40600d30)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600dc8)
+  Output 0: (0x40602e80)
   Dimensionality: 2
 
 vtkImageLogarithmicScale --------------
-vtkImageLogarithmicScale (0x40600d50)
+vtkImageLogarithmicScale (0x40602e08)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3262,12 +3262,12 @@ vtkImageLogarithmicScale (0x40600d50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600de8)
+  Output 0: (0x40602ea0)
   Constant: 10
 
 
 vtkImageLogic --------------
-vtkImageLogic (0x40600d70)
+vtkImageLogic (0x40602e28)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3279,13 +3279,13 @@ vtkImageLogic (0x40600d70)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600e08)
+  Output 0: (0x40602ec0)
   Operation: 0
   OutputTrueValue: 255
 
 
 vtkImageLuminance --------------
-vtkImageLuminance (0x40600d90)
+vtkImageLuminance (0x40602e48)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3296,11 +3296,11 @@ vtkImageLuminance (0x40600d90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600e20)
+  Output 0: (0x40602ed8)
 
 
 vtkImageMagnify --------------
-vtkImageMagnify (0x40600db0)
+vtkImageMagnify (0x40602e68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3311,13 +3311,13 @@ vtkImageMagnify (0x40600db0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600e50)
+  Output 0: (0x40602f08)
   MagnificationFactors: ( 1, 1, 1 )
   Interpolate: Off
 
 
 vtkImageMagnitude --------------
-vtkImageMagnitude (0x40600dd0)
+vtkImageMagnitude (0x40602e88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3328,11 +3328,11 @@ vtkImageMagnitude (0x40600dd0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600e60)
+  Output 0: (0x40602f18)
 
 
 vtkImageMandelbrotSource --------------
-vtkImageMandelbrotSource (0x40600df0)
+vtkImageMandelbrotSource (0x40602ea8)
   Debug: Off
   Modified Time: 7892
   Reference Count: 2
@@ -3341,7 +3341,7 @@ vtkImageMandelbrotSource (0x40600df0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ed8)
+  Output 0: (0x40602f90)
   OriginC: (-3.2, -2.5)
   OriginX: (0, 0)
   SampleC: (0.005, 0.005)
@@ -3352,7 +3352,7 @@ MaximumNumberOfIterations: 100
 
 
 vtkImageMapToColors --------------
-vtkImageMapToColors (0x40600e10)
+vtkImageMapToColors (0x40602ec8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3363,13 +3363,13 @@ vtkImageMapToColors (0x40600e10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600eb0)
+  Output 0: (0x40602f68)
   OutputFormat: RGBA
   LookupTable: 0x0
 
 
 vtkImageMapToRGBA --------------
-vtkImageMapToRGBA (0x40600e30)
+vtkImageMapToRGBA (0x40602ee8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3380,13 +3380,13 @@ vtkImageMapToRGBA (0x40600e30)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ed0)
+  Output 0: (0x40602f88)
   OutputFormat: RGBA
   LookupTable: 0x0
 
 
 vtkImageMapToWindowLevelColors --------------
-vtkImageMapToWindowLevelColors (0x40600e50)
+vtkImageMapToWindowLevelColors (0x40602f08)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3397,7 +3397,7 @@ vtkImageMapToWindowLevelColors (0x40600e50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ef8)
+  Output 0: (0x40602fb0)
   OutputFormat: RGBA
   LookupTable: 0x0
   Window: 255
@@ -3405,7 +3405,7 @@ vtkImageMapToWindowLevelColors (0x40600e50)
 
 
 vtkImageMapper --------------
-vtkOpenGLImageMapper (0x40600e70)
+vtkOpenGLImageMapper (0x40602f28)
   Debug: Off
   Modified Time: 8060
   Reference Count: 1
@@ -3425,7 +3425,7 @@ vtkOpenGLImageMapper (0x40600e70)
 
 
 vtkImageMarchingCubes --------------
-vtkImageMarchingCubes (0x40600e90)
+vtkImageMarchingCubes (0x40602f48)
   Debug: Off
   Modified Time: 8074
   Reference Count: 2
@@ -3434,7 +3434,7 @@ vtkImageMarchingCubes (0x40600e90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601010)
+  Output 0: (0x40603110)
   Contour Values: 
     Value 0: 0
   ComputeScalars: 1
@@ -3444,7 +3444,7 @@ vtkImageMarchingCubes (0x40600e90)
 
 
 vtkImageMask --------------
-vtkImageMask (0x40600eb0)
+vtkImageMask (0x40602f68)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3456,13 +3456,13 @@ vtkImageMask (0x40600eb0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600f48)
+  Output 0: (0x40603000)
   MaskedOutputValue: 0, 0, 0
   NotMask: Off
 
 
 vtkImageMaskBits --------------
-vtkImageMaskBits (0x40600ed0)
+vtkImageMaskBits (0x40602f88)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3473,13 +3473,13 @@ vtkImageMaskBits (0x40600ed0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600f78)
+  Output 0: (0x40603030)
   Operation: 0
   Masks: (4294967295, 4294967295, 4294967295, 4294967295)
 
 
 vtkImageMathematics --------------
-vtkImageMathematics (0x40600ef0)
+vtkImageMathematics (0x40602fa8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3491,14 +3491,14 @@ vtkImageMathematics (0x40600ef0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600f90)
+  Output 0: (0x40603048)
   Operation: 0
   ConstantK: 1
   ConstantC: 0
 
 
 vtkImageMedian3D --------------
-vtkImageMedian3D (0x40600f10)
+vtkImageMedian3D (0x40602fc8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3509,14 +3509,14 @@ vtkImageMedian3D (0x40600f10)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600fd0)
+  Output 0: (0x40603088)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
   NumberOfElements: 1
 
 
 vtkImageMirrorPad --------------
-vtkImageMirrorPad (0x40600f30)
+vtkImageMirrorPad (0x40602fe8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3527,12 +3527,12 @@ vtkImageMirrorPad (0x40600f30)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600fe0)
+  Output 0: (0x40603098)
   OutputNumberOfScalarComponents: -1
 
 
 vtkImageNoiseSource --------------
-vtkImageNoiseSource (0x40600f50)
+vtkImageNoiseSource (0x40603008)
   Debug: Off
   Modified Time: 8406
   Reference Count: 2
@@ -3541,13 +3541,13 @@ vtkImageNoiseSource (0x40600f50)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40600ff0)
+  Output 0: (0x406030a8)
   Minimum: 0
   Maximum: 10
 
 
 vtkImageNonMaximumSuppression --------------
-vtkImageNonMaximumSuppression (0x40600f70)
+vtkImageNonMaximumSuppression (0x40603028)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3559,13 +3559,13 @@ vtkImageNonMaximumSuppression (0x40600f70)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601008)
+  Output 0: (0x406030c0)
   Dimensionality: 2
   HandleBoundaries: On
 
 
 vtkImageNormalize --------------
-vtkImageNormalize (0x40600f90)
+vtkImageNormalize (0x40603048)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3576,11 +3576,11 @@ vtkImageNormalize (0x40600f90)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601020)
+  Output 0: (0x406030d8)
 
 
 vtkImageOpenClose3D --------------
-vtkImageOpenClose3D (0x40600fb0)
+vtkImageOpenClose3D (0x40603068)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3591,7 +3591,7 @@ vtkImageOpenClose3D (0x40600fb0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601048)
+  Output 0: (0x40603100)
   Filter0: 
     NumberOfThreads: 1
     Bypass: Off
@@ -3603,7 +3603,7 @@ vtkImageOpenClose3D (0x40600fb0)
     AbortExecute: Off
     Progress: 0
     Progress Text: (None)
-    Output 0: (0x40603498)
+    Output 0: (0x40605588)
     KernelSize: (1, 1, 1).
     KernelMiddle: (0, 0, 0).
     DilateValue: 255
@@ -3619,7 +3619,7 @@ vtkImageOpenClose3D (0x40600fb0)
     AbortExecute: Off
     Progress: 0
     Progress Text: (None)
-    Output 0: (0x406058c8)
+    Output 0: (0x406079e0)
     KernelSize: (1, 1, 1).
     KernelMiddle: (0, 0, 0).
     DilateValue: 0
@@ -3627,7 +3627,7 @@ vtkImageOpenClose3D (0x40600fb0)
 
 
 vtkImagePermute --------------
-vtkImagePermute (0x40600fd0)
+vtkImagePermute (0x40603088)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3638,12 +3638,12 @@ vtkImagePermute (0x40600fd0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601070)
+  Output 0: (0x40603128)
   FilteredAxes: ( 0, 1, 2 )
 
 
 vtkImageQuantizeRGBToIndex --------------
-vtkImageQuantizeRGBToIndex (0x40600ff0)
+vtkImageQuantizeRGBToIndex (0x406030a8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3654,10 +3654,10 @@ vtkImageQuantizeRGBToIndex (0x40600ff0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601098)
+  Output 0: (0x40603150)
   Number Of Colors: 256
   Lookup Table: 
-vtkLookupTable (0x40601f40)
+vtkLookupTable (0x40604048)
   Debug: Off
   Modified Time: 8903
   Reference Count: 1
@@ -3676,7 +3676,7 @@ vtkLookupTable (0x40601f40)
 
 
 vtkImageRFFT --------------
-vtkImageRFFT (0x40601010)
+vtkImageRFFT (0x406030c8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3687,13 +3687,13 @@ vtkImageRFFT (0x40601010)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406010b0)
+  Output 0: (0x40603168)
   NumberOfIterations: 3
   Dimensionality: 3
 
 
 vtkImageRGBToHSV --------------
-vtkImageRGBToHSV (0x40601030)
+vtkImageRGBToHSV (0x406030e8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3704,12 +3704,12 @@ vtkImageRGBToHSV (0x40601030)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406010c8)
+  Output 0: (0x40603180)
   Maximum: 255
 
 
 vtkImageRange3D --------------
-vtkImageRange3D (0x40601050)
+vtkImageRange3D (0x40603108)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3720,13 +3720,13 @@ vtkImageRange3D (0x40601050)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601110)
+  Output 0: (0x406031c8)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
 
 vtkImageReader --------------
-vtkImageReader (0x40601070)
+vtkImageReader (0x40603128)
   Debug: Off
   Modified Time: 9280
   Reference Count: 2
@@ -3735,7 +3735,7 @@ vtkImageReader (0x40601070)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601190)
+  Output 0: (0x40603248)
   FileName: (none)
   FilePrefix: (none)
   FilePattern: %s.%d
@@ -3756,7 +3756,7 @@ vtkImageReader (0x40601070)
 
 
 vtkImageResample --------------
-vtkImageResample (0x40601090)
+vtkImageResample (0x40603148)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3767,13 +3767,13 @@ vtkImageResample (0x40601090)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601140)
+  Output 0: (0x406031f8)
   Dimensionality: 3
   Interpolate: On
 
 
 vtkImageReslice --------------
-vtkImageReslice (0x406010b0)
+vtkImageReslice (0x40603168)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3784,7 +3784,7 @@ vtkImageReslice (0x406010b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406011a0)
+  Output 0: (0x40603258)
   ResliceAxes: 0x0
   ResliceTransform: 0x0
   OutputSpacing: 1 1 1
@@ -3799,7 +3799,7 @@ vtkImageReslice (0x406010b0)
 
 
 vtkImageSeedConnectivity --------------
-vtkImageSeedConnectivity (0x406010d0)
+vtkImageSeedConnectivity (0x40603188)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3810,14 +3810,14 @@ vtkImageSeedConnectivity (0x406010d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601170)
-  Connector: 0x40601ed0
+  Output 0: (0x40603228)
+  Connector: 0x40603fe0
   Dimensionality: 3
   InputConnectValue: ÿ
   OutputConnectedValue: ÿ
   OutputUnconnectedValue: 
 vtkImageShiftScale --------------
-vtkImageShiftScale (0x406010f0)
+vtkImageShiftScale (0x406031a8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3828,7 +3828,7 @@ vtkImageShiftScale (0x406010f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601190)
+  Output 0: (0x40603248)
   Shift: 0
   Scale: 1
   Output Scalar Type: -1
@@ -3836,7 +3836,7 @@ vtkImageShiftScale (0x406010f0)
 
 
 vtkImageShrink3D --------------
-vtkImageShrink3D (0x40601110)
+vtkImageShrink3D (0x406031c8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3847,7 +3847,7 @@ vtkImageShrink3D (0x40601110)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406011c8)
+  Output 0: (0x40603280)
   ShrinkFactors: (1, 1, 1)
   Shift: (0, 0, 0)
   Averaging: On
@@ -3858,7 +3858,7 @@ vtkImageShrink3D (0x40601110)
 
 
 vtkImageSinusoidSource --------------
-vtkImageSinusoidSource (0x40601130)
+vtkImageSinusoidSource (0x406031e8)
   Debug: Off
   Modified Time: 9610
   Reference Count: 2
@@ -3867,7 +3867,7 @@ vtkImageSinusoidSource (0x40601130)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406011e0)
+  Output 0: (0x40603298)
   Period: 20
   Phase: 0
   Amplitude: 255
@@ -3875,7 +3875,7 @@ vtkImageSinusoidSource (0x40601130)
 
 
 vtkImageSkeleton2D --------------
-vtkImageSkeleton2D (0x40601150)
+vtkImageSkeleton2D (0x40603208)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3886,13 +3886,13 @@ vtkImageSkeleton2D (0x40601150)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406011f0)
+  Output 0: (0x406032a8)
   NumberOfIterations: 1
   Prune: Off
 
 
 vtkImageSobel2D --------------
-vtkImageSobel2D (0x40601170)
+vtkImageSobel2D (0x40603228)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3903,13 +3903,13 @@ vtkImageSobel2D (0x40601170)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601228)
+  Output 0: (0x406032e0)
   KernelSize: (3, 3, 1).
   KernelMiddle: (1, 1, 0).
 
 
 vtkImageSobel3D --------------
-vtkImageSobel3D (0x40601190)
+vtkImageSobel3D (0x40603248)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3920,11 +3920,11 @@ vtkImageSobel3D (0x40601190)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601248)
+  Output 0: (0x40603300)
 
 
 vtkImageSource --------------
-vtkImageSource (0x406011b0)
+vtkImageSource (0x40603268)
   Debug: Off
   Modified Time: 9830
   Reference Count: 2
@@ -3933,11 +3933,11 @@ vtkImageSource (0x406011b0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601230)
+  Output 0: (0x406032e8)
 
 
 vtkImageThreshold --------------
-vtkImageThreshold (0x406011d0)
+vtkImageThreshold (0x40603288)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -3948,7 +3948,7 @@ vtkImageThreshold (0x406011d0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601280)
+  Output 0: (0x40603338)
   OutputScalarType: -1
   InValue: 0
   OutValue: 0
@@ -3959,7 +3959,7 @@ vtkImageThreshold (0x406011d0)
 
 
 vtkImageToPolyDataFilter --------------
-vtkImageToPolyDataFilter (0x406011f0)
+vtkImageToPolyDataFilter (0x406032a8)
   Debug: Off
   Modified Time: 9900
   Reference Count: 2
@@ -3968,7 +3968,7 @@ vtkImageToPolyDataFilter (0x406011f0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406012a8)
+  Output 0: (0x40603360)
   Output Style:   Polygonalize
   Color Mode:   Linear256
   Smoothing: On
@@ -3981,7 +3981,7 @@ vtkImageToPolyDataFilter (0x406011f0)
 
 
 vtkImageToStructuredPoints --------------
-vtkImageToStructuredPoints (0x40601210)
+vtkImageToStructuredPoints (0x406032c8)
   Debug: Off
   Modified Time: 9955
   Reference Count: 2
@@ -3990,11 +3990,11 @@ vtkImageToStructuredPoints (0x40601210)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601280)
+  Output 0: (0x40603338)
 
 
 vtkImageTranslateExtent --------------
-vtkImageTranslateExtent (0x40601230)
+vtkImageTranslateExtent (0x406032e8)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -4005,12 +4005,12 @@ vtkImageTranslateExtent (0x40601230)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406012d0)
+  Output 0: (0x40603388)
   Translation: (0,0,0
 
 
 vtkImageVariance3D --------------
-vtkImageVariance3D (0x40601250)
+vtkImageVariance3D (0x40603308)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -4021,17 +4021,17 @@ vtkImageVariance3D (0x40601250)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601310)
+  Output 0: (0x406033c8)
   KernelSize: (1, 1, 1).
   KernelMiddle: (0, 0, 0).
 
 
 vtkImageViewer --------------
-vtkImageViewer (0x40601270)
+vtkImageViewer (0x40603328)
   Debug: Off
   Modified Time: 10122
   Reference Count: 1
-  vtkOpenGLImageWindow (0x40602c68)
+  vtkOpenGLImageWindow (0x40604d58)
   Debug: Off
   Modified Time: 10138
   Reference Count: 1
@@ -4049,7 +4049,7 @@ vtkImageViewer (0x40601270)
   ContextId: 0x0
 
 
-  vtkOpenGLImager (0x40601318)
+  vtkOpenGLImager (0x406033d0)
   Debug: Off
   Modified Time: 10137
   Reference Count: 2
@@ -4070,7 +4070,7 @@ vtkImageViewer (0x40601270)
     Number Of Items: 1
 
 
-  vtkOpenGLImageMapper (0x40601480)
+  vtkOpenGLImageMapper (0x40603570)
   Debug: Off
   Modified Time: 10128
   Reference Count: 2
@@ -4092,7 +4092,7 @@ vtkImageViewer (0x40601270)
 
 
 vtkImageWindow --------------
-vtkOpenGLImageWindow (0x40602c68)
+vtkOpenGLImageWindow (0x40604d58)
   Debug: Off
   Modified Time: 10141
   Reference Count: 1
@@ -4111,7 +4111,7 @@ vtkOpenGLImageWindow (0x40602c68)
 
 
 vtkImageWrapPad --------------
-vtkImageWrapPad (0x40601480)
+vtkImageWrapPad (0x40603368)
   NumberOfThreads: 1
   Bypass: Off
   Debug: Off
@@ -4122,12 +4122,12 @@ vtkImageWrapPad (0x40601480)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601530)
+  Output 0: (0x40603570)
   OutputNumberOfScalarComponents: -1
 
 
 vtkImageWriter --------------
-vtkImageWriter (0x406012d0)
+vtkImageWriter (0x40603388)
   Debug: Off
   Modified Time: 10199
   Reference Count: 1
@@ -4144,7 +4144,7 @@ vtkImageWriter (0x406012d0)
 
 
 vtkImager --------------
-vtkOpenGLImager (0x406012f0)
+vtkOpenGLImager (0x406033a8)
   Debug: Off
   Modified Time: 10200
   Reference Count: 1
@@ -4166,7 +4166,7 @@ vtkOpenGLImager (0x406012f0)
 
 
 vtkImagerCollection --------------
-vtkImagerCollection (0x40601310)
+vtkImagerCollection (0x406033c8)
   Debug: Off
   Modified Time: 10203
   Reference Count: 1
@@ -4174,7 +4174,7 @@ vtkImagerCollection (0x40601310)
 
 
 vtkImplicitBoolean --------------
-vtkImplicitBoolean (0x40601330)
+vtkImplicitBoolean (0x406033e8)
   Debug: Off
   Modified Time: 10204
   Reference Count: 1
@@ -4188,7 +4188,7 @@ vtkImplicitBoolean (0x40601330)
 
 
 vtkImplicitDataSet --------------
-vtkImplicitDataSet (0x40601350)
+vtkImplicitDataSet (0x40603408)
   Debug: Off
   Modified Time: 10206
   Reference Count: 1
@@ -4199,7 +4199,7 @@ vtkImplicitDataSet (0x40601350)
 
 
 vtkImplicitFunctionCollection --------------
-vtkImplicitFunctionCollection (0x40601370)
+vtkImplicitFunctionCollection (0x40603428)
   Debug: Off
   Modified Time: 10207
   Reference Count: 1
@@ -4207,7 +4207,7 @@ vtkImplicitFunctionCollection (0x40601370)
 
 
 vtkImplicitModeller --------------
-vtkImplicitModeller (0x40601390)
+vtkImplicitModeller (0x40603448)
   Debug: Off
   Modified Time: 10259
   Reference Count: 2
@@ -4216,7 +4216,7 @@ vtkImplicitModeller (0x40601390)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601520)
+  Output 0: (0x40603620)
   Maximum Distance: 0.1
   Sample Dimensions: (50, 50, 50)
   ModelBounds: 
@@ -4234,7 +4234,7 @@ vtkImplicitModeller (0x40601390)
 
 
 vtkImplicitSelectionLoop --------------
-vtkImplicitSelectionLoop (0x406013b0)
+vtkImplicitSelectionLoop (0x40603468)
   Debug: Off
   Modified Time: 10263
   Reference Count: 1
@@ -4245,7 +4245,7 @@ vtkImplicitSelectionLoop (0x406013b0)
 
 
 vtkImplicitTextureCoords --------------
-vtkImplicitTextureCoords (0x406013d0)
+vtkImplicitTextureCoords (0x40603488)
   Debug: Off
   Modified Time: 10297
   Reference Count: 1
@@ -4260,7 +4260,7 @@ vtkImplicitTextureCoords (0x406013d0)
 
 
 vtkImplicitVolume --------------
-vtkImplicitVolume (0x406013f0)
+vtkImplicitVolume (0x406034a8)
   Debug: Off
   Modified Time: 10298
   Reference Count: 1
@@ -4271,7 +4271,7 @@ vtkImplicitVolume (0x406013f0)
 
 
 vtkImplicitWindowFunction --------------
-vtkImplicitWindowFunction (0x40601410)
+vtkImplicitWindowFunction (0x406034c8)
   Debug: Off
   Modified Time: 10300
   Reference Count: 1
@@ -4283,7 +4283,7 @@ vtkImplicitWindowFunction (0x40601410)
 
 vtkIndent --------------
 vtkInputPort --------------
-vtkInputPort (0x40601580)
+vtkInputPort (0x406035e8)
   Debug: Off
   Modified Time: 10301
   Reference Count: 1
@@ -4301,7 +4301,7 @@ vtkInputPort (0x40601580)
 
 
 vtkIntArray --------------
-vtkIntArray (0x40601480)
+vtkIntArray (0x40603508)
   Debug: Off
   Modified Time: 10302
   Reference Count: 1
@@ -4314,7 +4314,7 @@ vtkIntArray (0x40601480)
 
 
 vtkInteractorStyle --------------
-vtkInteractorStyle (0x406014a0)
+vtkInteractorStyle (0x40603648)
   Debug: Off
   Modified Time: 10303
   Reference Count: 1
@@ -4330,7 +4330,7 @@ vtkInteractorStyle (0x406014a0)
 
 
 vtkInteractorStyleFlight --------------
-vtkInteractorStyleFlight (0x406014c0)
+vtkInteractorStyleFlight (0x40603570)
   Debug: Off
   Modified Time: 10323
   Reference Count: 1
@@ -4354,7 +4354,7 @@ vtkInteractorStyleFlight (0x406014c0)
 
 
 vtkInteractorStyleJoystickActor --------------
-vtkInteractorStyleJoystickActor (0x406014e0)
+vtkInteractorStyleJoystickActor (0x40603590)
   Debug: Off
   Modified Time: 10343
   Reference Count: 1
@@ -4370,7 +4370,7 @@ vtkInteractorStyleJoystickActor (0x406014e0)
 
 
 vtkInteractorStyleJoystickCamera --------------
-vtkInteractorStyleJoystickCamera (0x40601500)
+vtkInteractorStyleJoystickCamera (0x406035b0)
   Debug: Off
   Modified Time: 10382
   Reference Count: 1
@@ -4386,7 +4386,7 @@ vtkInteractorStyleJoystickCamera (0x40601500)
 
 
 vtkInteractorStyleSwitch --------------
-vtkInteractorStyleSwitch (0x40601520)
+vtkInteractorStyleSwitch (0x406035d0)
   Debug: Off
   Modified Time: 10402
   Reference Count: 1
@@ -4402,7 +4402,7 @@ vtkInteractorStyleSwitch (0x40601520)
 
 
 vtkInteractorStyleTrackball --------------
-vtkInteractorStyleTrackball (0x40601540)
+vtkInteractorStyleTrackball (0x406035f0)
   Debug: Off
   Modified Time: 10532
   Reference Count: 1
@@ -4415,7 +4415,7 @@ vtkInteractorStyleTrackball (0x40601540)
   Current Actor: (none)
   Interactor: 0x0
   Prop Picked: No
-  Interaction Picker: 0x40601c98
+  Interaction Picker: 0x40603db0
   Actor Picked: No
   Interacting Actor: (none)
   Mode: Camera
@@ -4425,7 +4425,7 @@ vtkInteractorStyleTrackball (0x40601540)
 
 
 vtkInteractorStyleTrackballActor --------------
-vtkInteractorStyleTrackballActor (0x40601560)
+vtkInteractorStyleTrackballActor (0x40603610)
   Debug: Off
   Modified Time: 10556
   Reference Count: 1
@@ -4441,7 +4441,7 @@ vtkInteractorStyleTrackballActor (0x40601560)
 
 
 vtkInteractorStyleTrackballCamera --------------
-vtkInteractorStyleTrackballCamera (0x40601580)
+vtkInteractorStyleTrackballCamera (0x40603630)
   Debug: Off
   Modified Time: 10595
   Reference Count: 1
@@ -4457,7 +4457,7 @@ vtkInteractorStyleTrackballCamera (0x40601580)
 
 
 vtkInteractorStyleUser --------------
-vtkInteractorStyleUser (0x406015a0)
+vtkInteractorStyleUser (0x40603650)
   Debug: Off
   Modified Time: 10615
   Reference Count: 1
@@ -4480,7 +4480,7 @@ vtkInteractorStyleUser (0x406015a0)
 
 
 vtkInterpolateDataSetAttributes --------------
-vtkInterpolateDataSetAttributes (0x406015c0)
+vtkInterpolateDataSetAttributes (0x40603670)
   Debug: Off
   Modified Time: 10745
   Reference Count: 1
@@ -4494,14 +4494,14 @@ vtkInterpolateDataSetAttributes (0x406015c0)
 
 
 vtkInterpolatedVelocityField --------------
-vtkInterpolatedVelocityField (0x406015e0)
+vtkInterpolatedVelocityField (0x40603690)
   Debug: Off
   Modified Time: 10747
   Reference Count: 1
   Number of functions: 3
   Number of independant variables: 4
   Data Set: (none)
-  Last cell: 0x40601638
+  Last cell: 0x406036e8
   Weights: 0x0
   Last cell Id: -1
   Cache hit: 0
@@ -4510,7 +4510,7 @@ vtkInterpolatedVelocityField (0x406015e0)
 
 
 vtkKitwareContourFilter --------------
-vtkKitwareContourFilter (0x40601600)
+vtkKitwareContourFilter (0x406036b0)
   Debug: Off
   Modified Time: 10781
   Reference Count: 2
@@ -4519,7 +4519,7 @@ vtkKitwareContourFilter (0x40601600)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601688)
+  Output 0: (0x40603738)
   Compute Gradients: Off
   Compute Normals: On
   Compute Scalars: On
@@ -4530,7 +4530,7 @@ vtkKitwareContourFilter (0x40601600)
 
 
 vtkKochanekSpline --------------
-vtkKochanekSpline (0x40601620)
+vtkKochanekSpline (0x406036d0)
   Debug: Off
   Modified Time: 10786
   Reference Count: 1
@@ -4564,7 +4564,7 @@ vtkKochanekSpline (0x40601620)
       Number Of Tuples: 0
     LastUpdateExtentWasOutsideOfTheExtent: 0
     Locality: 0
-    ExtentTranslator: (0x40601778)
+    ExtentTranslator: (0x40603828)
     Clamping: 1
     Function Points: 0
   Closed: Off
@@ -4574,7 +4574,7 @@ vtkKochanekSpline (0x40601620)
 
 
 vtkLODActor --------------
-vtkLODActor (0x40601640)
+vtkLODActor (0x406036f0)
   Debug: Off
   Modified Time: 10790
   Reference Count: 1
@@ -4602,7 +4602,7 @@ vtkLODActor (0x40601640)
 
 
 vtkLODProp3D --------------
-vtkLODProp3D (0x40601660)
+vtkLODProp3D (0x40603710)
   Debug: Off
   Modified Time: 10805
   Reference Count: 1
@@ -4630,7 +4630,7 @@ vtkLODProp3D (0x40601660)
 
 
 vtkLabeledDataMapper --------------
-vtkLabeledDataMapper (0x40601680)
+vtkLabeledDataMapper (0x40603730)
   Debug: Off
   Modified Time: 10809
   Reference Count: 1
@@ -4653,12 +4653,12 @@ vtkLabeledDataMapper (0x40601680)
 
 
 vtkLandmarkTransform --------------
-vtkLandmarkTransform (0x406016a0)
+vtkLandmarkTransform (0x40603750)
   Debug: Off
   Modified Time: 10860
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x40601720)
+  Matrix: (0x40603800)
     Debug: Off
     Modified Time: 10861
     Reference Count: 1
@@ -4673,7 +4673,7 @@ TargetLandmarks: 0x0
 
 
 vtkLegendBoxActor --------------
-vtkLegendBoxActor (0x406016c0)
+vtkLegendBoxActor (0x40603770)
   Debug: Off
   Modified Time: 10871
   Reference Count: 1
@@ -4684,7 +4684,7 @@ vtkLegendBoxActor (0x406016c0)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x40601780
+  PositionCoordinate: 0x40603830
     Debug: Off
     Modified Time: 10870
     Reference Count: 2
@@ -4692,13 +4692,13 @@ vtkLegendBoxActor (0x406016c0)
     Value: (0.75,0.75,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x40601908
+  Position2 Coordinate: 0x406038a8
     Debug: Off
     Modified Time: 10871
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.2,0.2,0)
-    ReferenceCoordinate: 0x40601780
+    ReferenceCoordinate: 0x40603830
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
@@ -4714,7 +4714,7 @@ vtkLegendBoxActor (0x406016c0)
 
 
 vtkLight --------------
-vtkOpenGLLight (0x406016e0)
+vtkOpenGLLight (0x40603790)
   Debug: Off
   Modified Time: 10902
   Reference Count: 1
@@ -4732,7 +4732,7 @@ vtkOpenGLLight (0x406016e0)
 
 
 vtkLightCollection --------------
-vtkLightCollection (0x40601700)
+vtkLightCollection (0x406037b0)
   Debug: Off
   Modified Time: 10903
   Reference Count: 1
@@ -4740,7 +4740,7 @@ vtkLightCollection (0x40601700)
 
 
 vtkLightKit --------------
-vtkLightKit (0x40601720)
+vtkLightKit (0x406037d0)
   Debug: Off
   Modified Time: 10931
   Reference Count: 1
@@ -4756,7 +4756,7 @@ vtkLightKit (0x40601720)
 
 
 vtkLine --------------
-vtkLine (0x40601740)
+vtkLine (0x406037f0)
   Debug: Off
   Modified Time: 10936
   Reference Count: 1
@@ -4769,7 +4769,7 @@ vtkLine (0x40601740)
 
 
 vtkLineSource --------------
-vtkLineSource (0x40601760)
+vtkLineSource (0x40603810)
   Debug: Off
   Modified Time: 10953
   Reference Count: 2
@@ -4778,14 +4778,14 @@ vtkLineSource (0x40601760)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601950)
+  Output 0: (0x40603a48)
   Resolution: 1
   Point 1: (-0.5, 0, 0)
   Point 2: (0.5, 0, 0)
 
 
 vtkLinearExtrusionFilter --------------
-vtkLinearExtrusionFilter (0x40601780)
+vtkLinearExtrusionFilter (0x40603830)
   Debug: Off
   Modified Time: 10968
   Reference Count: 2
@@ -4794,14 +4794,14 @@ vtkLinearExtrusionFilter (0x40601780)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601820)
+  Output 0: (0x406038d0)
   Extrusion Type: Extrude along vertex normals
   Capping: On
   Scale Factor: 1
 
 
 vtkLinearSubdivisionFilter --------------
-vtkLinearSubdivisionFilter (0x406017a0)
+vtkLinearSubdivisionFilter (0x40603850)
   Debug: Off
   Modified Time: 10983
   Reference Count: 2
@@ -4810,12 +4810,12 @@ vtkLinearSubdivisionFilter (0x406017a0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601810)
+  Output 0: (0x406038c0)
   Number of subdivisions: 1
 
 
 vtkLinkEdgels --------------
-vtkLinkEdgels (0x406017c0)
+vtkLinkEdgels (0x40603870)
   Debug: Off
   Modified Time: 10998
   Reference Count: 2
@@ -4824,14 +4824,14 @@ vtkLinkEdgels (0x406017c0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601838)
+  Output 0: (0x406038e8)
   GradientThreshold:0.1
   LinkThreshold:90
   PhiThreshold:90
 
 
 vtkLogLookupTable --------------
-vtkLogLookupTable (0x406017e0)
+vtkLogLookupTable (0x40603890)
   Debug: Off
   Modified Time: 11001
   Reference Count: 1
@@ -4848,7 +4848,7 @@ vtkLogLookupTable (0x406017e0)
 
 
 vtkLongArray --------------
-vtkLongArray (0x40601800)
+vtkLongArray (0x406038b0)
   Debug: Off
   Modified Time: 11004
   Reference Count: 1
@@ -4861,7 +4861,7 @@ vtkLongArray (0x40601800)
 
 
 vtkLookupTable --------------
-vtkLookupTable (0x40601820)
+vtkLookupTable (0x406038d0)
   Debug: Off
   Modified Time: 11005
   Reference Count: 1
@@ -4876,7 +4876,7 @@ vtkLookupTable (0x40601820)
 
 
 vtkLoopSubdivisionFilter --------------
-vtkLoopSubdivisionFilter (0x40601840)
+vtkLoopSubdivisionFilter (0x406038f0)
   Debug: Off
   Modified Time: 11020
   Reference Count: 2
@@ -4885,12 +4885,12 @@ vtkLoopSubdivisionFilter (0x40601840)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406018b0)
+  Output 0: (0x40603960)
   Number of subdivisions: 1
 
 
 vtkMCubesReader --------------
-vtkMCubesReader (0x40601860)
+vtkMCubesReader (0x40603910)
   Debug: Off
   Modified Time: 11035
   Reference Count: 2
@@ -4899,7 +4899,7 @@ vtkMCubesReader (0x40601860)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406018e0)
+  Output 0: (0x40603990)
   File Name: (none)
   Limits File Name: (none)
   Normals: On
@@ -4908,7 +4908,7 @@ vtkMCubesReader (0x40601860)
 
 
 vtkMCubesWriter --------------
-vtkMCubesWriter (0x40601880)
+vtkMCubesWriter (0x40603930)
   Debug: Off
   Modified Time: 11038
   Reference Count: 1
@@ -4935,7 +4935,7 @@ vtkMCubesWriter (0x40601880)
 
 
 vtkMapper2D --------------
-vtkMapper2D (0x406018a0)
+vtkMapper2D (0x40603950)
   Debug: Off
   Modified Time: 11039
   Reference Count: 1
@@ -4948,7 +4948,7 @@ vtkMapper2D (0x406018a0)
 
 
 vtkMapperCollection --------------
-vtkMapperCollection (0x406018c0)
+vtkMapperCollection (0x40603970)
   Debug: Off
   Modified Time: 11040
   Reference Count: 1
@@ -4956,7 +4956,7 @@ vtkMapperCollection (0x406018c0)
 
 
 vtkMarchingContourFilter --------------
-vtkMarchingContourFilter (0x406018e0)
+vtkMarchingContourFilter (0x40603990)
   Debug: Off
   Modified Time: 11054
   Reference Count: 2
@@ -4965,7 +4965,7 @@ vtkMarchingContourFilter (0x406018e0)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601a40)
+  Output 0: (0x40603b58)
   Compute Gradients: Off
   Compute Normals: On
   Compute Scalars: On
@@ -4976,7 +4976,7 @@ vtkMarchingContourFilter (0x406018e0)
 
 
 vtkMarchingCubes --------------
-vtkMarchingCubes (0x40601900)
+vtkMarchingCubes (0x406039b0)
   Debug: Off
   Modified Time: 11071
   Reference Count: 2
@@ -4985,7 +4985,7 @@ vtkMarchingCubes (0x40601900)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601980)
+  Output 0: (0x40603a30)
   Contour Values: 
     Value 0: 0
   Compute Normals: On
@@ -4995,7 +4995,7 @@ vtkMarchingCubes (0x40601900)
 
 
 vtkMarchingSquares --------------
-vtkMarchingSquares (0x40601920)
+vtkMarchingSquares (0x406039d0)
   Debug: Off
   Modified Time: 11088
   Reference Count: 2
@@ -5004,7 +5004,7 @@ vtkMarchingSquares (0x40601920)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406019b0)
+  Output 0: (0x40603a60)
   Contour Values: 
     Value 0: 0
   Image Range: ( 0, 2147483647, 0, 2147483647, 0, 0 )
@@ -5012,7 +5012,7 @@ vtkMarchingSquares (0x40601920)
 
 
 vtkMaskPoints --------------
-vtkMaskPoints (0x40601940)
+vtkMaskPoints (0x406039f0)
   Debug: Off
   Modified Time: 11104
   Reference Count: 2
@@ -5021,7 +5021,7 @@ vtkMaskPoints (0x40601940)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406019c0)
+  Output 0: (0x40603a70)
   Generate Vertices: Off
   MaximumNumberOfPoints: 2147483647
   On Ratio: 2
@@ -5030,7 +5030,7 @@ vtkMaskPoints (0x40601940)
 
 
 vtkMaskPolyData --------------
-vtkMaskPolyData (0x40601960)
+vtkMaskPolyData (0x40603a10)
   Debug: Off
   Modified Time: 11119
   Reference Count: 2
@@ -5039,13 +5039,13 @@ vtkMaskPolyData (0x40601960)
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406019d8)
+  Output 0: (0x40603a88)
   On Ratio: 11
   Offset: 0
 
 
 vtkMassProperties --------------
-vtkMassProperties (0x40601980)
+vtkMassProperties (0x40603a30)
   Debug: Off
   Modified Time: 11122
   Reference Count: 1
@@ -5057,14 +5057,14 @@ vtkMassProperties (0x40601980)
 
 
 vtkMath --------------
-vtkMath (0x406019a0)
+vtkMath (0x40603a50)
   Debug: Off
   Modified Time: 11123
   Reference Count: 1
 
 
 vtkMatrix4x4 --------------
-vtkMatrix4x4 (0x40601ae8)
+vtkMatrix4x4 (0x40603bf8)
   Debug: Off
   Modified Time: 11124
   Reference Count: 1
@@ -5076,12 +5076,12 @@ vtkMatrix4x4 (0x40601ae8)
 
 
 vtkMatrixToHomogeneousTransform --------------
-vtkMatrixToHomogeneousTransform (0x406019e0)
+vtkMatrixToHomogeneousTransform (0x40603a90)
   Debug: Off
   Modified Time: 11125
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x40601aa8)
+  Matrix: (0x40603b88)
     Debug: Off
     Modified Time: 11127
     Reference Count: 1
@@ -5095,12 +5095,12 @@ vtkMatrixToHomogeneousTransform (0x406019e0)
 
 
 vtkMatrixToLinearTransform --------------
-vtkMatrixToLinearTransform (0x40601a00)
+vtkMatrixToLinearTransform (0x40603ab0)
   Debug: Off
   Modified Time: 11129
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x40601a78)
+  Matrix: (0x40603b58)
     Debug: Off
     Modified Time: 11131
     Reference Count: 1
@@ -5114,7 +5114,7 @@ vtkMatrixToLinearTransform (0x40601a00)
 
 
 vtkMergeDataObjectFilter --------------
-vtkMergeDataObjectFilter (0x40601a20)
+vtkMergeDataObjectFilter (0x40603ad0)
   Debug: Off
   Modified Time: 11133
   Reference Count: 1
@@ -5128,7 +5128,7 @@ vtkMergeDataObjectFilter (0x40601a20)
 
 
 vtkMergeFilter --------------
-vtkMergeFilter (0x40601a40)
+vtkMergeFilter (0x40603af0)
   Debug: Off
   Modified Time: 11134
   Reference Count: 1
@@ -5141,7 +5141,7 @@ vtkMergeFilter (0x40601a40)
 
 
 vtkMergePoints --------------
-vtkMergePoints (0x40601a60)
+vtkMergePoints (0x40603b10)
   Debug: Off
   Modified Time: 11135
   Reference Count: 1
@@ -5157,7 +5157,7 @@ vtkMergePoints (0x40601a60)
 
 
 vtkMergePoints2D --------------
-vtkMergePoints2D (0x40601a80)
+vtkMergePoints2D (0x40603b30)
   Debug: Off
   Modified Time: 11136
   Reference Count: 1
@@ -5174,69 +5174,56 @@ vtkMergePoints2D (0x40601a80)
 
 
 vtkMultiProcessController --------------
-vtkThreadedController (0x40602c68)
+vtkThreadedController (0x40604d58)
   Debug: Off
   Modified Time: 11138
   Reference Count: 1
   MaximumNumberOfProcesses: 8192
-  NumberOfProcesses: 1
+  NumberOfProcesses: 0
   LocalProcessId: 0
-  MarshalStringLength: 0
-  MarshalDataLength: 0
-  ReceiveWaitTime: 0
-  ReceiveTime: 0
-  SendWaitTime: 0
-  SendTime: 0
-  ReadTime: 0
-  WriteTime: 0
+  Break flag: (no)
+  Force deep copy: (yes)
+  Output window: (nil)
+  Communicator: (nil)
+  RMI communicator: (nil)
   RMIs: 
     239954
-  SendWaitTime: 0
-  SendTime: 0
-  ReceiveWaitTime: 0
-  ReceiveTime: 0
-  ReadTime: 0
-  WriteTime: 0
-  BreakFlag: 0
-  ForceDeepCopy: 1
-  MultiThreader:
-    Debug: Off
-    Modified Time: 11141
-    Reference Count: 1
-    Thread Count: 1
-    Global Maximum Number Of Threads: 0
+  MultiThreader: (none)
   LocalProcessId: 0
+  Barrier in progress: (no)
+  Barrier counter: 0
+  Last number of processes: 0
 
 
 vtkMultiThreader --------------
-vtkMultiThreader (0x40602c68)
+vtkMultiThreader (0x40604d58)
   Debug: Off
-  Modified Time: 11144
+  Modified Time: 11141
   Reference Count: 1
   Thread Count: 1
   Global Maximum Number Of Threads: 0
 
 
 vtkMutexLock --------------
-vtkMutexLock (0x40601ae0)
+vtkMutexLock (0x40603b90)
   Debug: Off
-  Modified Time: 11145
+  Modified Time: 11142
   Reference Count: 1
 
 
 vtkNormals --------------
-vtkNormals (0x40601b00)
+vtkNormals (0x40603bb0)
   Debug: Off
-  Modified Time: 11146
+  Modified Time: 11143
   Reference Count: 1
-  Data: 0x40601b60
+  Data: 0x40603bd8
   Number Of Normals: 0
 
 
 vtkOBBDicer --------------
-vtkOBBDicer (0x40601b60)
+vtkOBBDicer (0x40603bd0)
   Debug: Off
-  Modified Time: 11149
+  Modified Time: 11146
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -5253,9 +5240,9 @@ vtkOBBDicer (0x40601b60)
 
 
 vtkOBBTree --------------
-vtkOBBTree (0x40601b80)
+vtkOBBTree (0x40603bf0)
   Debug: Off
-  Modified Time: 11150
+  Modified Time: 11147
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -5269,9 +5256,9 @@ vtkOBBTree (0x40601b80)
 
 
 vtkOBJExporter --------------
-vtkOBJExporter (0x40601ba0)
+vtkOBJExporter (0x40603c10)
   Debug: Off
-  Modified Time: 11152
+  Modified Time: 11149
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -5280,38 +5267,38 @@ vtkOBJExporter (0x40601ba0)
 
 
 vtkOBJReader --------------
-vtkOBJReader (0x40601bc0)
+vtkOBJReader (0x40603c30)
   Debug: Off
-  Modified Time: 11165
+  Modified Time: 11162
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601cc8)
+  Output 0: (0x40603d98)
   File Name: (none)
 
 
 vtkObject --------------
-vtkObject (0x40601be0)
+vtkObject (0x40603c50)
   Debug: Off
-  Modified Time: 11168
+  Modified Time: 11165
   Reference Count: 1
 
 
 vtkObjectFactoryCollection --------------
-vtkObjectFactoryCollection (0x40601c00)
+vtkObjectFactoryCollection (0x40603c70)
   Debug: Off
-  Modified Time: 11169
+  Modified Time: 11166
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkOpenGLActor --------------
-vtkOpenGLActor (0x40601c20)
+vtkOpenGLActor (0x40603c90)
   Debug: Off
-  Modified Time: 11170
+  Modified Time: 11167
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -5335,9 +5322,9 @@ vtkOpenGLActor (0x40601c20)
 
 
 vtkOpenGLCamera --------------
-vtkOpenGLCamera (0x40601c40)
+vtkOpenGLCamera (0x40603cb0)
   Debug: Off
-  Modified Time: 11174
+  Modified Time: 11171
   Reference Count: 1
   ClippingRange: (0.01, 1000.01)
   DirectionOfProjection: (0, 0, -1)
@@ -5358,9 +5345,9 @@ vtkOpenGLCamera (0x40601c40)
 
 
 vtkOpenGLImageActor --------------
-vtkOpenGLImageActor (0x40601c60)
+vtkOpenGLImageActor (0x40603cd0)
   Debug: Off
-  Modified Time: 11216
+  Modified Time: 11213
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -5374,9 +5361,9 @@ vtkOpenGLImageActor (0x40601c60)
 
 
 vtkOpenGLImageMapper --------------
-vtkOpenGLImageMapper (0x40601c80)
+vtkOpenGLImageMapper (0x40603cf0)
   Debug: Off
-  Modified Time: 11217
+  Modified Time: 11214
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5394,9 +5381,9 @@ vtkOpenGLImageMapper (0x40601c80)
 
 
 vtkOpenGLImageWindow --------------
-vtkOpenGLImageWindow (0x40602c68)
+vtkOpenGLImageWindow (0x40604d58)
   Debug: Off
-  Modified Time: 11218
+  Modified Time: 11215
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -5413,9 +5400,9 @@ vtkOpenGLImageWindow (0x40602c68)
 
 
 vtkOpenGLImager --------------
-vtkOpenGLImager (0x40601de0)
+vtkOpenGLImager (0x40603d30)
   Debug: Off
-  Modified Time: 11220
+  Modified Time: 11217
   Reference Count: 1
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -5429,15 +5416,15 @@ vtkOpenGLImager (0x40601de0)
   IsPicking boolean: 0
   Props:
     Debug: Off
-    Modified Time: 11221
+    Modified Time: 11218
     Reference Count: 1
     Number Of Items: 0
 
 
 vtkOpenGLLight --------------
-vtkOpenGLLight (0x40601ce0)
+vtkOpenGLLight (0x40603d50)
   Debug: Off
-  Modified Time: 11223
+  Modified Time: 11220
   Reference Count: 1
   AttenuationValues: (1, 0, 0)
   Color: (1, 1, 1)
@@ -5453,9 +5440,9 @@ vtkOpenGLLight (0x40601ce0)
 
 
 vtkOpenGLPolyDataMapper --------------
-vtkOpenGLPolyDataMapper (0x40601d00)
+vtkOpenGLPolyDataMapper (0x40603d70)
   Debug: Off
-  Modified Time: 11224
+  Modified Time: 11221
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5476,12 +5463,14 @@ vtkOpenGLPolyDataMapper (0x40601d00)
   Piece : 0
   NumberOfPieces : 1
   GhostLevel: 0
+  Memory limit: 0
+  Number of sub pieces: 1
 
 
 vtkOpenGLPolyDataMapper2D --------------
-vtkOpenGLPolyDataMapper2D (0x40601d20)
+vtkOpenGLPolyDataMapper2D (0x40603d90)
   Debug: Off
-  Modified Time: 11226
+  Modified Time: 11223
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5498,18 +5487,18 @@ vtkOpenGLPolyDataMapper2D (0x40601d20)
 
 
 vtkOpenGLProjectedPolyDataRayBounder --------------
-vtkOpenGLProjectedPolyDataRayBounder (0x40601d40)
+vtkOpenGLProjectedPolyDataRayBounder (0x40603db0)
   Debug: Off
-  Modified Time: 11227
+  Modified Time: 11224
   Reference Count: 1
   PolyData: (none)
   Build Time: 0
 
 
 vtkOpenGLProperty --------------
-vtkOpenGLProperty (0x40601d60)
+vtkOpenGLProperty (0x40603dd0)
   Debug: Off
-  Modified Time: 11228
+  Modified Time: 11225
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -5530,9 +5519,9 @@ vtkOpenGLProperty (0x40601d60)
 
 
 vtkOpenGLRenderWindow --------------
-vtkOpenGLRenderWindow (0x40601d80)
+vtkOpenGLRenderWindow (0x40603df0)
   Debug: Off
-  Modified Time: 11229
+  Modified Time: 11226
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -5547,7 +5536,7 @@ vtkOpenGLRenderWindow (0x40601d80)
   Full Screen: Off
   Renderers:
     Debug: Off
-    Modified Time: 11230
+    Modified Time: 11227
     Reference Count: 1
     Number Of Items: 0
   Stereo Capable Window Requested: No
@@ -5569,7 +5558,7 @@ vtkOpenGLRenderWindow (0x40601d80)
   File Name: (none)
   No AbortCheck method.
   Color Map: 0
-  Display Id: 0x406034a0
+  Display Id: 0x40605570
   Next Window Id: 0
   Window Id: 0
   ContextId: 0x0
@@ -5577,9 +5566,9 @@ vtkOpenGLRenderWindow (0x40601d80)
 
 
 vtkOpenGLRenderer --------------
-vtkOpenGLRenderer (0x40601da0)
+vtkOpenGLRenderer (0x40603e10)
   Debug: Off
-  Modified Time: 11244
+  Modified Time: 11241
   Reference Count: 2
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -5593,7 +5582,7 @@ vtkOpenGLRenderer (0x40601da0)
   IsPicking boolean: 0
   Props:
     Debug: Off
-    Modified Time: 11233
+    Modified Time: 11230
     Reference Count: 1
     Number Of Items: 0
   Ambient: (1, 1, 1)
@@ -5601,7 +5590,7 @@ vtkOpenGLRenderer (0x40601da0)
   Display Point: (0, 0, 0)
   Lights:
     Debug: Off
-    Modified Time: 11245
+    Modified Time: 11242
     Reference Count: 1
     Number Of Items: 0
   Light Follow Camera: On
@@ -5609,7 +5598,7 @@ vtkOpenGLRenderer (0x40601da0)
   Two Sided Lighting: On
   Layer = 0
   Interactive = On
-  Ray Caster: 0x40602c88
+  Ray Caster: 0x40604d58
   Allocated Render Time: 100
   Last Time To Render (Seconds): -1
   TimeFactor: 1
@@ -5620,9 +5609,9 @@ vtkOpenGLRenderer (0x40601da0)
 
 
 vtkOpenGLTexture --------------
-vtkOpenGLTexture (0x40601dc0)
+vtkOpenGLTexture (0x40603e30)
   Debug: Off
-  Modified Time: 11251
+  Modified Time: 11248
   Reference Count: 1
   Interpolate: Off
   Repeat:      On
@@ -5634,11 +5623,11 @@ vtkOpenGLTexture (0x40601dc0)
 
 
 vtkOpenGLVolumeTextureMapper2D --------------
-vtkOpenGLVolumeTextureMapper2D (0x40601ef8)
+vtkOpenGLVolumeTextureMapper2D (0x40603fc8)
   TargetTextureSize: 512, 512
   MaximumNumberOfPlanes: <unlimited>
   Debug: Off
-  Modified Time: 11252
+  Modified Time: 11249
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5655,91 +5644,91 @@ vtkOpenGLVolumeTextureMapper2D (0x40601ef8)
     In Z: 0 to 1
   Cropping Region Flags: 8192
   Build Time: 0
-  Gradient Estimator: 0x40602c68
-  Gradient Shader: 0x40644588
+  Gradient Estimator: 0x40603e50
+  Gradient Shader: 0x406465c8
 
 
 vtkOutlineCornerFilter --------------
-vtkOutlineCornerFilter (0x40601e00)
+vtkOutlineCornerFilter (0x40603e70)
   Debug: Off
-  Modified Time: 11270
+  Modified Time: 11267
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601e78)
+  Output 0: (0x40603ee8)
   CornerFactor: 0.2
 
 
 vtkOutlineCornerSource --------------
-vtkOutlineCornerSource (0x40601e20)
+vtkOutlineCornerSource (0x40603e90)
   Debug: Off
-  Modified Time: 11298
+  Modified Time: 11295
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601ea8)
+  Output 0: (0x40603f18)
   Bounds: (-1, 1) (-1) (1) (-1) (1)
   CornerFactor: 0.2
 
 
 vtkOutlineFilter --------------
-vtkOutlineFilter (0x40601e40)
+vtkOutlineFilter (0x40603eb0)
   Debug: Off
-  Modified Time: 11313
+  Modified Time: 11310
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601eb0)
+  Output 0: (0x40603f20)
 
 
 vtkOutlineSource --------------
-vtkOutlineSource (0x40601e60)
+vtkOutlineSource (0x40603ed0)
   Debug: Off
-  Modified Time: 11341
+  Modified Time: 11338
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40601ee8)
+  Output 0: (0x40603f58)
   Bounds: (-1, 1) (-1) (1) (-1) (1)
 
 
 vtkOutputPort --------------
 vtkOutputWindow --------------
-vtkXMLFileOutputWindow (0x405ef6d8)
+vtkXMLFileOutputWindow (0x405f2270)
   Debug: Off
   Modified Time: 5
   Reference Count: 3
-  vtkOutputWindow Single instance = 0x405ef6d8
+  vtkOutputWindow Single instance = 0x405f2270
   Prompt User: Off
-  OStream: 0x405f3c38
+  OStream: 0x405f5100
   File Name: rtOtherLog.xml
   Append: On
   Flush: On
 
 
 vtkPLOT3DReader --------------
-vtkPLOT3DReader (0x40601f40)
+vtkPLOT3DReader (0x40603ff8)
   Debug: Off
-  Modified Time: 11394
+  Modified Time: 11391
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602c68)
+  Output 0: (0x40604d58)
   XYZ File Name: (none)
   Q File Name: (none)
   Function File Name: (none)
@@ -5762,16 +5751,16 @@ vtkPLOT3DReader (0x40601f40)
 
 
 vtkPNMReader --------------
-vtkPNMReader (0x40601ea0)
+vtkPNMReader (0x40603f10)
   Debug: Off
-  Modified Time: 11448
+  Modified Time: 11445
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602c68)
+  Output 0: (0x40604d58)
   FileName: (none)
   FilePrefix: (none)
   FilePattern: %s.%d
@@ -5792,9 +5781,9 @@ vtkPNMReader (0x40601ea0)
 
 
 vtkPNMWriter --------------
-vtkPNMWriter (0x40601ec0)
+vtkPNMWriter (0x40603f30)
   Debug: Off
-  Modified Time: 11452
+  Modified Time: 11449
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -5809,9 +5798,9 @@ vtkPNMWriter (0x40601ec0)
 
 
 vtkParallelCoordinatesActor --------------
-vtkParallelCoordinatesActor (0x40601ee0)
+vtkParallelCoordinatesActor (0x40603f50)
   Debug: Off
-  Modified Time: 11462
+  Modified Time: 11459
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -5820,32 +5809,32 @@ vtkParallelCoordinatesActor (0x40601ee0)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x40602c68
+  PositionCoordinate: 0x40604d58
     Debug: Off
-    Modified Time: 11461
+    Modified Time: 11458
     Reference Count: 2
     Coordinate System: Normalized Viewport
     Value: (0.1,0.1,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x40602ce0
+  Position2 Coordinate: 0x40604dd0
     Debug: Off
-    Modified Time: 11462
+    Modified Time: 11459
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.9,0.8,0)
-    ReferenceCoordinate: 0x40602c68
+    ReferenceCoordinate: 0x40604d58
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
   Input: 0x0
-  Position2 Coordinate: 0x40602ce0
+  Position2 Coordinate: 0x40604dd0
     Debug: Off
-    Modified Time: 11462
+    Modified Time: 11459
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.9,0.8,0)
-    ReferenceCoordinate: 0x40602c68
+    ReferenceCoordinate: 0x40604d58
     Viewport: (none)
   Title: (none)
   Number Of Independent Variables: 0
@@ -5859,14 +5848,14 @@ vtkParallelCoordinatesActor (0x40601ee0)
 
 
 vtkPerspectiveTransform --------------
-vtkPerspectiveTransform (0x40601f00)
+vtkPerspectiveTransform (0x40603f70)
   Debug: Off
-  Modified Time: 11497
+  Modified Time: 11494
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x40601f80)
+  Matrix: (0x40604020)
     Debug: Off
-    Modified Time: 11499
+    Modified Time: 11496
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -5881,9 +5870,9 @@ vtkPerspectiveTransform (0x40601f00)
 
 
 vtkPicker --------------
-vtkPicker (0x40601f20)
+vtkPicker (0x40603f90)
   Debug: Off
-  Modified Time: 11501
+  Modified Time: 11498
   Reference Count: 1
   Picking from renderer's prop list
   No Start PickMethod
@@ -5899,22 +5888,22 @@ vtkPicker (0x40601f20)
 
 
 vtkPieceScalars --------------
-vtkPieceScalars (0x40601f40)
+vtkPieceScalars (0x40603fb0)
   Debug: Off
-  Modified Time: 11522
+  Modified Time: 11519
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602c68)
+  Output 0: (0x40604020)
 
 
 vtkPiecewiseFunction --------------
-vtkPiecewiseFunction (0x40601f60)
+vtkPiecewiseFunction (0x40603fd0)
   Debug: Off
-  Modified Time: 11525
+  Modified Time: 11522
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -5929,22 +5918,22 @@ vtkPiecewiseFunction (0x40601f60)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 11526
+    Modified Time: 11523
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40602c68)
+  ExtentTranslator: (0x406040d0)
   Clamping: 1
   Function Points: 0
 
 
 vtkPixel --------------
-vtkPixel (0x40601f80)
+vtkPixel (0x40603ff0)
   Debug: Off
-  Modified Time: 11529
+  Modified Time: 11526
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -5955,9 +5944,9 @@ vtkPixel (0x40601f80)
 
 
 vtkPlane --------------
-vtkPlane (0x40601fa0)
+vtkPlane (0x40604010)
   Debug: Off
-  Modified Time: 11539
+  Modified Time: 11536
   Reference Count: 1
   Transform: (None)
   Normal: (0, 0, 1)
@@ -5965,24 +5954,24 @@ vtkPlane (0x40601fa0)
 
 
 vtkPlaneCollection --------------
-vtkPlaneCollection (0x40601fc0)
+vtkPlaneCollection (0x40604030)
   Debug: Off
-  Modified Time: 11540
+  Modified Time: 11537
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkPlaneSource --------------
-vtkPlaneSource (0x40602d48)
+vtkPlaneSource (0x40604050)
   Debug: Off
-  Modified Time: 11553
+  Modified Time: 11550
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602df8)
+  Output 0: (0x40604e08)
   X Resolution: 1
   Y Resolution: 1
   Origin: (-0.5, -0.5, 0)
@@ -5993,9 +5982,9 @@ vtkPlaneSource (0x40602d48)
 
 
 vtkPlanes --------------
-vtkPlanes (0x40602c68)
+vtkPlanes (0x40604070)
   Debug: Off
-  Modified Time: 11556
+  Modified Time: 11553
   Reference Count: 1
   Transform: (None)
   No Planes Defined.
@@ -6003,9 +5992,9 @@ vtkPlanes (0x40602c68)
 
 
 vtkPointData --------------
-vtkPointData (0x40602c68)
+vtkPointData (0x40604090)
   Debug: Off
-  Modified Time: 11558
+  Modified Time: 11555
   Reference Count: 1
   Scalars: (none)
   Vectors: (none)
@@ -6024,9 +6013,9 @@ vtkPointData (0x40602c68)
 
 
 vtkPointDataToCellData --------------
-vtkPointDataToCellData (0x40602c68)
+vtkPointDataToCellData (0x406040b0)
   Debug: Off
-  Modified Time: 11560
+  Modified Time: 11557
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6038,16 +6027,16 @@ vtkPointDataToCellData (0x40602c68)
 
 
 vtkPointLoad --------------
-vtkPointLoad (0x40602c68)
+vtkPointLoad (0x40604e68)
   Debug: Off
-  Modified Time: 11612
+  Modified Time: 11609
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602d98)
+  Output 0: (0x40604f10)
   Load Value: 1
   Sample Dimensions: (50, 50, 50)
   ModelBounds: 
@@ -6059,9 +6048,9 @@ vtkPointLoad (0x40602c68)
 
 
 vtkPointLocator --------------
-vtkPointLocator (0x40602c88)
+vtkPointLocator (0x40604d58)
   Debug: Off
-  Modified Time: 11615
+  Modified Time: 11612
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -6075,9 +6064,9 @@ vtkPointLocator (0x40602c88)
 
 
 vtkPointLocator2D --------------
-vtkPointLocator2D (0x40602ca8)
+vtkPointLocator2D (0x40604d58)
   Debug: Off
-  Modified Time: 11616
+  Modified Time: 11613
   Reference Count: 1
   DataSet: (none)
   Automatic: On
@@ -6092,9 +6081,9 @@ vtkPointLocator2D (0x40602ca8)
 
 
 vtkPointPicker --------------
-vtkPointPicker (0x40602cc8)
+vtkPointPicker (0x40604d58)
   Debug: Off
-  Modified Time: 11618
+  Modified Time: 11615
   Reference Count: 1
   Picking from renderer's prop list
   No Start PickMethod
@@ -6111,9 +6100,9 @@ vtkPointPicker (0x40602cc8)
 
 
 vtkPointSetSource --------------
-vtkPointSetSource (0x40602ce8)
+vtkPointSetSource (0x40604d58)
   Debug: Off
-  Modified Time: 11627
+  Modified Time: 11624
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6124,16 +6113,16 @@ vtkPointSetSource (0x40602ce8)
 
 
 vtkPointSource --------------
-vtkPointSource (0x40602d08)
+vtkPointSource (0x40604d78)
   Debug: Off
-  Modified Time: 11640
+  Modified Time: 11637
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602e30)
+  Output 0: (0x40604f00)
   Number Of Points: 10
   Radius: 0.5
   Center: (0, 0, 0)
@@ -6141,9 +6130,9 @@ vtkPointSource (0x40602d08)
 
 
 vtkPoints --------------
-vtkPoints (0x40602d28)
+vtkPoints (0x40604d98)
   Debug: Off
-  Modified Time: 11643
+  Modified Time: 11640
   Reference Count: 1
   Number Of Points: 0
   Bounds: 
@@ -6153,9 +6142,9 @@ vtkPoints (0x40602d28)
 
 
 vtkPolyData --------------
-vtkPolyData (0x40602e90)
+vtkPolyData (0x40604f60)
   Debug: Off
-  Modified Time: 11652
+  Modified Time: 11649
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -6170,19 +6159,19 @@ vtkPolyData (0x40602e90)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 11648
+    Modified Time: 11645
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40602d80)
+  ExtentTranslator: (0x40604df0)
   Number Of Points: 0
   Number Of Cells: 0
   Cell Data:
     Debug: Off
-    Modified Time: 11652
+    Modified Time: 11649
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6200,7 +6189,7 @@ vtkPolyData (0x40602e90)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 11650
+    Modified Time: 11647
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6220,7 +6209,7 @@ vtkPolyData (0x40602e90)
     Xmin,Xmax: (1e+38, -1e+38)
     Ymin,Ymax: (1e+38, -1e+38)
     Zmin,Zmax: (1e+38, -1e+38)
-  Compute Time: 11656
+  Compute Time: 11653
   Release Data: Off
   Number Of Points: 0
   Point Coordinates: 0x0
@@ -6236,24 +6225,24 @@ vtkPolyData (0x40602e90)
 
 
 vtkPolyDataCollection --------------
-vtkPolyDataCollection (0x40602d68)
+vtkPolyDataCollection (0x40604dd8)
   Debug: Off
-  Modified Time: 11658
+  Modified Time: 11655
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkPolyDataConnectivityFilter --------------
-vtkPolyDataConnectivityFilter (0x40602e80)
+vtkPolyDataConnectivityFilter (0x40604f50)
   Debug: Off
-  Modified Time: 11671
+  Modified Time: 11668
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602f50)
+  Output 0: (0x40605020)
   Extraction Mode: ExtractLargestRegion
   Closest Point: (0, 0, 0)
   Color Regions: Off
@@ -6262,9 +6251,9 @@ vtkPolyDataConnectivityFilter (0x40602e80)
 
 
 vtkPolyDataMapper --------------
-vtkOpenGLPolyDataMapper (0x40602da8)
+vtkOpenGLPolyDataMapper (0x40604e18)
   Debug: Off
-  Modified Time: 11680
+  Modified Time: 11677
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6285,12 +6274,14 @@ vtkOpenGLPolyDataMapper (0x40602da8)
   Piece : 0
   NumberOfPieces : 1
   GhostLevel: 0
+  Memory limit: 0
+  Number of sub pieces: 1
 
 
 vtkPolyDataMapper2D --------------
-vtkOpenGLPolyDataMapper2D (0x40602dc8)
+vtkOpenGLPolyDataMapper2D (0x40604e38)
   Debug: Off
-  Modified Time: 11682
+  Modified Time: 11679
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6307,16 +6298,16 @@ vtkOpenGLPolyDataMapper2D (0x40602dc8)
 
 
 vtkPolyDataNormals --------------
-vtkPolyDataNormals (0x40602de8)
+vtkPolyDataNormals (0x40604e58)
   Debug: Off
-  Modified Time: 11695
+  Modified Time: 11692
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602fa0)
+  Output 0: (0x40605078)
   Feature Angle: 30
   Splitting: On
   Consistency: On
@@ -6328,16 +6319,16 @@ vtkPolyDataNormals (0x40602de8)
 
 
 vtkPolyDataReader --------------
-vtkPolyDataReader (0x40602e08)
+vtkPolyDataReader (0x40604e78)
   Debug: Off
-  Modified Time: 11710
+  Modified Time: 11707
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602f18)
+  Output 0: (0x40604f88)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -6356,37 +6347,37 @@ vtkPolyDataReader (0x40602e08)
 
 
 vtkPolyDataSource --------------
-vtkPolyDataSource (0x40602e28)
+vtkPolyDataSource (0x40604e98)
   Debug: Off
-  Modified Time: 11725
+  Modified Time: 11722
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602e98)
+  Output 0: (0x40604f08)
 
 
 vtkPolyDataStreamer --------------
-vtkPolyDataStreamer (0x40602e48)
+vtkPolyDataStreamer (0x40604eb8)
   Debug: Off
-  Modified Time: 11740
+  Modified Time: 11737
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602ec8)
+  Output 0: (0x40604f38)
   NumberOfStreamDivisions: 2
   ColorByPiece: 0
 
 
 vtkPolyDataWriter --------------
-vtkPolyDataWriter (0x40602e68)
+vtkPolyDataWriter (0x40604ed8)
   Debug: Off
-  Modified Time: 11743
+  Modified Time: 11740
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6410,33 +6401,33 @@ vtkPolyDataWriter (0x40602e68)
 
 
 vtkPolyLine --------------
-vtkPolyLine (0x40602e88)
+vtkPolyLine (0x40604ef8)
   Debug: Off
-  Modified Time: 11744
+  Modified Time: 11741
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkPolyVertex --------------
-vtkPolyVertex (0x40602ea8)
+vtkPolyVertex (0x40604f18)
   Debug: Off
-  Modified Time: 11754
+  Modified Time: 11751
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkPolygon --------------
-vtkPolygon (0x40602ec8)
+vtkPolygon (0x40604f38)
   Debug: Off
-  Modified Time: 11764
+  Modified Time: 11761
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkPostScriptWriter --------------
-vtkPostScriptWriter (0x40602ee8)
+vtkPostScriptWriter (0x40604f58)
   Debug: Off
-  Modified Time: 11798
+  Modified Time: 11795
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6451,9 +6442,9 @@ vtkPostScriptWriter (0x40602ee8)
 
 
 vtkPriorityQueue --------------
-vtkPriorityQueue (0x40602f08)
+vtkPriorityQueue (0x40604f78)
   Debug: Off
-  Modified Time: 11799
+  Modified Time: 11796
   Reference Count: 1
   Number Of Entries: 0
   Size: 0
@@ -6461,9 +6452,9 @@ vtkPriorityQueue (0x40602f08)
 
 
 vtkProbeFilter --------------
-vtkProbeFilter (0x40602f28)
+vtkProbeFilter (0x40604f98)
   Debug: Off
-  Modified Time: 11800
+  Modified Time: 11797
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6476,9 +6467,9 @@ vtkProbeFilter (0x40602f28)
 
 
 vtkProcessObject --------------
-vtkProcessObject (0x40602f48)
+vtkProcessObject (0x40604fb8)
   Debug: Off
-  Modified Time: 11801
+  Modified Time: 11798
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -6488,9 +6479,9 @@ vtkProcessObject (0x40602f48)
 
 
 vtkProgrammableAttributeDataFilter --------------
-vtkProgrammableAttributeDataFilter (0x40602f68)
+vtkProgrammableAttributeDataFilter (0x40604fd8)
   Debug: Off
-  Modified Time: 11802
+  Modified Time: 11799
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6500,30 +6491,30 @@ vtkProgrammableAttributeDataFilter (0x40602f68)
   No Outputs
   Input DataSets:
     Debug: Off
-    Modified Time: 11803
+    Modified Time: 11800
     Reference Count: 1
     Number Of Items: 0
   An ExecuteMethod has NOT been defined
 
 
 vtkProgrammableDataObjectSource --------------
-vtkProgrammableDataObjectSource (0x40602f88)
+vtkProgrammableDataObjectSource (0x40604ff8)
   Debug: Off
-  Modified Time: 11810
+  Modified Time: 11807
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40602ff8)
+  Output 0: (0x40605068)
   An ExecuteMethod has NOT been defined
 
 
 vtkProgrammableFilter --------------
-vtkProgrammableFilter (0x40602fa8)
+vtkProgrammableFilter (0x40605018)
   Debug: Off
-  Modified Time: 11813
+  Modified Time: 11810
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6534,16 +6525,16 @@ vtkProgrammableFilter (0x40602fa8)
 
 
 vtkProgrammableGlyphFilter --------------
-vtkProgrammableGlyphFilter (0x40602fc8)
+vtkProgrammableGlyphFilter (0x40605038)
   Debug: Off
-  Modified Time: 11826
+  Modified Time: 11823
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603100)
+  Output 0: (0x406051d0)
   Color Mode: ColorByInput
   Point Id: -1
   Point: 0, 0, 0
@@ -6552,35 +6543,35 @@ vtkProgrammableGlyphFilter (0x40602fc8)
 
 
 vtkProgrammableSource --------------
-vtkProgrammableSource (0x40602fe8)
+vtkProgrammableSource (0x40605058)
   Debug: Off
-  Modified Time: 12240
+  Modified Time: 12237
   Reference Count: 6
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603060)
-  Output 1: (0x40603648)
-  Output 2: (0x40604290)
-  Output 3: (0x40605048)
-  Output 4: (0x4060c3a0)
+  Output 0: (0x406050d0)
+  Output 1: (0x40605710)
+  Output 2: (0x40606370)
+  Output 3: (0x40607128)
+  Output 4: (0x4060e480)
 
 
 vtkProjectedPolyDataRayBounder --------------
-vtkOpenGLProjectedPolyDataRayBounder (0x40603008)
+vtkOpenGLProjectedPolyDataRayBounder (0x40605078)
   Debug: Off
-  Modified Time: 12251
+  Modified Time: 12248
   Reference Count: 1
   PolyData: (none)
   Build Time: 0
 
 
 vtkProjectedTexture --------------
-vtkProjectedTexture (0x40603130)
+vtkProjectedTexture (0x40605200)
   Debug: Off
-  Modified Time: 12253
+  Modified Time: 12250
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -6598,9 +6589,9 @@ vtkProjectedTexture (0x40603130)
 
 
 vtkProp --------------
-vtkProp (0x40603048)
+vtkProp (0x406050b8)
   Debug: Off
-  Modified Time: 12254
+  Modified Time: 12251
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -6611,17 +6602,17 @@ vtkProp (0x40603048)
 
 
 vtkProp3DCollection --------------
-vtkProp3DCollection (0x40603068)
+vtkProp3DCollection (0x406050d8)
   Debug: Off
-  Modified Time: 12255
+  Modified Time: 12252
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkPropAssembly --------------
-vtkPropAssembly (0x40603088)
+vtkPropAssembly (0x406050f8)
   Debug: Off
-  Modified Time: 12256
+  Modified Time: 12253
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -6633,17 +6624,17 @@ vtkPropAssembly (0x40603088)
 
 
 vtkPropCollection --------------
-vtkPropCollection (0x406030a8)
+vtkPropCollection (0x40605118)
   Debug: Off
-  Modified Time: 12258
+  Modified Time: 12255
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkPropPicker --------------
-vtkPropPicker (0x406030c8)
+vtkPropPicker (0x40605138)
   Debug: Off
-  Modified Time: 12259
+  Modified Time: 12256
   Reference Count: 1
   Picking from renderer's prop list
   No Start PickMethod
@@ -6657,9 +6648,9 @@ vtkPropPicker (0x406030c8)
 
 
 vtkProperty --------------
-vtkOpenGLProperty (0x406030e8)
+vtkOpenGLProperty (0x40605158)
   Debug: Off
-  Modified Time: 12263
+  Modified Time: 12260
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -6680,9 +6671,9 @@ vtkOpenGLProperty (0x406030e8)
 
 
 vtkProperty2D --------------
-vtkProperty2D (0x40603108)
+vtkProperty2D (0x40605178)
   Debug: Off
-  Modified Time: 12264
+  Modified Time: 12261
   Reference Count: 1
   Opacity: 1
   Color: (1, 1, 1)
@@ -6692,9 +6683,9 @@ vtkProperty2D (0x40603108)
 
 
 vtkPyramid --------------
-vtkPyramid (0x40603128)
+vtkPyramid (0x40605198)
   Debug: Off
-  Modified Time: 12265
+  Modified Time: 12262
   Reference Count: 1
   Number Of Points: 5
   Bounds: 
@@ -6705,9 +6696,9 @@ vtkPyramid (0x40603128)
 
 
 vtkQuad --------------
-vtkQuad (0x40603148)
+vtkQuad (0x406051b8)
   Debug: Off
-  Modified Time: 12295
+  Modified Time: 12292
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -6718,9 +6709,9 @@ vtkQuad (0x40603148)
 
 
 vtkQuadric --------------
-vtkQuadric (0x40603168)
+vtkQuadric (0x406051d8)
   Debug: Off
-  Modified Time: 12305
+  Modified Time: 12302
   Reference Count: 1
   Transform: (None)
   Coefficients: 
@@ -6737,16 +6728,16 @@ vtkQuadric (0x40603168)
 
 
 vtkQuadricClustering --------------
-vtkQuadricClustering (0x406032a8)
+vtkQuadricClustering (0x40605378)
   Debug: Off
-  Modified Time: 12318
+  Modified Time: 12315
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603380)
+  Output 0: (0x40605450)
   Bounds: 0 0 0 0 0 0
   UseInputPoints 0
   Using input bounds and NumberOfDivisions to set up bins
@@ -6756,36 +6747,36 @@ vtkQuadricClustering (0x406032a8)
   Number of Y Divisions: 50
   Number of Z Divisions: 50
   UseFeatureEdges: 0
-  FeatureEdges: (0x40603700)
+  FeatureEdges: (0x406057d0)
 
 
 vtkQuadricDecimation --------------
-vtkQuadricDecimation (0x406031a8)
+vtkQuadricDecimation (0x40605218)
   Debug: Off
-  Modified Time: 12368
+  Modified Time: 12365
   Reference Count: 3
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603258)
-  Output 1: (0x40603ce0)
+  Output 0: (0x406052c8)
+  Output 1: (0x40605db0)
   Maximum Cost: 0.1
   MaximumCollapsedEdges: -1
 
 
 vtkQuantizePolyDataPoints --------------
-vtkQuantizePolyDataPoints (0x406031c8)
+vtkQuantizePolyDataPoints (0x40605238)
   Debug: Off
-  Modified Time: 12386
+  Modified Time: 12383
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603258)
+  Output 0: (0x406052c8)
   ToleranceIsAbsolute: 0
   Tolerance: 0
   AbsoluteTolerance: 1
@@ -6797,9 +6788,9 @@ vtkQuantizePolyDataPoints (0x406031c8)
 
 
 vtkRIBExporter --------------
-vtkRIBExporter (0x406031e8)
+vtkRIBExporter (0x40605258)
   Debug: Off
-  Modified Time: 12389
+  Modified Time: 12386
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -6812,9 +6803,9 @@ vtkRIBExporter (0x406031e8)
 
 
 vtkRIBLight --------------
-vtkRIBLight (0x40603208)
+vtkRIBLight (0x40605278)
   Debug: Off
-  Modified Time: 12390
+  Modified Time: 12387
   Reference Count: 1
   AttenuationValues: (1, 0, 0)
   Color: (1, 1, 1)
@@ -6831,9 +6822,9 @@ vtkRIBLight (0x40603208)
 
 
 vtkRIBProperty --------------
-vtkRIBProperty (0x40603228)
+vtkRIBProperty (0x40605298)
   Debug: Off
-  Modified Time: 12392
+  Modified Time: 12389
   Reference Count: 1
   Ambient: 0
   Ambient Color: (1, 1, 1)
@@ -6858,9 +6849,9 @@ vtkRIBProperty (0x40603228)
 
 
 vtkRayCaster --------------
-vtkRayCaster (0x406034b8)
+vtkRayCaster (0x40605570)
   Debug: Off
-  Modified Time: 12394
+  Modified Time: 12391
   Reference Count: 1
   Renderer: 0x0
   Selected Image Scale Index: 0
@@ -6873,9 +6864,9 @@ vtkRayCaster (0x406034b8)
 
 
 vtkRectilinearGrid --------------
-vtkRectilinearGrid (0x40603268)
+vtkRectilinearGrid (0x406052d8)
   Debug: Off
-  Modified Time: 12408
+  Modified Time: 12405
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -6890,19 +6881,19 @@ vtkRectilinearGrid (0x40603268)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 12404
+    Modified Time: 12401
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x406033c8)
+  ExtentTranslator: (0x40605438)
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
-    Modified Time: 12408
+    Modified Time: 12405
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6920,7 +6911,7 @@ vtkRectilinearGrid (0x40603268)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 12406
+    Modified Time: 12403
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -6943,24 +6934,24 @@ vtkRectilinearGrid (0x40603268)
   Compute Time: 0
   Release Data: Off
   Dimensions: (1, 1, 1)
-  X Coordinates: 0x40603f70
-  Y Coordinates: 0x40603f70
-  Z Coordinates: 0x40603f70
+  X Coordinates: 0x40606040
+  Y Coordinates: 0x40606040
+  Z Coordinates: 0x40606040
   WholeExtent: 0, -1, 0, -1, 0, -1
   Extent: 0, 0, 0, 0, 0, 0
 
 
 vtkRectilinearGridGeometryFilter --------------
-vtkRectilinearGridGeometryFilter (0x40603288)
+vtkRectilinearGridGeometryFilter (0x406052f8)
   Debug: Off
-  Modified Time: 12465
+  Modified Time: 12462
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603310)
+  Output 0: (0x40605380)
   Extent: 
     Imin,Imax: (0, 2147483647)
     Jmin,Jmax: (0, 2147483647)
@@ -6968,16 +6959,16 @@ vtkRectilinearGridGeometryFilter (0x40603288)
 
 
 vtkRectilinearGridReader --------------
-vtkRectilinearGridReader (0x406032a8)
+vtkRectilinearGridReader (0x40605318)
   Debug: Off
-  Modified Time: 12520
+  Modified Time: 12517
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406033c0)
+  Output 0: (0x40605430)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -6996,22 +6987,22 @@ vtkRectilinearGridReader (0x406032a8)
 
 
 vtkRectilinearGridSource --------------
-vtkRectilinearGridSource (0x406032c8)
+vtkRectilinearGridSource (0x40605338)
   Debug: Off
-  Modified Time: 12575
+  Modified Time: 12572
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603340)
+  Output 0: (0x406053b0)
 
 
 vtkRectilinearGridWriter --------------
-vtkRectilinearGridWriter (0x406032e8)
+vtkRectilinearGridWriter (0x40605358)
   Debug: Off
-  Modified Time: 12578
+  Modified Time: 12575
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7035,70 +7026,70 @@ vtkRectilinearGridWriter (0x406032e8)
 
 
 vtkRecursiveDividingCubes --------------
-vtkRecursiveDividingCubes (0x40603308)
+vtkRecursiveDividingCubes (0x40605378)
   Debug: Off
-  Modified Time: 12591
+  Modified Time: 12588
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603388)
+  Output 0: (0x406053f8)
   Value: 0
   Distance: 0.1
   Increment: 1
 
 
 vtkRecursiveSphereDirectionEncoder --------------
-vtkRecursiveSphereDirectionEncoder (0x40603328)
+vtkRecursiveSphereDirectionEncoder (0x40605398)
   Debug: Off
-  Modified Time: 12614
+  Modified Time: 12611
   Reference Count: 1
   Number of encoded directions: 16643
   Recursion depth: 6
 
 
 vtkReferenceCount --------------
-vtkReferenceCount (0x40603348)
+vtkReferenceCount (0x406053b8)
   Debug: Off
-  Modified Time: 12615
+  Modified Time: 12612
   Reference Count: 1
 
 
 vtkRemoveGhostCells --------------
-vtkRemoveGhostCells (0x40603368)
+vtkRemoveGhostCells (0x406053d8)
   Debug: Off
-  Modified Time: 12628
+  Modified Time: 12625
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406034b0)
+  Output 0: (0x40605588)
   Ghost Level: 1
 
 
 vtkRenderLargeImage --------------
-vtkRenderLargeImage (0x40603388)
+vtkRenderLargeImage (0x406053f8)
   Debug: Off
-  Modified Time: 12682
+  Modified Time: 12679
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603410)
+  Output 0: (0x40605480)
   Input: (none)
   Magnification: 3
 
 
 vtkRenderWindow --------------
-vtkOpenGLRenderWindow (0x406033a8)
+vtkOpenGLRenderWindow (0x40605418)
   Debug: Off
-  Modified Time: 12685
+  Modified Time: 12682
   Reference Count: 1
   Erase: On
   Window Name: Visualization Toolkit - OpenGL
@@ -7113,7 +7104,7 @@ vtkOpenGLRenderWindow (0x406033a8)
   Full Screen: Off
   Renderers:
     Debug: Off
-    Modified Time: 12686
+    Modified Time: 12683
     Reference Count: 1
     Number Of Items: 0
   Stereo Capable Window Requested: No
@@ -7135,7 +7126,7 @@ vtkOpenGLRenderWindow (0x406033a8)
   File Name: (none)
   No AbortCheck method.
   Color Map: 0
-  Display Id: 0x40603e88
+  Display Id: 0x40605f58
   Next Window Id: 0
   Window Id: 0
   ContextId: 0x0
@@ -7143,21 +7134,21 @@ vtkOpenGLRenderWindow (0x406033a8)
 
 
 vtkRenderWindowCollection --------------
-vtkRenderWindowCollection (0x406033c8)
+vtkRenderWindowCollection (0x40605438)
   Debug: Off
-  Modified Time: 12688
+  Modified Time: 12685
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkRenderWindowInteractor --------------
-vtkXRenderWindowTclInteractor (0x406034e0)
+vtkXRenderWindowTclInteractor (0x40605458)
   Debug: Off
-  Modified Time: 12689
+  Modified Time: 12686
   Reference Count: 1
-  InteractorStyle:    0x40603570
+  InteractorStyle:    0x406055b0
   RenderWindow:    0x0
-  Picker: 0x406061b8
+  Picker: 0x406082b8
   LightFollowCamera: On
   DesiredUpdateRate: 15
   StillUpdateRate: 0.0001
@@ -7170,9 +7161,9 @@ vtkXRenderWindowTclInteractor (0x406034e0)
 
 
 vtkRenderer --------------
-vtkOpenGLRenderer (0x40603408)
+vtkOpenGLRenderer (0x40605478)
   Debug: Off
-  Modified Time: 12836
+  Modified Time: 12833
   Reference Count: 2
   Aspect: (1, 1)
   Background: (0, 0, 0)
@@ -7186,7 +7177,7 @@ vtkOpenGLRenderer (0x40603408)
   IsPicking boolean: 0
   Props:
     Debug: Off
-    Modified Time: 12825
+    Modified Time: 12822
     Reference Count: 1
     Number Of Items: 0
   Ambient: (1, 1, 1)
@@ -7194,7 +7185,7 @@ vtkOpenGLRenderer (0x40603408)
   Display Point: (0, 0, 0)
   Lights:
     Debug: Off
-    Modified Time: 12837
+    Modified Time: 12834
     Reference Count: 1
     Number Of Items: 0
   Light Follow Camera: On
@@ -7202,7 +7193,7 @@ vtkOpenGLRenderer (0x40603408)
   Two Sided Lighting: On
   Layer = 0
   Interactive = On
-  Ray Caster: 0x406035a0
+  Ray Caster: 0x40605610
   Allocated Render Time: 100
   Last Time To Render (Seconds): -1
   TimeFactor: 1
@@ -7213,24 +7204,24 @@ vtkOpenGLRenderer (0x40603408)
 
 
 vtkRendererCollection --------------
-vtkRendererCollection (0x40603428)
+vtkRendererCollection (0x40605498)
   Debug: Off
-  Modified Time: 12843
+  Modified Time: 12840
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkRendererSource --------------
-vtkRendererSource (0x40603540)
+vtkRendererSource (0x406054b8)
   Debug: Off
-  Modified Time: 12895
+  Modified Time: 12892
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406035c8)
+  Output 0: (0x40605610)
   RenderFlag: Off
   Input: (none)
   Whole Window: Off
@@ -7238,31 +7229,31 @@ vtkRendererSource (0x40603540)
 
 
 vtkReverseSense --------------
-vtkReverseSense (0x40603468)
+vtkReverseSense (0x406054d8)
   Debug: Off
-  Modified Time: 12910
+  Modified Time: 12907
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406034e0)
+  Output 0: (0x40605550)
   Reverse Cells: On
   Reverse Normals: Off
 
 
 vtkRibbonFilter --------------
-vtkRibbonFilter (0x40603488)
+vtkRibbonFilter (0x406054f8)
   Debug: Off
-  Modified Time: 12925
+  Modified Time: 12922
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603518)
+  Output 0: (0x40605588)
   Width: 0.5
   Angle: 0
   VaryWidth: Off
@@ -7272,16 +7263,16 @@ vtkRibbonFilter (0x40603488)
 
 
 vtkRotationalExtrusionFilter --------------
-vtkRotationalExtrusionFilter (0x406034a8)
+vtkRotationalExtrusionFilter (0x40605518)
   Debug: Off
-  Modified Time: 12940
+  Modified Time: 12937
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603528)
+  Output 0: (0x40605598)
   Resolution: 12
   Capping: On
   Angle: 360
@@ -7290,16 +7281,16 @@ vtkRotationalExtrusionFilter (0x406034a8)
 
 
 vtkRuledSurfaceFilter --------------
-vtkRuledSurfaceFilter (0x406034c8)
+vtkRuledSurfaceFilter (0x40605538)
   Debug: Off
-  Modified Time: 12955
+  Modified Time: 12952
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603568)
+  Output 0: (0x406055d8)
   Distance Factor: 3
   On Ratio: 1
   Offset: 0
@@ -7310,9 +7301,9 @@ vtkRuledSurfaceFilter (0x406034c8)
 
 
 vtkRungeKutta2 --------------
-vtkRungeKutta2 (0x406034e8)
+vtkRungeKutta2 (0x40605558)
   Debug: Off
-  Modified Time: 12959
+  Modified Time: 12956
   Reference Count: 1
   Function set : 0x0
   Function values : 0x0
@@ -7321,9 +7312,9 @@ vtkRungeKutta2 (0x406034e8)
 
 
 vtkRungeKutta4 --------------
-vtkRungeKutta4 (0x40603508)
+vtkRungeKutta4 (0x40605578)
   Debug: Off
-  Modified Time: 12960
+  Modified Time: 12957
   Reference Count: 1
   Function set : 0x0
   Function values : 0x0
@@ -7333,40 +7324,40 @@ vtkRungeKutta4 (0x40603508)
 
 
 vtkSLCReader --------------
-vtkSLCReader (0x40603528)
+vtkSLCReader (0x40605598)
   Debug: Off
-  Modified Time: 13012
+  Modified Time: 13009
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406036a8)
+  Output 0: (0x40605778)
   Error: 0
   File Name: (none)
 
 
 vtkSTLReader --------------
-vtkSTLReader (0x40603548)
+vtkSTLReader (0x406055b8)
   Debug: Off
-  Modified Time: 13027
+  Modified Time: 13024
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406035c0)
+  Output 0: (0x40605630)
   File Name: (none)
   Merging: On
   Locator: (none)
 
 
 vtkSTLWriter --------------
-vtkSTLWriter (0x40603568)
+vtkSTLWriter (0x406055d8)
   Debug: Off
-  Modified Time: 13030
+  Modified Time: 13027
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7390,16 +7381,16 @@ vtkSTLWriter (0x40603568)
 
 
 vtkSampleFunction --------------
-vtkSampleFunction (0x40603588)
+vtkSampleFunction (0x406055f8)
   Debug: Off
-  Modified Time: 13082
+  Modified Time: 13079
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603638)
+  Output 0: (0x406056a8)
   Sample Dimensions: (50, 50, 50)
   ModelBounds: 
     Xmin,Xmax: (-1, 1)
@@ -7413,9 +7404,9 @@ vtkSampleFunction (0x40603588)
 
 
 vtkScalarBarActor --------------
-vtkScalarBarActor (0x406035a8)
+vtkScalarBarActor (0x40605618)
   Debug: Off
-  Modified Time: 13094
+  Modified Time: 13091
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -7424,21 +7415,21 @@ vtkScalarBarActor (0x406035a8)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x40603660
+  PositionCoordinate: 0x406056d0
     Debug: Off
-    Modified Time: 13094
+    Modified Time: 13091
     Reference Count: 4
     Coordinate System: Normalized Viewport
     Value: (0.82,0.1,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x406036d8
+  Position2 Coordinate: 0x40605748
     Debug: Off
-    Modified Time: 13092
+    Modified Time: 13089
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.17,0.8,0)
-    ReferenceCoordinate: 0x40603660
+    ReferenceCoordinate: 0x406056d0
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
@@ -7456,9 +7447,9 @@ vtkScalarBarActor (0x406035a8)
 
 
 vtkScalarTree --------------
-vtkScalarTree (0x406035c8)
+vtkScalarTree (0x40605638)
   Debug: Off
-  Modified Time: 13133
+  Modified Time: 13130
   Reference Count: 1
   DataSet: (none)
   Level: 0
@@ -7468,11 +7459,11 @@ vtkScalarTree (0x406035c8)
 
 
 vtkScalars --------------
-vtkScalars (0x406035e8)
+vtkScalars (0x40605658)
   Debug: Off
-  Modified Time: 13134
+  Modified Time: 13131
   Reference Count: 1
-  Data: 0x40603708
+  Data: 0x406056c8
   Number Of Scalars: 0
   Range: (1e+38, -1e+38)
   LookupTable: (none)
@@ -7481,9 +7472,9 @@ vtkScalars (0x406035e8)
 
 
 vtkScaledTextActor --------------
-vtkScaledTextActor (0x40603608)
+vtkScaledTextActor (0x40605678)
   Debug: Off
-  Modified Time: 13146
+  Modified Time: 13143
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -7492,21 +7483,21 @@ vtkScaledTextActor (0x40603608)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x40603688
+  PositionCoordinate: 0x406056f8
     Debug: Off
-    Modified Time: 13146
+    Modified Time: 13143
     Reference Count: 2
     Coordinate System: Normalized Viewport
     Value: (0.2,0.85,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x406037e8
+  Position2 Coordinate: 0x40605770
     Debug: Off
-    Modified Time: 13144
+    Modified Time: 13141
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.6,0.1,0)
-    ReferenceCoordinate: 0x40603688
+    ReferenceCoordinate: 0x406056f8
     Viewport: (none)
   Property: 0x0
   Mapper: 0x0
@@ -7515,16 +7506,16 @@ vtkScaledTextActor (0x40603608)
 
 
 vtkSelectPolyData --------------
-vtkSelectPolyData (0x40603628)
+vtkSelectPolyData (0x40605698)
   Debug: Off
-  Modified Time: 13168
+  Modified Time: 13165
   Reference Count: 4
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406036c0)
+  Output 0: (0x40605730)
   Generate Unselected Output: Off
   Inside Mode: InsideSmallestRegion
   Closest Point: (0, 0, 0)
@@ -7534,16 +7525,16 @@ vtkSelectPolyData (0x40603628)
 
 
 vtkSelectVisiblePoints --------------
-vtkSelectVisiblePoints (0x40603648)
+vtkSelectVisiblePoints (0x406056b8)
   Debug: Off
-  Modified Time: 13203
+  Modified Time: 13200
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406036d8)
+  Output 0: (0x40605748)
   Renderer: 0x0
   Selection Window: Off
   Selection: 
@@ -7553,17 +7544,34 @@ vtkSelectVisiblePoints (0x40603648)
   Select Invisible: Off
 
 
+vtkSharedMemoryCommunicator --------------
+vtkSharedMemoryCommunicator (0x406056d8)
+  Marshal string: 
+  Marshal string length: 0
+  Marshal data length: 0
+  Number of threads: 0
+  Initialized: (no)
+  Local thread id: 0
+  Waiting for id: -2
+  Force deep copy: (yes)
+  Message list lock0x40605730
+  Communicators: 0x0
+  Parent: 0x0
+  Message list start: 0x0
+  Message list end: 0x0
+
+
 vtkShepardMethod --------------
-vtkShepardMethod (0x40603668)
+vtkShepardMethod (0x406056f8)
   Debug: Off
-  Modified Time: 13257
+  Modified Time: 13255
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603710)
+  Output 0: (0x406058a8)
   Maximum Distance: 0.25
   Sample Dimensions: (50, 50, 50)
   ModelBounds: 
@@ -7574,9 +7582,9 @@ vtkShepardMethod (0x40603668)
 
 
 vtkShortArray --------------
-vtkShortArray (0x40603688)
+vtkShortArray (0x40605718)
   Debug: Off
-  Modified Time: 13260
+  Modified Time: 13258
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -7587,37 +7595,37 @@ vtkShortArray (0x40603688)
 
 
 vtkShrinkFilter --------------
-vtkShrinkFilter (0x406036a8)
+vtkShrinkFilter (0x40605738)
   Debug: Off
-  Modified Time: 13507
+  Modified Time: 13505
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406037c8)
+  Output 0: (0x406058b8)
   Shrink Factor: 0.5
 
 
 vtkShrinkPolyData --------------
-vtkShrinkPolyData (0x406036c8)
+vtkShrinkPolyData (0x40605758)
   Debug: Off
-  Modified Time: 13522
+  Modified Time: 13520
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603738)
+  Output 0: (0x406057c8)
   Shrink Factor: 0.5
 
 
 vtkSimpleElevationFilter --------------
-vtkSimpleElevationFilter (0x406036e8)
+vtkSimpleElevationFilter (0x40605778)
   Debug: Off
-  Modified Time: 13525
+  Modified Time: 13523
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -7629,9 +7637,9 @@ vtkSimpleElevationFilter (0x406036e8)
 
 
 vtkSliceCubes --------------
-vtkSliceCubes (0x40603708)
+vtkSliceCubes (0x40605798)
   Debug: Off
-  Modified Time: 13526
+  Modified Time: 13524
   Reference Count: 1
   Iso Value: 0
   Reader: (none)
@@ -7640,16 +7648,16 @@ vtkSliceCubes (0x40603708)
 
 
 vtkSmoothPolyDataFilter --------------
-vtkSmoothPolyDataFilter (0x40603728)
+vtkSmoothPolyDataFilter (0x406057b8)
   Debug: Off
-  Modified Time: 13539
+  Modified Time: 13537
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603880)
+  Output 0: (0x40605980)
   Convergence: 0
   Number of Iterations: 20
   Relaxation Factor: 0.01
@@ -7663,9 +7671,9 @@ vtkSmoothPolyDataFilter (0x40603728)
 
 
 vtkSource --------------
-vtkSource (0x40603748)
+vtkSource (0x406057d8)
   Debug: Off
-  Modified Time: 13542
+  Modified Time: 13540
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -7676,24 +7684,24 @@ vtkSource (0x40603748)
 
 
 vtkSpatialRepresentationFilter --------------
-vtkSpatialRepresentationFilter (0x40603768)
+vtkSpatialRepresentationFilter (0x406057f8)
   Debug: Off
-  Modified Time: 13555
+  Modified Time: 13553
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603890)
+  Output 0: (0x40605980)
   Level: 0
   Spatial Representation: (none)
 
 
 vtkSphere --------------
-vtkSphere (0x40603788)
+vtkSphere (0x40605818)
   Debug: Off
-  Modified Time: 13558
+  Modified Time: 13556
   Reference Count: 1
   Transform: (None)
   Radius: 0.5
@@ -7701,16 +7709,16 @@ vtkSphere (0x40603788)
 
 
 vtkSphereSource --------------
-vtkSphereSource (0x406038b0)
+vtkSphereSource (0x40605838)
   Debug: Off
-  Modified Time: 13571
+  Modified Time: 13569
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603948)
+  Output 0: (0x406059a0)
   Theta Resolution: 8
   Phi Resolution: 8
   Theta Start: 0
@@ -7722,24 +7730,24 @@ vtkSphereSource (0x406038b0)
 
 
 vtkStack --------------
-vtkStack (0x406037c8)
+vtkStack (0x40605858)
   Debug: Off
-  Modified Time: 13574
+  Modified Time: 13572
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkStreamLine --------------
-vtkStreamLine (0x406038e0)
+vtkStreamLine (0x406059d0)
   Debug: Off
-  Modified Time: 13587
+  Modified Time: 13585
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406039a8)
+  Output 0: (0x40605a98)
   Starting Position: (0,0, 0)
   Maximum Propagation Time: 100
   Integration Direction: FORWARD
@@ -7748,23 +7756,23 @@ vtkStreamLine (0x406038e0)
   Terminal Speed: 0
   Speed Scalars: Off
   Interval with which points are stored:1e-05
-  Integrator: 0x40604590
+  Integrator: 0x40606678
   Number Of Streamers: 0
   Number Of Threads: 1
   Step Length: 1
 
 
 vtkStreamPoints --------------
-vtkStreamPoints (0x40603808)
+vtkStreamPoints (0x40605898)
   Debug: Off
-  Modified Time: 13606
+  Modified Time: 13604
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406038d0)
+  Output 0: (0x40605960)
   Starting Position: (0,0, 0)
   Maximum Propagation Time: 100
   Integration Direction: FORWARD
@@ -7773,23 +7781,23 @@ vtkStreamPoints (0x40603808)
   Terminal Speed: 0
   Speed Scalars: Off
   Interval with which points are stored:1e-05
-  Integrator: 0x40604538
+  Integrator: 0x40606628
   Number Of Streamers: 0
   Number Of Threads: 1
   Time Increment: 1 <<
 
 
 vtkStreamer --------------
-vtkStreamer (0x40603828)
+vtkStreamer (0x406058b8)
   Debug: Off
-  Modified Time: 13625
+  Modified Time: 13623
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406038e8)
+  Output 0: (0x40605978)
   Starting Position: (0,0, 0)
   Maximum Propagation Time: 100
   Integration Direction: FORWARD
@@ -7798,36 +7806,36 @@ vtkStreamer (0x40603828)
   Terminal Speed: 0
   Speed Scalars: Off
   Interval with which points are stored:1e-05
-  Integrator: 0x40604550
+  Integrator: 0x40606640
   Number Of Streamers: 0
   Number Of Threads: 1
 
 
 vtkStripper --------------
-vtkStripper (0x40603848)
+vtkStripper (0x406058d8)
   Debug: Off
-  Modified Time: 13644
+  Modified Time: 13642
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x406038b8)
+  Output 0: (0x40605948)
   Maximum Length: 1000
 
 
 vtkStructuredData --------------
-vtkStructuredData (0x40603868)
+vtkStructuredData (0x406058f8)
   Debug: Off
-  Modified Time: 13647
+  Modified Time: 13645
   Reference Count: 1
 
 
 vtkStructuredGrid --------------
-vtkStructuredGrid (0x40603970)
+vtkStructuredGrid (0x40605a60)
   Debug: Off
-  Modified Time: 13653
+  Modified Time: 13651
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -7842,19 +7850,19 @@ vtkStructuredGrid (0x40603970)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 13649
+    Modified Time: 13647
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40603a90)
+  ExtentTranslator: (0x406059d8)
   Number Of Points: 0
   Number Of Cells: 1
   Cell Data:
     Debug: Off
-    Modified Time: 13653
+    Modified Time: 13651
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7872,7 +7880,7 @@ vtkStructuredGrid (0x40603970)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 13651
+    Modified Time: 13649
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -7905,16 +7913,16 @@ vtkStructuredGrid (0x40603970)
 
 
 vtkStructuredGridGeometryFilter --------------
-vtkStructuredGridGeometryFilter (0x406038a8)
+vtkStructuredGridGeometryFilter (0x40605938)
   Debug: Off
-  Modified Time: 13708
+  Modified Time: 13706
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603930)
+  Output 0: (0x406059c0)
   Extent: 
     Imin,Imax: (0, 2147483647)
     Jmin,Jmax: (0, 2147483647)
@@ -7922,29 +7930,29 @@ vtkStructuredGridGeometryFilter (0x406038a8)
 
 
 vtkStructuredGridOutlineFilter --------------
-vtkStructuredGridOutlineFilter (0x406038c8)
+vtkStructuredGridOutlineFilter (0x40605958)
   Debug: Off
-  Modified Time: 13723
+  Modified Time: 13721
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603938)
+  Output 0: (0x406059c8)
 
 
 vtkStructuredGridReader --------------
-vtkStructuredGridReader (0x406038e8)
+vtkStructuredGridReader (0x40605978)
   Debug: Off
-  Modified Time: 13776
+  Modified Time: 13774
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603a00)
+  Output 0: (0x40605a90)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -7963,22 +7971,22 @@ vtkStructuredGridReader (0x406038e8)
 
 
 vtkStructuredGridSource --------------
-vtkStructuredGridSource (0x40603908)
+vtkStructuredGridSource (0x40605998)
   Debug: Off
-  Modified Time: 13829
+  Modified Time: 13827
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603980)
+  Output 0: (0x40605a10)
 
 
 vtkStructuredGridWriter --------------
-vtkStructuredGridWriter (0x40603928)
+vtkStructuredGridWriter (0x406059b8)
   Debug: Off
-  Modified Time: 13832
+  Modified Time: 13830
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8002,9 +8010,9 @@ vtkStructuredGridWriter (0x40603928)
 
 
 vtkStructuredPoints --------------
-vtkStructuredPoints (0x40603948)
+vtkStructuredPoints (0x406059d8)
   Debug: Off
-  Modified Time: 13880
+  Modified Time: 13878
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -8019,19 +8027,19 @@ vtkStructuredPoints (0x40603948)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 13834
+    Modified Time: 13832
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x40603ac0)
+  ExtentTranslator: (0x40605b50)
   Number Of Points: 1
   Number Of Cells: 1
   Cell Data:
     Debug: Off
-    Modified Time: 13838
+    Modified Time: 13836
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -8049,7 +8057,7 @@ vtkStructuredPoints (0x40603948)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 13836
+    Modified Time: 13834
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -8082,24 +8090,24 @@ vtkStructuredPoints (0x40603948)
 
 
 vtkStructuredPointsCollection --------------
-vtkStructuredPointsCollection (0x40603968)
+vtkStructuredPointsCollection (0x406059f8)
   Debug: Off
-  Modified Time: 13882
+  Modified Time: 13880
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkStructuredPointsGeometryFilter --------------
-vtkStructuredPointsGeometryFilter (0x40603a80)
+vtkStructuredPointsGeometryFilter (0x40605a18)
   Debug: Off
-  Modified Time: 13895
+  Modified Time: 13893
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603b08)
+  Output 0: (0x40605b70)
   Extent: 
     Imin,Imax: (0, 2147483647)
     Jmin,Jmax: (0, 2147483647)
@@ -8107,16 +8115,16 @@ vtkStructuredPointsGeometryFilter (0x40603a80)
 
 
 vtkStructuredPointsReader --------------
-vtkStructuredPointsReader (0x406039a8)
+vtkStructuredPointsReader (0x40605a38)
   Debug: Off
-  Modified Time: 13949
+  Modified Time: 13947
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603ac0)
+  Output 0: (0x40605b50)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -8135,22 +8143,22 @@ vtkStructuredPointsReader (0x406039a8)
 
 
 vtkStructuredPointsSource --------------
-vtkStructuredPointsSource (0x406039c8)
+vtkStructuredPointsSource (0x40605a58)
   Debug: Off
-  Modified Time: 14003
+  Modified Time: 14001
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603a40)
+  Output 0: (0x40605ad0)
 
 
 vtkStructuredPointsWriter --------------
-vtkStructuredPointsWriter (0x406039e8)
+vtkStructuredPointsWriter (0x40605a78)
   Debug: Off
-  Modified Time: 14006
+  Modified Time: 14004
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8174,38 +8182,38 @@ vtkStructuredPointsWriter (0x406039e8)
 
 
 vtkSubPixelPositionEdgels --------------
-vtkSubPixelPositionEdgels (0x40603a08)
+vtkSubPixelPositionEdgels (0x40605a98)
   Debug: Off
-  Modified Time: 14019
+  Modified Time: 14017
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603a80)
+  Output 0: (0x40605b10)
   Gradient Data: (none)
   TargetFlag: 0
   TargetValue: 0
 
 
 vtkSubdivideTetra --------------
-vtkSubdivideTetra (0x40603a28)
+vtkSubdivideTetra (0x40605ab8)
   Debug: Off
-  Modified Time: 14268
+  Modified Time: 14266
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603a88)
+  Output 0: (0x40605b18)
 
 
 vtkSuperquadric --------------
-vtkSuperquadric (0x40603a48)
+vtkSuperquadric (0x40605ad8)
   Debug: Off
-  Modified Time: 14273
+  Modified Time: 14271
   Reference Count: 1
   Transform: (None)
   Toroidal: Off
@@ -8218,16 +8226,16 @@ vtkSuperquadric (0x40603a48)
 
 
 vtkSuperquadricSource --------------
-vtkSuperquadricSource (0x40603a68)
+vtkSuperquadricSource (0x40605af8)
   Debug: Off
-  Modified Time: 14290
+  Modified Time: 14288
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603b90)
+  Output 0: (0x40605c80)
   Toroidal: Off
   Size: 0.5
   Thickness: 0.3333
@@ -8240,31 +8248,31 @@ vtkSuperquadricSource (0x40603a68)
 
 
 vtkSurfaceReconstructionFilter --------------
-vtkSurfaceReconstructionFilter (0x40603a88)
+vtkSurfaceReconstructionFilter (0x40605b18)
   Debug: Off
-  Modified Time: 14344
+  Modified Time: 14342
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603b08)
+  Output 0: (0x40605b98)
   Neighborhood Size:20
   Sample Spacing:-1
 
 
 vtkSweptSurface --------------
-vtkSweptSurface (0x40603aa8)
+vtkSweptSurface (0x40605b38)
   Debug: Off
-  Modified Time: 14398
+  Modified Time: 14396
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603b68)
+  Output 0: (0x40605bf8)
   Sample Dimensions: (50, 50, 50)
   ModelBounds: 
     Xmin,Xmax: (0, 0)
@@ -8280,31 +8288,31 @@ vtkSweptSurface (0x40603aa8)
 
 
 vtkSynchronizedTemplates2D --------------
-vtkSynchronizedTemplates2D (0x40603ac8)
+vtkSynchronizedTemplates2D (0x40605b58)
   Debug: Off
-  Modified Time: 14416
+  Modified Time: 14414
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603b38)
+  Output 0: (0x40605bc8)
   Contour Values: 
     Value 0: 0
 
 
 vtkSynchronizedTemplates3D --------------
-vtkSynchronizedTemplates3D (0x40603ae8)
+vtkSynchronizedTemplates3D (0x40605b78)
   Debug: Off
-  Modified Time: 14433
+  Modified Time: 14431
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603c08)
+  Output 0: (0x40605c98)
   Contour Values: 
     Value 0: 0
   Compute Normals: On
@@ -8314,26 +8322,26 @@ vtkSynchronizedTemplates3D (0x40603ae8)
 
 
 vtkTCoords --------------
-vtkTCoords (0x40603b08)
+vtkTCoords (0x40605b98)
   Debug: Off
-  Modified Time: 14438
+  Modified Time: 14436
   Reference Count: 1
-  Data: 0x40603b30
+  Data: 0x40605bc0
   Number Of Texture Coordinates: 0
   Number Of Texture Components: 2
 
 
 vtkTIFFReader --------------
-vtkTIFFReader (0x40603c50)
+vtkTIFFReader (0x40605d40)
   Debug: Off
-  Modified Time: 14492
+  Modified Time: 14490
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603d70)
+  Output 0: (0x40605e60)
   FileName: (none)
   FilePrefix: (none)
   FilePattern: %s.%d
@@ -8354,9 +8362,9 @@ vtkTIFFReader (0x40603c50)
 
 
 vtkTIFFWriter --------------
-vtkTIFFWriter (0x40603b48)
+vtkTIFFWriter (0x40605bd8)
   Debug: Off
-  Modified Time: 14496
+  Modified Time: 14494
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8371,23 +8379,23 @@ vtkTIFFWriter (0x40603b48)
 
 
 vtkTensor --------------
-vtkTensor (0x40603b68)
+vtkTensor (0x40605bf8)
   Debug: Off
-  Modified Time: 14497
+  Modified Time: 14495
   Reference Count: 1
 
 
 vtkTensorGlyph --------------
-vtkTensorGlyph (0x40603b88)
+vtkTensorGlyph (0x40605c18)
   Debug: Off
-  Modified Time: 14510
+  Modified Time: 14508
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603d18)
+  Output 0: (0x40605df8)
   Source: 0x0
   Scaling: On
   Scale Factor: 1
@@ -8398,18 +8406,18 @@ vtkTensorGlyph (0x40603b88)
 
 
 vtkTensors --------------
-vtkTensors (0x40603ba8)
+vtkTensors (0x40605c38)
   Debug: Off
-  Modified Time: 14514
+  Modified Time: 14512
   Reference Count: 1
-  Data: 0x40603bd0
+  Data: 0x40605c60
   Number Of Tensors: 0
 
 
 vtkTetra --------------
-vtkTetra (0x40603bc8)
+vtkTetra (0x40605c58)
   Debug: Off
-  Modified Time: 14518
+  Modified Time: 14516
   Reference Count: 1
   Number Of Points: 4
   Bounds: 
@@ -8420,9 +8428,9 @@ vtkTetra (0x40603bc8)
 
 
 vtkTextMapper --------------
-vtkXOpenGLTextMapper (0x40603be8)
+vtkXOpenGLTextMapper (0x40605c78)
   Debug: Off
-  Modified Time: 14538
+  Modified Time: 14536
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -8442,16 +8450,16 @@ vtkXOpenGLTextMapper (0x40603be8)
 
 
 vtkTextSource --------------
-vtkTextSource (0x40603c08)
+vtkTextSource (0x40605c98)
   Debug: Off
-  Modified Time: 14551
+  Modified Time: 14549
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603d80)
+  Output 0: (0x40605e70)
   Text: (none)
   Background Drawn: On
   ForegroundColor: (1, 1, 1)
@@ -8459,9 +8467,9 @@ vtkTextSource (0x40603c08)
 
 
 vtkTexture --------------
-vtkOpenGLTexture (0x40603c28)
+vtkOpenGLTexture (0x40605cb8)
   Debug: Off
-  Modified Time: 14554
+  Modified Time: 14552
   Reference Count: 1
   Interpolate: Off
   Repeat:      On
@@ -8473,9 +8481,9 @@ vtkOpenGLTexture (0x40603c28)
 
 
 vtkTextureMapToCylinder --------------
-vtkTextureMapToCylinder (0x40603c48)
+vtkTextureMapToCylinder (0x40605cd8)
   Debug: Off
-  Modified Time: 14555
+  Modified Time: 14553
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8490,9 +8498,9 @@ vtkTextureMapToCylinder (0x40603c48)
 
 
 vtkTextureMapToPlane --------------
-vtkTextureMapToPlane (0x40603c68)
+vtkTextureMapToPlane (0x40605cf8)
   Debug: Off
-  Modified Time: 14556
+  Modified Time: 14554
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8510,9 +8518,9 @@ vtkTextureMapToPlane (0x40603c68)
 
 
 vtkTextureMapToSphere --------------
-vtkTextureMapToSphere (0x40603c88)
+vtkTextureMapToSphere (0x40605d18)
   Debug: Off
-  Modified Time: 14557
+  Modified Time: 14555
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8526,16 +8534,16 @@ vtkTextureMapToSphere (0x40603c88)
 
 
 vtkTexturedSphereSource --------------
-vtkTexturedSphereSource (0x40603ca8)
+vtkTexturedSphereSource (0x40605d38)
   Debug: Off
-  Modified Time: 14570
+  Modified Time: 14568
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603de8)
+  Output 0: (0x40605f20)
   Theta Resolution: 8
   Phi Resolution: 8
   Theta: 0
@@ -8544,9 +8552,9 @@ vtkTexturedSphereSource (0x40603ca8)
 
 
 vtkThinPlateSplineTransform --------------
-vtkThinPlateSplineTransform (0x40603cc8)
+vtkThinPlateSplineTransform (0x40605d58)
   Debug: Off
-  Modified Time: 14574
+  Modified Time: 14572
   Reference Count: 1
   Inverse: (0x0)
   InverseFlag: 0
@@ -8559,51 +8567,38 @@ vtkThinPlateSplineTransform (0x40603cc8)
 
 
 vtkThreadedController --------------
-vtkThreadedController (0x40603e80)
+vtkThreadedController (0x40605f70)
   Debug: Off
-  Modified Time: 14575
+  Modified Time: 14573
   Reference Count: 1
   MaximumNumberOfProcesses: 8192
-  NumberOfProcesses: 1
+  NumberOfProcesses: 0
   LocalProcessId: 0
-  MarshalStringLength: 0
-  MarshalDataLength: 0
-  ReceiveWaitTime: 0
-  ReceiveTime: 0
-  SendWaitTime: 0
-  SendTime: 0
-  ReadTime: 0
-  WriteTime: 0
+  Break flag: (no)
+  Force deep copy: (yes)
+  Output window: (nil)
+  Communicator: (nil)
+  RMI communicator: (nil)
   RMIs: 
     239954
-  SendWaitTime: 0
-  SendTime: 0
-  ReceiveWaitTime: 0
-  ReceiveTime: 0
-  ReadTime: 0
-  WriteTime: 0
-  BreakFlag: 0
-  ForceDeepCopy: 1
-  MultiThreader:
-    Debug: Off
-    Modified Time: 14578
-    Reference Count: 1
-    Thread Count: 1
-    Global Maximum Number Of Threads: 0
+  MultiThreader: (none)
   LocalProcessId: 0
+  Barrier in progress: (no)
+  Barrier counter: 0
+  Last number of processes: 0
 
 
 vtkThreshold --------------
-vtkThreshold (0x40603da8)
+vtkThreshold (0x40605d98)
   Debug: Off
-  Modified Time: 14827
+  Modified Time: 14822
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603e28)
+  Output 0: (0x40605e98)
   Attribute Mode: UsePointData
   All Scalars: 1
   Threshold By Upper
@@ -8612,24 +8607,24 @@ vtkThreshold (0x40603da8)
 
 
 vtkThresholdPoints --------------
-vtkThresholdPoints (0x40603da8)
+vtkThresholdPoints (0x40605db8)
   Debug: Off
-  Modified Time: 14842
+  Modified Time: 14837
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603e28)
+  Output 0: (0x40605e38)
   Lower Threshold: 0
   Upper Threshold: 1
 
 
 vtkThresholdTextureCoords --------------
-vtkThresholdTextureCoords (0x40603da8)
+vtkThresholdTextureCoords (0x40605dd8)
   Debug: Off
-  Modified Time: 14845
+  Modified Time: 14840
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8647,9 +8642,9 @@ vtkThresholdTextureCoords (0x40603da8)
 
 vtkTimeStamp --------------
 vtkTimerLog --------------
-vtkTimerLog (0x40603da8)
+vtkTimerLog (0x40605df8)
   Debug: Off
-  Modified Time: 14846
+  Modified Time: 14841
   Reference Count: 1
   MaxEntries: 100
   NextEntry: 0
@@ -8667,14 +8662,14 @@ vtkTkImageViewerWidget --------------
 vtkTkImageWindowWidget --------------
 vtkTkRenderWidget --------------
 vtkTransform --------------
-vtkTransform (0x40603f20)
+vtkTransform (0x40605fd0)
   Debug: Off
-  Modified Time: 14847
+  Modified Time: 14842
   Reference Count: 1
   Inverse: (0x0)
-  Matrix: (0x40603fe0)
+  Matrix: (0x40606090)
     Debug: Off
-    Modified Time: 14849
+    Modified Time: 14844
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -8691,17 +8686,17 @@ vtkTransform (0x40603f20)
 
 
 vtkTransformCollection --------------
-vtkTransformCollection (0x40603dc8)
+vtkTransformCollection (0x40605e18)
   Debug: Off
-  Modified Time: 14851
+  Modified Time: 14846
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkTransformFilter --------------
-vtkTransformFilter (0x40603de8)
+vtkTransformFilter (0x40605e38)
   Debug: Off
-  Modified Time: 14852
+  Modified Time: 14847
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8713,23 +8708,23 @@ vtkTransformFilter (0x40603de8)
 
 
 vtkTransformPolyDataFilter --------------
-vtkTransformPolyDataFilter (0x40603e08)
+vtkTransformPolyDataFilter (0x40605e58)
   Debug: Off
-  Modified Time: 14865
+  Modified Time: 14860
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604030)
+  Output 0: (0x406060c8)
   Transform: 0x0
 
 
 vtkTransformTextureCoords --------------
-vtkTransformTextureCoords (0x40603ef0)
+vtkTransformTextureCoords (0x40605f58)
   Debug: Off
-  Modified Time: 14868
+  Modified Time: 14863
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -8746,16 +8741,16 @@ vtkTransformTextureCoords (0x40603ef0)
 
 
 vtkTransformToGrid --------------
-vtkTransformToGrid (0x40604038)
+vtkTransformToGrid (0x406060d0)
   Debug: Off
-  Modified Time: 14920
+  Modified Time: 14915
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604100)
+  Output 0: (0x40606198)
   Input: (0x0)
   GridSpacing: (1, 1, 1)
   GridOrigin: (0, 0, 0)
@@ -8766,17 +8761,17 @@ vtkTransformToGrid (0x40604038)
 
 
 vtkTreeComposite --------------
-vtkTreeComposite (0x40603ef0)
+vtkTreeComposite (0x40605f58)
   Debug: Off
-  Modified Time: 14923
+  Modified Time: 14918
   Reference Count: 1
   RenderWindow: (none)
 
 
 vtkTriangle --------------
-vtkTriangle (0x40603f10)
+vtkTriangle (0x40605f58)
   Debug: Off
-  Modified Time: 14924
+  Modified Time: 14919
   Reference Count: 1
   Number Of Points: 3
   Bounds: 
@@ -8787,52 +8782,52 @@ vtkTriangle (0x40603f10)
 
 
 vtkTriangleFilter --------------
-vtkTriangleFilter (0x40603f30)
+vtkTriangleFilter (0x40605f78)
   Debug: Off
-  Modified Time: 14946
+  Modified Time: 14941
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603fa8)
+  Output 0: (0x40605ff0)
   Pass Verts: On
   Pass Lines: On
 
 
 vtkTriangleStrip --------------
-vtkTriangleStrip (0x40603f50)
+vtkTriangleStrip (0x40605f98)
   Debug: Off
-  Modified Time: 14949
+  Modified Time: 14944
   Reference Count: 1
   Number Of Points: 0
 
 
 vtkTriangularTCoords --------------
-vtkTriangularTCoords (0x40603f70)
+vtkTriangularTCoords (0x40605fb8)
   Debug: Off
-  Modified Time: 14981
+  Modified Time: 14976
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40603fe0)
+  Output 0: (0x40606028)
 
 
 vtkTriangularTexture --------------
-vtkTriangularTexture (0x40603f90)
+vtkTriangularTexture (0x40605fd8)
   Debug: Off
-  Modified Time: 15035
+  Modified Time: 15030
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604018)
+  Output 0: (0x40606060)
   XSize:64
   YSize:64
   Texture Pattern:1
@@ -8840,16 +8835,16 @@ vtkTriangularTexture (0x40603f90)
 
 
 vtkTubeFilter --------------
-vtkTubeFilter (0x40603fb0)
+vtkTubeFilter (0x40605ff8)
   Debug: Off
-  Modified Time: 15050
+  Modified Time: 15045
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604048)
+  Output 0: (0x40606090)
   Radius: 0.5
   Vary Radius: VaryRadiusOff
   Radius Factor: 10
@@ -8862,16 +8857,16 @@ vtkTubeFilter (0x40603fb0)
 
 
 vtkUGFacetReader --------------
-vtkUGFacetReader (0x40603fd0)
+vtkUGFacetReader (0x40606018)
   Debug: Off
-  Modified Time: 15065
+  Modified Time: 15060
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604050)
+  Output 0: (0x40606098)
   File Name: (none)
   Part Number: -1
   Merging: On
@@ -8879,9 +8874,9 @@ vtkUGFacetReader (0x40603fd0)
 
 
 vtkUnsignedCharArray --------------
-vtkUnsignedCharArray (0x40603ff0)
+vtkUnsignedCharArray (0x40606038)
   Debug: Off
-  Modified Time: 15068
+  Modified Time: 15063
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8892,9 +8887,9 @@ vtkUnsignedCharArray (0x40603ff0)
 
 
 vtkUnsignedIntArray --------------
-vtkUnsignedIntArray (0x40604010)
+vtkUnsignedIntArray (0x40606058)
   Debug: Off
-  Modified Time: 15069
+  Modified Time: 15064
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8905,9 +8900,9 @@ vtkUnsignedIntArray (0x40604010)
 
 
 vtkUnsignedLongArray --------------
-vtkUnsignedLongArray (0x40604030)
+vtkUnsignedLongArray (0x40606078)
   Debug: Off
-  Modified Time: 15070
+  Modified Time: 15065
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8918,9 +8913,9 @@ vtkUnsignedLongArray (0x40604030)
 
 
 vtkUnsignedShortArray --------------
-vtkUnsignedShortArray (0x40604050)
+vtkUnsignedShortArray (0x40606098)
   Debug: Off
-  Modified Time: 15071
+  Modified Time: 15066
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -8931,9 +8926,9 @@ vtkUnsignedShortArray (0x40604050)
 
 
 vtkUnstructuredGrid --------------
-vtkUnstructuredGrid (0x406041f0)
+vtkUnstructuredGrid (0x406062a0)
   Debug: Off
-  Modified Time: 15077
+  Modified Time: 15072
   Reference Count: 1
   Source: (none)
   Release Data: Off
@@ -8948,19 +8943,19 @@ vtkUnstructuredGrid (0x406041f0)
   WholeExtent: 0, -1, 0, -1, 0, -1
   Field Data:
     Debug: Off
-    Modified Time: 15073
+    Modified Time: 15068
     Reference Count: 1
     Number Of Arrays: 0
     Number Of Components: 0
     Number Of Tuples: 0
   LastUpdateExtentWasOutsideOfTheExtent: 0
   Locality: 0
-  ExtentTranslator: (0x406040a8)
+  ExtentTranslator: (0x406060f0)
   Number Of Points: 0
   Number Of Cells: 0
   Cell Data:
     Debug: Off
-    Modified Time: 15077
+    Modified Time: 15072
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -8978,7 +8973,7 @@ vtkUnstructuredGrid (0x406041f0)
     Copy GhostLevels: On
   Point Data:
     Debug: Off
-    Modified Time: 15075
+    Modified Time: 15070
     Reference Count: 1
     Scalars: (none)
     Vectors: (none)
@@ -9010,16 +9005,16 @@ vtkUnstructuredGrid (0x406041f0)
 
 
 vtkUnstructuredGridReader --------------
-vtkUnstructuredGridReader (0x40604090)
+vtkUnstructuredGridReader (0x406060d8)
   Debug: Off
-  Modified Time: 15562
+  Modified Time: 15557
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604190)
+  Output 0: (0x406061d8)
   File Name: (none)
   File Type: ASCII
   Header: (None)
@@ -9038,22 +9033,22 @@ vtkUnstructuredGridReader (0x40604090)
 
 
 vtkUnstructuredGridSource --------------
-vtkUnstructuredGridSource (0x406040b0)
+vtkUnstructuredGridSource (0x406060f8)
   Debug: Off
-  Modified Time: 15811
+  Modified Time: 15806
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604110)
+  Output 0: (0x40606158)
 
 
 vtkUnstructuredGridWriter --------------
-vtkUnstructuredGridWriter (0x406040d0)
+vtkUnstructuredGridWriter (0x40606118)
   Debug: Off
-  Modified Time: 15814
+  Modified Time: 15809
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9077,9 +9072,9 @@ vtkUnstructuredGridWriter (0x406040d0)
 
 
 vtkVRMLExporter --------------
-vtkVRMLExporter (0x406040f0)
+vtkVRMLExporter (0x40606138)
   Debug: Off
-  Modified Time: 15815
+  Modified Time: 15810
   Reference Count: 1
   Render Window: (none)
   Start Write: (none)
@@ -9089,9 +9084,9 @@ vtkVRMLExporter (0x406040f0)
 
 
 vtkVectorDot --------------
-vtkVectorDot (0x40604110)
+vtkVectorDot (0x40606158)
   Debug: Off
-  Modified Time: 15816
+  Modified Time: 15811
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9103,9 +9098,9 @@ vtkVectorDot (0x40604110)
 
 
 vtkVectorNorm --------------
-vtkVectorNorm (0x40604130)
+vtkVectorNorm (0x40606178)
   Debug: Off
-  Modified Time: 15817
+  Modified Time: 15812
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9118,40 +9113,40 @@ vtkVectorNorm (0x40604130)
 
 
 vtkVectorText --------------
-vtkVectorText (0x406042e8)
+vtkVectorText (0x40606390)
   Debug: Off
-  Modified Time: 15830
+  Modified Time: 15825
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604558)
+  Output 0: (0x40606600)
   Text: (none)
 
 
 vtkVectors --------------
-vtkVectors (0x40604170)
+vtkVectors (0x406061b8)
   Debug: Off
-  Modified Time: 15833
+  Modified Time: 15828
   Reference Count: 1
-  Data: 0x406041a8
+  Data: 0x406061f0
   Number Of Vectors: 0
   Maximum Euclidean Norm: 0
 
 
 vtkVersion --------------
-vtkVersion (0x40604190)
+vtkVersion (0x406061d8)
   Debug: Off
-  Modified Time: 15837
+  Modified Time: 15832
   Reference Count: 1
 
 
 vtkVertex --------------
-vtkVertex (0x406041b0)
+vtkVertex (0x406061f8)
   Debug: Off
-  Modified Time: 15838
+  Modified Time: 15833
   Reference Count: 1
   Number Of Points: 1
   Bounds: 
@@ -9162,16 +9157,16 @@ vtkVertex (0x406041b0)
 
 
 vtkVideoSource --------------
-vtkVideoSource (0x406041d0)
+vtkVideoSource (0x40606218)
   Debug: Off
-  Modified Time: 15899
+  Modified Time: 15894
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604418)
+  Output 0: (0x406064a8)
   FrameSize: (320, 240, 1)
   ClipRegion: (0, 2147483647, 0, 2147483647, 0, 2147483647)
   DataSpacing: (1, 1, 1)
@@ -9189,9 +9184,9 @@ vtkVideoSource (0x406041d0)
 
 
 vtkViewRays --------------
-vtkViewRays (0x406041f0)
+vtkViewRays (0x40606238)
   Debug: Off
-  Modified Time: 15903
+  Modified Time: 15898
   Reference Count: 1
 Renderer: 0x0
 Size: 0, 0
@@ -9203,9 +9198,9 @@ Parallel Y Increment: 0
 
 
 vtkVoidArray --------------
-vtkVoidArray (0x40604210)
+vtkVoidArray (0x40606258)
   Debug: Off
-  Modified Time: 15904
+  Modified Time: 15899
   Reference Count: 1
   Number Of Components: 1
   Number Of Tuples: 0
@@ -9216,9 +9211,9 @@ vtkVoidArray (0x40604210)
 
 
 vtkVolume --------------
-vtkVolume (0x406043c0)
+vtkVolume (0x40606478)
   Debug: Off
-  Modified Time: 15905
+  Modified Time: 15900
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -9242,16 +9237,16 @@ vtkVolume (0x406043c0)
 
 
 vtkVolume16Reader --------------
-vtkVolume16Reader (0x40604250)
+vtkVolume16Reader (0x40606298)
   Debug: Off
-  Modified Time: 15960
+  Modified Time: 15955
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604308)
+  Output 0: (0x40606350)
   Data Origin: (0, 0, 0)
   Data Spacing: (1, 1, 1)
   FilePrefix: (none)
@@ -9265,17 +9260,17 @@ vtkVolume16Reader (0x40604250)
 
 
 vtkVolumeCollection --------------
-vtkVolumeCollection (0x40604270)
+vtkVolumeCollection (0x406062b8)
   Debug: Off
-  Modified Time: 15963
+  Modified Time: 15958
   Reference Count: 1
   Number Of Items: 0
 
 
 vtkVolumeProMapper --------------
-vtkVolumeProMapper (0x40604388)
+vtkVolumeProMapper (0x40606430)
   Debug: Off
-  Modified Time: 15964
+  Modified Time: 15959
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9317,9 +9312,9 @@ vtkVolumeProMapper (0x40604388)
 
 
 vtkVolumeProperty --------------
-vtkVolumeProperty (0x406042b0)
+vtkVolumeProperty (0x406062f8)
   Debug: Off
-  Modified Time: 15965
+  Modified Time: 15960
   Reference Count: 1
   Interpolation Type: Nearest Neighbor
   Color Channels: 1
@@ -9335,33 +9330,33 @@ vtkVolumeProperty (0x406042b0)
 
 
 vtkVolumeRayCastCompositeFunction --------------
-vtkVolumeRayCastCompositeFunction (0x406042d0)
+vtkVolumeRayCastCompositeFunction (0x40606318)
   Debug: Off
-  Modified Time: 15966
+  Modified Time: 15961
   Reference Count: 1
   Composite Method: Interpolate First
 
 
 vtkVolumeRayCastIsosurfaceFunction --------------
-vtkVolumeRayCastIsosurfaceFunction (0x406042f0)
+vtkVolumeRayCastIsosurfaceFunction (0x40606338)
   Debug: Off
-  Modified Time: 15967
+  Modified Time: 15962
   Reference Count: 1
   Isosurface Value: 0
 
 
 vtkVolumeRayCastMIPFunction --------------
-vtkVolumeRayCastMIPFunction (0x40604310)
+vtkVolumeRayCastMIPFunction (0x40606358)
   Debug: Off
-  Modified Time: 15968
+  Modified Time: 15963
   Reference Count: 1
   Maximize Method: Maximize Scalar Value
 
 
 vtkVolumeRayCastMapper --------------
-vtkVolumeRayCastMapper (0x40604488)
+vtkVolumeRayCastMapper (0x40606508)
   Debug: Off
-  Modified Time: 15969
+  Modified Time: 15964
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9381,16 +9376,16 @@ vtkVolumeRayCastMapper (0x40604488)
   Sample Distance: 1
   Ray Bounder: (none)
   Ray Cast Function: (none)
-  Gradient Estimator: 0x40604330
-  Gradient Shader: 0x40645ec8
+  Gradient Estimator: 0x40606378
+  Gradient Shader: 0x40647f48
 
 
 vtkVolumeTextureMapper2D --------------
-vtkOpenGLVolumeTextureMapper2D (0x40604350)
+vtkOpenGLVolumeTextureMapper2D (0x40606398)
   TargetTextureSize: 512, 512
   MaximumNumberOfPlanes: <unlimited>
   Debug: Off
-  Modified Time: 15974
+  Modified Time: 15969
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9407,14 +9402,14 @@ vtkOpenGLVolumeTextureMapper2D (0x40604350)
     In Z: 0 to 1
   Cropping Region Flags: 8192
   Build Time: 0
-  Gradient Estimator: 0x40604460
-  Gradient Shader: 0x40645dc0
+  Gradient Estimator: 0x406064a8
+  Gradient Shader: 0x40647e08
 
 
 vtkVoxel --------------
-vtkVoxel (0x40604370)
+vtkVoxel (0x406063b8)
   Debug: Off
-  Modified Time: 15980
+  Modified Time: 15975
   Reference Count: 1
   Number Of Points: 8
   Bounds: 
@@ -9425,31 +9420,31 @@ vtkVoxel (0x40604370)
 
 
 vtkVoxelContoursToSurfaceFilter --------------
-vtkVoxelContoursToSurfaceFilter (0x40604390)
+vtkVoxelContoursToSurfaceFilter (0x406063d8)
   Debug: Off
-  Modified Time: 16012
+  Modified Time: 16007
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604438)
+  Output 0: (0x40606480)
   Memory Limit (in bytes): 10000000
   Spacing: 1 1 1
 
 
 vtkVoxelModeller --------------
-vtkVoxelModeller (0x406043b0)
+vtkVoxelModeller (0x406063f8)
   Debug: Off
-  Modified Time: 16066
+  Modified Time: 16061
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604450)
+  Output 0: (0x40606498)
   Maximum Distance: 1
   Sample Dimensions: (50, 50, 50)
   Model Bounds: 
@@ -9459,9 +9454,9 @@ vtkVoxelModeller (0x406043b0)
 
 
 vtkWarpLens --------------
-vtkWarpLens (0x406043d0)
+vtkWarpLens (0x40606418)
   Debug: Off
-  Modified Time: 16069
+  Modified Time: 16064
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9474,9 +9469,9 @@ vtkWarpLens (0x406043d0)
 
 
 vtkWarpScalar --------------
-vtkWarpScalar (0x406043f0)
+vtkWarpScalar (0x40606438)
   Debug: Off
-  Modified Time: 16070
+  Modified Time: 16065
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9491,9 +9486,9 @@ vtkWarpScalar (0x406043f0)
 
 
 vtkWarpTo --------------
-vtkWarpTo (0x40604410)
+vtkWarpTo (0x40606458)
   Debug: Off
-  Modified Time: 16071
+  Modified Time: 16066
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9507,9 +9502,9 @@ vtkWarpTo (0x40604410)
 
 
 vtkWarpVector --------------
-vtkWarpVector (0x40604430)
+vtkWarpVector (0x40606478)
   Debug: Off
-  Modified Time: 16072
+  Modified Time: 16067
   Reference Count: 1
   Number Of Required Inputs: 1
   No Inputs
@@ -9521,9 +9516,9 @@ vtkWarpVector (0x40604430)
 
 
 vtkWedge --------------
-vtkWedge (0x40604450)
+vtkWedge (0x40606498)
   Debug: Off
-  Modified Time: 16073
+  Modified Time: 16068
   Reference Count: 1
   Number Of Points: 6
   Bounds: 
@@ -9534,9 +9529,9 @@ vtkWedge (0x40604450)
 
 
 vtkWindowLevelLookupTable --------------
-vtkWindowLevelLookupTable (0x40604470)
+vtkWindowLevelLookupTable (0x406064b8)
   Debug: Off
-  Modified Time: 16103
+  Modified Time: 16098
   Reference Count: 1
   Build Time: 0
   Table Range: (0, 1)
@@ -9554,30 +9549,30 @@ vtkWindowLevelLookupTable (0x40604470)
 
 
 vtkWindowToImageFilter --------------
-vtkWindowToImageFilter (0x40604490)
+vtkWindowToImageFilter (0x406064d8)
   Debug: Off
-  Modified Time: 16157
+  Modified Time: 16152
   Reference Count: 2
   Number Of Required Inputs: 0
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604510)
+  Output 0: (0x40606558)
   Input: (none)
 
 
 vtkWindowedSincPolyDataFilter --------------
-vtkWindowedSincPolyDataFilter (0x406044b0)
+vtkWindowedSincPolyDataFilter (0x406064f8)
   Debug: Off
-  Modified Time: 16172
+  Modified Time: 16167
   Reference Count: 2
   Number Of Required Inputs: 1
   No Inputs
   AbortExecute: Off
   Progress: 0
   Progress Text: (None)
-  Output 0: (0x40604540)
+  Output 0: (0x40606588)
   Number of Iterations: 20
   Passband: 0.1
   Feature Edge Smoothing: Off
@@ -9589,9 +9584,9 @@ vtkWindowedSincPolyDataFilter (0x406044b0)
 
 
 vtkWorldPointPicker --------------
-vtkWorldPointPicker (0x406044d0)
+vtkWorldPointPicker (0x40606518)
   Debug: Off
-  Modified Time: 16175
+  Modified Time: 16170
   Reference Count: 1
   Picking from renderer's prop list
   No Start PickMethod
@@ -9603,9 +9598,9 @@ vtkWorldPointPicker (0x406044d0)
 
 
 vtkXImageMapper --------------
-vtkXImageMapper (0x406044f0)
+vtkXImageMapper (0x40606538)
   Debug: Off
-  Modified Time: 16177
+  Modified Time: 16172
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9624,9 +9619,9 @@ vtkXImageMapper (0x406044f0)
 
 
 vtkXImageWindow --------------
-vtkXImageWindow (0x406046f8)
+vtkXImageWindow (0x406067a0)
   Debug: Off
-  Modified Time: 16178
+  Modified Time: 16173
   Reference Count: 1
   Erase: Off
   Window Name: Visualization Toolkit
@@ -9648,16 +9643,16 @@ vtkXImageWindow (0x406046f8)
   ColorMap: 0
   GC: 0x0
   Offset: 0
-  Colors: 0x40604770
+  Colors: 0x40606818
   Number Of Colors: 150
   Drawable: 0
 
 
 vtkXMLFileOutputWindow --------------
 vtkXOpenGLTextMapper --------------
-vtkXOpenGLTextMapper (0x40604648)
+vtkXOpenGLTextMapper (0x40606578)
   Debug: Off
-  Modified Time: 16180
+  Modified Time: 16175
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9677,9 +9672,9 @@ vtkXOpenGLTextMapper (0x40604648)
 
 
 vtkXPolyDataMapper2D --------------
-vtkXPolyDataMapper2D (0x40604550)
+vtkXPolyDataMapper2D (0x40606598)
   Debug: Off
-  Modified Time: 16181
+  Modified Time: 16176
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9696,13 +9691,13 @@ vtkXPolyDataMapper2D (0x40604550)
 
 
 vtkXRenderWindowInteractor --------------
-vtkXRenderWindowInteractor (0x40604570)
+vtkXRenderWindowInteractor (0x406065b8)
   Debug: Off
-  Modified Time: 16182
+  Modified Time: 16177
   Reference Count: 1
-  InteractorStyle:    0x406046f0
+  InteractorStyle:    0x406067a0
   RenderWindow:    0x0
-  Picker: 0x40607320
+  Picker: 0x40609410
   LightFollowCamera: On
   DesiredUpdateRate: 15
   StillUpdateRate: 0.0001
@@ -9715,9 +9710,9 @@ vtkXRenderWindowInteractor (0x40604570)
 
 
 vtkXTextMapper --------------
-vtkXTextMapper (0x40604590)
+vtkXTextMapper (0x406065d8)
   Debug: Off
-  Modified Time: 16317
+  Modified Time: 16312
   Reference Count: 1
   Number Of Required Inputs: 0
   No Inputs
@@ -9737,9 +9732,9 @@ vtkXTextMapper (0x40604590)
 
 
 vtkXYPlotActor --------------
-vtkXYPlotActor (0x40604728)
+vtkXYPlotActor (0x406067d0)
   Debug: Off
-  Modified Time: 18616
+  Modified Time: 18611
   Reference Count: 1
   Dragable: On
   Pickable: On
@@ -9748,25 +9743,25 @@ vtkXYPlotActor (0x40604728)
   RenderTimeMultiplier: 1
   Visibility: On
   Layer Number: 0
-  PositionCoordinate: 0x406045b0
+  PositionCoordinate: 0x406065f8
     Debug: Off
-    Modified Time: 16326
+    Modified Time: 16321
     Reference Count: 2
     Coordinate System: Normalized Viewport
     Value: (0.25,0.25,0)
     ReferenceCoordinate: (none)
     Viewport: (none)
-  Position2 Coordinate: 0x40604628
+  Position2 Coordinate: 0x40606670
     Debug: Off
-    Modified Time: 16324
+    Modified Time: 16319
     Reference Count: 1
     Coordinate System: Normalized Viewport
     Value: (0.5,0.5,0)
-    ReferenceCoordinate: 0x406045b0
+    ReferenceCoordinate: 0x406065f8
     Viewport: (none)
-  Property: 0x406087a8
+  Property: 0x4060a820
     Debug: Off
-    Modified Time: 16605
+    Modified Time: 16600
     Reference Count: 3
     Opacity: 1
     Color: (1, 1, 1)
@@ -9776,12 +9771,12 @@ vtkXYPlotActor (0x40604728)
   Mapper: 0x0
   Input DataSets:
     Debug: Off
-    Modified Time: 16327
+    Modified Time: 16322
     Reference Count: 1
     Number Of Items: 0
   Input DataObjects:
     Debug: Off
-    Modified Time: 16328
+    Modified Time: 16323
     Reference Count: 1
     Number Of Items: 0
   Data Object Plot Mode: Plot Rows
