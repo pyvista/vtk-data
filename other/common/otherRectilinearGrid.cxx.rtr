@@ -1,0 +1,405 @@
+Testing vtkRectilinearGrid
+vtkRectilinearGrid (0x1000b4d8)
+  Debug: Off
+  Modified Time: 414
+  Reference Count: 1
+  Source: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateTime: 0
+  Update Number Of Pieces: 1
+  Update Piece: 0
+  Maximum Number Of Pieces: 1
+  Update Ghost Level: 0
+  UpdateExtent: 0, 0, 0, 0, 0, 0
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Field Data:
+    Debug: Off
+    Modified Time: 99
+    Reference Count: 1
+    Number Of Arrays: 0
+    Number Of Components: 0
+    Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
+  Locality: 0
+  Number Of Points: 20
+  Number Of Cells: 19
+  Cell Data:
+    Debug: Off
+    Modified Time: 102
+    Reference Count: 1
+    Scalars: (none)
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Point Data:
+    Debug: Off
+    Modified Time: 100
+    Reference Count: 1
+    Scalars: (none)
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Bounds: 
+    Xmin,Xmax: (0, 0)
+    Ymin,Ymax: (0, 19)
+    Zmin,Zmax: (0, 0)
+  Compute Time: 0
+  Release Data: Off
+  Dimensions: (1, 20, 1)
+  X Coordinates: 0x1000c290
+  Y Coordinates: 0x10010ab0
+  Z Coordinates: 0x1000c290
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Extent: 0, 0, 0, 19, 0, 0
+
+rg3D:vtkRectilinearGrid (0x1000fdb0)
+  Debug: Off
+  Modified Time: 435
+  Reference Count: 1
+  Source: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateTime: 0
+  Update Number Of Pieces: 1
+  Update Piece: 0
+  Maximum Number Of Pieces: 1
+  Update Ghost Level: 0
+  UpdateExtent: 0, 0, 0, 0, 0, 0
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Field Data:
+    Debug: Off
+    Modified Time: 339
+    Reference Count: 1
+    Number Of Arrays: 0
+    Number Of Components: 0
+    Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
+  Locality: 0
+  Number Of Points: 8000
+  Number Of Cells: 6859
+  Cell Data:
+    Debug: Off
+    Modified Time: 342
+    Reference Count: 1
+    Scalars: (none)
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Point Data:
+    Debug: Off
+    Modified Time: 435
+    Reference Count: 1
+    Scalars:
+      Debug: Off
+      Modified Time: 421
+      Reference Count: 2
+      Data: 0x10010960
+      Number Of Scalars: 8000
+      Range: (0, 19)
+      LookupTable: (none)
+      Number Of Components: 3
+      Active Component: 0
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Bounds: 
+    Xmin,Xmax: (0, 19)
+    Ymin,Ymax: (0, 19)
+    Zmin,Zmax: (0, 19)
+  Compute Time: 0
+  Release Data: Off
+  Dimensions: (20, 20, 20)
+  X Coordinates: 0x10010a08
+  Y Coordinates: 0x10010ab0
+  Z Coordinates: 0x10010b58
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Extent: 0, 19, 0, 19, 0, 19
+
+ShallowCopy(rg3D):vtkRectilinearGrid (0x1001daf0)
+  Debug: Off
+  Modified Time: 497
+  Reference Count: 1
+  Source: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateTime: 0
+  Update Number Of Pieces: 1
+  Update Piece: 0
+  Maximum Number Of Pieces: 1
+  Update Ghost Level: 0
+  UpdateExtent: 0, 0, 0, 0, 0, 0
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Field Data:
+    Debug: Off
+    Modified Time: 339
+    Reference Count: 2
+    Number Of Arrays: 0
+    Number Of Components: 0
+    Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
+  Locality: 0
+  Number Of Points: 8000
+  Number Of Cells: 6859
+  Cell Data:
+    Debug: Off
+    Modified Time: 448
+    Reference Count: 1
+    Scalars: (none)
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Point Data:
+    Debug: Off
+    Modified Time: 496
+    Reference Count: 1
+    Scalars:
+      Debug: Off
+      Modified Time: 421
+      Reference Count: 3
+      Data: 0x10010960
+      Number Of Scalars: 8000
+      Range: (0, 19)
+      LookupTable: (none)
+      Number Of Components: 3
+      Active Component: 0
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Bounds: 
+    Xmin,Xmax: (0, 19)
+    Ymin,Ymax: (0, 19)
+    Zmin,Zmax: (0, 19)
+  Compute Time: 0
+  Release Data: Off
+  Dimensions: (20, 20, 20)
+  X Coordinates: 0x10010a08
+  Y Coordinates: 0x10010ab0
+  Z Coordinates: 0x10010b58
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Extent: 0, 19, 0, 19, 0, 19
+
+DeepCopy(rg3D):vtkRectilinearGrid (0x1001e630)
+  Debug: Off
+  Modified Time: 567
+  Reference Count: 1
+  Source: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateTime: 0
+  Update Number Of Pieces: 1
+  Update Piece: 0
+  Maximum Number Of Pieces: 1
+  Update Ghost Level: 0
+  UpdateExtent: 0, 0, 0, 0, 0, 0
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Field Data:
+    Debug: Off
+    Modified Time: 566
+    Reference Count: 1
+    Number Of Arrays: 0
+    Number Of Components: 0
+    Number Of Tuples: 0
+  LastUpdateExtentWasOutsideOfTheExtent: 0
+  Locality: 0
+  Number Of Points: 8000
+  Number Of Cells: 6859
+  Cell Data:
+    Debug: Off
+    Modified Time: 502
+    Reference Count: 1
+    Scalars: (none)
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Point Data:
+    Debug: Off
+    Modified Time: 565
+    Reference Count: 1
+    Scalars:
+      Debug: Off
+      Modified Time: 564
+      Reference Count: 1
+      Data: 0x1001f9e8
+      Number Of Scalars: 8000
+      Range: (0, 19)
+      LookupTable: (none)
+      Number Of Components: 3
+      Active Component: 0
+    Vectors: (none)
+    Normals: (none)
+    Texture Coordinates: (none)
+    Tensors: (none)
+    FieldData: (none)
+    GhostLevels: (none)
+    Copy Scalars: On
+    Copy Vectors: On
+    Copy Normals: On
+    Copy Texture Coordinates: On
+    Copy Tensors: On
+    Copy FieldData: On
+    Copy GhostLevels: On
+  Bounds: 
+    Xmin,Xmax: (0, 19)
+    Ymin,Ymax: (0, 19)
+    Zmin,Zmax: (0, 19)
+  Compute Time: 0
+  Release Data: Off
+  Dimensions: (20, 20, 20)
+  X Coordinates: 0x1001f658
+  Y Coordinates: 0x1001f788
+  Z Coordinates: 0x1001f8b8
+  WholeExtent: 0, -1, 0, -1, 0, -1
+  Extent: 0, 19, 0, 19, 0, 19
+
+GetCellBounds(rg3D): 10, 11, 15, 16, 7, 8
+GetCellBounds(rg2Dxy): 10, 11, 15, 16, 0, 0
+GetCellBounds(rg2Dxz): 10, 11, 0, 0, 15, 16
+GetCellBounds(rg2Dyz): 0, 0, 10, 11, 15, 16
+GetCellBounds(rg1x): 10, 11, 0, 0, 0, 0
+GetCellBounds(rg1Dy): 0, 0, 10, 11, 0, 0
+GetCellBounds(rg1Dz): 0, 0, 0, 0, 10, 11
+GetCellBounds(rg0D): 0, 0, 0, 0, 0, 0
+GetPoint(rg3D): 10, 15, 7
+GetPoint(rg2Dxy): 10, 15, 0
+GetPoint(rg2Dxz): 10, 0, 15
+GetPoint(rg2Dyz): 0, 10, 15
+GetPoint(rg1x): 10, 0, 0
+GetPoint(rg1Dy): 0, 10, 0
+GetPoint(rg1Dz): 0, 0, 10
+GetPoint(rg0D): 0, 0, 0
+FindPoint(10, 12, 14) = 10, 12, 14
+FindPoint(10, 12, 0) = 10, 12, 0
+FindPoint(10, 0, 14) = 10, 0, 14
+FindPoint(0, 12, 14) = 0, 12, 14
+FindPoint(10, 0, 0) = 10, 0, 0
+FindPoint(0, 12, 0) = 0, 12, 0
+FindPoint(0, 0, 14) = 0, 0, 14
+FindAndGetCell(rg3D): vtkVoxel (0x100104f0)
+  Debug: Off
+  Modified Time: 364
+  Reference Count: 1
+  Number Of Points: 8
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (12, 13)
+    Zmin,Zmax: (14, 15)
+    Point ids are: 5850, 5851, 5870, 5871, 6250, 6251, 6270, 6271  
+
+pcoords: 0.5, 0.1, 0.7
+weights: 0.135, 0.135, 0.0150001, 0.0150001, 0.315, 0.315, 0.0350001, 0.0350001
+FindAndGetCell(rg2Dxy): vtkPixel (0x1000d9c0)
+  Debug: Off
+  Modified Time: 210
+  Reference Count: 1
+  Number Of Points: 4
+  Bounds: 
+    Xmin,Xmax: (10, 11)
+    Ymin,Ymax: (12, 13)
+    Zmin,Zmax: (0, 0)
+    Point ids are: 250, 251, 270, 271  
+
+pcoords: 0.5, 0.1, 0
+weights: 0.45, 0.45, 0.0500002, 0.0500002
+FindPoint(10.5, 12.1, 0) = 0, 0, 14
+FindPoint(10.5, 12.1, 0) = 11, 12, 0
+FindPoint(10, 0, 14) = 10, 0, 14
+FindPoint(0, 12, 14) = 0, 12, 14
+FindPoint(10, 0, 0) = 10, 0, 0
+FindPoint(0, 12, 0) = 0, 12, 0
+FindPoint(0, 0, 14) = 0, 0, 14
+GetCellType(rg3D): 11
+GetCellType(rg2Dxy): 8
+GetCellType(rg2Dxz): 8
+GetCellType(rg2Dyz): 8
+GetCellType(rg1Dx): 3
+GetCellType(rg1Dy): 3
+GetCellType(rg1Dz): 3
+GetCellType(rg0D): 1
+GetActualMemorySize(rg3D): 51
+GetActualMemorySize(rg2Dxy): 5
+GetActualMemorySize(rg2Dxz): 5
+GetActualMemorySize(rg2Dyz): 5
+GetActualMemorySize(rg1Dx): 4
+GetActualMemorySize(rg1Dy): 4
+GetActualMemorySize(rg1Dz): 4
+GetActualMemorySize(rg0D): 4
+Testing completed
