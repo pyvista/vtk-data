@@ -1,0 +1,23 @@
+# vtk DataFile Version 2.0
+static cell attributes
+ASCII
+
+FIELD all 1
+group 1 5 int
+ 3
+ 2
+ 1
+ 2
+ 3
+mater 1 5 int
+ 100
+ 200
+ 300
+ 400
+ 500
+domain 1 5 int
+ 1
+ 1
+ 2
+ 1
+ 1
