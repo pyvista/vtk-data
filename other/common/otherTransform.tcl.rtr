@@ -1,11 +1,11 @@
 transform test started
-transform: 
-trans vtkTransform (0x100866f8)
+vtkTransform: 
+trans vtkTransform (0x00843610)
   Debug: Off
   Delete Method defined
   Modified Time: 8
   Reference Count: 1
-  Matrix: 0x10090ed8
+  Matrix: 0x008436B0
     Debug: Off
     No Delete Method
     Modified Time: 7
@@ -21,12 +21,12 @@ trans vtkTransform (0x100866f8)
 
 
 RotateWXYZ 20 1 1 2
-trans vtkTransform (0x100866f8)
+trans vtkTransform (0x00843610)
   Debug: Off
   Delete Method defined
   Modified Time: 10
   Reference Count: 1
-  Matrix: 0x10090ed8
+  Matrix: 0x008436B0
     Debug: Off
     No Delete Method
     Modified Time: 9
@@ -42,12 +42,12 @@ trans vtkTransform (0x100866f8)
 
 
 Translate 1 10 2
-trans vtkTransform (0x100866f8)
+trans vtkTransform (0x00843610)
   Debug: Off
   Delete Method defined
   Modified Time: 12
   Reference Count: 1
-  Matrix: 0x10090ed8
+  Matrix: 0x008436B0
     Debug: Off
     No Delete Method
     Modified Time: 11
@@ -62,16 +62,73 @@ trans vtkTransform (0x100866f8)
   Point: ( 0, 0, 0, 0)
 
 
-Identity
-trans vtkTransform (0x100866f8)
+GetInverse
+trans GetInverse vtkLinearTransformInverse (0x00843EF0)
   Debug: Off
   Delete Method defined
-  Modified Time: 14
+  Modified Time: 19
   Reference Count: 1
-  Matrix: 0x10090ed8
+  Matrix: 0x00843F50
     Debug: Off
     No Delete Method
-    Modified Time: 13
+    Modified Time: 23
+    Reference Count: 1
+    Elements:
+        0.949744 0.28931 -0.119527 -1 
+        -0.269207 0.949744 0.159732 -10 
+        0.159732 -0.119527 0.979898 -2 
+        0 0 0 1 
+  Transform: 0x008437B0
+    Debug: Off
+    No Delete Method
+    Modified Time: 22
+    Reference Count: 1
+    Matrix: 0x00843850
+      Debug: Off
+      No Delete Method
+      Modified Time: 20
+      Reference Count: 1
+      Elements:
+            0.949744 0.28931 -0.119527 -1 
+            -0.269207 0.949744 0.159732 -10 
+            0.159732 -0.119527 0.979898 -2 
+            0 0 0 1 
+    PreMultiply
+    DoublePoint: ( 0, 0, 0, 0)
+    Point: ( 0, 0, 0, 0)
+
+
+Inverse
+trans vtkTransform (0x00843610)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 24
+  Reference Count: 2
+  Matrix: 0x008436B0
+    Debug: Off
+    No Delete Method
+    Modified Time: 11
+    Reference Count: 1
+    Elements:
+        0.949744 0.28931 -0.119527 -1 
+        -0.269207 0.949744 0.159732 -10 
+        0.159732 -0.119527 0.979898 -2 
+        0 0 0 1 
+  PreMultiply
+  DoublePoint: ( 0, 0, 0, 0)
+  Point: ( 0, 0, 0, 0)
+
+
+Identity
+trans vtkTransform (0x00843610)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 26
+  Reference Count: 2
+  Matrix: 0x008436B0
+    Debug: Off
+    No Delete Method
+    Modified Time: 25
     Reference Count: 1
     Elements:
         1 0 0 0 
@@ -82,5 +139,339 @@ trans vtkTransform (0x100866f8)
   DoublePoint: ( 0, 0, 0, 0)
   Point: ( 0, 0, 0, 0)
 
+
+RotateWXYZ 20 1 1 2
+Translate 1 10 2
+
+trans TransformPoint  1 2 3  -0.532339 11.3779 6.57721 
+
+trans TransformNormal 1 2 3  0.238003 0.489146 0.839101 
+
+trans TransformVector 1 2 3  0.890525 1.83022 3.13963 
+
+vtkProjectionTransform: 
+ptrans vtkProjectionTransform (0x008447F0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 33
+  Reference Count: 1
+  Matrix: 0x00844850
+    Debug: Off
+    No Delete Method
+    Modified Time: 32
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+  PreMultiply
+
+
+SetElement 3 0 0.1
+SetElement 3 1 0.05
+SetElement 3 2 0.3
+ptrans vtkProjectionTransform (0x008447F0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 40
+  Reference Count: 1
+  Matrix: 0x00844850
+    Debug: Off
+    No Delete Method
+    Modified Time: 39
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0.1 0.05 0.3 1 
+  PreMultiply
+
+
+GetInverse
+ptrans GetInverse vtkPerspectiveTransformInverse (0x008444D0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 47
+  Reference Count: 1
+  Matrix: 0x00844530
+    Debug: Off
+    No Delete Method
+    Modified Time: 51
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        -0.1 -0.05 -0.3 1 
+  Transform: 0x008445F0
+    Debug: Off
+    No Delete Method
+    Modified Time: 50
+    Reference Count: 1
+    Matrix: 0x00844650
+      Debug: Off
+      No Delete Method
+      Modified Time: 48
+      Reference Count: 1
+      Elements:
+            1 0 0 0 
+            0 1 0 0 
+            0 0 1 0 
+            -0.1 -0.05 -0.3 1 
+    PreMultiply
+
+
+Inverse
+ptrans vtkProjectionTransform (0x008447F0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 52
+  Reference Count: 2
+  Matrix: 0x00844850
+    Debug: Off
+    No Delete Method
+    Modified Time: 39
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        -0.1 -0.05 -0.3 1 
+  PreMultiply
+
+
+Identity
+ptrans vtkProjectionTransform (0x008447F0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 54
+  Reference Count: 2
+  Matrix: 0x00844850
+    Debug: Off
+    No Delete Method
+    Modified Time: 53
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+  PreMultiply
+
+
+SetElement 3 0 0.1
+SetElement 3 1 0.05
+SetElement 3 2 0.3
+ptrans TransformPoint  1 2 3  0.476191 0.952381 1.42857 
+
+vtkIdentityTransform: 
+itrans vtkIdentityTransform (0x00844A40)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 59
+  Reference Count: 1
+  Matrix: 0x00844A90
+    Debug: Off
+    No Delete Method
+    Modified Time: 58
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+
+
+itrans TransformPoint  1 2 3  1 2 3 
+
+itrans TransformNormal 1 2 3  0.267261 0.534522 0.801784 
+
+itrans TransformVector 1 2 3  1 2 3 
+
+vtkPerspectiveTransformConcatenation: 
+pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 63
+  Reference Count: 1
+  Matrix: 0x00844CC0
+    Debug: Off
+    No Delete Method
+    Modified Time: 61
+    Reference Count: 1
+    Elements:
+        1 0 0 0 
+        0 1 0 0 
+        0 0 1 0 
+        0 0 0 1 
+  InverseFlag: 0
+  PreMultiplyFlag: 1
+  NumberOfTransforms: 0
+  TransformList:
+
+
+Concatenate itrans
+Concatenate ptrans
+PostMultiply
+Concatenate trans
+Update
+pctrans vtkPerspectiveTransformConcatenation (0x00844B40)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 73
+  Reference Count: 1
+  Matrix: 0x00844CC0
+    Debug: Off
+    No Delete Method
+    Modified Time: 77
+    Reference Count: 1
+    Elements:
+        0.807458 -0.34035 -0.267127 -1.42286 
+        1.24408 1.42713 2.74478 9.54769 
+        0.224232 0.331611 2.01117 3.43758 
+        0.1 0.05 0.3 1 
+  InverseFlag: 0
+  PreMultiplyFlag: 0
+  NumberOfTransforms: 3
+  TransformList:
+    Debug: Off
+    Delete Method defined
+    Modified Time: 56
+    Reference Count: 3
+    Matrix: 0x00844850
+      Debug: Off
+      No Delete Method
+      Modified Time: 55
+      Reference Count: 1
+      Elements:
+            1 0 0 0 
+            0 1 0 0 
+            0 0 1 0 
+            0.1 0.05 0.3 1 
+    PreMultiply
+    Debug: Off
+    Delete Method defined
+    Modified Time: 59
+    Reference Count: 3
+    Matrix: 0x00844A90
+      Debug: Off
+      No Delete Method
+      Modified Time: 58
+      Reference Count: 1
+      Elements:
+            1 0 0 0 
+            0 1 0 0 
+            0 0 1 0 
+            0 0 0 1 
+    Debug: Off
+    Delete Method defined
+    Modified Time: 30
+    Reference Count: 3
+    Matrix: 0x008436B0
+      Debug: Off
+      No Delete Method
+      Modified Time: 29
+      Reference Count: 1
+      Elements:
+            0.949744 -0.269207 0.159732 -1.42286 
+            0.28931 0.949744 -0.119527 9.54769 
+            -0.119527 0.159732 0.979898 3.43758 
+            0 0 0 1 
+    PreMultiply
+    DoublePoint: ( 0, 0, 0, 0)
+    Point: ( 0, 0, 0, 0)
+
+
+vtkGeneralTransformConcatenation: 
+gctrans vtkGeneralTransformConcatenation (0x008456A0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 79
+  Reference Count: 1
+  InverseFlag: 0
+  PreMultiplyFlag: 1
+  NumberOfTransforms: 0
+  TransformList:
+
+
+Concatenate itrans
+Concatenate ptrans
+PostMultiply
+Concatenate trans
+Update
+gctrans vtkGeneralTransformConcatenation (0x008456A0)
+  Debug: Off
+  Delete Method defined
+  Modified Time: 83
+  Reference Count: 1
+  InverseFlag: 0
+  PreMultiplyFlag: 0
+  NumberOfTransforms: 3
+  TransformList:
+    Debug: Off
+    Delete Method defined
+    Modified Time: 56
+    Reference Count: 4
+    Matrix: 0x00844850
+      Debug: Off
+      No Delete Method
+      Modified Time: 55
+      Reference Count: 1
+      Elements:
+            1 0 0 0 
+            0 1 0 0 
+            0 0 1 0 
+            0.1 0.05 0.3 1 
+    PreMultiply
+    Debug: Off
+    Delete Method defined
+    Modified Time: 59
+    Reference Count: 4
+    Matrix: 0x00844A90
+      Debug: Off
+      No Delete Method
+      Modified Time: 58
+      Reference Count: 1
+      Elements:
+            1 0 0 0 
+            0 1 0 0 
+            0 0 1 0 
+            0 0 0 1 
+    Debug: Off
+    Delete Method defined
+    Modified Time: 30
+    Reference Count: 4
+    Matrix: 0x008436B0
+      Debug: Off
+      No Delete Method
+      Modified Time: 29
+      Reference Count: 1
+      Elements:
+            0.949744 -0.269207 0.159732 -1.42286 
+            0.28931 0.949744 -0.119527 9.54769 
+            -0.119527 0.159732 0.979898 3.43758 
+            0 0 0 1 
+    PreMultiply
+    DoublePoint: ( 0, 0, 0, 0)
+    Point: ( 0, 0, 0, 0)
+
+
+Should be the same to within roundoff error
+gctrans TransformPoint 1 2 3  -0.998804 10.4192 4.93265 
+pctrans TransformPoint 1 2 3  -0.998804 10.4192 4.93265 
+
+GetInverse
+gctrans TransformPoint -0.998804092407 10.4192266464 4.93264579773  1 2 3 
+pctrans TransformPoint -0.998804152012 10.4192276001 4.93264627457  1 2 3 
+
+Inverse
+gctrans TransformPoint -0.998804092407 10.4192266464 4.93264579773  1 2 3 
+pctrans TransformPoint -0.998804152012 10.4192276001 4.93264627457  1 2 3 
+
+Identity
+gctrans TransformPoint 1 2 3  1 2 3 
+pctrans TransformPoint 1 2 3  1 2 3 
 
 transform test completed
