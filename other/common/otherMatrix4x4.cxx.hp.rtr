@@ -1,9 +1,8 @@
 text test matrix4x4 begin
 initialize mat1
 mat1 
-vtkMatrix4x4 (0x100055f8)
+vtkMatrix4x4 (0x40005c10)
   Debug: Off
-  No Delete Method
   Modified Time: 2
   Reference Count: 1
   Elements:
@@ -14,9 +13,8 @@ vtkMatrix4x4 (0x100055f8)
 
 initialize mat2
 mat2 
-vtkMatrix4x4 (0x10005698)
+vtkMatrix4x4 (0x40005ce0)
   Debug: Off
-  No Delete Method
   Modified Time: 3
   Reference Count: 1
   Elements:
@@ -27,9 +25,8 @@ vtkMatrix4x4 (0x10005698)
 
 setting mat1
 mat1 
-vtkMatrix4x4 (0x100055f8)
+vtkMatrix4x4 (0x40005c10)
   Debug: Off
-  No Delete Method
   Modified Time: 19
   Reference Count: 1
   Elements:
@@ -40,10 +37,9 @@ vtkMatrix4x4 (0x100055f8)
 
 transposing mat1
 mat1 
-vtkMatrix4x4 (0x100055f8)
+vtkMatrix4x4 (0x40005c10)
   Debug: Off
-  No Delete Method
-  Modified Time: 19
+  Modified Time: 20
   Reference Count: 1
   Elements:
     0 4 8 12 
@@ -53,10 +49,9 @@ vtkMatrix4x4 (0x100055f8)
 
 mat2 = 5.6
 mat2 
-vtkMatrix4x4 (0x10005698)
+vtkMatrix4x4 (0x40005ce0)
   Debug: Off
-  No Delete Method
-  Modified Time: 20
+  Modified Time: 21
   Reference Count: 1
   Elements:
     5.6 5.6 5.6 5.6 
@@ -66,10 +61,9 @@ vtkMatrix4x4 (0x10005698)
 
 zero mat2
 mat2 
-vtkMatrix4x4 (0x10005698)
+vtkMatrix4x4 (0x40005ce0)
   Debug: Off
-  No Delete Method
-  Modified Time: 21
+  Modified Time: 22
   Reference Count: 1
   Elements:
     0 0 0 0 
@@ -79,10 +73,9 @@ vtkMatrix4x4 (0x10005698)
 
 deep copy array into mat1
 mat1 
-vtkMatrix4x4 (0x100055f8)
+vtkMatrix4x4 (0x40005c10)
   Debug: Off
-  No Delete Method
-  Modified Time: 22
+  Modified Time: 23
   Reference Count: 1
   Elements:
     0.75 -0.4 0.5 1 
@@ -94,10 +87,9 @@ determinant of mat1
   0.971875
 adjoint of mat1, put in mat2
 mat1 
-vtkMatrix4x4 (0x100055f8)
+vtkMatrix4x4 (0x40005c10)
   Debug: Off
-  No Delete Method
-  Modified Time: 22
+  Modified Time: 23
   Reference Count: 1
   Elements:
     0.75 -0.4 0.5 1 
@@ -106,10 +98,9 @@ vtkMatrix4x4 (0x100055f8)
     0 0 0 1 
 
 mat2 
-vtkMatrix4x4 (0x10005698)
+vtkMatrix4x4 (0x40005ce0)
   Debug: Off
-  No Delete Method
-  Modified Time: 21
+  Modified Time: 22
   Reference Count: 1
   Elements:
     0.72875 0.625 -0.1525 -1.52125 
@@ -119,10 +110,9 @@ vtkMatrix4x4 (0x10005698)
 
 inverse of mat1
 mat2 
-vtkMatrix4x4 (0x10005698)
+vtkMatrix4x4 (0x40005ce0)
   Debug: Off
-  No Delete Method
-  Modified Time: 21
+  Modified Time: 24
   Reference Count: 1
   Elements:
     0.749839 0.643087 -0.156913 -1.56527 

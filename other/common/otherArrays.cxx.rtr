@@ -20,7 +20,6 @@ Test CharArray
 PrintSelf...
 vtkCharArray (0x100075f8)
   Debug: Off
-  No Delete Method
   Modified Time: 3
   Reference Count: 1
   Number Of Components: 10
@@ -52,7 +51,6 @@ Test UnsignedCharArray
 PrintSelf...
 vtkUnsignedCharArray (0x10007700)
   Debug: Off
-  No Delete Method
   Modified Time: 8
   Reference Count: 1
   Number Of Components: 10
@@ -84,7 +82,6 @@ Test IntArray
 PrintSelf...
 vtkIntArray (0x10007b30)
   Debug: Off
-  No Delete Method
   Modified Time: 13
   Reference Count: 1
   Number Of Components: 10
@@ -116,7 +113,6 @@ Test UnsignedIntArray
 PrintSelf...
 vtkUnsignedIntArray (0x10007b70)
   Debug: Off
-  No Delete Method
   Modified Time: 18
   Reference Count: 1
   Number Of Components: 10
@@ -148,7 +144,6 @@ Test LongArray
 PrintSelf...
 vtkLongArray (0x10007bb0)
   Debug: Off
-  No Delete Method
   Modified Time: 23
   Reference Count: 1
   Number Of Components: 10
@@ -180,7 +175,6 @@ Test UnsignedLongArray
 PrintSelf...
 vtkUnsignedLongArray (0x10007bf0)
   Debug: Off
-  No Delete Method
   Modified Time: 28
   Reference Count: 1
   Number Of Components: 10
@@ -212,7 +206,6 @@ Test ShortArray
 PrintSelf...
 vtkShortArray (0x10007c30)
   Debug: Off
-  No Delete Method
   Modified Time: 33
   Reference Count: 1
   Number Of Components: 10
@@ -244,7 +237,6 @@ Test UnsignedShortArray
 PrintSelf...
 vtkUnsignedShortArray (0x10007c70)
   Debug: Off
-  No Delete Method
   Modified Time: 38
   Reference Count: 1
   Number Of Components: 10
@@ -276,7 +268,6 @@ Test FloatArray
 PrintSelf...
 vtkFloatArray (0x10007cb0)
   Debug: Off
-  No Delete Method
   Modified Time: 43
   Reference Count: 1
   Number Of Components: 10
@@ -308,7 +299,6 @@ Test DoubleArray
 PrintSelf...
 vtkDoubleArray (0x10007ce8)
   Debug: Off
-  No Delete Method
   Modified Time: 48
   Reference Count: 1
   Number Of Components: 10
