@@ -1,0 +1,24 @@
+Array test started
+Bit array
+Actual memory size is: 1
+Char array
+Actual memory size is: 7
+Double array
+Actual memory size is: 49
+Float array
+Actual memory size is: 25
+Int array
+Actual memory size is: 25
+Long array
+Actual memory size is: 49
+Short array
+Actual memory size is: 13
+UnsignedChar array
+Actual memory size is: 7
+UnsignedInt array
+Actual memory size is: 25
+UnsignedLong array
+Actual memory size is: 49
+UnsignedShort array
+Actual memory size is: 13
+Array test ended
