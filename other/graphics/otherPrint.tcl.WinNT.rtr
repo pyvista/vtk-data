@@ -672,7 +672,12 @@ vtkCleanPolyData (0x00843820)
   AbortExecute: Off
   Progress: 0
   Output 0: (0x00843890)
+  ToleranceIsAbsolute: 0
   Tolerance: 0
+  AbsoluteTolerance: 1
+  ConvertPolysToLines: 1
+  ConvertLinesToPoints: 1
+  ConvertStripsToPolys: 1
   Locator: (none)
 
 
