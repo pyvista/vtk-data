@@ -1,0 +1,31 @@
+Collection test started
+Before Sort
+0: a5
+1: a3
+2: a4
+3: a6
+4: a1
+After Sort
+0: a6
+1: a5
+2: a4
+3: a3
+4: a1
+After RemoveItem a5, a2, a4
+0: a6
+1: a3
+2: a1
+Reference counts
+a1 Ref count is 2
+a2 Ref count is 1
+a3 Ref count is 2
+a4 Ref count is 1
+a5 Ref count is 1
+a6 Ref count is 2
+Reference counts after delete
+a1 Ref count is 1
+a2 Ref count is 1
+a3 Ref count is 1
+a4 Ref count is 1
+a5 Ref count is 1
+a6 Ref count is 1
