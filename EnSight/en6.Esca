@@ -1,0 +1,12 @@
+Per_elem scalar values for the EnSight6 geometry example
+part 1
+tria3
+ 2.00000e+00 3.00000e+00
+hexa8
+ 4.00000e+00
+part 2
+bar2
+ 1.00000e+00
+part 3
+block
+ 5.00000e+00 6.00000e+00

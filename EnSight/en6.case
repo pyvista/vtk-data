@@ -1,0 +1,27 @@
+# BOF:  en6.case
+
+FORMAT
+
+type:   ensight
+
+GEOMETRY
+
+model:  en6.geo
+
+VARIABLE
+
+constant per case:           Cden  .8
+
+scalar per element:          Esca  en6.Esca
+scalar per node:             Nsca  en6.Nsca
+
+vector per element:          Evec  en6.Evec
+vector per node:             Nvec  en6.Nvec
+
+tensor symm per element:     Eten  en6.Eten
+tensor symm per node:        Nten  en6.Nten
+
+complex scalar per element:  Ecmp  en6.Ecmp_r  en6.Ecmp_i  2.
+complex scalar per node:     Ncmp  en6.Ncmp_r  en6.Ncmp_i  4.
+
+# EOF:  en6.case
