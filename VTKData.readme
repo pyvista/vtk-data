@@ -3,7 +3,7 @@ VTK 4.0 Data Directory
 
 This directory contains data and baseline images for VTK regression testing
 and other VTK examples. (See
-http://public.kitware.com/VTK/testing/TestingResults/Dashboard/MostRecentResults-Nightly/Dashboard.html
+http://www.vtk.org/testing/TestingResults/Dashboard/MostRecentResults-Nightly/Dashboard.html
 to see how regression testing is used.) Also see http://public.kitware.com/Dart
 to learn about the Dart regression testing system.
 
