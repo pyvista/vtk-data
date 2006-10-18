@@ -1,0 +1,5 @@
+Field1:Field2:Field3:Field4
+What has it:got in its:pocketses,:precious?
+Not:Enough:Fields
+Test:"String:Delimiters":on:"this:line"
+Empty:Last:Field:
