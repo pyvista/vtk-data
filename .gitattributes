@@ -3,6 +3,7 @@
 *.bin           -crlf
 *.bmp           -crlf
 *.db            -crlf
+*.ex2           -crlf
 *.jpg           -crlf
 *.pgm           -crlf
 *.png           -crlf
