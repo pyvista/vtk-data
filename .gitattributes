@@ -4,6 +4,7 @@
 *.bmp           -crlf
 *.db            -crlf
 *.ex2           -crlf
+*.jpeg          -crlf
 *.jpg           -crlf
 *.pgm           -crlf
 *.png           -crlf
