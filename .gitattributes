@@ -12,3 +12,4 @@
 *.raw           -crlf
 *.slc           -crlf
 *.tif           -crlf
+*.ttf           -crlf
