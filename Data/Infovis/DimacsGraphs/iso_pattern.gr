@@ -1,0 +1,12 @@
+c pattern for a graph isomorphsim search
+p sp 5 5
+n 1 9
+n 2 1
+n 3 3
+n 4 5
+n 5 2
+a 1 2 2
+a 2 3 1
+a 3 4 8
+a 4 2 1
+a 2 5 0
