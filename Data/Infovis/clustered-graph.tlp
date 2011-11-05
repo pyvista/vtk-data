@@ -16,6 +16,25 @@
 (edge 14 8 9)
 (edge 15 9 10)
 (edge 16 10 11)
+ 
+(cluster 1 "A cluster"
+(nodes 4)
+(edges 7)
+)
+
+(cluster 2 "Overlapped cluster"
+(nodes 4 5 8)
+(edges 7 10)
+)
+
+(cluster 3 "Another cluster"
+(nodes 2 3 6 7 10 11)
+(edges 2 5 6 9 12 13 16)
+(cluster 4 "A sub-cluster"
+(nodes 2 3 7)
+(edges 2 6)
+)
+)
 
 (property 0 string "Node Name"
 (default "" "")
