@@ -1,0 +1,8 @@
+NRRD0001
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: float
+dimension: 2
+sizes: 100 100
+encoding: ascii
+data file: beach.ascii
