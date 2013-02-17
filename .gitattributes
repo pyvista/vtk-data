@@ -13,3 +13,4 @@
 *.slc           -crlf
 *.tif           -crlf
 *.ttf           -crlf
+*.gz            -crlf
