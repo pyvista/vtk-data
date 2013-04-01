@@ -1,0 +1,17 @@
+{
+    "byte-order" : "big",
+    "precision" : 32,
+    "multi-grid" : false,
+    "format" : "binary",
+    "language" : "C",
+    "blanking" : false,
+    "2D" : false,
+    "number-of-q-values" : 4,
+    "functions": [ 110, 200, 201 ],
+    "R" : 8.314,
+    "gamma" : 1.4,
+    "filenames" : [
+	{ "time" : 3.5, "xyz" : "combxyz.bin", "q" : "combq.bin"},
+	{ "time" : 4.5, "xyz" : "bluntfinxyz.bin", "q" : "bluntfinq.bin"}
+    ]
+}
