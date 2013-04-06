@@ -6,7 +6,6 @@
     "language" : "C",
     "blanking" : false,
     "2D" : false,
-    "number-of-q-values" : 4,
     "functions": [ 110, 200, 201 ],
     "R" : 8.314,
     "gamma" : 1.4,
