@@ -1,0 +1,6 @@
+{
+    "auto-detect-format" : true,
+    "filenames" : [
+	{ "time" : 0, "xyz" : "multi-bin.xyz", "q" : "multi-bin.q", "function" : "multi-bin.f" }
+    ]
+}
