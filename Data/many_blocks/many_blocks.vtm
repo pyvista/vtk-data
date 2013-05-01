@@ -1,0 +1,227 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <Block index="0" name="Group A">
+      <Block index="0" name="Group AA">
+        <DataSet index="0" file="many_blocks/many_blocks_0_0.vtp">
+          
+        </DataSet>
+        <Block index="1" name="Group AAA">
+          <DataSet index="0" file="many_blocks/many_blocks_1_0.vtp">
+            
+          </DataSet>
+          <DataSet index="1" file="many_blocks/many_blocks_2_0.vtp">
+            
+          </DataSet>
+          <DataSet index="2" file="many_blocks/many_blocks_3_0.vtp">
+            
+          </DataSet>
+          <DataSet index="3" file="many_blocks/many_blocks_4_0.vtp">
+            
+          </DataSet>
+          <DataSet index="4" file="many_blocks/many_blocks_5_0.vtp">
+            
+          </DataSet>
+          <DataSet index="5" file="many_blocks/many_blocks_6_0.vtp">
+            
+          </DataSet>
+          <DataSet index="6" file="many_blocks/many_blocks_7_0.vtp">
+            
+          </DataSet>
+          <DataSet index="7" file="many_blocks/many_blocks_8_0.vtp">
+            
+          </DataSet>
+          <DataSet index="8" file="many_blocks/many_blocks_9_0.vtp">
+            
+          </DataSet>
+          <DataSet index="9" file="many_blocks/many_blocks_10_0.vtp">
+            
+          </DataSet>
+          
+        </Block>
+        <DataSet index="2" file="many_blocks/many_blocks_11_0.vtp">
+          
+        </DataSet>
+        <DataSet index="3" file="many_blocks/many_blocks_12_0.vtp">
+          
+        </DataSet>
+        <DataSet index="4" file="many_blocks/many_blocks_13_0.vtp">
+          
+        </DataSet>
+        <DataSet index="5" file="many_blocks/many_blocks_14_0.vtp">
+          
+        </DataSet>
+        <DataSet index="6" file="many_blocks/many_blocks_15_0.vtp">
+          
+        </DataSet>
+        <DataSet index="7" file="many_blocks/many_blocks_16_0.vtp">
+          
+        </DataSet>
+        <DataSet index="8" file="many_blocks/many_blocks_17_0.vtp">
+          
+        </DataSet>
+        <DataSet index="9" file="many_blocks/many_blocks_18_0.vtp">
+          
+        </DataSet>
+        
+      </Block>
+      <Block index="1" name="Group AB">
+        <DataSet index="0" file="many_blocks/many_blocks_19_0.vtp">
+          
+        </DataSet>
+        <DataSet index="1" file="many_blocks/many_blocks_20_0.vtp">
+          
+        </DataSet>
+        <DataSet index="2" file="many_blocks/many_blocks_21_0.vtp">
+          
+        </DataSet>
+        <DataSet index="3" file="many_blocks/many_blocks_22_0.vtp">
+          
+        </DataSet>
+        <DataSet index="4" file="many_blocks/many_blocks_23_0.vtp">
+          
+        </DataSet>
+        <DataSet index="5" file="many_blocks/many_blocks_24_0.vtp">
+          
+        </DataSet>
+        <DataSet index="6" file="many_blocks/many_blocks_25_0.vtp">
+          
+        </DataSet>
+        <DataSet index="7" file="many_blocks/many_blocks_26_0.vtp">
+          
+        </DataSet>
+        <DataSet index="8" file="many_blocks/many_blocks_27_0.vtp">
+          
+        </DataSet>
+        <DataSet index="9" file="many_blocks/many_blocks_28_0.vtp">
+          
+        </DataSet>
+        
+      </Block>
+      <Block index="2" name="Group AC">
+        <Block index="0" name="Group ACA">
+          <DataSet index="0" file="many_blocks/many_blocks_29_0.vtp">
+            
+          </DataSet>
+          <DataSet index="1" file="many_blocks/many_blocks_30_0.vtp">
+            
+          </DataSet>
+          <DataSet index="2" file="many_blocks/many_blocks_31_0.vtp">
+            
+          </DataSet>
+          <DataSet index="3" file="many_blocks/many_blocks_32_0.vtp">
+            
+          </DataSet>
+          <DataSet index="4" file="many_blocks/many_blocks_33_0.vtp">
+            
+          </DataSet>
+          <DataSet index="5" file="many_blocks/many_blocks_34_0.vtp">
+            
+          </DataSet>
+          <DataSet index="6" file="many_blocks/many_blocks_35_0.vtp">
+            
+          </DataSet>
+          <DataSet index="7" file="many_blocks/many_blocks_36_0.vtp">
+            
+          </DataSet>
+          <DataSet index="8" file="many_blocks/many_blocks_37_0.vtp">
+            
+          </DataSet>
+          <DataSet index="9" file="many_blocks/many_blocks_38_0.vtp">
+            
+          </DataSet>
+          <Block index="10" name="Group ACAA">
+            <DataSet index="0" file="many_blocks/many_blocks_39_0.vtp">
+              
+            </DataSet>
+            <DataSet index="1" file="many_blocks/many_blocks_40_0.vtp">
+              
+            </DataSet>
+            <DataSet index="2" file="many_blocks/many_blocks_41_0.vtp">
+              
+            </DataSet>
+            <DataSet index="3" file="many_blocks/many_blocks_42_0.vtp">
+              
+            </DataSet>
+            <DataSet index="4" file="many_blocks/many_blocks_43_0.vtp">
+              
+            </DataSet>
+            <DataSet index="5" file="many_blocks/many_blocks_44_0.vtp">
+              
+            </DataSet>
+            <DataSet index="6" file="many_blocks/many_blocks_45_0.vtp">
+              
+            </DataSet>
+            <DataSet index="7" file="many_blocks/many_blocks_46_0.vtp">
+              
+            </DataSet>
+            <DataSet index="8" file="many_blocks/many_blocks_47_0.vtp">
+              
+            </DataSet>
+            <DataSet index="9" file="many_blocks/many_blocks_48_0.vtp">
+              
+            </DataSet>
+            <DataSet index="10" file="many_blocks/many_blocks_49_0.vtp">
+              
+            </DataSet>
+            
+          </Block>
+          <DataSet index="11" file="many_blocks/many_blocks_50_0.vtp">
+            
+          </DataSet>
+          <DataSet index="12" file="many_blocks/many_blocks_51_0.vtp">
+            
+          </DataSet>
+          <DataSet index="13" file="many_blocks/many_blocks_52_0.vtp">
+            
+          </DataSet>
+          <DataSet index="14" file="many_blocks/many_blocks_53_0.vtp">
+            
+          </DataSet>
+          <DataSet index="15" file="many_blocks/many_blocks_54_0.vtp">
+            
+          </DataSet>
+          <DataSet index="16" file="many_blocks/many_blocks_55_0.vtp">
+            
+          </DataSet>
+          <DataSet index="17" file="many_blocks/many_blocks_56_0.vtp">
+            
+          </DataSet>
+          <DataSet index="18" file="many_blocks/many_blocks_57_0.vtp">
+            
+          </DataSet>
+          <DataSet index="19" file="many_blocks/many_blocks_58_0.vtp">
+            
+          </DataSet>
+          
+        </Block>
+        
+      </Block>
+      
+    </Block>
+    <Block index="1" name="Group B">
+      <DataSet index="0" file="many_blocks/many_blocks_59_0.vtp">
+        
+      </DataSet>
+      <DataSet index="1" file="many_blocks/many_blocks_60_0.vtp">
+        
+      </DataSet>
+      <DataSet index="2" file="many_blocks/many_blocks_61_0.vtp">
+        
+      </DataSet>
+      <DataSet index="3" file="many_blocks/many_blocks_62_0.vtp">
+        
+      </DataSet>
+      <DataSet index="4" file="many_blocks/many_blocks_63_0.vtp">
+        
+      </DataSet>
+      <DataSet index="5" file="many_blocks/many_blocks_64_0.vtp">
+        
+      </DataSet>
+      <DataSet index="6" file="many_blocks/many_blocks_65_0.vtp">
+        
+      </DataSet>
+      
+    </Block>
+    
+  </vtkMultiBlockDataSet>
+</VTKFile>
