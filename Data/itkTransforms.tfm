@@ -1,0 +1,129 @@
+#Insight Transform File V1.0
+#Transform 0
+Transform: Rigid2DTransform_double_2_2
+Parameters: 0.291306 0.0396362 0.992075
+FixedParameters: 0 0
+#Transform 1
+Transform: MatrixOffsetTransformBase_double_2_2
+Parameters: 0.95787 -0.287204 0.287204 0.95787 0.0396362 0.992075
+FixedParameters: 0 0
+#Transform 2
+Transform: IdentityTransform_double_3_3
+Parameters: 
+FixedParameters: 
+#Transform 3
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 1 0 0 0 1 0 0 0 1 0 0 0
+FixedParameters: 0 0 0
+#Transform 4
+Transform: TranslationTransform_double_3_3
+Parameters: 0.143822 0.769591 0.641287
+FixedParameters: 
+#Transform 5
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 1 0 0 0 1 0 0 0 1 0.143822 0.769591 0.641287
+FixedParameters: 0 0 0
+#Transform 6
+Transform: AffineTransform_double_3_3
+Parameters: 0.450744 0.724826 0.187302 0.384747 0.367975 0.885889 0.634787 0.0822699 0.581283 0.963508 0.545909 0.557067
+FixedParameters: 0.490804 0.328273 0.328821
+#Transform 7
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.450744 0.724826 0.187302 0.384747 0.367975 0.885889 0.634787 0.0822699 0.581283 0.933555 0.273251 0.356187
+FixedParameters: 0 0 0
+#Transform 8
+Transform: CenteredAffineTransform_double_3_3
+Parameters: 0.943259 0.192881 0.99484 0.997837 0.271846 0.397677 0.259009 0.731477 0.157071 0.506108 0.0156747 0.0807173 0.393928 0.898605 0.385363
+FixedParameters: 0.506108 0.0156747 0.0807173
+#Transform 9
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.943259 0.192881 0.99484 0.997837 0.271846 0.397677 0.259009 0.731477 0.157071 0.339321 0.372906 0.31085
+FixedParameters: 0 0 0
+#Transform 10
+Transform: FixedCenterOfRotationAffineTransform_double_3_3
+Parameters: 0.959221 0.396945 0.422437 0.669256 0.747192 0.27522 0.813355 0.440269 0.597092 0.541446 0.201087 0.464453 0.96959 0.123766 0.811442
+FixedParameters: 0.925955 0.935472 0.330727
+#Transform 11
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.959221 0.396945 0.422437 0.669256 0.747192 0.27522 0.813355 0.440269 0.597092 0.068163 -0.273142 -0.567284
+FixedParameters: 0 0 0
+#Transform 12
+Transform: ScalableAffineTransform_double_3_3
+Parameters: 0.800432 0.84917 0.863346 0.794623 0.875039 0.538407 0.0338437 0.0743409 0.0751605 0.161953 0.976491 0.504918
+FixedParameters: 0.191971 0.930418 0.751208
+#Transform 13
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.800432 0.84917 0.863346 0.794623 0.875039 0.538407 0.0338437 0.0743409 0.0751605 -1.23837 0.535757 1.124
+FixedParameters: 0 0 0
+#Transform 14
+Transform: ScaleTransform_double_3_3
+Parameters: 0.456551 0.40274 0.721175
+FixedParameters: 
+#Transform 15
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.456551 0 0 0 0.40274 0 0 0 0.721175 0 0 0
+FixedParameters: 0 0 0
+#Transform 16
+Transform: Euler3DTransform_double_3_3
+Parameters: 0.128189 0.308296 0.646606 0.890358 0.276375 0.0965852
+FixedParameters: 0.521961 0.88138 0.519011
+#Transform 17
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.737132 -0.597538 0.31557 0.605035 0.791585 0.0855924 -0.300945 0.127838 0.945034 1.39044 0.09984 0.169521
+FixedParameters: 0 0 0
+#Transform 18
+Transform: CenteredEuler3DTransform_double_3_3
+Parameters: 0.95676 0.121153 0.137851 0.808885 0.361459 0.8023 0.65288 0.923199 0.886308
+FixedParameters: 0.808885 0.361459 0.8023
+#Transform 19
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.969679 -0.0791746 0.2312 0.23425 0.570706 -0.787034 -0.069634 0.817329 0.571948 0.520533 1.52033 0.990629
+FixedParameters: 0 0 0
+#Transform 20
+Transform: VersorTransform_double_3_3
+Parameters: 0.563843 0.621093 0.12323
+FixedParameters: 0.344499 0.744536 0.769302
+#Transform 21
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.198116 0.569718 0.797603 0.831078 0.33379 -0.444852 -0.519673 0.751003 -0.407351 -0.761525 0.551937 0.702556
+FixedParameters: 0 0 0
+#Transform 22
+Transform: VersorRigid3DTransform_double_3_3
+Parameters: 0.554515 0.566869 0.246881 0.935386 0.718262 0.86981
+FixedParameters: 0.636405 0.0904143 0.188551
+#Transform 23
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.235418 0.35366 0.905264 0.903689 0.263126 -0.337804 -0.357667 0.897602 -0.257654 1.21931 0.273468 1.25341
+FixedParameters: 0 0 0
+#Transform 24
+Transform: Similarity3DTransform_double_3_3
+Parameters: 0.00637037 0.940447 0.316493 0.426238 0.870922 0.193227 0.121955
+FixedParameters: 0.137763 0.953083 0.136403
+#Transform 25
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: -0.118201 -0.00810298 0.0289116 0.0110255 0.0975132 0.0724062 -0.027928 0.0727912 -0.0937791 0.584065 1.71967 0.276893
+FixedParameters: 0 0 0
+#Transform 26
+Transform: ScaleVersor3DTransform_double_3_3
+Parameters: 0.816413 0.558338 0.147406 0.915931 0.789097 0.123935 0.284062 0.871757 0.212319
+FixedParameters: 0.255682 0.129768 0.829555
+#Transform 27
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: -0.382878 0.911665 0.240704 0.911673 -0.504759 0.164582 0.240673 0.164628 -1.74422 0.951526 0.614738 2.31752
+FixedParameters: 0 0 0
+#Transform 28
+Transform: ScaleSkewVersor3DTransform_double_3_3
+Parameters: 0.0798458 0.211147 0.12969 0.290567 0.830003 0.761963 0.151342 0.483811 0.178102 0.263138 0.543891 0.170587 0.100517 0.689241 0.96458
+FixedParameters: 0.145215 0.327678 0.361083
+#Transform 29
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.0285363 0.0464195 0.972334 0.454742 0.437421 0.00109976 0.302219 1.17353 0.0761853 0.0653352 0.947915 0.667108
+FixedParameters: 0 0 0
+#Transform 30
+Transform: QuaternionRigidTransform_double_3_3
+Parameters: 0.238522 0.179696 0.0247029 0.61132 0.24712 0.905477 0.280854
+FixedParameters: 0.0946528 0.977249 0.0435144
+#Transform 31
+Transform: MatrixOffsetTransformBase_double_3_3
+Parameters: 0.397704 0.05552 0.231487 0.115925 0.3485 -0.282749 -0.207919 0.300505 0.285139 0.239799 1.54349 0.0379727
+FixedParameters: 0 0 0
