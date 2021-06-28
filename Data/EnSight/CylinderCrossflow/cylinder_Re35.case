@@ -1,0 +1,8 @@
+FORMAT
+type:  ensight gold
+GEOMETRY
+model: cylinder_Re35.geo
+VARIABLE
+scalar per node: pressure                                         cylinder_Re35.scl1
+scalar per node: vorticity_mag                                    cylinder_Re35.scl2
+vector per node: velocity                                         cylinder_Re35.vel
