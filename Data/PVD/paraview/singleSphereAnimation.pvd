@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0000.vtp"/>
+    <DataSet timestep="1" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0001.vtp"/>
+    <DataSet timestep="2" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0002.vtp"/>
+    <DataSet timestep="3" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0003.vtp"/>
+    <DataSet timestep="4" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0004.vtp"/>
+    <DataSet timestep="5" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0005.vtp"/>
+    <DataSet timestep="6" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0006.vtp"/>
+    <DataSet timestep="7" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0007.vtp"/>
+    <DataSet timestep="8" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0008.vtp"/>
+    <DataSet timestep="9" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0009.vtp"/>
+    <DataSet timestep="10" group="source93" part="0" file="singleSphereAnimation/singleSphereAnimation_source93T0010.vtp"/>
+  </Collection>
+</VTKFile>
