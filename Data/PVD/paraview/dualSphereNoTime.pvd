@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file is not from paraview. -->
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0001.vtp"/>
+    <DataSet part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0001.vtp"/>
+  </Collection>
+</VTKFile>

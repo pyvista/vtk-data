@@ -1,0 +1,16 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "dualSphereAnimation_P00T0000.vtp", "time" : 0 },
+    { "name" : "dualSphereAnimation_P00T0001.vtp", "time" : 3 },
+    { "name" : "dualSphereAnimation_P00T0002.vtp", "time" : 6 },
+    { "name" : "dualSphereAnimation_P00T0003.vtp", "time" : 9 },
+    { "name" : "dualSphereAnimation_P00T0004.vtp", "time" : 11.0 },
+    { "name" : "dualSphereAnimation_P00T0005.vtp", "time" : 12.0 },
+    { "name" : "dualSphereAnimation_P00T0006.vtp", "time" : 13.0 },
+    { "name" : "dualSphereAnimation_P00T0007.vtp", "time" : 16.0 },
+    { "name" : "dualSphereAnimation_P00T0008.vtp", "time" : 20.0 },
+    { "name" : "dualSphereAnimation_P00T0009.vtp", "time" : 21.0 },
+    { "name" : "dualSphereAnimation_P00T0010.vtp", "time" : 25.0 }
+  ]
+}

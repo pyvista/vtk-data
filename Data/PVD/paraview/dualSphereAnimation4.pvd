@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="" part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0000.vtp"/>
+    <DataSet timestep="0" group="" part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0000.vtp"/>
+    <DataSet timestep="1" group="" part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0001.vtp"/>
+    <DataSet timestep="1" group="" part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0001.vtp"/>
+    <DataSet timestep="2" group="" part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0002.vtp"/>
+    <DataSet timestep="2" group="" part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0002.vtp"/>
+    <DataSet timestep="3" group="" part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0003.vtp"/>
+    <DataSet timestep="3" group="" part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0003.vtp"/>
+    <DataSet timestep="4" group="" part="0" file="dualSphereAnimation/dualSphereAnimation_P00T0004.vtp"/>
+    <DataSet timestep="4" group="" part="1" file="dualSphereAnimation/dualSphereAnimation_P01T0004.vtp"/>
+  </Collection>
+</VTKFile>
