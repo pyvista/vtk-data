@@ -1,6 +1,6 @@
 License
 
-The Pancreatic-CT-CBCT-SEG collection is distributed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). 
+The CPTAC-SAR collection is distributed under the Creative Commons Attribution 3.0 Unported License (http://creativecommons.org/licenses/by/3.0/). 
 By downloading the data, you agree to abide by terms of this license.
 
 _____________________________
@@ -17,8 +17,4 @@ Any user accessing TCIA data must agree to:
 The summary page for every TCIA dataset includes a Citations & Data Usage Policy tab.  Please consult the Citation & Data Usage Policy for each Collection before using them.  
 - Most data are freely available to browse, download, and use for commercial, scientific and educational purposes as outlined in the Creative Commons Attribution 3.0 Unported License or the Creative Commons Attribution 4.0 International License.  In rare circumstances commercial use may be prohibited using Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) or Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). 
 
-- Most data are immediately accessible and do not require account registration.  A small subset of collections do require registration and special permission to gain access. Refer to the "Access" column on https://www.cancerimagingarchive.net/collections/ for more details.License
-
-The Pancreatic-CT-CBCT-SEG collection is distributed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). 
-By downloading the data, you agree to abide by terms of this license.
-
+- Most data are immediately accessible and do not require account registration.  A small subset of collections do require registration and special permission to gain access. Refer to the "Access" column on https://www.cancerimagingarchive.net/collections/ for more details.
