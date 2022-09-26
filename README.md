@@ -18,4 +18,4 @@ This assumes that you had uploaded the file to the `Data` directory as `Data/my-
 
 ### Adding the Example to PyVista's Downloads
 
-See the documentation within [downloads.py](https://github.com/pyvista/pyvista/blob/main/pyvista/examples/downloads.py) for adding a new method to wnload the example file within the ``pyvista.examples`` module.
+See the documentation within [downloads.py](https://github.com/pyvista/pyvista/blob/main/pyvista/examples/downloads.py) for adding a new method to download the example file within the ``pyvista.examples`` module.
