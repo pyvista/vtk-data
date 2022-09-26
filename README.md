@@ -2,7 +2,9 @@
 
 This data was originally cloned from git://vtk.org/VTKData.git - these are used for examples in both PyVista and PVGeo.
 
-Feel free to open a [Pull Request](https://github.com/pyvista/vtk-data/pulls) with any data you would like to add. For this data to be useful, you'll need to be able to consume these files.
+Feel free to open a [Pull Request](https://github.com/pyvista/vtk-data/pulls) with any data you would like to add. Please create a new directory for any new datasets and add a README with license information so other users can reuse the examples within the limits of the license.
+
+For this data to be useful, you'll need to be able to consume these files.
 
 ### Consuming these files
 
