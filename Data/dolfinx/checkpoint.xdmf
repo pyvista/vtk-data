@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid GridType="Collection" CollectionType="Temporal" Name="label_u">
+      <Grid Name="label_u_0" GridType="Uniform">
+        <Topology NumberOfElements="3072" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="3072 4" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="729 3" Format="HDF">checkpoint.h5:label_u/label_u_0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="label_u" Center="Other" AttributeType="Scalar">
+          <DataItem Dimensions="12288 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_0/cell_dofs</DataItem>
+          <DataItem Dimensions="729 1" NumberType="Float" Format="HDF">checkpoint.h5:label_u/label_u_0/vector</DataItem>
+          <DataItem Dimensions="3073 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_0/x_cell_dofs</DataItem>
+          <DataItem Dimensions="3072 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_0/cells</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="label_u_1" GridType="Uniform">
+        <Topology NumberOfElements="3072" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="3072 4" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_1/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="729 3" Format="HDF">checkpoint.h5:label_u/label_u_1/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="1.000000" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="label_u" Center="Other" AttributeType="Scalar">
+          <DataItem Dimensions="12288 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_1/cell_dofs</DataItem>
+          <DataItem Dimensions="729 1" NumberType="Float" Format="HDF">checkpoint.h5:label_u/label_u_1/vector</DataItem>
+          <DataItem Dimensions="3073 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_1/x_cell_dofs</DataItem>
+          <DataItem Dimensions="3072 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_1/cells</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="label_u_2" GridType="Uniform">
+        <Topology NumberOfElements="3072" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="3072 4" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_2/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="729 3" Format="HDF">checkpoint.h5:label_u/label_u_2/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="2.000000" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="label_u" Center="Other" AttributeType="Scalar">
+          <DataItem Dimensions="12288 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_2/cell_dofs</DataItem>
+          <DataItem Dimensions="729 1" NumberType="Float" Format="HDF">checkpoint.h5:label_u/label_u_2/vector</DataItem>
+          <DataItem Dimensions="3073 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_2/x_cell_dofs</DataItem>
+          <DataItem Dimensions="3072 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_2/cells</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="label_u_3" GridType="Uniform">
+        <Topology NumberOfElements="3072" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="3072 4" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_3/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="729 3" Format="HDF">checkpoint.h5:label_u/label_u_3/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="3.000000" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="label_u" Center="Other" AttributeType="Scalar">
+          <DataItem Dimensions="12288 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_3/cell_dofs</DataItem>
+          <DataItem Dimensions="729 1" NumberType="Float" Format="HDF">checkpoint.h5:label_u/label_u_3/vector</DataItem>
+          <DataItem Dimensions="3073 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_3/x_cell_dofs</DataItem>
+          <DataItem Dimensions="3072 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_3/cells</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="label_u_4" GridType="Uniform">
+        <Topology NumberOfElements="3072" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="3072 4" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_4/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="729 3" Format="HDF">checkpoint.h5:label_u/label_u_4/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="4.000000" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="label_u" Center="Other" AttributeType="Scalar">
+          <DataItem Dimensions="12288 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_4/cell_dofs</DataItem>
+          <DataItem Dimensions="729 1" NumberType="Float" Format="HDF">checkpoint.h5:label_u/label_u_4/vector</DataItem>
+          <DataItem Dimensions="3073 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_4/x_cell_dofs</DataItem>
+          <DataItem Dimensions="3072 1" NumberType="UInt" Format="HDF">checkpoint.h5:label_u/label_u_4/cells</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
