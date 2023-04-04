@@ -1,4 +1,4 @@
-### 
+### Electronics Cooling Example Dataset
 
 This dataset comes from SimScale's [Thermal Management Tutorial: CHT Analysis of an Electronics Box](https://www.simscale.com/docs/tutorials/thermal-management-cht-analysis-electronics-box/).
 
