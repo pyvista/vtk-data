@@ -1,0 +1,38 @@
+FORMAT
+type: ensight gold
+
+TIME
+time set:               2
+number of steps:        1
+filename start number:  0
+filename increment:     1
+time values: 
+  0.00000000e+00
+time set:               1
+number of steps:       11
+filename start number:  0
+filename increment:     1
+time values: 
+  0.00000000e+00
+  1.00000000e-01
+  2.00000000e-01
+  3.00000000e-01
+  4.00000000e-01
+  5.00000000e-01
+  6.00000000e-01
+  7.00000000e-01
+  8.00000000e-01
+  9.00000000e-01
+  1.00000000e+00
+
+FILE
+file set: 2 
+number of steps: 1 
+file set: 1 
+number of steps: 11 
+
+GEOMETRY
+model: 2 2 LShape_geometry.geo 
+
+VARIABLE
+vector per node: 1 1 displacement LShape_displacement.var
