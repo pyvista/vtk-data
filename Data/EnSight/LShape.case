@@ -6,13 +6,13 @@ time set:               2
 number of steps:        1
 filename start number:  0
 filename increment:     1
-time values: 
+time values:
   0.00000000e+00
 time set:               1
 number of steps:       11
 filename start number:  0
 filename increment:     1
-time values: 
+time values:
   0.00000000e+00
   1.00000000e-01
   2.00000000e-01
@@ -26,13 +26,13 @@ time values:
   1.00000000e+00
 
 FILE
-file set: 2 
-number of steps: 1 
-file set: 1 
-number of steps: 11 
+file set: 2
+number of steps: 1
+file set: 1
+number of steps: 11
 
 GEOMETRY
-model: 2 2 LShape_geometry.geo 
+model: 2 2 LShape_geometry.geo
 
 VARIABLE
 vector per node: 1 1 displacement LShape_displacement.var
