@@ -1,0 +1,3 @@
+image_id,age,gender,institute,study_type,split,manufacturer,scanner_model,kvp,pathology,pathology_location
+s1397,74,m,I,ct whole body,train,siemens,somatom definition edge,80,tumor,bones
+s1380,78,f,I,ct whole body,train,siemens,somatom definition edge,80,no_pathology,no_location
