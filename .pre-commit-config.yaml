@@ -1,0 +1,7 @@
+# Integration with GitHub Actions
+# See https://pre-commit.ci/
+ci:
+  autofix_prs: false
+  autoupdate_schedule: monthly
+
+repos:
