@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Data Dashboard</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .chart-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .grid {
+            display: grid;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            /* Adjust grid-template-columns as needed for your layout */
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        svg {
+            width: 100%;
+            height: 350px; /* Adjusted height for more complex charts */
+        }
+        .tooltip { /* Basic style for tooltip for heatmap */
+            background-color: white;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 3px;
+            pointer-events: none; /* Crucial for mouse events on chart to pass through tooltip */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="dashboard-container" class="grid">
+        <div class="chart-container">
+            <h3 class="chart-title">General Health Distribution</h3>
+            <svg id="donut-chart"></svg>
+        </div>
+
+        <div class="chart-container">
+            <h3 class="chart-title">Heart Disease by Age Category & Sex</h3>
+            <svg id="heart-disease-age-sex-chart"></svg>
+        </div>
+        <div class="chart-container">
+            <h3 class="chart-title">Heart Disease Counts by Age & Race (Heatmap)</h3>
+            <svg id="heart-disease-age-race-heatmap"></svg>
+        </div>
+        <div class="chart-container" style="grid-column: span 2; height: 400px;">
+            <h3 class="chart-title">Multi-Variable Trends (Parallel Coordinates)</h3>
+            <svg id="parallel-coordinates-plot"></svg>
+        </div>
+        <div class="chart-container">
+            <h3 class="chart-title">Heart Disease Prevalence by Age (Bar Chart)</h3>
+            <svg id="heart-disease-prevalence-age-chart"></svg>
+        </div>
+    </div>
+
+    <script>
+        // Function to render Donut Chart for General Health Distribution
+        function renderDonutChart(data) {
+            const svgId = "donut-chart";
+            const svgElement = d3.select(`#${svgId}`);
+            // Clear any existing content within the SVG to redraw
+            svgElement.selectAll("*").remove();
+
+            const width = svgElement.node().getBoundingClientRect().width,
+                  height = svgElement.node().getBoundingClientRect().height;
+            const margin = 50; // Adjust margin as needed
+            const radius = Math.min(width, height) / 2 - margin;
+
+            const g = svgElement.append("g")
+                .attr("transform", `translate(${width / 2},${height / 2})`);
+
+            const color = d3.scaleOrdinal(d3.schemeSet2);
+
+            // Aggregate by GenHealth
+            const genHealthCounts = d3.rollup(
+                data,
+                v => v.length,
+                d => d.GenHealth
+            );
+
+            const genHealthData = Array.from(genHealthCounts, ([key, value]) => ({GenHealth: key, Count: value}));
+
+            // Total count for percentage calculation
+            const totalCount = d3.sum(genHealthData, d => d.Count);
+
+            const pie = d3.pie()
+                .value(d => d.Count);
+
+            const data_ready = pie(genHealthData);
+
+            const arc = d3.arc()
+                .innerRadius(radius * 0.6) // Inner radius of the donut hole (adjusted for responsiveness)
+                .outerRadius(radius); // Outer radius of the donut
+
+            // Draw arcs
+            g.selectAll('path')
+                .data(data_ready)
+                .enter()
+                .append('path')
+                .attr('d', arc)
+                .attr('fill', d => color(d.data.GenHealth))
+                .attr('stroke', 'white')
+                .style('stroke-width', '2px');
+
+            // Add text labels (Category and Percentage)
+            g.selectAll('text')
+                .data(data_ready)
+                .enter()
+                .append('text')
+                .attr("transform", d => `translate(${arc.centroid(d)})`) // Position the text at the centroid of each arc
+                .attr("text-anchor", "middle") // Center the text horizontally
+                .style("font-size", 12)
+                .style("fill", "black")
+                .each(function(d) {
+                    const percent = (d.data.Count / totalCount * 100).toFixed(1);
+                    d3.select(this).append("tspan")
+                        .attr("x", 0) // Align to the current text position
+                        .attr("dy", "-0.5em") // Move up for the category name, adjusted for centroid placement
+                        .text(d.data.GenHealth); // Category name
+
+                    d3.select(this).append("tspan")
+                        .attr("x", 0)
+                        .attr("dy", "1.1em") // Move down for the percentage, adjusted for centroid placement
+                        .text(`${percent}%`); // Percentage
+                });
+        }
+
+
+        // Function to render Stacked Bar Chart for Heart Disease Prevalence by Age Category, stacked by Sex
+        function renderStackedBarChartHeartDiseaseSexAge(data) {
+            const svgId = "heart-disease-age-sex-chart";
+            const svg = d3.select(`#${svgId}`);
+            svg.selectAll("*").remove(); // Clear existing content
+
+            const margin = { top: 20, right: 30, bottom: 80, left: 80 }; // Increased bottom margin for labels
+            const width = svg.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = svg.node().getBoundingClientRect().height - margin.top - margin.bottom;
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Data Aggregation: Group by AgeCategory, then by HeartDisease, then by Sex
+            const aggregatedData = d3.rollup(
+                data,
+                v => v.length, // Count occurrences
+                d => d.AgeCategory,
+                d => d.HeartDisease,
+                d => d.Sex
+            );
+
+            // Prepare data for stacking
+            const ageCategories = ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80 or older"];
+            const heartDiseaseStatus = ["No", "Yes"];
+            const sexes = ["Female", "Male"];
+
+            let chartData = [];
+            ageCategories.forEach(ageCat => {
+                let entry = { AgeCategory: ageCat };
+                sexes.forEach(sex => {
+                    heartDiseaseStatus.forEach(hdStatus => {
+                        const count = aggregatedData.get(ageCat)?.get(hdStatus)?.get(sex) || 0;
+                        entry[`${hdStatus}-${sex}`] = count;
+                    });
+                });
+                chartData.push(entry);
+            });
+
+            // Define keys for stacking (e.g., "No-Female", "No-Male", "Yes-Female", "Yes-Male")
+            const stackKeys = [];
+            heartDiseaseStatus.forEach(hdStatus => {
+                sexes.forEach(sex => {
+                    stackKeys.push(`${hdStatus}-${sex}`);
+                });
+            });
+
+            // Stacking
+            const stack = d3.stack()
+                .keys(stackKeys)
+                .order(d3.stackOrderNone)
+                .offset(d3.stackOffsetNone);
+
+            const series = stack(chartData);
+
+            // Scales
+            const x = d3.scaleBand()
+                .domain(ageCategories)
+                .range([0, width])
+                .padding(0.1);
+
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(series, s => d3.max(s, d => d[1]))]).nice()
+                .range([height, 0]);
+
+            const color = d3.scaleOrdinal()
+                .domain(stackKeys)
+                .range(d3.schemePaired); // Or a custom set of colors
+
+            // Bars
+            g.append("g")
+                .selectAll("g")
+                .data(series)
+                .join("g")
+                .attr("fill", d => color(d.key))
+                .selectAll("rect")
+                .data(d => d)
+                .join("rect")
+                .attr("x", d => x(d.data.AgeCategory))
+                .attr("y", d => y(d[1]))
+                .attr("height", d => y(d[0]) - y(d[1]))
+                .attr("width", x.bandwidth());
+
+            // X-axis
+            g.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+
+            // Y-axis
+            g.append("g")
+                .call(d3.axisLeft(y));
+
+            // X-axis label
+            g.append("text")
+                .attr("transform", `translate(${width / 2}, ${height + margin.bottom - 10})`)
+                .style("text-anchor", "middle")
+                .text("Age Category");
+
+            // Y-axis label
+            g.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left + 20)
+                .attr("x", 0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Count of Individuals");
+
+            // Legend
+            const legend = g.append("g")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", 10)
+                .attr("text-anchor", "end")
+                .selectAll("g")
+                .data(stackKeys.slice().reverse()) // Reverse for typical legend order
+                .enter().append("g")
+                .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+            legend.append("rect")
+                .attr("x", width - 19)
+                .attr("width", 19)
+                .attr("height", 19)
+                .attr("fill", color);
+
+            legend.append("text")
+                .attr("x", width - 24)
+                .attr("y", 9.5)
+                .attr("dy", "0.32em")
+                .text(d => d);
+        }
+
+        // Function to render Heatmap for Heart Disease Counts by Age Category and Race
+        function renderHeatmapHeartDiseaseAgeRace(data) {
+            const svgId = "heart-disease-age-race-heatmap";
+            const svg = d3.select(`#${svgId}`);
+            svg.selectAll("*").remove(); // Clear existing content
+
+            const margin = { top: 20, right: 30, bottom: 80, left: 100 };
+            const width = svg.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = svg.node().getBoundingClientRect().height - margin.top - margin.bottom;
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Filter for HeartDisease "Yes" and aggregate by AgeCategory and Race
+            const aggregatedData = d3.rollup(
+                data.filter(d => d.HeartDisease === "Yes"),
+                v => v.length,
+                d => d.AgeCategory,
+                d => d.Race
+            );
+
+            // Define domains
+            const ageCategories = ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80 or older"];
+            const races = Array.from(new Set(data.map(d => d.Race))).sort();
+
+            // Create chart data in a flat array for D3 heatmap
+            let chartData = [];
+            ageCategories.forEach(age => {
+                races.forEach(race => {
+                    const count = aggregatedData.get(age)?.get(race) || 0;
+                    chartData.push({ age: age, race: race, count: count });
+                });
+            });
+
+            // Scales
+            const x = d3.scaleBand()
+                .range([0, width])
+                .domain(races)
+                .padding(0.01);
+
+            const y = d3.scaleBand()
+                .range([height, 0])
+                .domain(ageCategories)
+                .padding(0.01);
+
+            const color = d3.scaleSequential(d3.interpolateViridis)
+                .domain([0, d3.max(chartData, d => d.count)]);
+
+            // Rectangles
+            g.selectAll("rect")
+                .data(chartData)
+                .enter().append("rect")
+                .attr("x", d => x(d.race))
+                .attr("y", d => y(d.age))
+                .attr("width", x.bandwidth())
+                .attr("height", y.bandwidth())
+                .style("fill", d => color(d.count))
+                .on("mouseover", function(event, d) { // Basic tooltip
+                    d3.select(this).style("stroke", "black").style("stroke-width", 2);
+                    tooltip.style("visibility", "visible")
+                        .html(`Age: ${d.age}<br>Race: ${d.race}<br>Heart Disease Cases: ${d.count}`)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 20) + "px");
+                })
+                .on("mouseout", function() {
+                    d3.select(this).style("stroke", "none");
+                    tooltip.style("visibility", "hidden");
+                });
+
+            // X-axis
+            g.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+
+            // Y-axis
+            g.append("g")
+                .call(d3.axisLeft(y));
+
+            // X-axis label
+            g.append("text")
+                .attr("transform", `translate(${width / 2}, ${height + margin.bottom - 10})`)
+                .style("text-anchor", "middle")
+                .text("Race");
+
+            // Y-axis label
+            g.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left + 20)
+                .attr("x", 0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Age Category");
+
+            // Color Legend
+            const legendSvg = g.append("g")
+                .attr("transform", `translate(${width + 10}, 0)`); // Position legend to the right
+
+            const legendHeight = height;
+            const legendScale = d3.scaleLinear()
+                .domain([0, d3.max(chartData, d => d.count)])
+                .range([legendHeight, 0]);
+
+            legendSvg.append("g")
+                .attr("class", "legend axis")
+                .call(d3.axisRight(legendScale));
+
+            const defs = svg.append("defs");
+            const linearGradient = defs.append("linearGradient")
+                .attr("id", "linear-gradient")
+                .attr("x1", "0%")
+                .attr("y1", "100%")
+                .attr("x2", "0%")
+                .attr("y2", "0%");
+
+            linearGradient.selectAll("stop")
+                .data(color.ticks().map(t => ({ offset: `${100 * t / color.domain()[1]}%`, color: color(t) })))
+                .enter().append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d => d.color);
+
+            legendSvg.append("rect")
+                .attr("width", 20)
+                .attr("height", legendHeight)
+                .style("fill", "url(#linear-gradient)");
+
+            legendSvg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -30)
+                .attr("x", -height / 2)
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Heart Disease Count");
+
+            // Tooltip div (make sure you have this in your HTML or create it dynamically)
+            const tooltip = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("position", "absolute")
+                .style("visibility", "hidden")
+                .style("background-color", "white")
+                .style("border", "solid")
+                .style("border-width", "1px")
+                .style("border-radius", "5px")
+                .style("padding", "10px");
+        }
+
+        // Function to render Parallel Coordinates Plot
+        function renderParallelCoordinatesPlot(data) {
+            const svgId = "parallel-coordinates-plot";
+            const svg = d3.select(`#${svgId}`);
+            svg.selectAll("*").remove(); // Clear existing content
+
+            const margin = { top: 30, right: 10, bottom: 10, left: 10 };
+            const width = svg.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = svg.node().getBoundingClientRect().height - margin.top - margin.bottom;
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Choose the dimensions to display. Convert categorical to numerical if needed.
+            const dimensions = [
+                "BMI",
+                "PhysicalHealth",
+                "MentalHealth",
+                "SleepTime",
+                "AgeCategory"
+            ];
+
+            // Create a mapping for AgeCategory to numerical values for consistent spacing
+            const ageCategoryMap = new Map();
+            ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80 or older"]
+                .forEach((d, i) => ageCategoryMap.set(d, i));
+
+
+            // Scales for each dimension
+            const y = new Map();
+            dimensions.forEach(function(dim) {
+                if (dim === "AgeCategory") {
+                    y.set(dim, d3.scalePoint()
+                        .domain(Array.from(ageCategoryMap.keys()))
+                        .range([height, 0]));
+                } else {
+                    y.set(dim, d3.scaleLinear()
+                        .domain(d3.extent(data, d => +d[dim]))
+                        .range([height, 0]));
+                }
+            });
+
+            const x = d3.scalePoint()
+                .range([0, width])
+                .padding(1)
+                .domain(dimensions);
+
+            // Color scale for HeartDisease
+            const color = d3.scaleOrdinal()
+                .domain(["No", "Yes"])
+                .range(["#4CAF50", "#F44336"]); // Green for No, Red for Yes
+
+            // Draw the paths (lines for each individual)
+            const line = d3.line()
+                .defined(d => !isNaN(d[1]));
+
+            g.selectAll("myPath")
+                .data(data)
+                .enter().append("path")
+                .attr("d", d => line(dimensions.map(function(p) {
+                    let val = d[p];
+                    if (p === "AgeCategory") {
+                        val = ageCategoryMap.get(val);
+                    }
+                    return [x(p), y.get(p)(val)];
+                })))
+                .style("fill", "none")
+                .style("stroke", d => color(d.HeartDisease))
+                .style("stroke-width", 1.5)
+                .style("opacity", 0.5)
+                .on("mouseover", function() { d3.select(this).style("stroke-width", 3); })
+                .on("mouseout", function() { d3.select(this).style("stroke-width", 1.5); });
+
+            // Draw the axes
+            g.selectAll("myAxis")
+                .data(dimensions)
+                .enter().append("g")
+                .attr("transform", d => `translate(${x(d)})`)
+                .each(function(d) { d3.select(this).call(d3.axisLeft(y.get(d))); })
+                .append("text")
+                .style("text-anchor", "middle")
+                .attr("y", -9)
+                .text(d => d)
+                .style("fill", "black");
+        }
+
+        // Function to render Bar Chart for Heart Disease Prevalence by Age Category
+        function renderHeartDiseasePrevalenceByAge(data) {
+            const svgId = "heart-disease-prevalence-age-chart";
+            const svg = d3.select(`#${svgId}`);
+            svg.selectAll("*").remove(); // Clear existing content
+
+            const margin = { top: 20, right: 30, bottom: 60, left: 60 };
+            const width = svg.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = svg.node().getBoundingClientRect().height - margin.top - margin.bottom;
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Filter for HeartDisease "Yes" and aggregate by AgeCategory
+            const heartDiseaseCounts = d3.rollup(
+                data.filter(d => d.HeartDisease === "Yes"),
+                v => v.length,
+                d => d.AgeCategory
+            );
+
+            const chartData = Array.from(heartDiseaseCounts, ([key, value]) => ({ ageCategory: key, count: value }));
+
+            // Sort age categories
+            const ageOrder = ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80 or older"];
+            chartData.sort((a, b) => ageOrder.indexOf(a.ageCategory) - ageOrder.indexOf(b.ageCategory));
+
+            // Scales
+            const x = d3.scaleBand()
+                .domain(chartData.map(d => d.ageCategory))
+                .range([0, width])
+                .padding(0.1);
+
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(chartData, d => d.count)]).nice()
+                .range([height, 0]);
+
+            // Bars
+            g.selectAll(".bar")
+                .data(chartData)
+                .enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", d => x(d.ageCategory))
+                .attr("y", d => y(d.count))
+                .attr("width", x.bandwidth())
+                .attr("height", d => height - y(d.count))
+                .attr("fill", "#ff7f0e"); // A distinct color
+
+            // X-axis
+            g.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+
+            // Y-axis
+            g.append("g")
+                .call(d3.axisLeft(y));
+
+            // X-axis label
+            g.append("text")
+                .attr("transform", `translate(${width / 2}, ${height + margin.bottom - 10})`)
+                .style("text-anchor", "middle")
+                .text("Age Category");
+
+            // Y-axis label
+            g.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left + 15)
+                .attr("x", 0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Heart Disease Cases");
+        }
+
+
+        d3.json("heart_2020.json").then(function(data) {
+            // Convert numerical string fields to numbers
+            data.forEach(d => {
+                d.BMI = +d.BMI;
+                d.PhysicalHealth = +d.PhysicalHealth;
+                d.MentalHealth = +d.MentalHealth;
+                d.SleepTime = +d.SleepTime;
+            });
+
+            renderDonutChart(data); // Now this function is defined
+            // Removed: renderHeartDiseaseAgeChart(data);
+            // Removed: renderBarChart(data, "bar-chart-health", "GenHealth", "General Health", "Count");
+
+            renderStackedBarChartHeartDiseaseSexAge(data);
+            renderHeatmapHeartDiseaseAgeRace(data);
+            renderParallelCoordinatesPlot(data);
+            renderHeartDiseasePrevalenceByAge(data);
+
+        }).catch(function(error) {
+            console.error("Error loading data:", error);
+            // Consider adding a message to the user in the UI if the data fails to load
+        });
+
+        // ResizeObserver for responsiveness
+        const resizeObserver = new ResizeObserver(entries => {
+            entries.forEach(entry => {
+                // Load data again for redraw or pass it if it's already loaded and accessible
+                d3.json("heart_2020.json").then(function(data) {
+                    // Convert numerical string fields to numbers for resize redraw
+                    data.forEach(d => {
+                        d.BMI = +d.BMI;
+                        d.PhysicalHealth = +d.PhysicalHealth;
+                        d.MentalHealth = +d.MentalHealth;
+                        d.SleepTime = +d.SleepTime;
+                    });
+                    
+                    switch(entry.target.id) {
+                        case 'donut-chart': renderDonutChart(data); break;
+                        case 'heart-disease-age-sex-chart': renderStackedBarChartHeartDiseaseSexAge(data); break;
+                        case 'heart-disease-age-race-heatmap': renderHeatmapHeartDiseaseAgeRace(data); break;
+                        case 'parallel-coordinates-plot': renderParallelCoordinatesPlot(data); break;
+                        case 'heart-disease-prevalence-age-chart': renderHeartDiseasePrevalenceByAge(data); break;
+                    }
+                }).catch(err => console.error("Resize error:", err));
+            });
+        });
+
+        document.querySelectorAll("svg").forEach(svg => resizeObserver.observe(svg));
+
+    </script>
+</body>
+</html>
