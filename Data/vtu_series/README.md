@@ -1,0 +1,1 @@
+This file is used in the `.vtu.series` examples and tests. The underlying data originates from `Data/PVD/wavy.zip`, but has been adapted for `.series` format.
